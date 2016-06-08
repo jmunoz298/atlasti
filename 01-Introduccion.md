@@ -6,11 +6,6 @@ El título de este apartado se corresponde con el acrónimo de "Computer-Assiste
 
 >En mis días de estudiante de posgrado, no había grabadoras para hacer más fácil la vida del entrevistador; llegaron después de la IIGM, pasando primero por la etapa de las grandes grabadoras. Eran máquinas pesadas, que adelgazaron sólo gradualmente hasta los modelos ligeros actuales. Muchos años después, siguiendo nuestros sueños de ordenadores que hicieran más fácil nuestras vidas como investigadores cualitativos, se inventó el software para nosotros (Strauss, 1997, p. 1).
 
-
-\begin{remark}
-Compartamos o no el entusiasmo de Anselm Strauss, lo que es innegable es que la imbricación entre informática y metodología ha transformado las prácticas de investigación, posibilitando o facilitando un sinfín de actividades y redefiniendo buena parte de las características del oficio.
-\end{remark}
-
 Compartamos o no el entusiasmo de Anselm Strauss, lo que es innegable es que la imbricación entre informática y metodología ha transformado las prácticas de investigación, posibilitando o facilitando un sinfín de actividades y redefiniendo buena parte de las características del oficio.
 
 Cuando hablamos de análisis cualitativo asistido por ordenador, hemos de pensar en el tema como en un aspecto más del proceso de desarrollo de un proyecto de investigación. Sin duda puede ser un aspecto muy importante, pero ni de lejos el único o el más relevante. Más aún, la especificidad de las herramientas utilizadas —lo que puede hacerse con ellas— dependerá en buena medida de las formas en las que se relacione con los demás aspectos del proyecto: el tipo de tareas que tienen que realizarse, los usuarios de las herramientas, los materiales o datos con los que se trabajará, los marcos desde lo que se orienta el proceso de investigación, las fases concretas del proceso en las que se utilizan tales o cuales programas y un largo etcétera.
