@@ -1,4 +1,4 @@
-﻿# Documentar nuestro trabajo: Memos
+# Documentar nuestro trabajo: Memos
 
 Ya hemos comentado previamente que una de las características de ATLAS.ti es que ofrece muchas posibilidades para documentar nuestro trabajo. En el capítulo anterior hemos visto, por ejemplo, la posibilidad de escribir un comentario genérico de la UH. Muchos otros componentes, como documentos, citas o códigos, permiten que también se les asocie un comentario descriptivo, pero disponemos, además, de la posibilidad de la escritura de *Memos*, es decir, memorandos, comentarios o anotaciones genéricos, no necesariamente asociados —aunque puedan asociarse— a ningún componente concreto.
 
