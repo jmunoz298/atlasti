@@ -1,3 +1,2 @@
-# Sobre este libro
-
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+# Atlasti7
+Manual Atlas.ti 7
