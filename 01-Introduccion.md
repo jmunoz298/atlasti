@@ -1,6 +1,6 @@
 # Introducción
 
-## CAQDAS^[Parte de este capítulo ha sido publicado previamente en (Muñoz Justicia & Sahagún Padilla, 2011)]
+## CAQDAS
 
 El título de este apartado se corresponde con el acrónimo de "Computer-Assisted/Aided Qualitative Data Analysis Software” (Lee & Fielding, 1991), es decir, *Programas Informáticos de Ayuda al Análisis Cualitativo de Datos*, conjunto de programas informáticos que surgen a mediados de los 80 y que van más allá de los recursos informáticos genéricos (procesadores de texto, bases de datos) que hasta la fecha utilizaban los analistas cualitativos (Weitzman & Miles, 1995). De entonces a la fecha, la utilización de herramientas informáticas por parte de las personas que se dedican a la investigación cualitativa ha experimentado un notable incremento, de la misma forma que sus características y funcionalidades han evolucionado considerablemente, haciendo que en nuestros días muchas personas podamos hacer nuestras las palabras de Anselm Strauss en el prefacio al manual de usuarios de ATLAS.ti de Thomar Muhr:
 
