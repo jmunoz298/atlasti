@@ -1,10 +1,12 @@
-# Table of content
+# Summary
 
+* [Introduction](README.md)
 * [Introducción](01-Introduccion.md)
     * [CAQDAS](01-1-Caqdas.md)
     * [¿Qué es Atlas.ti?](01-2-QueEs.md)
     * [Datos ilustrativos](01-3-DatosIlustrativos.md)
 * [Empezando a trabajar](02-Empezando.md)
+    * [Iniciar el programa](02-1-Iniciar.md)
 * [Documentar nuestro trabajo](03-Documentar.md)
 * [Los documentos primarios](04-Documentos.md)
 * [Segmentar y codificar](05-Segmentar.md)
@@ -13,3 +15,4 @@
 * [Herramientas de exploración](08-Herramientas.md)
 * [Otras herramientas](09-OtrasHerramientas.md)
 * [Informes](10-Informes.md)
+
