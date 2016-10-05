@@ -4,7 +4,13 @@
 
 Aunque no hayamos hablado explícitamente de ello, hasta ahora hemos visto cómo podemos crear relaciones ente algunos objetos de la UH. Por una parte, la codificación implica relacionar *citas* con *códigos*, mientras que la creación de *familias* implica crear un tipo específico de vínculo entre objetos. En el caso de dos códigos incluidos en la misma familia, la relación se podría leer así: "el código A tiene en común alguna característica o propiedad con el código B". Si, por ejemplo, asignamos los códigos *Zapatero* y *Rubalcaba* a la familia *PSOE*, estamos diciendo que ambos comparten como propiedad su pertenencia al mismo partido político. De forma semejante, nuestro análisis podría implicar la creación de relaciones entre otros objetos. Para ello, ATLAS.ti nos permite relacionar entre sí citas, códigos y memos como se muestra en el cuadro \ref{Tabla-TiposRelaciones}.
 
-| | Cita | Código | Memo ||:-------|:------------:|:------------:|:--------:|| Cita | Hypervínculo | Codificación | Relación || Código | | Relación | Relación || Memo | | | Relación | : Tipos de relaciones\label{Tabla-TiposRelaciones}
+| | Cita | Código | Memo |
+|:-------|:------------:|:------------:|:--------:|
+| Cita | Hypervínculo | Codificación | Relación |
+| Código || Relación | Relación |
+| Memo | | | Relación | 
+
+Tipos de relaciones\label{Tabla-TiposRelaciones}
 
 A diferencia del resto, las relaciones *cita-cita*, y las relaciones *código-código* deben especificarse a partir de sus respectivos menús de tipos de relación. Establecer relaciones entre estos objetos significa crear un vínculo lógico que **debe** definir la analista. En muchos casos, esta labor constituye una de las etapas importantes del análisis conceptual. Una vez avanzado el trabajo de establecer vínculos, la red que conforma un conjunto de objetos relacionados se puede visualizar y editar en un entorno gráfico a través de las *Vistas de red* (pág. 115). Este recurso nos facilitará. por una parte, el trabajo conceptual al poder visualizar las relaciones ya creadas y crear nuevas de una forma gráfica, y por otra, nos permitirá ilustrar de una forma mucho más clara nuestro trabajo.
 
@@ -138,9 +144,31 @@ Si en vez de modificar las relaciones existentes queremos crear alguna nueva, te
 
 Una de las modificaciones que podemos realizar a las relaciones definidas por defecto, puede ser la de la etiqueta de representación en las *redes* (*Etiqueta 1*, *Etiqueta 2* y *Texto del menú*). Como hemos visto anteriormente, los símbolos definidos por defecto no son excesivamente ilustrativos del tipo de relación que representan. Este inconveniente puede solventarse, cuando estamos trabajando en una *Red*, por la información adicional que se ofrece en la barra de estado; sin embargo, si la imprimimos como una forma de ilustrar nuestro análisis, será difícil para los lectores interpretar el significado de símbolos como **-&gt;|** (critica), **:&gt;** (discute), etc. Sugerimos, por lo tanto, modificar esos símbolos por etiquetas realmente ilustrativas como "critica", "discute", etc. Además, podemos aprovechar la posibilidad que nos ofrece el programa de intercambiar (en las *Redes*) entre la presentación de *Etiqueta 1,* *Etiqueta 2* y *Texto del menú*, lo que nos permitiría, por ejemplo, definir cada una de las etiqueta en diferentes idiomas y utilizar posteriormente uno u otro conjunto en función de las necesidades. En las tablas Tabla y Tabla presentamos una propuesta de estructuración de las etiquetas para *hipervínculos* y para *códigos*, respectivamente.
 
-| ID | Etiqueta 1 | Etiqueta 2 | Etiqueta de menú ||:---------|:---------------|:-----------|:-----------------|| CONTINUE | Continuada por | cont | continued by || CONTRA | Contradice | CO | contradicts || CRIT | Critica | crit | criticizes || DISC | Discute | disc | discuss || EXPANDS | Expande | ?? | expands || EXPL | Explica | expl | explains || JUST | Justifica | just | justifies || SUPP | Apoya | supp | supports | : Etiquetas de hipervínculos
+| ID | Etiqueta 1 | Etiqueta 2 | Etiqueta de menú |
+|:---------|:---------------|:-----------|:-----------------|
+| CONTINUE | Continuada por | cont | continued by |
+| CONTRA | Contradice | CO | contradicts |
+| CRIT | Critica | crit | criticizes |
+| DISC | Discute | disc | discuss |
+| EXPANDS | Expande | ?? | expands |
+| EXPL | Explica | expl | explains |
+| JUST | Justifica | just | justifies |
+| SUPP | Apoya | supp | supports | 
 
-| ID | Etiqueta 1 | Etiqueta 2 | Etiqueta de menú ||:-------|:----------------|:-----------|:-------------------|| ASSO | Asociado | R | is associated with || BTP | Es parte de | G | is part of || CAUSA | Es causa de | N | is cuase of || CONTRA | Contradice | A | contradicts || ISA | Es un | O | is a || NONAME | | | noname || PROP | Es propiedad de | P | is property of || | | | | : Etiquetas de relaciones entre códigos
+Etiquetas de hipervínculos
+
+
+| ID | Etiqueta 1 | Etiqueta 2 | Etiqueta de menú |
+|:-------|:----------------|:-----------|:-------------------|
+| ASSO | Asociado | R | is associated with |
+| BTP | Es parte de | G | is part of |
+| CAUSA | Es causa de | N | is cuase of |
+| CONTRA | Contradice | A | contradicts |
+| ISA | Es un | O | is a |
+| NONAME | | | noname |
+| PROP | Es propiedad de | P | is property of |
+
+Etiquetas de relaciones entre códigos
 
 Cada vez que realicemos una modificación a alguna de las relaciones existentes, el programa pedirá confirmación de si queremos conservar los cambios. Sin embargo, hay que tener presente que dichos cambios afectarán única y exclusivamente a la UH activa, es decir, que no estarán accesibles para otras UHs a no ser que previamente los guardemos en un fichero externo a la Unidad Hermenéutica. Para ello, en el editor de relaciones utilizaremos la opción Archivo &gt; Guardar relaciones*.*
 
