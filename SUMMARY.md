@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Referencias
 * [Introducción](01-Introduccion.md)
    * [CAQDAS](01-1-Caqdas.md)
    * [¿Qué es Atlas.ti?](01-2-QueEs.md)
@@ -43,6 +42,7 @@
    * [Administración de usuarios](administración-de-usuarios.md)
    * [Copiar\/restaurar la Unidad Hermenéutica](copiarrestaurar-la-unidad-hermenéutica.md)
    * [Unir Unidades Hermenéuticas](unir-unidades-hermenéuticas.md)
+* Referencias
 * [Informes](10-Informes.md)
    * [Documentos con márgen](documentos-con-márgen.md)
    * [Informes XML](informes-xml.md)
