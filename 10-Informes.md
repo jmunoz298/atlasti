@@ -1,4 +1,4 @@
-﻿# Informes
+# Informes
 
 El trabajo del analista implicará pasar un número considerable de horas delante de la pantalla de un ordenador, pero también la necesidad de visualizar, preferiblemente en formato papel, los resultados de su análisis. Anteriormente, en el apartado dedicado a la Visualización de las citas de un código (pág. 82) comentábamos la necesidad de realizar revisiones o depuraciones de los contenidos de los códigos, es decir, revisar si las citas que incluyen son efectivamente las adecuadas para ese código. Este sería sólo uno de los múltiples casos en que nos puede ayudar las múltiples posibilidades de informes que nos ofrece ATLAS.ti.
 
