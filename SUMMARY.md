@@ -27,6 +27,7 @@
     * [Relaciones](relaciones.md)
 * [Vistas de red](07-Vistas.md)
     * [La pantalla de vistas de red](la-pantalla-de-vistas-de-red.md)
+    * [Creación de vistas de red](creación-de-vistas-de-red.md)
 * [Herramientas de exploración](08-Herramientas.md)
 * [Otras herramientas](09-OtrasHerramientas.md)
 * [Informes](10-Informes.md)
