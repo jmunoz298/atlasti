@@ -1,3 +1,4 @@
-﻿# Los documentos primarios
+# Los documentos primarios
 
-Dado que un elemento fundamental de cualquier análisis son los datos, en este capítulo trataremos aspectos relacionados con los mismos. En primer lugar, expondremos los diferentes formatos de datos con los que puede trabajar el programa. A continuación, describiremos la forma en que realizaremos la asignación de los datos para que puedan ser analizados. También hablaremos sobre las posibilidades de modificación de los datos una vez que estos han sido asignados. Finalmente describiremos cómo podemos aprovechar las características multimedia de este software para vincular entre sí datos textuales con datos de tipo audio y/o vídeo.
+Dado que un elemento fundamental de cualquier análisis son los datos, en este capítulo trataremos aspectos relacionados con los mismos. En primer lugar, expondremos los diferentes formatos de datos con los que puede trabajar el programa. A continuación, describiremos la forma en que realizaremos la asignación de los datos para que puedan ser analizados. También hablaremos sobre las posibilidades de modificación de los datos una vez que estos han sido asignados. Finalmente describiremos cómo podemos aprovechar las características multimedia de este software para vincular entre sí datos textuales con datos de tipo audio y\/o vídeo.
+
