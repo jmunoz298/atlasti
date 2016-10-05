@@ -22,7 +22,7 @@ La UH contiene toda la información producida en el transcurso de nuestro análi
 
 
 
-![Componentes\label{fig-componentes}](images/image-002.png)
+![Componentes](images/image-002.png)
 
 
 

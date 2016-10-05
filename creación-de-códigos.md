@@ -29,22 +29,15 @@ Una vez más, mientras vamos creando los códigos, es conveniente dedicar un tie
 Una posible forma de sistematizar los contenidos a añadir a los comentarios de códigos es seguir el modelo que proponen MacQueen, McLellan, & Milstein (1998), del que ofrecemos un ejemplo en la Tabla.
 
 | ELEMENTO | EJEMPLO |
-
 |:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
 | **Etiqueta** | MARGIN |
-
 | **Definición breve** | Miembros marginados de la comunidad |
-
 | **Definición amplia** | Grupos que son percibidos negativamente como social y/o físicamente outsiders a la estructura comunitaria principal. En los grupos marginados las fronteras son impuestas por los otros para evitar que los grupos “no favorables” participen o interactúen con los grupos dominantes |
-
 | **Cuándo usar** | Aplicar este código a todas las referencias a grupos de personas que ha marginado el resto de la comunidad. Esas personas o grupos pueden ser descritos como parias, extremistas, radicales, o explícitamente descritos como periféricos, extranjeros, outsiders, estrafalarios, etc. |
-
 | **Cuándo no usar** | No usar este código para referirse a grupos institucionalizados por motivos de salud o criminales (ver INSTIT) o para grupos que se han ubicado voluntariamente alejados de la vida de la comunidad (ver SELMFAR) |
-
 | **Ejemplo** | “Entonces tienes a los parias negros —camellos, yonquis, prostitutas.” |
 
- : Elementos comentarios de códigos (MacQueen, McLellan, Kay y Milstein ,1998)
+Elementos comentarios de códigos (MacQueen, McLellan, Kay y Milstein ,1998)
 
 No estamos sugiriendo, de todas formas, que se utilice este modelo de una forma mimética para cada uno de nuestros códigos. En algunos casos puede ser casi imprescindible este nivel de especificidad, mientras que en otros una simple etiqueta amplia puede ser suficiente. Por otra parte, el comentario puede ser también el lugar donde podemos empezar a elaborar hipótesis sobre el tipo de significado del código, donde podemos empezar a preguntarnos por el tipo de relaciones que se pueden establecer entre este código y otros, etc. El que estos comentarios pertenezcan a la “categoría” *comentario* o a la categoría *Memo* puede ser una cuestión de matiz, una pequeña diferencia cualitativa. De hecho, algo que puede empezar siendo un comentario de código puede acabar convirtiéndose, a medida que va haciéndose más compleja, en un *Memo*. De todas formas, nuestro criterio suele ser que si el comentario va más allá de la descripción del código, es mejor crear un *Memo* y vincularlo con el *código* (ver Relaciones con Memos, pág.108).
 

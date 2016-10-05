@@ -14,7 +14,16 @@ Podemos seleccionar (4) que la búsqueda de la cadena de texto especificada se r
 
 El siguiente paso (5) consiste en definir la extensión de la cita una vez que la búsqueda haya sido exitosa. Si la búsqueda arroja algún resultado, se creará una cita que puede variar de tamaño en función de la elección que hayamos realizado en *Crear cita desde el resultado hasta:*. Por ejemplo, en el caso de que hayamos seleccionado como criterio de búsqueda, la expresión “Ent”, cada vez que ésta aparezca en el documento se creará una cita de la siguiente forma:
 
-| Parámetro | Acción ||:--------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|| Resultado exacto | El texto exacto que hemos introducido como expresión de búsqueda: **Ent** || Palabra | La palabra completa en la que aparece el texto buscado: **Ent**revistador, **ent**revistadora, pat**ent**e || Oración | La frase en la que aparece el texto buscado, desde al menos un punto y seguido antes hasta un punto y seguido después || Salto de línea simple | El párrafo en el que aparece. En este caso se entiende como párrafo cualquier texto separado por un salto de línea manual (un “return” o “intro”) || Múltiples saltos de línea | El párrafo en el que aparece. En este caso el programa interpreta como párrafo el texto separado por más de un salto de línea manual || Todos los textos | Seleccionará como cita todo el documento primario | : Autocodificación: opciones de creación de la cita
+| Parámetro |Acción|
+|:--------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
+| Resultado exacto | El texto exacto que hemos introducido como expresión de búsqueda: **Ent** |
+| Palabra | La palabra completa en la que aparece el texto buscado: **Ent**revistador, **ent**revistadora, pat**ent**e |
+| Oración | La frase en la que aparece el texto buscado, desde al menos un punto y seguido antes hasta un punto y seguido después |
+| Salto de línea simple | El párrafo en el que aparece. En este caso se entiende como párrafo cualquier texto separado por un salto de línea manual (un “return” o “intro”) |
+| Múltiples saltos de línea | El párrafo en el que aparece. En este caso el programa interpreta como párrafo el texto separado por más de un salto de línea manual |
+| Todos los textos | Seleccionará como cita todo el documento primario | 
+
+Autocodificación: opciones de creación de la cita
 
 En nuestro caso seleccionamos la opción *Múltiples saltos de línea*, puesto que las intervenciones de un mismo hablante pueden incluir varios párrafos (salto de línea simple), mientras que las intervenciones de dos personas diferentes están separados por un doble salto de línea.
 

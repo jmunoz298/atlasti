@@ -17,7 +17,3 @@ Un caso similar es el del _Memo_ “Participantes”, un PDF en el que hemos rec
 ![Memo con archivo PDF\label{fig-memo-pdf}](images/image-022.png)
 
 En síntesis, los memos, progresivamente elaborados, desarrollados, revisados y organizados en el curso del análisis contienen —o al menos deberían contener— los aspectos más significativos del análisis, tanto en términos de resultados como de proceso. Más adelante \(Inserción de objetos\/ficheros, en pág. 55\) explicamos con más detalle cómo utilizar esta funcionalidad.
-
-
-
-
