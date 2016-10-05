@@ -1,6 +1,8 @@
 # Table of content
 
 * [Introducción](01-Introduccion.md)
+    *[CAQDAS](01-1-Cqdas.md)
+    *[¿Qué es Atlas.ti?](01-2-QueEs.md)
 * [Empezando a trabajar](02-Empezando.md)
 * [Documentar nuestro trabajo](03-Documentar.md)
 * [Los documentos primarios](04-Documentos.md)
