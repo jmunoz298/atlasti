@@ -18,6 +18,7 @@
 * [Segmentar y codificar](05-Segmentar.md)
     * [Creación de códigos](creación-de-códigos.md)
     * [Citas](citas.md)
+    * [Codificación](codificación.md)
 * [Agrupar y relacionar](06-Agrupar.md)
 * [Vistas de red](07-Vistas.md)
 * [Herramientas de exploración](08-Herramientas.md)
