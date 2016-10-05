@@ -19,6 +19,7 @@
     * [Creación de códigos](creación-de-códigos.md)
     * [Citas](citas.md)
     * [Codificación](codificación.md)
+    * [Autocodificación](autocodificación.md)
 * [Agrupar y relacionar](06-Agrupar.md)
 * [Vistas de red](07-Vistas.md)
 * [Herramientas de exploración](08-Herramientas.md)
