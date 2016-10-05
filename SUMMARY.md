@@ -16,7 +16,7 @@
     * [Asignar Documentos Primarios](asignar-documentos-primarios.md)
     * [Sincronización Audio-Texto](sincronización-audio-texto.md)
 * [Segmentar y codificar](05-Segmentar.md)
-    * Creación de códigos
+    * [Creación de códigos](creación-de-códigos.md)
 * [Agrupar y relacionar](06-Agrupar.md)
 * [Vistas de red](07-Vistas.md)
 * [Herramientas de exploración](08-Herramientas.md)
