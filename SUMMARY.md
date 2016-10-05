@@ -39,5 +39,6 @@
     * [Concurrencias](concurrencias.md)
     * [Analizador de codificaciones](analizador-de-codificaciones.md)
 * [Otras herramientas](09-OtrasHerramientas.md)
+    * [Administración de usuarios](administración-de-usuarios.md)
 * [Informes](10-Informes.md)
 
