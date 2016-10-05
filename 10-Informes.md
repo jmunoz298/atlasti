@@ -36,30 +36,3 @@ Las opciones de informes relacionados con códigos también están disponibles e
 
 ![Ventana de opciones de informes de códigos\label{fig-ventana-informes-codigos}](images/image-179.png)
 
-1. Documento con margen
-
-Una de las opciones de impresión más interesantes es la que nos permite imprimir exactamente la visualización que tenemos en la pantalla principal del programa, es decir, imprimir no sólo el documento, sino también el margen derecho, con la representación de citas, códigos, hiperenlaces…
-
-Esta opción puede sernos especialmente práctica si queremos realizar una revisión *offline* de nuestro trabajo, lejos de la pantalla del ordenador, o incluso si queremos que esa revisión la realice alguien que no dispone del programa.
-
-Accederemos a este informe con la opción Documentos &gt; Imprimir &gt; Imprimir con márgenes..
-
-Una diferencia entre este informe y el resto de informes es que en esta ocasión no se nos ofrecerá la opción de elegir el destino del mismo (editor, archivo, impresora), puesto que sólo lo podremos enviar a la impresora (o guardarlo como PDF si tenemos esa posibilidad desde nuestras opciones de impresión). Por lo tanto, al ejecutar el comando lo primero que aparecerá será la ventana de impresión estándar de nuestro ordenador. Una vez que cliquemos en imprimir, el resultado será similar al que vemos en la figura \ref{fig-imprimir-margen}^[El listado incluye también una primera página con información sobre el documento que incluye, entre otras cosas, el comentario del mismo. El formato de salida ha sido].
-
-![Imprimir con margen\label{fig-imprimir-margen}](images/image-180.png)
-
-Si el resultado de la impresión del informe no es el deseado, podemos realizar cambios con la opción Herramientas &gt; Preferencias &gt; Preferencias generales, en la pestaña Impresión de DP. Como podemos ver en la figura \ref{fig-preferencias-margen}, lo que se nos ofrece es poco más que la posibilidad de cambiar los márgenes.
-
-![Preferencias de impresión con margen\label{fig-preferencias-margen}](images/image-181.png)
-
-## Informes XML
-
-Como hemos visto, los informes anteriores son “espartanos”, primando la funcionalidad a la estética, pero tenemos también la posibilidad de obtener informes más sofisticados con la opción Herramientas &gt; Exportar &gt; Explorador XML.
-
-Al utilizar esta opción, se abrirá una ventana (figura \ref{fig-explorador-XSL}) con el conjunto de los tipos de informes disponibles.
-
-![Explorador Informes XSL\label{fig-explorador-XSL}](images/image-182.png)
-
-Lo mejor es que exploremos todas las posibilidades que se nos ofrecen, pero para empezar a hacernos una idea, podemos ver un ejemplo de este tipo de informes en la figura \ref{fig-informe-XSL}.
-
-![InformeXSL\label{fig-informe-XSL}](images/image-183.png)
