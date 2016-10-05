@@ -32,6 +32,9 @@
     * [Opciones de visualización](opciones-de-visualización.md)
     * [Guardar](guardar.md)
 * [Herramientas de exploración](08-Herramientas.md)
+    * [Buscar texto](buscar-texto.md)
+    * [Búsqueda ampliada: Examinador de objetos](búsqueda-ampliada-examinador-de-objetos.md)
+    * [Explorador de objetos](explorador-de-objetos.md)
 * [Otras herramientas](09-OtrasHerramientas.md)
 * [Informes](10-Informes.md)
 
