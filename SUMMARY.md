@@ -23,6 +23,8 @@
     * [Visualización](visualización.md)
     * [Operaciones con citas y códigos](operaciones-con-citas-y-códigos.md)
 * [Agrupar y relacionar](06-Agrupar.md)
+    * [Familias](familias.md)
+    * [Relaciones](relaciones.md)
 * [Vistas de red](07-Vistas.md)
 * [Herramientas de exploración](08-Herramientas.md)
 * [Otras herramientas](09-OtrasHerramientas.md)
