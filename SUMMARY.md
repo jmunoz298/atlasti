@@ -43,4 +43,6 @@
     * [Copiar\/restaurar la Unidad Hermenéutica](copiarrestaurar-la-unidad-hermenéutica.md)
     * [Unir Unidades Hermenéuticas](unir-unidades-hermenéuticas.md)
 * [Informes](10-Informes.md)
+    * [Documentos con márgen](documentos-con-márgen.md)
+    * [Informes XML](informes-xml.md)
 
