@@ -41,5 +41,6 @@
 * [Otras herramientas](09-OtrasHerramientas.md)
     * [Administración de usuarios](administración-de-usuarios.md)
     * [Copiar\/restaurar la Unidad Hermenéutica](copiarrestaurar-la-unidad-hermenéutica.md)
+    * [Unir Unidades Hermenéuticas](unir-unidades-hermenéuticas.md)
 * [Informes](10-Informes.md)
 

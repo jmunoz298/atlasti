@@ -1,0 +1,35 @@
+## Unir Unidades Hermenéuticas
+
+En algunas ocasiones, el trabajo de análisis no lo realizará un único analista, sino que varios miembros de un equipo pueden responsabilizarse de realizar, como mínimo, un análisis inicial. Las estrategias de trabajo para realizar el trabajo de esta forma pueden ser diferentes, pero prácticamente todas implicarán que en algún momento existirán diferentes UHs que sería conveniente convertir en una única UH que contenga el trabajo de los diferentes analistas.
+
+Para poder realizar la unión, disponemos de la herramienta de fusión, en el menú Proyecto &gt; Fusionar con UH.
+
+En la primera pantalla que aparecerá (figura \ref{fig-fusionar-primer}) sólo tenemos que seleccionar la UH origien y la UH destino. En este caso, como podemos ver, la UH destino es una *Nueva unidad hermenéutica*, porque en nuestro caso, en el momento de seleccionar la opción de fusión no tenemos ninguna UH activa. En el caso de que la tuviéramos, esa sería la unidad objetivo (pero creemos que es mejor realizar la fusión de las diferentes UHs en una nueva).
+
+![Fusionar UHs: Primer paso\label{fig-fusionar-primer}](images/image-172.png)
+
+Una vez que hemos seleccionado un origen, y clicamos en *Siguiente*, nos aparecerá una nueva ventana (figura \ref{fig-fusionar-segundo}) en la que tenemos que tomar toda una serie de decisiones en función de la estrategia de trabajo que hayamos elegido.
+
+![Fusionar UHs: Segundo paso\label{fig-fusionar-segundo}](images/image-173.png)
+
+En la parte izquierda de la pantalla (1 en la Ilustración) nos aparecen diferentes posibles estrategias de trabajo en equipo. Las opciones de fusión que aparecen en (2) se ajustarán, en función de la estrategia que seleccionemos, a unos valores predeterminados que podremos modificar si no se ajustan a nuestras necesidades.
+
+Como vemos, las estrategias predefinidas se basan en si los DPs en las diferentes UHs que queremos fusionar son los mismos o diferentes, y lo mismo para el caso de los códigos.
+
+En la práctica, esto significa que nuestra estrategia de análisis en equipo ha podido implicar que diferentes analistas trabajan de forma simultánea con los mismos DPs, es decir, todos ellos analizan los mismos datos, o que cada uno de los analistas ha trabajado con una parte de los datos (DPs) de forma independiente. Además, independientemente de lo anterior, hemos podido decidir que cada analista irá creando *códigos* a medida que avanza su análisis o que todos ellos parten de una lista de códigos comunes.
+
+Por nuestra parte, consideramos que una buena estrategia para el análisis en equipo es optar por la opción Diferentes DPs – Mismos códigos.
+
+En cuanto a los códigos, podríamos pensar que si nuestra análisis es de tipo inductivo evidentemente tenemos que escoger la opción códigos diferentes, pero en la práctica esto no es así, puesto que una opción perfectamente válida es partir de una lista de códigos previamente consensuada por el equipo de investigación a partir de la lectura previa de los datos (lectura previa que teóricamente deberíamos hacer en cualquier caso). Se trata de un trabajo que requiere la inversión de una buena cantidad de tiempo, pero que entendemos que se trata de una inversión que será provechosa. Puede ser interesante al respecto leer el artículo de MacQueen et al. (1998).
+
+Una vez que hemos seleccionado la estrategia, repasaremos las opciones que aparecen en (2) en la Ilustración. Como vemos, para cada uno de los elementos de la UH que podemos fusionar, podemos elegir tres opciones: *Agregar*, *Unificar* o *Ignorar.*
+
+*Agregar* un elemento significa que se añadirá a la UH destino aunque exista en ella otro con el mismo nombre. En este caso, el objeto origen será renombrado con el mismo nombre que el original, pero añadiéndole un número. Por ejemplo, si con la estrategia que proponemos elegimos *Agregar* códigos (una opción que no está marcada por defecto), dado que las diferentes unidades tienen los mismos códigos, tendríamos para cada uno de los códigos tantas versiones como UHs estemos fusionando (*Evasion*, *Evasion\_1*, *Evasion\_2.*..
+
+*Unificar* implica que si un elemento con el mismo nombre existe en la UH origen y en la destino, se mantendrá el de la UH destino, heredando los atributos del elemento de la UH origen.
+
+Evidentemente, la opción *Ignorar* implica que ese tipo de elementos no serán añadidos a la UH destino.
+
+En principio, las opciones por defecto para cada una de las estrategias deberían funcionar de forma adecuada, pero podemos cambiarlas. Por ejemplo, podemos decidir *Agregar* las *Memos* si consideramos (nosotros lo creemos así) que es conveniente que todas las que hayan creado los diferentes analistas tienen que figurar en la UH final.
+
+Una vez que hemos comprobado todas las opciones, podemos hacer clic en *Terminar*. Este proceso tendremos que realizarlo tantas veces como UHs diferentes tengamos.
