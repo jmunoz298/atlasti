@@ -10,6 +10,7 @@
     * [La pantalla principal](la-pantalla-principal.md)
     * [Nuestra primera Unidad Hermenéutica](nuestra-primera-unidad-hermenéutica.md)
 * [Documentar nuestro trabajo](03-Documentar.md)
+    * [Crear Memos](crear-memos.md)
 * [Los documentos primarios](04-Documentos.md)
 * [Segmentar y codificar](05-Segmentar.md)
 * [Agrupar y relacionar](06-Agrupar.md)
