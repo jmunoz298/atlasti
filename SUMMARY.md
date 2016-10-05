@@ -7,6 +7,7 @@
     * [Datos ilustrativos](01-3-DatosIlustrativos.md)
 * [Empezando a trabajar](02-Empezando.md)
     * [Iniciar el programa](02-1-Iniciar.md)
+    * [La pantalla principal](la-pantalla-principal.md)
 * [Documentar nuestro trabajo](03-Documentar.md)
 * [Los documentos primarios](04-Documentos.md)
 * [Segmentar y codificar](05-Segmentar.md)
