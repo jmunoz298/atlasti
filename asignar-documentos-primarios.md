@@ -57,15 +57,10 @@ Si nuestros datos se derivan de las respuestas a preguntas abiertas en una encue
 El primer carácter de las etiquetas de la primera fila indica las características de la información que aparece en la columna. De esta forma, en la primera columna la etiqueta !Caso, precedida por el carácter ! indica que la columna se corresponde con cada uno de los casos de encuesta, mientras que el carácter :, que precede a la etiqueta :Universidad en la quinta columna, indica que los datos que encabeza son respuestas a preguntas de elección simple con varias opciones de respuesta. En el cuadro \ref{tabla1} podemos ver el conjunto de identificadores de campos de documento, mientras que en la Tabla aparecen los identificadores de campos de preguntas.
 
 | Carácter | Función |
-
 |:--------:|:--------------------------------------------|
-
 | ! | Identificador de caso (nombre de documento) |
-
 | \~ | Comentario de documento |
-
 | \^ | Autor del documento |
-
 | & | Fecha |
 
  : Encuestas: Identificadores de campos (documento)\label{tabla1}
@@ -73,16 +68,12 @@ El primer carácter de las etiquetas de la primera fila indica las característi
 El resto de identificadores se corresponden con las preguntas, que pueden ser tanto abiertas como cerradas. En el caso de las preguntas cerradas, estas se importarán como familias (ver Familias en pág. 91) asociadas con los documentos, mientras que las preguntas abiertas serán los “datos” del documento.
 
 | Carácter | Función |
-
 |:--------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
 | . | Pregunta dicotómica. Los valores posibles son 1/0 (que se corresponden con Sí/No). El nombre de la familia será el mismo que la etiqueta (sin el punto) |
-
 | : | Pregunta de elección simple con más de dos opciones. El nombre de la familia será el mismo que la etiqueta más el valor que se incluya en la celda |
-
 | \# | Pregunta de elección múltiple. Se pueden introducir varios valores separados por coma. El nombre de la familia será el mismo que la etiqueta más los valores que se incluyan en la celda |
 
- : Identificadores de campos (preguntas cerradas)
+ Identificadores de campos (preguntas cerradas)
 
 Las etiquetas de columna sin prefijo se interpretarán como preguntas abiertas
 
@@ -131,32 +122,20 @@ En el caso de la lista desplegable, la información que aparecerá será la sigu
 También podemos visualizar los documentos en el *Administrador de documentos* que, además de mostrarnos información adicional sobre los mismos, nos permitirá acceder a todas las funciones del programa relacionadas con los DPs. En la Tabla podemos ver las informaciones disponibles en el *administrador* de documentos (ver también la figura \ref{fig-comentario-DP})
 
 | | |
-
 |:-----------|:-----------------------------------------------------------------------|
-
 | ID | Icono e identificador del documento |
-
 | Nombre | Nombre del documento |
-
 | Medios | Formato del documento (texto, audio...) |
-
 | Citas | Número de citas del documento |
-
 | Ubicación | Ubicación del archivo (por ejemplo, en *Mi biblioteca*) |
-
 | Autor | Persona que ha realizado la asignación del documento |
-
 | Familias | Familias de DP a las que pertenece el documento |
-
 | Creado | Fecha en que se realizó la asignación del documento |
-
 | Modificado | Fecha de modificación del documento |
-
 | Utilizable | Informa si el documento es accesible o no |
-
 | Origen | Ubicación original desde la que se realizó la asignación del documento |
 
- : Administrador de documentos primarios: Columnas
+Administrador de documentos primarios: Columnas
 
 
 ### Edición de documentos
