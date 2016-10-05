@@ -36,6 +36,7 @@
     * [Búsqueda ampliada: Examinador de objetos](búsqueda-ampliada-examinador-de-objetos.md)
     * [Explorador de objetos](explorador-de-objetos.md)
     * [Herramienta de consulta](herramienta-de-consulta.md)
+    * [Concurrencias](concurrencias.md)
 * [Otras herramientas](09-OtrasHerramientas.md)
 * [Informes](10-Informes.md)
 
