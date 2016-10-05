@@ -12,6 +12,7 @@
 * [Documentar nuestro trabajo](03-Documentar.md)
     * [Crear Memos](crear-memos.md)
 * [Los documentos primarios](04-Documentos.md)
+    * [Tipos de Documentos Primarios](tipos-de-documentos-primarios.md)
 * [Segmentar y codificar](05-Segmentar.md)
 * [Agrupar y relacionar](06-Agrupar.md)
 * [Vistas de red](07-Vistas.md)
