@@ -86,9 +86,16 @@ Para ilustrar la sintaxis de la *Consulta* hemos utilizado los operadores AND y 
 
 #### Operadores booleanos
 
-En la Tabla podemos ver la descripción de los operadores booleanos.
+En la tabla podemos ver la descripción de los operadores booleanos.
 
-| Operador | Sintaxis | Función ||:--------:|:---------:|:---------------------------------------------------------------------------------------|| OR | *A B* OR | Selecciona las citas presentes en el operando A o en el operando B || XOR | *A B* XOR | Selecciona las citas presentes únicamente en A o en B (Y no las citas comunes a A y B) || AND | *A B* AND | Selecciona las citas presentes en A y en B || NOT | NOT *A* | Selecciona las citas no presentes en A | : Operadores booleanos
+| Operador | Sintaxis | Función |
+|:--------:|:---------:|:---------------------------------------------------------------------------------------|
+| OR | *A B* OR | Selecciona las citas presentes en el operando A o en el operando B |
+| XOR | *A B* XOR | Selecciona las citas presentes únicamente en A o en B (Y no las citas comunes a A y B) |
+| AND | *A B* AND | Selecciona las citas presentes en A y en B |
+| NOT | NOT *A* | Selecciona las citas no presentes en A | 
+
+Operadores booleanos
 
 A continuación utilizaremos diagramas de Venn para ilustrar gráficamente los resultados de cada uno de los operadores. En los diagramas, cada uno de los conjuntos (círculos) equivaldría a un operando (código o familia de códigos), y las zonas sombreadas serán el equivalente al resultado obtenido, es decir, a las citas que serían recuperadas. En la figura \ref{fig-venn-booleanos} tenemos el primer ejemplo con los operadores booleanos.
 
@@ -106,11 +113,16 @@ Imaginemos ahora una situación como la representada en la figura \ref{fig-venn-
 
 Ahora podemos ver fácilmente el resultado (citas) de diferentes consultas
 
-| Queremos obtener... | Sentencia | Resultado ||:-----------------------------------------------------|:--------------------------|:-----------------------------------|| Citas codificadas como A o como B | Código-A \ Código-B \ OR | C1, C2, C3, C4, C5, C6, C7, C8, C9 || Citas codificadas como A o como B pero no como A y B | Código-A Código-B XOR | C1, C2, C3, C6, C7, C8, C9 || Citas codificadas como A y como B | Código-A Código-B Y | C4, C5 || Citas no codificadas como C | Código-C NOT | C1, C2, C5, C6, C7, C13, C14 |
+| Queremos obtener... | Sentencia | Resultado |
+|:--------------------|:----------|:----------------------|
+| Citas codificadas como A o como B | Código-A \ Código-B \ OR | C1, C2, C3, C4, C5, C6, C7, C8, C9 |
+| Citas codificadas como A o como B pero no como A y B | Código-A Código-B XOR | C1, C2, C3, C6, C7, C8, C9 |
+| Citas codificadas como A y como B | Código-A Código-B Y | C4, C5 |
+| Citas no codificadas como C | Código-C NOT | C1, C2, C5, C6, C7, C13, C14 |
 
 Podemos ir “apilando” los resultados de las consultas para definir otras más complejas. Imaginemos por ejemplo que nos interesa obtener las citas que están codificadas con el Código-A o con el Código-B pero no con el Código-C. El resultado debería ser el que vemos en el diagrama de Venn de la figura \ref{fig-venn-consulta-multiple}.
 
-![Diagrama de Venn: Consulta múltiple\label{fig-venn-consulta-multiple}](images/image-147.png)
+![Diagrama de Venn: Consulta múltiple](images/image-147.png)
 
 Y la forma de realizarla sería como vemos en la siguiente tabla.
 
@@ -120,7 +132,11 @@ Y la forma de realizarla sería como vemos en la siguiente tabla.
 
 Como hemos visto, las *consultas* con operadores booleanos, sólo requieren de la existencia de códigos. En el caso de los operadores semánticos necesitamos además haber creado previamente relaciones entre códigos. Más concretamente, los operadores semánticos se basan en la existencia de relaciones de tipo transitivo entre códigos^[En las relaciones predefinidas: “Is part of”, “Is cause of” y “Is a”.] (ver Editar relaciones, pág. 109).
 
-| Operador | Función ||:---------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|| Down | Selecciona las citas relacionadas con el código y con cualquiera de sus subtérminos, (descendientes) \ es decir, aquellos otros códigos con los que se ha establecido una relación || Up | Recupera las citas relacionadas con el código y sus superiores directos (sólo un nivel) || Siblings | Recupera las citas relacionadas con el código, con sus descendientes directos (hijos) y los subtérminos directos de un código superior (hijos). No recupera las relacionadas con el nivel superior (padre) | : Operadores semánticos
+| Operador | Función |
+|:---------|:---------------|
+| Down | Selecciona las citas relacionadas con el código y con cualquiera de sus subtérminos, (descendientes) \ es decir, aquellos otros códigos con los que se ha establecido una relación |
+| Up | Recupera las citas relacionadas con el código y sus superiores directos (sólo un nivel) |
+| Siblings | Recupera las citas relacionadas con el código, con sus descendientes directos (hijos) y los subtérminos directos de un código superior (hijos). No recupera las relacionadas con el nivel superior (padre) | 
 
 Como también comentábamos, ATLAS.ti, a diferencia de otros programas, no permite crear jerarquías de códigos, pero sí nos permite crear estructuras de codificación gracias a la creación de relaciones entre códigos. Anteriormente habíamos creado (a través de la definición de relaciones del tipo is a y de is cause of) una jerarquía de códigos para reproducir la clasificación de tipos de respuestas de Rasiah (2010). Si disponemos de esta estructura definida previa a la asignación de citas a códigos, nuestra estrategia de codificación implicará codificar única y exclusivamente los códigos del nivel inferior en la jerarquía: *Ans Direct*, *Ans Indirect*, *Ev Full*, *Ev Substantial*, etc. El resto de códigos en la estructura (*Answer*, *Evasion*...) serán códigos libres, sin citas asociadas, pero aún así podremos, con la utilización de los operadores semánticos, obtener el conjunto de citas relacionadas con cualquiera de los códigos que se encuentran en niveles superiores de la estructura. Si *Ans Direct* tiene 6 citas y *Ans Indirect* tiene 9 citas, dado que ambas son un tipo de *Answer*, aunque este código tenga cero citas parece lógico pensar que en realidad tenemos 15 citas relacionadas con *Answer*. Igualmente, si sumamos el conjunto de citas de los códigos vinculados con *Evasion*, aunque *Evasion* tiene cero citas, en realidad tenemos 93 citas con modalidades de evasión.
 
@@ -164,13 +180,18 @@ Aunque parezca una consulta muy compleja en realidad es simple, puesto que en (1
 
 Por último, los operadores de proximidad, como su nombre indica, permiten recuperar citas en función de la relación espacial existente entre diferentes códigos ( Tabla).
 
-| Operador | Función ||:--------------|:----------------------------------------------------------------------------------------------------------------------|| Within | La cita codificada como Código-D está Within la cita codificada como Código-B\ Código-D Código-B Within || Encloses | La cita codificada como Código-B encloses la cita codificada como Código-D\ Código-B Código-D Within || Overlapped by | La cita codificada como Código-A está overlapped by la cita codificada como Código-C\ Código-A Código-C overlapped by |
-
-La cita codificada como Código-C está overlapped by la cita codificada como Código-B\ Código-C Código-B overlapped byOverlapps | La cita codificada como Código-C overlaps la cita codificada como Código-A\ Código-C Código-A overlaps
-
-La cita codificada como Código-B overlaps la cita codificada como Código-C\ Código-B Código-C overlaps Follows| La cita codificada como Código-B follows la cita codificada como Código-A \ Código-B Código-A followsPrecedes| La cita codificada como Código-A precedes la cita codificada como Código-B
-
-Código-A Código-B precedes : Operadores de proximidad
+| Operador | Función |
+|:--------------|:-----------------------|
+| Within | La cita codificada como Código-D está Within la cita codificada como Código-B: `Código-D Código-B Within` |
+| Encloses | La cita codificada como Código-B encloses la cita codificada como Código-D: `Código-B Código-D Within` |
+| Overlapped by | La cita codificada como Código-A está overlapped by la cita codificada como Código-C: `Código-A Código-C overlapped by` |
+||La cita codificada como Código-C está overlapped by la cita codificada como Código-B Código-C:  `Código-B overlapped by`
+|Overlapps | La cita codificada como Código-C overlaps la cita codificada como Código-A `Código-C Código-A overlaps`|
+||La cita codificada como Código-B overlaps la cita codificada como Código-C: `Código-B Código-C overlaps` |
+|Follows| La cita codificada como Código-B follows la cita codificada como Código-A: `Código-B Código-A follows`
+|Precedes| La cita codificada como Código-A precedes la cita codificada como Código-B: `Código-A Código-B precedes`|
+|Cooccur| Todos los casos en los que hay algún tipo de “contacto” entre citas |
+Operadores de proximidad
 
 En la figura \ref{fig-ilustracion-proximidad} hemos simulado una hipotética codificación que nos permitirá ilustrar cómo funcionan estos operadores.
 
