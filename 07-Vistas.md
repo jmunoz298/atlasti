@@ -1,4 +1,4 @@
-﻿# Vistas de Red
+# Vistas de Red
 
 Las Vistas de Red son uno de los componentes de ATLAS.ti que más atraen al usuario novel, al que le puede impresionar la posibilidad de realizar unos “bonitos dibujos” que muestren parte de su análisis. Sin embargo, la expectativa de generar diagramas para incluir en un informe o publicación —bonitos dibujos— nos llevaría a desaprovechar gran parte de lo que las vistas de red pueden aportar al proceso analítico. Además, si lo que nos interesan diagramas acabados, podemos hacerlos mejor con otros programas. Desde nuestro punto de vista, lo que es más relevante de las *vistas de red* es que son una representación gráfica *operable* de nuestro trabajo conceptual que nos permitirá pensar sobre nuestro análisis y realizar parte de nuestro trabajo conceptual.
 
