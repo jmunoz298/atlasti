@@ -90,7 +90,25 @@ Esta modalidad de búsqueda, implica utilizar caracteres “comodín” junto al
 
 Aunque es muy probable que no necesitemos toda la potencia de la búsqueda GREP, no está de más saber de su existencia para poder consultar los operadores en el caso en que necesitemos una búsqueda especial. En la Tabla ofrecemos el listado de los operadores que hemos comprobado que funcionan en ATLAS.ti, y a continuación ilustraremos su utilización con algunos ejemplos.
 
-| Operador | Función ||:--------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|| ^*término* | Limita la expresión de búsqueda que sigue al marcador al principio de la línea. Si se utiliza como el primer carácter dentro de una expresión entre paréntesis, excluye de la búsqueda el rango especificado. || *término*\$ | Limita la expresión de búsqueda precedente al final de la línea. || \\&lt;*término* | Limita la expresión de búsqueda siguiente al inicio de una palabra. || *término*\\&gt; | Limita la expresión de búsqueda precedente al inicio de una palabra || \\B | Limita la expresión de búsqueda siguiente a NO incio de palabra || \\B | Limita la expresión de búsqueda precedente a NO final de palabra || . | Localiza cualquier carácter. || \\w | Localiza cualquier carácter alfanumérico. || \* | Localiza cualquier cantidad (o su ausencia) de la expresión precedente. || + | Localiza al menos una ocurrencia de la expresión precedente. || ? | Localiza cero o una ocurrencia de la expresión precedente. || \[ \] | Localiza un rango de caracteres. || (*término* *término* *término*) | Localiza varios términos de forma simultánea. || :d | Localiza cualquier dígito. || \\ | Carácter utilizado cuando en la expresión se debe incluir uno de los caracteres especiales anteriores. | : Operadores GREP
+| Operador | Función |
+|:---------------------------|:------------------|
+| ^*término* | Limita la expresión de búsqueda que sigue al marcador al principio de la línea. Si se utiliza como el primer carácter dentro de una expresión entre paréntesis, excluye de la búsqueda el rango especificado. |
+| *término*\$ | Limita la expresión de búsqueda precedente al final de la línea. |
+| \\&lt;*término* | Limita la expresión de búsqueda siguiente al inicio de una palabra. |
+| *término*\\&gt; | Limita la expresión de búsqueda precedente al inicio de una palabra |
+| \\B | Limita la expresión de búsqueda siguiente a NO incio de palabra |
+| \\B | Limita la expresión de búsqueda precedente a NO final de palabra |
+| . | Localiza cualquier carácter. |
+| \\w | Localiza cualquier carácter alfanumérico. |
+| \* | Localiza cualquier cantidad (o su ausencia) de la expresión precedente. |
+| + | Localiza al menos una ocurrencia de la expresión precedente. |
+| ? | Localiza cero o una ocurrencia de la expresión precedente. |
+| \[ \] | Localiza un rango de caracteres. |
+| (*término* *término* *término*) | Localiza varios términos de forma simultánea. |
+| :d | Localiza cualquier dígito. |
+| \\ | Carácter utilizado cuando en la expresión se debe incluir uno de los caracteres especiales anteriores. | 
+
+Operadores GREP
 
 **Búsqueda al inicio de línea**
 
