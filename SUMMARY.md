@@ -37,6 +37,7 @@
     * [Explorador de objetos](explorador-de-objetos.md)
     * [Herramienta de consulta](herramienta-de-consulta.md)
     * [Concurrencias](concurrencias.md)
+    * [Analizador de codificaciones](analizador-de-codificaciones.md)
 * [Otras herramientas](09-OtrasHerramientas.md)
 * [Informes](10-Informes.md)
 
