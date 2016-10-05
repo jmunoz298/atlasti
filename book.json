@@ -1,5 +1,7 @@
 {
     "plugins": [
-        "fancybox"
-    ]
+        "fancybox",
+        "image-captions"
+    ],
+    "pluginsConfig": {}
 }
