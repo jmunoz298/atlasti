@@ -20,6 +20,8 @@
     * [Citas](citas.md)
     * [Codificación](codificación.md)
     * [Autocodificación](autocodificación.md)
+    * [Visualización](visualización.md)
+    * [Operaciones con citas y códigos](operaciones-con-citas-y-códigos.md)
 * [Agrupar y relacionar](06-Agrupar.md)
 * [Vistas de red](07-Vistas.md)
 * [Herramientas de exploración](08-Herramientas.md)
