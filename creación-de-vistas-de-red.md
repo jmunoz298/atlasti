@@ -34,7 +34,7 @@ Para representar las relaciones de un nodo presente en la red, tenemos que selec
 
 ![Vista de red Question Type. Importar códigos vecinos\label{fig-question-vecinos}](images/image-118.png)
 
-Dado que la visualización es algo confusa, lo siguiente que haremos es pedirle al programa que ajuste de forma automática la representación, con la opción de menú Diseño &gt; Diseño semántico. Esta opción representará los nodos en función de las características definidas previamente en el _editor de relaciones._\[^1\] Probablemente cuando tengamos representados un número mínimamente elevado de nodos será necesario también realizar algún ajuste manual de posición.
+Dado que la visualización es algo confusa, lo siguiente que haremos es pedirle al programa que ajuste de forma automática la representación, con la opción de menú Diseño &gt; Diseño semántico. Esta opción representará los nodos en función de las características definidas previamente en el _editor de relaciones._[^1] Probablemente cuando tengamos representados un número mínimamente elevado de nodos será necesario también realizar algún ajuste manual de posición.
 
 Realizaríamos esta misma operación para el resto de nodos, es decir, si el número de relaciones que indica la etiqueta es menor que el número de relaciones representadas, procederíamos a importar a sus _vecinos_. Evidentemente este proceso no siempre tenemos que llevarlo al límite, es decir, a intentar representar todas y cada una de las relaciones de todos los códigos, puesto que podría llegar un momento en que la representación incluiría demasiados códigos como para ser práctica.\[^2\]
 
@@ -92,11 +92,11 @@ Tenemos otras opciones de edición de las relaciones. En el caso de las no simé
 
 ![Editar relación\label{fig-editar-relacion}](images/image-126.png)
 
-\[^1\]: Una de las características de las relaciones es la “dirección de la relación”, que puede ser: de izquierda a derecha \(y viceversa\) o de arriba hacia abajo \(y viceversa\).
+[^1]: Una de las características de las relaciones es la “dirección de la relación”, que puede ser: de izquierda a derecha \(y viceversa\) o de arriba hacia abajo \(y viceversa\).
 
-\[^2\]: En ese caso, puede ser conveniente proceder, como veremos más adelante, a crear una nueva red para representar el resto de nodos.
+[^2]: En ese caso, puede ser conveniente proceder, como veremos más adelante, a crear una nueva red para representar el resto de nodos.
 
-\[^3\]: Y recordemos que el borrado de un elemento de la UH no puede deshacerse.
+[^3]: Y recordemos que el borrado de un elemento de la UH no puede deshacerse.
 
-\[^4\]: Evidentemente esto ocurrirá con cualquier relación y con cualquier nodo, con los que hemos creado directamente en la red o con los que existían previamente.
+[^4]: Evidentemente esto ocurrirá con cualquier relación y con cualquier nodo, con los que hemos creado directamente en la red o con los que existían previamente.
 
