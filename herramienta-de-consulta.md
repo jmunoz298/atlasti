@@ -130,7 +130,7 @@ Y la forma de realizarla sería como vemos en la siguiente tabla.
 
 #### Operadores Semánticos
 
-Como hemos visto, las _consultas_ con operadores booleanos, sólo requieren de la existencia de códigos. En el caso de los operadores semánticos necesitamos además haber creado previamente relaciones entre códigos. Más concretamente, los operadores semánticos se basan en la existencia de relaciones de tipo transitivo entre códigos^\[En las relaciones predefinidas: “Is part of”, “Is cause of” y “Is a”.\] \(ver Editar relaciones, pág. 109\).
+Como hemos visto, las _consultas_ con operadores booleanos, sólo requieren de la existencia de códigos. En el caso de los operadores semánticos necesitamos además haber creado previamente relaciones entre códigos. Más concretamente, los operadores semánticos se basan en la existencia de relaciones de tipo transitivo entre códigos[^6](ver Editar relaciones).
 
 | Operador | Función |
 | --- | --- |
@@ -263,3 +263,5 @@ En la figura \ref{fig-informacion-consultas} podemos ver las informaciones dispo
 [^4]: Aunque esto no es exactamente así, puesto que no todas las consultas requieren de dos operandos.
 
 [^5]: En esta explicación “citas presentes en el operando...” significa “citas codificadas con el código o familia de códigos...”
+
+[^6]: En las relaciones predefinidas: “Is part of”, “Is cause of” y “Is a”.
