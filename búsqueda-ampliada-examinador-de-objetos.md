@@ -8,11 +8,11 @@ Al activar la herramienta con la opción Herramientas &gt; Examinador de objetos
 
 En primer lugar \(1\) definiremos la sentencia de búsqueda, para a continuación seleccionar los objetos a los que se aplicará la misma \(2\). Finalmente, en \(3\) podremos ver los resultados.
 
-En la sección _Definir consulta_, definiremos la búsqueda a realizar \(4\) y si queremos o no utilizar la sintaxis GREP \(5\).\[^1\] Finalmente seleccionaremos \(6\) el ámbito al que se aplicará la búsqueda, es decir, en qué secciones de los diversos componentes \(nombre del componente, comentario...\).
+En la sección _Definir consulta_, definiremos la búsqueda a realizar \(4\) y si queremos o no utilizar la sintaxis GREP \(5\).[^1] Finalmente seleccionaremos \(6\) el ámbito al que se aplicará la búsqueda, es decir, en qué secciones de los diversos componentes \(nombre del componente, comentario...\).
 
 En el ejemplo de la Ilustración estamos realizando una búsqueda utilizando sintaxis GREP. En este caso, una búsqueda de las apariciones de diferentes modalidades de referencia a “falsedad”. Si hemos leído el apartado dedicado a la búsqueda GREP podemos traducir la expresión de búsqueda como “busca las apariciones de “fals” seguidas de cualquiera otros caracteres \(utilizando la expresión GREP \w\*. Por lo tanto, el resultado debería incluir términos como “falso”, “falsedad”, “falsos”, etc.
 
-La segunda sección del _Examinador de objetos_ \(figura \ref{fig-examinador-seleccion}\) nos permite seleccionar los objetos \(componentes\) a los que se aplicará la búsqueda.\[^2\] Por lo tanto, si en la pantalla anterior hubiéramos seleccionado únicamente _Comentario_ como ámbito de búsqueda y en esta otra seleccionamos todos los objetos, la búsqueda se realizaría únicamente en los comentarios de todos los objetos de la UH. Si el término apareciera por ejemplo en una cita \(pero no en un comentario de cita\), la búsqueda no lo incluiría.
+La segunda sección del _Examinador de objetos_ \(figura \ref{fig-examinador-seleccion}\) nos permite seleccionar los objetos \(componentes\) a los que se aplicará la búsqueda.[^2] Por lo tanto, si en la pantalla anterior hubiéramos seleccionado únicamente _Comentario_ como ámbito de búsqueda y en esta otra seleccionamos todos los objetos, la búsqueda se realizaría únicamente en los comentarios de todos los objetos de la UH. Si el término apareciera por ejemplo en una cita \(pero no en un comentario de cita\), la búsqueda no lo incluiría.
 
 ![Examinador de objetos: Selección de objetos\label{fig-examinador-seleccion}](images/image-137.png)
 
@@ -20,7 +20,7 @@ La última sección de la herramienta nos muestra finalmente los resultados de l
 
 ![Examinador de objetos: Resultados\label{fig-examinador-resultados}](images/image-138.png)
 
-\[^1\]: Podemos utilizar también la búsqueda por categorías.
+[^1]: Podemos utilizar también la búsqueda por categorías.
 
-\[^2\]: _Unidad Hermenéutica_ hace referencia al comentario de la _Unidad Hermenéutica_.
+[^2]: _Unidad Hermenéutica_ hace referencia al comentario de la _Unidad Hermenéutica_.
 
