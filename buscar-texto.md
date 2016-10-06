@@ -182,7 +182,7 @@ en la que utilizamos el paréntesis para agrupar el conjunto de caracteres a los
 
 \w\*\(ar\|er\|ir\)\&gt;
 
-Volviendo a la autocodificación de nuestros participantes, recordamos que la estrategia que habíamos utilizado era crear un código para cada uno de ellos, es decir, cada uno de los parlamentarios está asociado con un código. Aunque esta estrategia es correcta, podríamos haber decidido que no nos interesa qué persona en concreto es la que está interviniendo sino el partido político al que pertenece^\[Lo que en nuestro caso habíamos hecho creando familias de participantes para cada uno de los partidos políticos.\]. Esto significa que si queremos autocodificar las intervenciones de Josep Antoni Durán i Lleida, Pere Macias, Josep Sánchez i Llibre y Jordi Vilajoana, con el código “CiU” \(en vez de un código diferente para cada uno de ellos\). La expresión en este caso sería
+Volviendo a la autocodificación de nuestros participantes, recordamos que la estrategia que habíamos utilizado era crear un código para cada uno de ellos, es decir, cada uno de los parlamentarios está asociado con un código. Aunque esta estrategia es correcta, podríamos haber decidido que no nos interesa qué persona en concreto es la que está interviniendo sino el partido político al que pertenece.\[^6\] Esto significa que si queremos autocodificar las intervenciones de Josep Antoni Durán i Lleida, Pere Macias, Josep Sánchez i Llibre y Jordi Vilajoana, con el código “CiU” \(en vez de un código diferente para cada uno de ellos\). La expresión en este caso sería
 
 \^Sr. \(Duran\|Macias\|Sanchez\|Vilajoana\).-
 
@@ -215,4 +215,6 @@ El resultado será todas las palabras que contengan \(pero no comiencen\) por "d
 \[^4\]: Si no cambiamos la etiqueta de la categoría, al realizar una nueva búsqueda, la anterior desaparecería de la lista, puesto que la nueva quedaría identificada igualmente como “TEMP”.
 
 \[^5\]: Otra forma de modificar la lista de categorías es modificar directamente el fichero Srchbib.skt\(o crear otro fichero .skt\) con un editor de texto.
+
+\[^6\]: Lo que en nuestro caso habíamos hecho creando familias de participantes para cada uno de los partidos políticos.
 
