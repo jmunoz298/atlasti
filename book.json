@@ -3,4 +3,15 @@
         "fancybox",
         "regexplace"
     ]
+    "pluginsConfig": {
+        "regexplace": {
+            "substitutes": [
+                {
+                    "pattern": "<img (.*)alt=\"([^\"]*)\"(.*) {0,1}\/{0,1}> {0,}{caption([^\\}]*)}",
+                    "flags": "g",
+                    "substitute": "<figure id=\"fig_PAGE_LEVEL_._INDEX_\"><img $1alt=\"$2\" $4$3><figcaption><span>Picture _PAGE_LEVEL_._INDEX_: </span>$2</figcaption></figure>"
+                }
+            ]
+        }
+    }
 }
