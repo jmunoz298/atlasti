@@ -18,7 +18,7 @@ Podemos acceder a la _Herramienta de consulta_ utilizando el icono “Prismátic
 
 ![Herramienta de consulta\label{fig-herramienta-consulta}](images/image-141.png)
 
-1\) Códigos y Familias de Códigos\[^1\] existentes en la UH. Como decíamos, son los _Operandos_ que utilizaremos en la definición de la _consulta_. La activación de los operandos para su inclusión en la consulta se realiza haciendo clic dos veces sobre ellos^\[Para la definición de la consulta no necesitamos escribir nada, todo el trabajo lo realizaremos haciendo clic sobre operandos y operadores.\], lo que hará que en la ventana de resultados \(5\) aparezcan las citas relacionadas. Aunque en principio una consulta tiene que incluir operandos y operadores, simplemente seleccionando un operando veremos sus citas \(si las tiene\) en la zona de resultados. A medida que vayamos añadiendo más operandos y operadores, la zona de resultados cambiará para reflejar los cambios.
+1\) Códigos y Familias de Códigos\[^1\] existentes en la UH. Como decíamos, son los _Operandos_ que utilizaremos en la definición de la _consulta_. La activación de los operandos para su inclusión en la consulta se realiza haciendo clic dos veces sobre ellos,\[^2\] lo que hará que en la ventana de resultados \(5\) aparezcan las citas relacionadas. Aunque en principio una consulta tiene que incluir operandos y operadores, simplemente seleccionando un operando veremos sus citas \(si las tiene\) en la zona de resultados. A medida que vayamos añadiendo más operandos y operadores, la zona de resultados cambiará para reflejar los cambios.
 
 2\) Condiciones a utilizar como operadores. Están agrupadas en tres categorías: Operadores _booleanos_, operadores _semánticos_ y operadores de _proximidad_. De nuevo, para seleccionar un operador sólo tenemos que hacer clic sobre el icono correspondiente.
 
@@ -255,4 +255,6 @@ En la figura \ref{fig-informacion-consultas} podemos ver las informaciones dispo
 ![Información sobre elementos de consulta\label{fig-informacion-consultas}](images/image-154.png)
 
 \[^1\]: En el resto de esta sección nos referiremos a ellos como _operandos_.
+
+\[^2\]: Para la definición de la consulta no necesitamos escribir nada, todo el trabajo lo realizaremos haciendo clic sobre operandos y operadores.
 
