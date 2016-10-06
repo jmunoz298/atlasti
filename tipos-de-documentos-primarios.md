@@ -22,12 +22,12 @@ Por último, dentro de esta categoría de formatos enriquecidos encontramos los 
 
 ### Multimedia
 
-Además de documentos textuales, podemos incluir como fuentes prácticamente cualquier otro tipo de datos, como imágenes fijas^[Las imágenes pueden ser tanto documentos independientes como elementos incluidos en los
-
-archivos de tipo *.doc, *.rtf y *.pdf.], audio e incluso vídeo. Esta variedad de fuentes de datos nos permitirá probablemente una mayor flexibilidad y riqueza en nuestro análisis. Una posibilidad que se nos abre con esta diversidad de formatos es la de utilizar la transcripción de una entrevista junto a su registro sonoro o audiovisual, de forma que, en caso de requerirlo, dispondremos de una información mucho más rica y precisa a la hora de realizar el análisis que si sólo disponemos de la transcripción.
+Además de documentos textuales, podemos incluir como fuentes prácticamente cualquier otro tipo de datos, como imágenes fijas [^1], audio e incluso vídeo. Esta variedad de fuentes de datos nos permitirá probablemente una mayor flexibilidad y riqueza en nuestro análisis. Una posibilidad que se nos abre con esta diversidad de formatos es la de utilizar la transcripción de una entrevista junto a su registro sonoro o audiovisual, de forma que, en caso de requerirlo, dispondremos de una información mucho más rica y precisa a la hora de realizar el análisis que si sólo disponemos de la transcripción.
 
 Una de las funcionalidades más interesantes del programa es la sincronización entre documentos primarios textuales y audiovisuales. ATLAS.ti nos permite, por ejemplo, sincronizar una transcripción con su correspondiente archivo sonoro de forma que desde un punto concreto de la transcripción, podríamos acceder inmediatamente al mismo punto o momento en el documento de audio o vídeo (ver Sincronización audio-texto, pág. 58).
 
 ### Geo-referencias
 
 Desde la versión 6 del programa, ATLAS.ti permite, literalmente, incluir 'el mundo' como documento de datos. Aunque esta afirmación puede parecer exagerada, en la práctica es factible, puesto que podemos incorporar como documentos primarios mapas de *Google Earth*, en los que podemos, de la misma forma que hacemos con una imagen, seleccionar 'ubicaciones significativas' para convertirlas en citas.
+
+[^1]: Las imágenes pueden ser tanto documentos independientes como elementos incluidos en los archivos de tipo *.doc, *.rtf y *.pdf.
