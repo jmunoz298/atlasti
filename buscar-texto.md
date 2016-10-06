@@ -50,7 +50,7 @@ Si cerramos la ventana de búsqueda y volvemos a abrirla, observaremos que sigue
 
 TEMP:=Francia\|Alemania\|Inglaterra
 
-Si clicamos sobre la flecha ubicada a la derecha de la zona de escritura de la búsqueda, veremos además que, junto a esta, nos aparecen toda otra serie de búsquedas \(predefinidas\), todas ellas precedidas por algún término y los caracteres := \(dos puntos y signo de igualdad\). Estos caracteres son los que utilizamos para definir auténticas categorías de búsqueda, es decir, para definir un identificador para las búsquedas. Dado que no lo habíamos hecho previamente, el programa ha identificado nuestra búsqueda como “TEMP”, pero podemos cambiar esa etiqueta por otra más significativa, como por ejemplo EUROPA^\[Si no cambiamos la etiqueta de la categoría, al realizar una nueva búsqueda, la anterior desaparecería de la lista, puesto que la nueva quedaría identificada igualmente como “TEMP”.\]. De esta forma, nuestra sentencia de búsqueda sería
+Si clicamos sobre la flecha ubicada a la derecha de la zona de escritura de la búsqueda, veremos además que, junto a esta, nos aparecen toda otra serie de búsquedas \(predefinidas\), todas ellas precedidas por algún término y los caracteres := \(dos puntos y signo de igualdad\). Estos caracteres son los que utilizamos para definir auténticas categorías de búsqueda, es decir, para definir un identificador para las búsquedas. Dado que no lo habíamos hecho previamente, el programa ha identificado nuestra búsqueda como “TEMP”, pero podemos cambiar esa etiqueta por otra más significativa, como por ejemplo EUROPA.\[^4\] De esta forma, nuestra sentencia de búsqueda sería
 
 EUROPA:=Francia\|Alemania\|Inglaterra
 
@@ -82,7 +82,7 @@ Hay que tener en cuenta que una vez que cerremos la sesión con Atlas, desaparec
 
 ![Opciones de búsqueda\label{fig-opciones-busqueda}](images/image-135.png)
 
-Podemos sobreescribir ese archivo o dar un nombre diferente, teniendo en cuenta que si lo sobreescribimos, la lista que acabamos de salvar será la que utilizará ATLAS.ti por defecto la próxima vez que utilicemos el programa. En el caso de dar un nombre de archivo diferente, para poder recuperar esa lista en futuras sesiones, tendremos que utilizar la opción _Cargar Categorías_. También podemos eliminar elementos de la lista de categorías con la opción _Borrar Categoría_^\[Otra forma de modificar la lista de categorías es modificar directamente el fichero Srchbib.skt\(o crear otro fichero .skt\) con un editor de texto.\].
+Podemos sobreescribir ese archivo o dar un nombre diferente, teniendo en cuenta que si lo sobreescribimos, la lista que acabamos de salvar será la que utilizará ATLAS.ti por defecto la próxima vez que utilicemos el programa. En el caso de dar un nombre de archivo diferente, para poder recuperar esa lista en futuras sesiones, tendremos que utilizar la opción _Cargar Categorías_. También podemos eliminar elementos de la lista de categorías con la opción _Borrar Categoría._\[^5\]
 
 ### Búsqueda GREP
 
@@ -211,4 +211,8 @@ El resultado será todas las palabras que contengan \(pero no comiencen\) por "d
 \[^2\]: Podemos utilizar el carácter especial “\*” para indicar “cualquier carácter o caracteres. Si el asterisco va a continuación de la sentencia sería equivalente a indicar “todos los caracteres a continuación”, si la precede, el significado sería “todos los caracteres anteriores”.
 
 \[^3\]: En la mayoría de los teclados, para introducimos este signo con la combinación de teclas AltGr”+1 \(aunque este último carácter puede variar en función del teclado\).
+
+\[^4\]: Si no cambiamos la etiqueta de la categoría, al realizar una nueva búsqueda, la anterior desaparecería de la lista, puesto que la nueva quedaría identificada igualmente como “TEMP”.
+
+\[^5\]: Otra forma de modificar la lista de categorías es modificar directamente el fichero Srchbib.skt\(o crear otro fichero .skt\) con un editor de texto.
 
