@@ -14,7 +14,7 @@ A continuación, ofrecemos una breve descripción de los elementos que la compon
 
 3. Barra de iconos horizontal. Los iconos de la barra horizontal sirven como ‘acceso directo’ a algunas de las funciones más utilizadas en relación con la UH.
 
-4. Botones de administradores y listas desplegables. Los botones permiten activar los administradores (ver Administradores y listas desplegables en pág. 26) de cada uno de los componentes principales de la UH, mientras que las listas desplegables permiten visualizar/seleccionar los diferentes elementos creados para cada uno de esos componentes principales). Tanto los botones de administradores como las listas desplegables hacen referencia, de izquierda a derecha, a DPs, Citas, Códigos y Memos^[Esta disposición puede ser modificada por el usuario.].
+4. Botones de administradores y listas desplegables. Los botones permiten activar los administradores (ver Administradores y listas desplegables en pág. 26) de cada uno de los componentes principales de la UH, mientras que las listas desplegables permiten visualizar/seleccionar los diferentes elementos creados para cada uno de esos componentes principales). Tanto los botones de administradores como las listas desplegables hacen referencia, de izquierda a derecha, a DPs, Citas, Códigos y Memos.[^1]
 
 5. Barra de iconos vertical. Los iconos de la barra vertical realizan funciones relacionadas con los DPs. Aunque estos iconos siempre son visibles, sólo son operativos con un DP activado. En caso contrario, los iconos aparecen en gris claro.
 
@@ -107,3 +107,6 @@ Podemos ordenar la visualización con un clic en la etiqueta de la columna que d
 6\. En todos los administradores encontraremos también una zona en la que podemos/debemos escribir un comentario sobre el elemento seleccionado. (ver Comentarios de códigos en pág. 71).
 
 7\. Barra de estado con información adicional sobre el objeto que se tiene seleccionado.
+
+[^1]: Esta disposición puede ser modificada por el usuario.
+
