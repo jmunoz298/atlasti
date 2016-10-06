@@ -76,7 +76,7 @@ Insistimos que lo que hacemos en la ventana de redes es trabajo conceptual con l
 
 Esta advertencia es importante sobre todo si lo que hacemos, en vez de crear elementos, es eliminarlos, pues estos no sólo desaparecerán de la _vista de red_, sino que desaparecerán también de la UH.
 
-Para eliminar un nodo, sólo hay que hacer clic sobre él con el botón derecho, y seleccionar la opción Borrar. Pero como decimos, esto lo eliminará **a todos los efectos** de la UH^\[Y recordemos que el borrado de un elemento de la UH no puede deshacerse.\]. Si lo que queremos es simplemente que no aparezca representado en la _red_, la opción que tenemos que seleccionar es Eliminar de la vista.
+Para eliminar un nodo, sólo hay que hacer clic sobre él con el botón derecho, y seleccionar la opción Borrar. Pero como decimos, esto lo eliminará **a todos los efectos** de la UH.\[^3\] Si lo que queremos es simplemente que no aparezca representado en la _red_, la opción que tenemos que seleccionar es Eliminar de la vista.
 
 ### Definir relaciones
 
@@ -95,4 +95,6 @@ Tenemos otras opciones de edición de las relaciones. En el caso de las no simé
 \[^1\]: Una de las características de las relaciones es la “dirección de la relación”, que puede ser: de izquierda a derecha \(y viceversa\) o de arriba hacia abajo \(y viceversa\).
 
 \[^2\]: En ese caso, puede ser conveniente proceder, como veremos más adelante, a crear una nueva red para representar el resto de nodos.
+
+\[^3\]: Y recordemos que el borrado de un elemento de la UH no puede deshacerse.
 
