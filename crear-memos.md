@@ -2,7 +2,7 @@
 
 Para la creación de _Memos_, podemos seleccionar la opción _Crear memo libre_ desde el menú _Memos_ o, desde ese mismo menú, abrir el _Administrador de memos_ y hacer clic en el icono de creación.
 
-Lo primero que tendremos que hacer, será dar un nombre a nuestra _Memo_, y a continuación \(y aquí viene lo más complicado\), escribirla en el editor que nos aparecerá a continuación. En la figura \ref{fig-editor-memos} podemos apreciar que ese editor se diferencia del que habíamos visto al crear el comentario de UH. En este caso tenemos \(1\) una zona en la que aparece la etiqueta con la que hemos nombrado la _Memo_, y \(2\) una lista desplegable para seleccionar el tipo de _Memo_. Esta lista nos ofrece tres posibilidades, _Commentary_, _Method_ y _Theory_. Es decir, podemos clasificar nuestras _Memos_ en tres categorías diferentes^\[O más, puesto que es posible editar esta lista en Preferencias &gt; Preferencias generales , pestaña Memos.\]. En este caso, a pesar de nuestra insistencia en la documentación y sistematización, nos sumamos a Saldaña \(2009, p. 33\) quien prefiere hablar únicamente de _memos analíticos_.
+Lo primero que tendremos que hacer, será dar un nombre a nuestra _Memo_, y a continuación \(y aquí viene lo más complicado\), escribirla en el editor que nos aparecerá a continuación. En la figura \ref{fig-editor-memos} podemos apreciar que ese editor se diferencia del que habíamos visto al crear el comentario de UH. En este caso tenemos \(1\) una zona en la que aparece la etiqueta con la que hemos nombrado la _Memo_, y \(2\) una lista desplegable para seleccionar el tipo de _Memo_. Esta lista nos ofrece tres posibilidades, _Commentary_, _Method_ y _Theory_. Es decir, podemos clasificar nuestras _Memos_ en tres categorías diferentes.[^1] En este caso, a pesar de nuestra insistencia en la documentación y sistematización, nos sumamos a Saldaña \(2009, p. 33\) quien prefiere hablar únicamente de _memos analíticos_.
 
 ![Editor de memos\label{fig-editor-memos}](images/image-020.png)
 
@@ -17,3 +17,6 @@ Un caso similar es el del _Memo_ “Participantes”, un PDF en el que hemos rec
 ![Memo con archivo PDF\label{fig-memo-pdf}](images/image-022.png)
 
 En síntesis, los memos, progresivamente elaborados, desarrollados, revisados y organizados en el curso del análisis contienen —o al menos deberían contener— los aspectos más significativos del análisis, tanto en términos de resultados como de proceso. Más adelante \(Inserción de objetos\/ficheros, en pág. 55\) explicamos con más detalle cómo utilizar esta funcionalidad.
+
+[^1]: O más, puesto que es posible editar esta lista en Preferencias &gt; Preferencias generales , pestaña Memos.
+
