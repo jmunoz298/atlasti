@@ -46,7 +46,7 @@ Si ahora abrimos nuestro nuevo archivo desde un editor de texto (teniendo cuidad
 
 El siguiente paso será incorporar el texto y el audio en ATLAS.ti.
 
-Como veíamos anteriormente (Asignar Documentos Primarios, figura \ref{fig-Añadir-DP}), la asignación de documentos con marcas de tiempo se realiza con la opción Documentos &gt; Nuevo &gt; Importar transcripción^[Esta opción sólo permite importar los documentos a la biblioteca de usuario (Mi biblioteca) o a la biblioteca de equipo.]*.* Al realizar la importación seleccionaremos únicamente el archivo de texto con las marcas de tiempo (recordamos que en nuestro caso, siempre será un archivo “01”), y ATLAS.ti realizará automáticamente la asignación del archivo de audio correspondiente.
+Como veíamos anteriormente (Asignar Documentos Primarios, figura \ref{fig-Añadir-DP}), la asignación de documentos con marcas de tiempo se realiza con la opción Documentos &gt; Nuevo &gt; Importar transcripción.[^2] Al realizar la importación seleccionaremos únicamente el archivo de texto con las marcas de tiempo (recordamos que en nuestro caso, siempre será un archivo “01”), y ATLAS.ti realizará automáticamente la asignación del archivo de audio correspondiente.
 
 ![Importar transcripción\label{fig-importar-transcripcion}](images/image-046.png)
 
@@ -74,4 +74,7 @@ Si lo que queremos es ir escuchando el archivo de audio y al mismo tiempo que qu
 
 Por ejemplo si queremos que a medida que se va reproduciendo el audio quede resaltado el texto correspondiente (entre dos marcas temporales) seleccionaremos la opción *Resaltar sección.* A continuación, seleccionaremos la opción Documentos &gt; Docs-A &gt; Modo sincronizado (o F3), y finalmente, de nuevo en el menú Documentos &gt; Docs-A, la opción *Reproducir-pausa* (o F4). Si durante la reproducción colocamos el cursor sobre otra zona de texto, la sincronización se realizará en ese punto.
 
-[^1]. Si por cualquier motivo no cargamos el archivo de medios en ese momento, podemos hacerlo posteriormente haciendo clic en (2) (figura \ref{fig-F4-menu}).
+[^1]: Si por cualquier motivo no cargamos el archivo de medios en ese momento, podemos hacerlo posteriormente haciendo clic en (2) (figura \ref{fig-F4-menu}).
+
+[^2]: Esta opción sólo permite importar los documentos a la biblioteca de usuario (Mi biblioteca) o a la biblioteca de equipo.
+
