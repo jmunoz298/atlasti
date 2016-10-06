@@ -18,7 +18,7 @@ Podemos acceder a la _Herramienta de consulta_ utilizando el icono “Prismátic
 
 ![Herramienta de consulta\label{fig-herramienta-consulta}](images/image-141.png)
 
-1\) Códigos y Familias de Códigos\[^1\] existentes en la UH. Como decíamos, son los _Operandos_ que utilizaremos en la definición de la _consulta_. La activación de los operandos para su inclusión en la consulta se realiza haciendo clic dos veces sobre ellos,\[^2\] lo que hará que en la ventana de resultados \(5\) aparezcan las citas relacionadas. Aunque en principio una consulta tiene que incluir operandos y operadores, simplemente seleccionando un operando veremos sus citas \(si las tiene\) en la zona de resultados. A medida que vayamos añadiendo más operandos y operadores, la zona de resultados cambiará para reflejar los cambios.
+1\) Códigos y Familias de Códigos[^1] existentes en la UH. Como decíamos, son los _Operandos_ que utilizaremos en la definición de la _consulta_. La activación de los operandos para su inclusión en la consulta se realiza haciendo clic dos veces sobre ellos,[^2] lo que hará que en la ventana de resultados \(5\) aparezcan las citas relacionadas. Aunque en principio una consulta tiene que incluir operandos y operadores, simplemente seleccionando un operando veremos sus citas \(si las tiene\) en la zona de resultados. A medida que vayamos añadiendo más operandos y operadores, la zona de resultados cambiará para reflejar los cambios.
 
 2\) Condiciones a utilizar como operadores. Están agrupadas en tres categorías: Operadores _booleanos_, operadores _semánticos_ y operadores de _proximidad_. De nuevo, para seleccionar un operador sólo tenemos que hacer clic sobre el icono correspondiente.
 
@@ -60,7 +60,7 @@ Probablemente una dificultad con la que nos encontraremos al crear la consulta t
 
 Esto significa que, si habitualmente una suma la escribiríamos 4 + 5, donde 4 y 5 son los operandos y el signo + es el operador, al utilizar la RPN tenemos que escribir en primer lugar los operandos y a continuación el operador, es decir, 4 5 +.
 
-Volviendo a nuesto ejemplo, en vez de Zapatero Y Evasion, tendríamos que escribir Zapatero Evasion AND.\[^3\]
+Volviendo a nuesto ejemplo, en vez de Zapatero Y Evasion, tendríamos que escribir Zapatero Evasion AND.[^3]
 
 En el caso de que quisiéramos obtener como resultado todas las citas del código _Evasion_ en las intervenciones de cualquiera de los presidentes \(Zapatero o Rajoy\) tendríamos que añadir alguna condición más a nuestra consulta. Tendríamos que realizar una consulta para obtener las citas de cada uno de los presidentes y posteriormente combinar los resultados con una condición O. Para ello, con una “sintaxis clásica” habríamos utilizado paréntesis para definir la prioridad de las operaciones. Pero como veíamos en la cita anterior, otra de las características de la RPN es que no utiliza paréntesis, por lo que tendríamos que formular la consulta de la siguiente forma:
 
@@ -76,7 +76,7 @@ Aunque la formulación pueda parecer extraña, en la práctica es relativamente 
 
 ![\label{fig-}](images/image-143b.png)
 
-También nos puede ayudar tener en cuenta que cuando escribimos la consulta en el programa, cada una de las líneas que aparecen en la zona 3 de la Ilustración es un operando, por lo que una consulta implicará combinar dos líneas \(operandos\) con un operador.\[^4\] En la Ilustración podemos ver el proceso de escritura. En \(1\) hemos introducido los dos primeros operandos \(códigos\), que hemos combinado con el operador AND. En \(2\) tendríamos por lo tanto el resultado de la consulta, que a su vez será un operando. En \(3\) hemos vuelto a introducir dos operandos \(códigos\) que de nuevo hemos combinado con el operador AND \(que afecta sólo a las dos primeras líneas que vemos en la ilustración\), por lo que tenemos \(en 4\) el resultado de esa consulta en la primera línea, y el resultado de la anterior en la segunda. Al combinar ambos operandos con el operador OR, nos dará el resultado que podemos ver \(5\), es decir, “Todas las intervenciones del presidente Zapatero o del líder de la oposición Rajoy, que han sido codificadas como _Evasion_”.
+También nos puede ayudar tener en cuenta que cuando escribimos la consulta en el programa, cada una de las líneas que aparecen en la zona 3 de la Ilustración es un operando, por lo que una consulta implicará combinar dos líneas \(operandos\) con un operador.[^4] En la Ilustración podemos ver el proceso de escritura. En \(1\) hemos introducido los dos primeros operandos \(códigos\), que hemos combinado con el operador AND. En \(2\) tendríamos por lo tanto el resultado de la consulta, que a su vez será un operando. En \(3\) hemos vuelto a introducir dos operandos \(códigos\) que de nuevo hemos combinado con el operador AND \(que afecta sólo a las dos primeras líneas que vemos en la ilustración\), por lo que tenemos \(en 4\) el resultado de esa consulta en la primera línea, y el resultado de la anterior en la segunda. Al combinar ambos operandos con el operador OR, nos dará el resultado que podemos ver \(5\), es decir, “Todas las intervenciones del presidente Zapatero o del líder de la oposición Rajoy, que han sido codificadas como _Evasion_”.
 
 ![\label{fig-}](images/image-143.png)
 
@@ -90,7 +90,7 @@ En la tabla podemos ver la descripción de los operadores booleanos.
 
 | Operador | Sintaxis | Función |
 | --- | --- | --- |
-| OR | _A B_ OR | Selecciona las citas presentes en el operando A o en el operando B |
+| OR | _A B_ OR | Selecciona las citas presentes en el operando A o en el operando B [^5] |
 | XOR | _A B_ XOR | Selecciona las citas presentes únicamente en A o en B \(Y no las citas comunes a A y B\) |
 | AND | _A B_ AND | Selecciona las citas presentes en A y en B |
 | NOT | NOT _A_ | Selecciona las citas no presentes en A |
@@ -254,11 +254,12 @@ En la figura \ref{fig-informacion-consultas} podemos ver las informaciones dispo
 
 ![Información sobre elementos de consulta\label{fig-informacion-consultas}](images/image-154.png)
 
-\[^1\]: En el resto de esta sección nos referiremos a ellos como _operandos_.
+[^1]: En el resto de esta sección nos referiremos a ellos como _operandos_.
 
-\[^2\]: Para la definición de la consulta no necesitamos escribir nada, todo el trabajo lo realizaremos haciendo clic sobre operandos y operadores.
+[^2]: Para la definición de la consulta no necesitamos escribir nada, todo el trabajo lo realizaremos haciendo clic sobre operandos y operadores.
 
-\[^3\]: Como comentábamos, en esta herramienta no escribimos, sino que clicamos, por lo que cuando en este apartado hagamos referencia a “escribir”, el significado real es realizar diversas combinaciones de clics sobre operandos y operadores.
+[^3]: Como comentábamos, en esta herramienta no escribimos, sino que clicamos, por lo que cuando en este apartado hagamos referencia a “escribir”, el significado real es realizar diversas combinaciones de clics sobre operandos y operadores.
 
-\[^4\]: Aunque esto no es exactamente así, puesto que no todas las consultas requieren de dos operandos.
+[^4]: Aunque esto no es exactamente así, puesto que no todas las consultas requieren de dos operandos.
 
+[^5]: En esta explicación “citas presentes en el operando...” significa “citas codificadas con el código o familia de códigos...”
