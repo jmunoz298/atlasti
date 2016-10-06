@@ -32,7 +32,7 @@ Para ver los documentos incluidos en nuestras bibliotecas, tenemos que hacer cli
 
 ### Asignar archivos externos
 
-También podemos asignar documentos sin que estos pasen a formar parte de la biblioteca —la forma de asignación normal en versiones anteriores del programa. Este tipo de asignación la podemos hacer de dos formas. La primera consiste en utilizar la opción Documentos &gt; Nuevo &gt; Asignar documentos externos (ver figura \ref{fig-añadir-DP}), que abrirá una ventana (ver figura \ref{fig-asignar-externos})[^1], en la que aparecen los ficheros con las extensiones reconocidas por ATLAS.ti como posibles DPs*.* Para realizar la asignación, únicamente tenemos que seleccionar el/los documentos deseados y hacer clic en *Abrir*.
+También podemos asignar documentos sin que estos pasen a formar parte de la biblioteca —la forma de asignación normal en versiones anteriores del programa. Este tipo de asignación la podemos hacer de dos formas. La primera consiste en utilizar la opción Documentos &gt; Nuevo &gt; Asignar documentos externos (ver figura \ref{fig-añadir-DP}), que abrirá una ventana (ver figura \ref{fig-asignar-externos})[^2], en la que aparecen los ficheros con las extensiones reconocidas por ATLAS.ti como posibles DPs*.* Para realizar la asignación, únicamente tenemos que seleccionar el/los documentos deseados y hacer clic en *Abrir*.
 
 En el ejemplo de la figura \ref{fig-asignar-externos}, vemos cómo en la ventana *Asignar documentos externos* se muestran únicamente archivos de texto (.rtf) y archivos multimedia (.mp3 y .avi), que son formatos de archivo que pueden asignarse a la UH. Si posteriormente queremos añadir un nuevo DP, como por ejemplo, un archivo de sonido con la grabación de una de las entrevistas, o una nueva transcripción, sólo tenemos que volver a repetir el proceso de asignación seleccionando sólo ese archivo. No es imprescindible, por lo tanto, asignar todos los DPs a la UH antes de empezar a trabajar, podemos asignar nuevos documentos en cualquier momento del proceso de análisis.
 
@@ -188,5 +188,5 @@ Ambas formas de inserción tienen ventajas e inconvenientes, por lo que la decis
 
 [^1]: Se creará una copia de los archivos en una carpeta relativamente oculta del ordenador. Aunque es factible acceder a dicha carpeta, recomendamos dejar que que la gestione ATLAS.ti.]
 
-[^1]: En la figura aparecen los documentos de la carpeta Textbank > ControlParlamentario, que es donde hemos ubicado nuestros documentos de trabajo. Evidentemente, en el caso de que los tengamos en otra ubicación de nuestro ordenador, tendremos que navegar a la misma.
+[^2]: En la figura aparecen los documentos de la carpeta Textbank > ControlParlamentario, que es donde hemos ubicado nuestros documentos de trabajo. Evidentemente, en el caso de que los tengamos en otra ubicación de nuestro ordenador, tendremos que navegar a la misma.
 
