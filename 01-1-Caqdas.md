@@ -48,3 +48,5 @@ Después de todo, ¿a qué conclusión podemos llegar? Probablemente a ninguna e
 Como señala Pfaffenberger \(1988\), es igualmente ingenuo creer que un programa es \(a\) un instrumento técnico neutral o \(b\) un monstruo sobredeterminado. La cuestión es la comprensión de las propiedades y presupuestos de un programa, y cómo pueden apoyar o restringir su pensamiento para producir efectos no previstos \(1995, p. 330\).
 
 Lo que es evidente es que la utilización de CAQDAS puede reportar ciertas ventajas, pero debemos tener siempre presente que el ordenador no puede, en ningún caso sustituir al analista. Por lo tanto, la garantía de un buen análisis no nos la dará la mayor o menor sofisticación de los programas, sino la calidad del analista, su conocimiento del oficio de la investigación cualitativa \(Bringer, Johnston, & Brackenridge, 2006\), el examen previo de los posibles métodos y metodologías apropiados y su aplicación razonada a su problema de investigación \(Blismas & Dainty, 2003; Bong, 2002\).
+
+[^1]: Parte de este capítulo ha sido publicado previamente en (Muñoz Justicia & Sahagún Padilla, 2011)
