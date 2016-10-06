@@ -140,9 +140,7 @@ Administrador de documentos primarios: Columnas
 
 ### Edición de documentos
 
-Como hemos comentado anteriormente, existe la posibilidad de editar los documentos primarios de texto. Esta opción estará disponible siempre si los hemos asignado a una *biblioteca* o si se trata de documentos incrustados^[1
-
-Los documentos creados con la opción Documentos > Nuevo > Nuevo documento de texto], mientras que si hemos realizado la asignación con la opción *Asignar documentos externos*, sólo será posible la edición para documentos de tipo RTF y TXT.
+Como hemos comentado anteriormente, existe la posibilidad de editar los documentos primarios de texto. Esta opción estará disponible siempre si los hemos asignado a una *biblioteca* o si se trata de documentos incrustados,[^4] mientras que si hemos realizado la asignación con la opción *Asignar documentos externos*, sólo será posible la edición para documentos de tipo RTF y TXT.
 
 Si hemos asignado los documentos con la opción *Asignar documentos externos*, recomendamos no realizar ningún tipo de edición salvo en casos de estricta necesidad, puesto que existe la posibilidad de que el documento editado quede inservible y que perdamos nuestro trabajo de análisis. Además, si finalmente decidimos hacer cambios en los documentos, es imprescindible que estos se realicen con las funciones de ATLAS.ti, **nunca** editando el documento con un procesador de texto externo al programa.
 
@@ -160,7 +158,7 @@ Entonces podemos editar el documento, realizando las modificaciones necesarias, 
 
 ### Inserción de objetos/ficheros
 
-De entre las opciones del menú *Edición* destacaremos las de inserción de objeto e inserción de archivo^[Las funciones de inserción también están disponibles en el editor de memos.].
+De entre las opciones del menú *Edición* destacaremos las de inserción de objeto e inserción de archivo.[^5]
 
 La inserción de archivos (`Edición > Insertar > Insertar archivo...`) permite insertar en el documento que se esté editando, en la posición en la que se encuentre el cursor, cualquier otro documento de formato textual (incluyendo archivos de hojas de cálculo como *Microsoft Excel*). Una vez que el texto ha sido incrustado, pasará a formar parte del DP (evidentemente siempre y cuando guardemos los cambios) y podremos realizar sobre él las mismas operaciones que sobre el resto del documento. Si posteriormente modificamos el archivo que hemos incrustado de esta forma, esos cambios no se reflejarán en el archivo de DP.
 
@@ -186,9 +184,14 @@ Como hemos visto, tenemos entonces dos formas de incluir información en el docu
 
 Ambas formas de inserción tienen ventajas e inconvenientes, por lo que la decisión sobre cual de ellas utilizaremos dependerá, como en tantas otras ocasiones, de nuestros objetivos. No podemos decir, por lo tanto, que una sea mejor que otra, simplemente que cada una de ellas puede ser más o menos adecuada para nuestros fines.
 
-[^1]: Se creará una copia de los archivos en una carpeta relativamente oculta del ordenador. Aunque es factible acceder a dicha carpeta, recomendamos dejar que que la gestione ATLAS.ti.]
+[^1]: Se creará una copia de los archivos en una carpeta relativamente oculta del ordenador. Aunque es factible acceder a dicha carpeta, recomendamos dejar que que la gestione ATLAS.ti.
 
 [^2]: En la figura aparecen los documentos de la carpeta Textbank > ControlParlamentario, que es donde hemos ubicado nuestros documentos de trabajo. Evidentemente, en el caso de que los tengamos en otra ubicación de nuestro ordenador, tendremos que navegar a la misma.
 
-[^3]: El icono de documento incluye un punto verde, lo que nos indica que es un documento incrustado.]
+[^3]: El icono de documento incluye un punto verde, lo que nos indica que es un documento incrustado.
+
+[^4]: Los documentos creados con la opción Documentos > Nuevo > Nuevo documento de texto.
+
+[^5]: Las funciones de inserción también están disponibles en el editor de memos.
+
 
