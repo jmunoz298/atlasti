@@ -23,7 +23,7 @@ La ventana que aparece \(figura \ref{fig-herramienta-busqueda}\) tiene las sigui
 
 3. Activar\/desactivar la discriminación de mayúsculas\/minúsculas en la búsqueda.
 
-4. Activar\/desactivar la modalidad de búsqueda GREP.\[^1\] \(expresiones regulares\).
+4. Activar\/desactivar la modalidad de búsqueda GREP.[^1] (expresiones regulares).
 
 5. Opciones de la búsqueda por categorías.
 
@@ -32,7 +32,7 @@ La ventana que aparece \(figura \ref{fig-herramienta-busqueda}\) tiene las sigui
 
 ### Búsqueda simple
 
-Para realizar una búsqueda simple, lo único que tenemos que hacer es introducir en \(1\) la expresión de búsqueda,\[^2\] decidir si queremos que la búsqueda diferencie entre mayúsculas y minúsculas \(3\) y hacer clic en \(2\) para ejecutar la búsqueda hacia adelante o hacia atrás. Una vez que se haya realizado la búsqueda en el documento activo, el programa nos preguntará si queremos continuarla en el resto de documentos de la UH \(figura \ref{fig-continuar-busqueda}\). Si contestamos que sí, se realizará la búsqueda en el resto de documentos, sin volver a pedirnos confirmación. Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se haya realizado en el último documento de la UH, por lo que si hemos dado la orden de inicio de la búsqueda estando activo el documento P3, al llegar al último documento la búsqueda no continuará en los documentos P1 y P2.
+Para realizar una búsqueda simple, lo único que tenemos que hacer es introducir en \(1\) la expresión de búsqueda,[^2] decidir si queremos que la búsqueda diferencie entre mayúsculas y minúsculas \(3\) y hacer clic en \(2\) para ejecutar la búsqueda hacia adelante o hacia atrás. Una vez que se haya realizado la búsqueda en el documento activo, el programa nos preguntará si queremos continuarla en el resto de documentos de la UH \(figura \ref{fig-continuar-busqueda}\). Si contestamos que sí, se realizará la búsqueda en el resto de documentos, sin volver a pedirnos confirmación. Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se haya realizado en el último documento de la UH, por lo que si hemos dado la orden de inicio de la búsqueda estando activo el documento P3, al llegar al último documento la búsqueda no continuará en los documentos P1 y P2.
 
 ![Continuar búsqueda\label{fig-continuar-busqueda}](images/image-132.png)
 
@@ -42,7 +42,7 @@ La búsqueda por categorías implica la definición, en la sentencia de búsqued
 
 En nuestro caso, podría interesarnos buscar todas las referencias que hacen los parlamentarios a terceros países, por lo que podríamos definir una búsqueda en la que se incluyeran Francia, Alemania, Inglaterra… de forma que la búsqueda fuera exitosa con la aparición de cualquiera de ellos en el texto.
 
-Para ello, introduciremos en la zona de búsqueda los nombres de los diferentes países separados por una barra vertical \|.\[^3\]
+Para ello, introduciremos en la zona de búsqueda los nombres de los diferentes países separados por una barra vertical `|`.[^3]
 
 ![Búsqueda por categorías\label{fig-busqueda-categorias}](images/image-133.png)
 
@@ -50,7 +50,7 @@ Si cerramos la ventana de búsqueda y volvemos a abrirla, observaremos que sigue
 
 TEMP:=Francia\|Alemania\|Inglaterra
 
-Si clicamos sobre la flecha ubicada a la derecha de la zona de escritura de la búsqueda, veremos además que, junto a esta, nos aparecen toda otra serie de búsquedas \(predefinidas\), todas ellas precedidas por algún término y los caracteres := \(dos puntos y signo de igualdad\). Estos caracteres son los que utilizamos para definir auténticas categorías de búsqueda, es decir, para definir un identificador para las búsquedas. Dado que no lo habíamos hecho previamente, el programa ha identificado nuestra búsqueda como “TEMP”, pero podemos cambiar esa etiqueta por otra más significativa, como por ejemplo EUROPA.\[^4\] De esta forma, nuestra sentencia de búsqueda sería
+Si clicamos sobre la flecha ubicada a la derecha de la zona de escritura de la búsqueda, veremos además que, junto a esta, nos aparecen toda otra serie de búsquedas \(predefinidas\), todas ellas precedidas por algún término y los caracteres := \(dos puntos y signo de igualdad\). Estos caracteres son los que utilizamos para definir auténticas categorías de búsqueda, es decir, para definir un identificador para las búsquedas. Dado que no lo habíamos hecho previamente, el programa ha identificado nuestra búsqueda como “TEMP”, pero podemos cambiar esa etiqueta por otra más significativa, como por ejemplo EUROPA.[^4] De esta forma, nuestra sentencia de búsqueda sería
 
 EUROPA:=Francia\|Alemania\|Inglaterra
 
@@ -82,7 +82,7 @@ Hay que tener en cuenta que una vez que cerremos la sesión con Atlas, desaparec
 
 ![Opciones de búsqueda\label{fig-opciones-busqueda}](images/image-135.png)
 
-Podemos sobreescribir ese archivo o dar un nombre diferente, teniendo en cuenta que si lo sobreescribimos, la lista que acabamos de salvar será la que utilizará ATLAS.ti por defecto la próxima vez que utilicemos el programa. En el caso de dar un nombre de archivo diferente, para poder recuperar esa lista en futuras sesiones, tendremos que utilizar la opción _Cargar Categorías_. También podemos eliminar elementos de la lista de categorías con la opción _Borrar Categoría._\[^5\]
+Podemos sobreescribir ese archivo o dar un nombre diferente, teniendo en cuenta que si lo sobreescribimos, la lista que acabamos de salvar será la que utilizará ATLAS.ti por defecto la próxima vez que utilicemos el programa. En el caso de dar un nombre de archivo diferente, para poder recuperar esa lista en futuras sesiones, tendremos que utilizar la opción _Cargar Categorías_. También podemos eliminar elementos de la lista de categorías con la opción _Borrar Categoría._[^5]
 
 ### Búsqueda GREP
 
@@ -116,7 +116,7 @@ Operadores GREP
 
 Anteriormente hemos realizado la autocodificación de las intervenciones de los participantes utilizando como criterio de búsqueda la etiqueta de participante. Comentábamos que para que el resultado sea correcto, el formato de las etiquetas debía ser lo suficientemente exclusivo como para no poder confundirse con el mismo texto apareciendo en otra parte del documento sin ser etiqueta de participante. Por ejemplo, si queremos autocodificar las intervenciones del Presidente, la etiqueta “Presidente” no sería válida, puesto que podemos encontrar la misma palabra en momentos en que otros participantes aludan al presidente. En nuestro caso esto no ocurre, puesto que la etiqueta de participante es “Presidente.-”, es decir, incluye los caracteres .- lo que hace altamente improbable que ese texto exacto esté presente en otras partes del documento.
 
-¿Pero qué pasaría si nuestras etiquetas no cumplen esa característica? Evidentemente, si no hemos realizado previamente ningún trabajo de segmentación\/codificación sobre el documento, la mejor alternativa es volver al archivo original para modificar las etiquetas y volver a realizar la asignación del documento. En caso contrario, podemos optar por una opción \(quizás no óptima\) consistente en considerar que la aparición del término “Presidente” al inicio de un párrafo probablemente será la etiqueta del participante. Por lo tanto, nuestra búsqueda GREP debería ser \^Presidente.
+¿Pero qué pasaría si nuestras etiquetas no cumplen esa característica? Evidentemente, si no hemos realizado previamente ningún trabajo de segmentación\/codificación sobre el documento, la mejor alternativa es volver al archivo original para modificar las etiquetas y volver a realizar la asignación del documento. En caso contrario, podemos optar por una opción \(quizás no óptima\) consistente en considerar que la aparición del término “Presidente” al inicio de un párrafo probablemente será la etiqueta del participante. Por lo tanto, nuestra búsqueda GREP debería ser `Presidente`.
 
 Si nuestros datos son entrevistas en las que han participado diferentes entrevistadores a los que hemos identificado etiquetas del tipo “Ent1:”, “Ent2:”, etc., y queremos autocodificar sus intervenciones de una forma genérica, con un único código “Entrevistador”, podemos utilizar otra combinación de expresiones.
 
@@ -124,7 +124,7 @@ Volveremos a utilizar el operador \^ seguido de “Ent” para especificar que l
 
 **Búsqueda al inicio de palabra**
 
-Otra posibilidad que tenemos es hacer búsquedas que funciones únicamente cuando el texto buscado se encuentra al inicio \(o al final\) de una palabra pero no si se encuentra en cualquier otra posición.
+Otra posibilidad que tenemos es hacer búsquedas que funciones únicamente cuando el texto buscado se encuentra al inicio (o al final) de una palabra pero no si se encuentra en cualquier otra posición.
 
 Imaginemos, por ejemplo, que queremos encontrar palabras que empiecen por "pre". Si hacemos una búsqueda normal \(no GREP\), obtendríamos como resultado tanto “presidente”, "precisión" y "presente" como "imprecisión", "impresionante" o "comprensión", en las que el término de búsqueda forma parte de la palabra aunque no al inicio.
 
@@ -182,7 +182,7 @@ en la que utilizamos el paréntesis para agrupar el conjunto de caracteres a los
 
 \w\*\(ar\|er\|ir\)\&gt;
 
-Volviendo a la autocodificación de nuestros participantes, recordamos que la estrategia que habíamos utilizado era crear un código para cada uno de ellos, es decir, cada uno de los parlamentarios está asociado con un código. Aunque esta estrategia es correcta, podríamos haber decidido que no nos interesa qué persona en concreto es la que está interviniendo sino el partido político al que pertenece.\[^6\] Esto significa que si queremos autocodificar las intervenciones de Josep Antoni Durán i Lleida, Pere Macias, Josep Sánchez i Llibre y Jordi Vilajoana, con el código “CiU” \(en vez de un código diferente para cada uno de ellos\). La expresión en este caso sería
+Volviendo a la autocodificación de nuestros participantes, recordamos que la estrategia que habíamos utilizado era crear un código para cada uno de ellos, es decir, cada uno de los parlamentarios está asociado con un código. Aunque esta estrategia es correcta, podríamos haber decidido que no nos interesa qué persona en concreto es la que está interviniendo sino el partido político al que pertenece.[^6] Esto significa que si queremos autocodificar las intervenciones de Josep Antoni Durán i Lleida, Pere Macias, Josep Sánchez i Llibre y Jordi Vilajoana, con el código “CiU” \(en vez de un código diferente para cada uno de ellos\). La expresión en este caso sería
 
 \^Sr. \(Duran\|Macias\|Sanchez\|Vilajoana\).-
 
@@ -206,15 +206,15 @@ De forma que si introducimos la siguiente expresión
 
 El resultado será todas las palabras que contengan \(pero no comiencen\) por "do", por ejemplo, encontrará "adocenar" pero no "doce". De todas formas, también encontraría aquellas cuya finalización sea "do", por ejemplo "cogido". Si queremos evitar esto, es decir, encontrar aquellas en las que la cadena se encuentre únicamente en el "interior" de una palabra, entonces la expresión que deberemos utilizar será \Bdo\B
 
-\[^1\]: Acrónimo de “Global find Regular Expressions and Print”
+[^1]: Acrónimo de “Global find Regular Expressions and Print”
 
-\[^2\]: Podemos utilizar el carácter especial “\*” para indicar “cualquier carácter o caracteres. Si el asterisco va a continuación de la sentencia sería equivalente a indicar “todos los caracteres a continuación”, si la precede, el significado sería “todos los caracteres anteriores”.
+[^2]: Podemos utilizar el carácter especial “\*” para indicar “cualquier carácter o caracteres. Si el asterisco va a continuación de la sentencia sería equivalente a indicar “todos los caracteres a continuación”, si la precede, el significado sería “todos los caracteres anteriores”.
 
-\[^3\]: En la mayoría de los teclados, para introducimos este signo con la combinación de teclas AltGr”+1 \(aunque este último carácter puede variar en función del teclado\).
+[^3]: En la mayoría de los teclados, para introducimos este signo con la combinación de teclas AltGr”+1 \(aunque este último carácter puede variar en función del teclado\).
 
-\[^4\]: Si no cambiamos la etiqueta de la categoría, al realizar una nueva búsqueda, la anterior desaparecería de la lista, puesto que la nueva quedaría identificada igualmente como “TEMP”.
+[^4]: Si no cambiamos la etiqueta de la categoría, al realizar una nueva búsqueda, la anterior desaparecería de la lista, puesto que la nueva quedaría identificada igualmente como “TEMP”.
 
-\[^5\]: Otra forma de modificar la lista de categorías es modificar directamente el fichero Srchbib.skt\(o crear otro fichero .skt\) con un editor de texto.
+[^5]: Otra forma de modificar la lista de categorías es modificar directamente el fichero Srchbib.skt\(o crear otro fichero .skt\) con un editor de texto.
 
-\[^6\]: Lo que en nuestro caso habíamos hecho creando familias de participantes para cada uno de los partidos políticos.
+[^6]: Lo que en nuestro caso habíamos hecho creando familias de participantes para cada uno de los partidos políticos.
 
