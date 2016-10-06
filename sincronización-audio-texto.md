@@ -30,7 +30,7 @@ F4 es un programa de ayuda a la transcripción desarrollado por audiotranskripti
 
 10. Controles de reproducción
 
-En primer lugar, una vez que hemos ejecutado el programa, tenemos que añadir el archivo de texto correspondiente a la transcripción. Para ello, haremos clic en (1) (figura \ref{Fig-F4-menu}) y elegiremos, el archivo sobre el que queremos realizar la sincronización. Una vez cargado ese archivo, el programa nos preguntará si queremos “cargar el archivo de medios correspondiente”, es decir, el archivo de audio o vídeo al que se corresponde el texto que hemos cargado previamente (ver figura \ref{fig-F4-carga})^[Si por cualquier motivo no cargamos el archivo de medios en ese momento, podemos hacerlo posteriormente haciendo clic en (2) (figura \ref{fig-F4-menu})]. Una vez que digamos que sí, ya podemos empezar a realizar la sincronización.
+En primer lugar, una vez que hemos ejecutado el programa, tenemos que añadir el archivo de texto correspondiente a la transcripción. Para ello, haremos clic en (1) (figura \ref{Fig-F4-menu}) y elegiremos, el archivo sobre el que queremos realizar la sincronización. Una vez cargado ese archivo, el programa nos preguntará si queremos “cargar el archivo de medios correspondiente”, es decir, el archivo de audio o vídeo al que se corresponde el texto que hemos cargado previamente (ver figura \ref{fig-F4-carga}).[^1] Una vez que digamos que sí, ya podemos empezar a realizar la sincronización.
 
 ![F4: Carga de archivo de medios\label{fig-F4-carga}](images/image-043.png)
 
@@ -73,3 +73,5 @@ Si lo que queremos es ir escuchando el archivo de audio y al mismo tiempo que qu
 ![Sincronización, modo resaltado de texto\label{fig-sincronizacion-resaltado}](images/image-050.png)
 
 Por ejemplo si queremos que a medida que se va reproduciendo el audio quede resaltado el texto correspondiente (entre dos marcas temporales) seleccionaremos la opción *Resaltar sección.* A continuación, seleccionaremos la opción Documentos &gt; Docs-A &gt; Modo sincronizado (o F3), y finalmente, de nuevo en el menú Documentos &gt; Docs-A, la opción *Reproducir-pausa* (o F4). Si durante la reproducción colocamos el cursor sobre otra zona de texto, la sincronización se realizará en ese punto.
+
+[^1]. Si por cualquier motivo no cargamos el archivo de medios en ese momento, podemos hacerlo posteriormente haciendo clic en (2) (figura \ref{fig-F4-menu}).
