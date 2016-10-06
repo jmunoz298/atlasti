@@ -79,7 +79,7 @@ Las etiquetas de columna sin prefijo se interpretarán como preguntas abiertas
 
 La importación (asignación) de los datos la realizaremos con la opción Documentos &gt; Nuevo &gt; Importar datos de encuesta (ver Ilustración, pág. Ilustración). De la misma forma que con los documentos incrustados descritos anteriormente, los DPs formarán parte de la UH; estarán incrustados, no vinculados, por lo que no dependerán de lo que hagamos con la hoja de cálculo.
 
-En la figura \ref{fig-datos-encuesta-importados} podemos ver el resultado de la importación de los datos del ejemplo, con los cuatro documentos que se corresponden con los cuatro casos^[El icono de documento incluye un punto verde, lo que nos indica que es un documento incrustado.]. Además de la importación, se crearán familias de documentos en función de las variables de la encuesta.
+En la figura \ref{fig-datos-encuesta-importados} podemos ver el resultado de la importación de los datos del ejemplo, con los cuatro documentos que se corresponden con los cuatro casos [^3]. Además de la importación, se crearán familias de documentos en función de las variables de la encuesta.
 
 ![Datos de encuesta importados\label{fig-datos-encuesta-importados}](images/image-031.png)
 
@@ -189,4 +189,6 @@ Ambas formas de inserción tienen ventajas e inconvenientes, por lo que la decis
 [^1]: Se creará una copia de los archivos en una carpeta relativamente oculta del ordenador. Aunque es factible acceder a dicha carpeta, recomendamos dejar que que la gestione ATLAS.ti.]
 
 [^2]: En la figura aparecen los documentos de la carpeta Textbank > ControlParlamentario, que es donde hemos ubicado nuestros documentos de trabajo. Evidentemente, en el caso de que los tengamos en otra ubicación de nuestro ordenador, tendremos que navegar a la misma.
+
+[^3]: El icono de documento incluye un punto verde, lo que nos indica que es un documento incrustado.]
 
