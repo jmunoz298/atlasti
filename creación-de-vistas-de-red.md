@@ -86,7 +86,7 @@ Si podemos crear nodos, es lógico que también podamos crear relaciones en la m
 
 ![Crear relación: Destino\label{fig-crear-relacion-destino}](images/image-125.png)
 
-De la misma forma que con los _nodos_, las relaciones así creadas forman parte de la UH, y de la misma forma que con los _nodos_, si las eliminamos de la _vista de red_ quedarán eliminadas de la UH^\[Evidentemente esto ocurrirá con cualquier relación y con cualquier nodo, con los que hemos creado directamente en la red o con los que existían previamente.\]. Pero a diferencia de los _nodos_, que podíamos _quitar de la vista_, las relaciones, si existen, no pueden no ser representadas \(sería una distorsión de los datos\).
+De la misma forma que con los _nodos_, las relaciones así creadas forman parte de la UH, y de la misma forma que con los _nodos_, si las eliminamos de la _vista de red_ quedarán eliminadas de la UH.\[^4\] Pero a diferencia de los _nodos_, que podíamos _quitar de la vista_, las relaciones, si existen, no pueden no ser representadas \(sería una distorsión de los datos\).
 
 Tenemos otras opciones de edición de las relaciones. En el caso de las no simétricas, podemos cambiar la dirección de la relación haciendo clic con el botón derecho del ratón sobre la etiqueta de la relación y seleccionando Voltear vínculo. En la figura \ref{fig-editar-relacion}, podemos ver que también podemos editar el comentario de la relación e incluso cambiar el tipo de relación.
 
@@ -97,4 +97,6 @@ Tenemos otras opciones de edición de las relaciones. En el caso de las no simé
 \[^2\]: En ese caso, puede ser conveniente proceder, como veremos más adelante, a crear una nueva red para representar el resto de nodos.
 
 \[^3\]: Y recordemos que el borrado de un elemento de la UH no puede deshacerse.
+
+\[^4\]: Evidentemente esto ocurrirá con cualquier relación y con cualquier nodo, con los que hemos creado directamente en la red o con los que existían previamente.
 
