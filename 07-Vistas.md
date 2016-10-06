@@ -10,9 +10,9 @@ Otros autores hacen planteamientos similares a los de Strauss y Corbin \(Miles &
 
 ![Redes temáticas Attride-Stirling, 2001, p.388\label{fig-attride}](images/image-112.png)
 
-Las _Redes_ nos permitirán no sólo representar gráficamente las relaciones creadas entre los diferentes componentes que forman parte de la UH, sino que serán también un espacio donde podremos crear nuevas relaciones entre componentes\[^1\] o incluso crear nuevos componentes \(códigos, anotaciones y familias\). Esto significa que podemos considerar a las _Redes_ no sólo como el espacio para la representación del trabajo realizado, sino como un espacio para **desarrollar y refinar** dicho trabajo.
+Las _Redes_ nos permitirán no sólo representar gráficamente las relaciones creadas entre los diferentes componentes que forman parte de la UH, sino que serán también un espacio donde podremos crear nuevas relaciones entre componentes[^1] o incluso crear nuevos componentes \(códigos, anotaciones y familias\). Esto significa que podemos considerar a las _Redes_ no sólo como el espacio para la representación del trabajo realizado, sino como un espacio para **desarrollar y refinar** dicho trabajo.
 
 Ahora que quizás tenemos una idea más clara de qué son y de cuan importantes son las _redes_, veamos cómo podemos trabajar con ellas en ATLAS.ti.
 
-\[^1\]: En la práctica, la forma más fácil de crear relaciones entre elementos es desde el editor de _Vistas de Red_.
+[^1]: En la práctica, la forma más fácil de crear relaciones entre elementos es desde el editor de _Vistas de Red_.
 
