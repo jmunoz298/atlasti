@@ -96,19 +96,19 @@ Aunque es muy probable que no necesitemos toda la potencia de la búsqueda GREP,
 | --- | --- |
 | ^_término_ | Limita la expresión de búsqueda que sigue al marcador al principio de la línea. Si se utiliza como el primer carácter dentro de una expresión entre paréntesis, excluye de la búsqueda el rango especificado. |
 | _término_\$ | Limita la expresión de búsqueda precedente al final de la línea. |
-| \\&lt;_término_ | Limita la expresión de búsqueda siguiente al inicio de una palabra. |
-| _término_\\&gt; | Limita la expresión de búsqueda precedente al inicio de una palabra |
-| \\B | Limita la expresión de búsqueda siguiente a NO incio de palabra |
-| \\B | Limita la expresión de búsqueda precedente a NO final de palabra |
+| \&lt;_término_ | Limita la expresión de búsqueda siguiente al inicio de una palabra. |
+| _término_\&gt; | Limita la expresión de búsqueda precedente al inicio de una palabra |
+| \B | Limita la expresión de búsqueda siguiente a NO incio de palabra |
+| \B | Limita la expresión de búsqueda precedente a NO final de palabra |
 | . | Localiza cualquier carácter. |
-| \\w | Localiza cualquier carácter alfanumérico. |
+| \w | Localiza cualquier carácter alfanumérico. |
 | \* | Localiza cualquier cantidad \(o su ausencia\) de la expresión precedente. |
 | + | Localiza al menos una ocurrencia de la expresión precedente. |
 | ? | Localiza cero o una ocurrencia de la expresión precedente. |
 | \[ \] | Localiza un rango de caracteres. |
 | \(_término_ _término_ _término_\) | Localiza varios términos de forma simultánea. |
 | :d | Localiza cualquier dígito. |
-| \\ | Carácter utilizado cuando en la expresión se debe incluir uno de los caracteres especiales anteriores. |
+| \ | Carácter utilizado cuando en la expresión se debe incluir uno de los caracteres especiales anteriores. |
 
 Operadores GREP
 
