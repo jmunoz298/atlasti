@@ -15,7 +15,7 @@ Activamos la herramienta con la opción Edición &gt; Buscar o con el icono lupa
 
 La ventana que aparece \(figura \ref{fig-herramienta-busqueda}\) tiene las siguientes secciones:
 
-![Ventana de herramienta de búsqueda\label{fig-herramienta-busqueda}](images/image-131.png)
+![Ventana de herramienta de búsqueda\label{fig-herramienta-busqueda}](image-131.png)
 
 1. Espacio para escritura \(y almacenamiento\) de la expresión de búsqueda.
 
