@@ -46,5 +46,4 @@
     * [Documentos con márgen](documentos-con-márgen.md)
     * [Informes XML](informes-xml.md)
 * [Referencias](referencias.md)
-* [citasx.adoc](citasxadoc.md)
 
