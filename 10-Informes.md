@@ -10,7 +10,7 @@ Prácticamente todos los menús del programa incluyen una opción *Imprimir*, qu
 
 También podemos encontrar el menú *Imprimir* en muchos de los *administradores*, y en algunos de ellos también un icono de impresora que da acceso a algunas opciones particulares.
 
-Podemos empezar, por ejemplo solicitando un informe con la lista de DPs de nuestra UH. Por lo tanto, seleccionaremos Documentos &gt; Imprimir &gt; Lista de documentos. Lo primero que aparecerá será una ventana en la que se nos preguntará si queremos incluir en el informe los comentarios de los documentos^[Esta ventana no aparecerá siempre, sólo lo hará cuando el elemento que queremos listar tiene información de ese tipo. Por ejemplo, si pedimos un listado de citas de un código pero ninguna cita tiene asociados comentarios o memos ni tiene hypervínculos, esta pantalla no aparecerá.]. Esto puede ocurrir también en otros informes, e incluso se nos puede preguntar sobre la inclusión de alguna otra información.
+Podemos empezar, por ejemplo solicitando un informe con la lista de DPs de nuestra UH. Por lo tanto, seleccionaremos Documentos &gt; Imprimir &gt; Lista de documentos. Lo primero que aparecerá será una ventana en la que se nos preguntará si queremos incluir en el informe los comentarios de los documentos[^1]. Esto puede ocurrir también en otros informes, e incluso se nos puede preguntar sobre la inclusión de alguna otra información.
 
 ![](images/image-176.png)
 
@@ -35,4 +35,7 @@ Como vemos en la Ilustración, podemos solicitar una gran variedad de tipos de i
 Las opciones de informes relacionados con códigos también están disponibles en el *administrador de códigos*, en el menú *Imprimir*. En este administrador encontraremos además un icono de impresora que permitirá acceder a una ventana especial de generación de informes.
 
 ![Ventana de opciones de informes de códigos\label{fig-ventana-informes-codigos}](images/image-179.png)
+
+[^1]: Esta ventana no aparecerá siempre, sólo lo hará cuando el elemento que queremos listar tiene información de ese tipo. Por ejemplo, si pedimos un listado de citas de un código pero ninguna cita tiene asociados comentarios o memos ni tiene hypervínculos, esta pantalla no aparecerá.
+
 
