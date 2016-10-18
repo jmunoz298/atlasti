@@ -1,7 +1,5 @@
 {
-    "plugins": [
-        "fancybox",
-            ],
-  "pluginsConfig": {
- }
-  }
+"plugins": [
+"fancybox",
+]
+}
