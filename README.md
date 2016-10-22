@@ -1,11 +1,16 @@
-# Hacer análisis cualitativo con ATLAS.ti 7:
+# Hacer análisis cualitativo con ATLAS.ti 7: Manual de uso
 
-## Manual de uso
+= The Dangerous and Thrilling Documentation Chronicles
+Kismet Rainbow Chameleon <kismet@asciidoctor.org>
 
-Juan Muñoz-Justicia
+This journey begins...
 
-Miguel Sahagún-Padilla
+== About the Author
 
+You can contact {author} at {email}.
+{firstname} loves to hear from other chroniclers.
 
-Versión 1.0 – 2015
+P.S. And yes, my middle name really is {middlename}.
+What else would you expect from a member of the Rocky Mountain {lastname} Clan?
 
+{authorinitials}
