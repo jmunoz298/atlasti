@@ -1,7 +1,7 @@
-# Summary
+## Summary
 
 * [Readme](README.md)
-* [Introducción](01-Introduccion.md)
+* [Introducción](01-Introduccion.adoc)
     * [CAQDAS](01-1-Caqdas.adoc)
     * [¿Qué es Atlas.ti?](01-2-QueEs.md)
     * [Datos ilustrativos](01-3-DatosIlustrativos.md)
