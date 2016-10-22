@@ -18,15 +18,11 @@ haciendo que en nuestros días muchas personas podamos hacer nuestras las
 palabras de Anselm Strauss en el prefacio al manual de usuarios de
 ATLAS.ti de Thomar Muhr:
 
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-En mis días de estudiante de posgrado, no había grabadoras para hacer
-más fácil la vida del entrevistador; llegaron después de la IIGM,
-pasando primero por la etapa de las grandes grabadoras. Eran máquinas
-pesadas, que adelgazaron sólo gradualmente hasta los modelos ligeros
-actuales. Muchos años después, siguiendo nuestros sueños de ordenadores
-que hicieran más fácil nuestras vidas como investigadores cualitativos,
-se inventó el software para nosotros (Strauss, 1997, p. 1).
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[quote, Strauss, "1997, p.1"]
+____
+En mis días de estudiante de posgrado, no había grabadoras para hacer más fácil la vida del entrevistador; llegaron después de la IIGM, pasando primero por la etapa de las grandes grabadoras. Eran máquinas pesadas, que adelgazaron sólo gradualmente hasta los modelos ligeros actuales. Muchos años después, siguiendo nuestros sueños de ordenadores que hicieran más fácil nuestras vidas como investigadores cualitativos, se inventó el software para nosotros (Strauss, 1997, p. 1).
+____
+
 
 Compartamos o no el entusiasmo de Anselm Strauss, lo que es innegable es
 que la imbricación entre informática y metodología ha transformado las
