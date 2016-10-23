@@ -18,7 +18,7 @@
 * [Segmentar y codificar](05-Segmentar.adoc)
     * [Creación de códigos](05-1-creacion-de-codigos.adoc)
     * [Citas](05-2-citas.adoc)
-    * [Codificacion](05-3codificacion.adoc)
+    * [Codificacion](05-3-codificacion.adoc)
     * [Autocodificación](05-4-autocodificacion.adoc)
     * [Visualización](05-5-visualizacion.adoc)
     * [Operaciones con citas y códigos](05-6-operaciones-con-citas-y-codigos.adoc)
