@@ -23,7 +23,7 @@ lupa de la barra de herramientas de documentos (vertical).
 
 La ventana que aparece (figura ) tiene las siguientes secciones:
 
-image:image-131.png[Ventana de herramienta de búsqueda]
+image::image-131.png[Ventana de herramienta de búsqueda]
 
 1.  Espacio para escritura (y almacenamiento) de la expresión de
 búsqueda.
@@ -57,7 +57,7 @@ dado la orden de inicio de la búsqueda estando activo el documento P3,
 al llegar al último documento la búsqueda no continuará en los
 documentos P1 y P2.
 
-image:images/image-132.png[Continuar búsqueda]
+image::images/image-132.png[Continuar búsqueda]
 
 [[búsqueda-por-categorías]]
 Búsqueda por categorías
@@ -84,7 +84,7 @@ mayoría de los teclados, para introducimos este signo con la combinación
 de teclas AltGr”+1 (aunque este último carácter puede variar en función
 del teclado).]
 
-image:images/image-133.png[Búsqueda por categorías]
+image::images/image-133.png[Búsqueda por categorías]
 
 Si cerramos la ventana de búsqueda y volvemos a abrirla, observaremos
 que sigue apareciendo la última sentencia de búsqueda que habíamos
@@ -158,7 +158,7 @@ de la ventana de búsqueda (figura ). Atlas pedirá un nombre de archivo
 con el que salvar la lista, y sugerirá como nombre por defecto
 “SEARCHBIB.SKT”.
 
-image:images/image-135.png[Opciones de búsqueda]
+image::images/image-135.png[Opciones de búsqueda]
 
 Podemos sobreescribir ese archivo o dar un nombre diferente, teniendo en
 cuenta que si lo sobreescribimos, la lista que acabamos de salvar será

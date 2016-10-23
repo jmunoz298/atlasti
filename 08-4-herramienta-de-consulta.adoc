@@ -58,7 +58,7 @@ Podemos acceder a la _Herramienta de consulta_ utilizando el icono
 Análisis > Herramienta de consulta. A continuación analizaremos la
 compleja ventana que nos aparece ( figura ).
 
-image:images/image-141.png[Herramienta de consulta]
+image::images/image-141.png[Herramienta de consulta]
 
 \1) Códigos y Familias de Códigosfootnote:[En el resto de esta sección
 nos referiremos a ellos como __operandos__.] existentes en la UH. Como
@@ -104,7 +104,7 @@ para seleccionar los documentos a los que se aplicará la consulta_._ En
 este caso los operandos serán documentos y familias de documentos y los
 operadores sólo los booleanos.
 
-image:images/image-142.png[Herramienta de consulta: Alcance]
+image::images/image-142.png[Herramienta de consulta: Alcance]
 
 \8) Convierte los resultados de la _consulta_ en una _Super-código_ (ver
 pág. 162).
@@ -185,9 +185,9 @@ correspondientes a la primera parte de la consulta (1) éstas se
 convierten en un operando, lo mismo que las de (2), por lo que una vez
 que tenemos dos operandos los combinamos con el operador OR en (3).
 
-image:images/image-143a.png[]
+image::images/image-143a.png[]
 
-image:images/image-143b.png[]
+image::images/image-143b.png[]
 
 También nos puede ayudar tener en cuenta que cuando escribimos la
 consulta en el programa, cada una de las líneas que aparecen en la zona
@@ -207,7 +207,7 @@ resultado que podemos ver (5), es decir, “Todas las intervenciones del
 presidente Zapatero o del líder de la oposición Rajoy, que han sido
 codificadas como __Evasion__”.
 
-image:images/image-143.png[]
+image::images/image-143.png[]
 
 [[operadores]]
 Operadores
@@ -251,7 +251,7 @@ de códigos), y las zonas sombreadas serán el equivalente al resultado
 obtenido, es decir, a las citas que serían recuperadas. En la figura
 tenemos el primer ejemplo con los operadores booleanos.
 
-image:images/image-144.png[Diagrama de Venn: Operadores Booleanos]
+image::images/image-144.png[Diagrama de Venn: Operadores Booleanos]
 
 En (1) tenemos el resultado de la aplicación del operador OR, que
 implica la selección de todas las citas que están codificadas como A o
@@ -270,13 +270,13 @@ que queríamos obtener “Todas las intervenciones del presidente Zapatero
 o del líder de la oposición Rajoy, que han sido codificadas como
 __Evasion__”,
 
-image:images/image-145.png[Diagrama: (Zapatero OR Rajoy) AND Evasion]
+image::images/image-145.png[Diagrama: (Zapatero OR Rajoy) AND Evasion]
 
 Imaginemos ahora una situación como la representada en la figura , en la
 que el diagrama de Venn representa cuatro códigos que incluyen un total
 de catorce citas distribuidas de la siguiente forma:
 
-image:images/image-146.png[Diagrama de Venn: Ejemplo de codificación]
+image::images/image-146.png[Diagrama de Venn: Ejemplo de codificación]
 
 Ahora podemos ver fácilmente el resultado (citas) de diferentes
 consultas
@@ -301,11 +301,11 @@ que están codificadas con el Código-A o con el Código-B pero no con el
 Código-C. El resultado debería ser el que vemos en el diagrama de Venn
 de la figura .
 
-image:images/image-147.png[Diagrama de Venn: Consulta múltiple]
+image::images/image-147.png[Diagrama de Venn: Consulta múltiple]
 
 Y la forma de realizarla sería como vemos en la siguiente tabla.
 
-image:images/image-148a.png[Consulta múltiple]
+image::images/image-148a.png[Consulta múltiple]
 
 [[operadores-semánticos]]
 Operadores Semánticos
@@ -369,7 +369,7 @@ Dado que _Ans Direct_ tiene 6 citas y _Ans Indirect_ tiene 9, el
 resultado de Answer DOWN será de 15 citas (si no hay ninguna que esté en
 ambos códigos).
 
-image:images/image-148b.png[Red Answer]
+image::images/image-148b.png[Red Answer]
 
 Por supuesto, podemos combinar los operadores semánticos con los otros
 tipos de operadores (booleanos y de proximidad). En un ejemplo anterior
@@ -453,7 +453,7 @@ Operadores de proximidad
 En la figura hemos simulado una hipotética codificación que nos
 permitirá ilustrar cómo funcionan estos operadores.
 
-image:images/image-149.png[Ilustración operadores proximidad]
+image::images/image-149.png[Ilustración operadores proximidad]
 
 Como vemos, el operador _Cooccur_ es una combinación de varios de los
 operadores de proximidad (todos menos _Follows_ y __Precedes__), por lo
@@ -475,7 +475,7 @@ tiempo como __Zapatero__. Por lo tanto, para poder recuperar citas que
 tengan estas características debemos utilizar el operador _Cooccur_
 (aunque en este ejemplo también funcionaría __Within__).
 
-image:images/image-150.png[Concurrencia de citas]
+image::images/image-150.png[Concurrencia de citas]
 
 Por lo tanto, nuestra consulta debería ser.
 
@@ -600,4 +600,4 @@ derecho del ratón) sobre alguno de esos elementos.
 En la figura podemos ver las informaciones disponibles para códigos,
 citas y familias de códigos.
 
-image:images/image-154.png[Información sobre elementos de consulta]
+image::images/image-154.png[Información sobre elementos de consulta]

@@ -1,6 +1,5 @@
 [[vistas-de-red]]
-Vistas de Red
--------------
+=== Vistas de Red
 
 Las Vistas de Red son uno de los componentes de ATLAS.ti que más atraen
 al usuario novel, al que le puede impresionar la posibilidad de realizar
@@ -41,8 +40,7 @@ diferentes niveles de __temas__, y que si utilizamos “lenguaje”
 ATLAS.ti, podríamos interpretar como la representación de diferentes
 _códigos_ (en la práctica, un _código_ puede ser un tema).
 
-image:images/image-112.png[Redes temáticas Attride-Stirling, 2001,
-p.388]
+image::images/image-112.png[Redes temáticas Attride-Stirling, 2001, p.388]
 
 Las _Redes_ nos permitirán no sólo representar gráficamente las
 relaciones creadas entre los diferentes componentes que forman parte de

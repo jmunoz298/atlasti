@@ -3,7 +3,7 @@
 
 ATLAS.ti cuenta con un recurso para crear agrupaciones de elementos atendiendo a los criterios que la analista considere relevantes. Así como los códigos “agrupan” citas, es posible crear agrupaciones de DPs_,_ códigos y memos. A estas agrupaciones se les denomina _Familias._ La organización de objetos en familias posibilita un trabajo más ordenado y permite filtrar los elementos con los que se trabaja para una labor más enfocada. En ATLAS.ti no existen familias de citas, puesto que se considera que los códigos ya cumplen esa función. Las familias de ATLAS.ti no son excluyentes entres sí; un mismo objeto puede pertenecer a más de una familia. Para una definición de las familias que un proyecto requiere, es importante considerar la herramienta de S_uper familias_ (ver pág. 96), que nos puede automatizar parte del trabajo.
 
-image:images/image-084.png[Tipos de Familias]
+image::images/image-084.png[Tipos de Familias]
 
 [[tipos-de-familias]]
 ==== Tipos de familias
@@ -40,11 +40,11 @@ En el caso de las __Memos__, podemos proceder de la misma forma, agrupándolas e
 
 La creación/edición de las familias se realiza mediante la opción _Familias_ de los menús __Documentos__, _Códigos_ y _Memos_ (figura ), que nos permitirá acceder a su vez a las opciones _Abrir administrador de familias_ y _Asignar familias_ .
 
-image:images/image-085.png[Menú Administrador de familias]
+image::images/image-085.png[Menú Administrador de familias]
 
 La opción _Abrir administrador de familias_ abrirá una ventana (figura ) en la que podremos realizar prácticamente todas las acciones relacionadas con las familias: creación, visualización, edición, etc. La primera acción a realizar será la creación de familias. Para ello, en el menú _Familias_ seleccionaremos la opción _Nueva familia_ y daremos un nombre a la nueva familia que deseamos crear. Como podemos ver en la Ilustración, la ventana _Administrador de familias_ nos presenta
 
-image:images/image-086.png[Administrador de familias]
+image::images/image-086.png[Administrador de familias]
 
 * Una zona (1) en la que aparece la lista de las familias existentes,
 * los elementos (en este caso documentos) asignados a la familia seleccionada (2), y los no asignados a esa familia (3).
@@ -54,7 +54,7 @@ image:images/image-086.png[Administrador de familias]
 
 En la figura podemos observar cómo hemos creado las familias de documentos que comentábamos anteriormente: Audio, Texto y Vídeo (en función de las características del archivo), Congreso y Senado (en función de la cámara en la que se realiza la sesión) y Legislatura IX y Legislatura X (en función de la legislatura correspondiente)
 
-image:images/image-087.png[Asignar familias]
+image::images/image-087.png[Asignar familias]
 
 Si ya hemos creado alguna familia, una forma alternativa de manipularla es mediante la segunda opción a la que tenemos acceso desde el menú Familias > Asignar familias_._ Aunque como podemos ver en la Ilustración la ventana es similar al _Administrador de familias,_ en este caso en (1) tenemos la lista de documentos (mientras que anteriormente se visualizaba la lista de familias existentes), y en (2) y (3) las familias en las que está incluido o no el elemento seleccionado (documentos en el caso del __Family Manager__). En la ilustración podemos ver que el documento P2 está asignado a las familias __Congreso__, _Legislatura IX_ y __Texto__. Por lo tanto, si ahora seleccionamos una familia de las que aparecen en (2) y hacemos clic en el icono con la flecha de dirección derecha (4), el documento seleccionado dejará de estar asociado con la familia que hayamos elegido.
 
@@ -65,20 +65,18 @@ Una forma alternativa de crear familias de documentos es utilizando la opción D
 [[super-familias]]
 ==== Súper familias
 
-image:images/image-088.png[image]
-
-Volviendo al administrador de familias, en la barra de iconos cabe resaltar el correspondiente a la herramienta __Súper familia__, que permitirá crear un nuevo tipo de familias utilizando operadores lógicos en la combinación de familias ya existentes. La mecánica de su creación es similar a la utilizada en la herramienta __Consultas__, por lo que para los detalles sobre cómo crearlas remitimos al apartado dedicado a dicha herramienta (pág. 147).
+image:images/image-088.png[image] Volviendo al administrador de familias, en la barra de iconos cabe resaltar el correspondiente a la herramienta __Súper familia__, que permitirá crear un nuevo tipo de familias utilizando operadores lógicos en la combinación de familias ya existentes. La mecánica de su creación es similar a la utilizada en la herramienta __Consultas__, por lo que para los detalles sobre cómo crearlas remitimos al apartado dedicado a dicha herramienta (pág. 147).
 
 En la figura podemos ver la __Herramienta de Súper familia__, en el momento de la creación de una súper familia de documentos para aquellos que cumplen la condición de estar asignados a la familia _Congreso_ *y* a la familia __Legislatura IX__.
 
-image:images/image-089.png[Herramienta de Super-familias]
+image::images/image-089.png[Herramienta de Super-familias]
 
 Con nuestros datos, parece evidente que, ya que tenemos familias de documentos de sesiones del Congreso y del Senado y familias de documentos de dos legislaturas diferentes, también deberíamos agrupar por un lado los documentos del Congreso de la IX Legislatura y por otro los de la X legislatura. Esto podemos hacerlo creando la familia y realizando la asignación “a mano”, o utilizando esta herramienta de creación de __súper familias__. Aparte del menor esfuerzo necesario para su creación, las _súper familias_ tienen la ventaja de que se actualizarán de forma automática cuando un documento cumpla la condición lógica a partir de la que se han creado. Es decir, si hemos creado la _super familia_ “Congreso *y* Legislatura IX” especificando que sus miembros serán todos aquellos documentos que cumplan la condición lógica de formar parte de la familia _Congreso_ *Y* de la familia __Legislatura IX__, si posteriormente a su creación un nuevo documento cumple esa condición (asignamos un nuevo documento a nuestra UH y lo vinculamos con ambas familias), pasará automáticamente a formar parte de la
 super-familia creada anteriormente.
 
 En la figura podemos ver cómo hemos creado cuatro _súper familias_ a partir de la combinación de las familias __Congreso__, __Senado__, _Legislatura IX_ y __Legislatura IX__.
 
-image:images/image-090.png[Super-familias de documentos]
+image::images/image-090.png[Super-familias de documentos]
 
 De la misma forma que creamos _súper familias_ de documentos podemos crear _súper familias_ de códigos, por ejemplo la _súper familia_ _Nacionales_ en la que se incluirán los partidos de ámbito nacional y la _súper familia_ __Autonómicos__, en la que se incluirán los partidos de ámbito autonómico. En este caso, la creación de la _súper familia_ seguirá una estrategia diferente, puesto que lo que haremos será “combinar” mediante el operador lógico “O” a los diferentes partidos políticos (recordemos que los partidos son familias de códigos cuyos miembros son los diferentes parlamentarios). En el caso de la _súper familia_ __Nacionales__, la sintaxis de nuestra _Consulta_ sería:
 
@@ -91,7 +89,7 @@ Podemos proceder de la misma forma para crear las _súper familias_ _Izquierda_ 
 
 Una vez que hemos creado los diferentes tipos de familias, podemos utilizarlas como una forma fácil y rápida de **filtrar información**, es decir, de seleccionar para su visualización sólo aquellos elementos que pertenezcan a una familia en concreto. Por ejemplo, podemos aprovechar la posibilidad que nos ofrece el programa de aplicar diversas modalidades de filtros, en este caso en función de las familias, para activar única y exclusivamente los documentos relacionados con la familia __Congreso__,  o los códigos relacionados con la familia _Nacionalistas._ Para ello, tendremos que recurrir a la opción _Filtrar_ en cada uno de los menús __Documentos__, _Citas_ y __Códigos__, y buscar la familia correspondiente en la opción _Familias._ Como vemos en la figura , una vez aplicado un filtro por familia de documentos (__Senado__), en el administrador de documentos sólo aparecen los 7 documentos relacionados con dicha familia. En la barra de estado se indica también (2) que el filtro activado es el da la familia Senado.footnote:[Siempre que se haya activado un filtro de cualquier tipo, la visualización del administrador sepresentará con un fondo de color amarillo pálido en vez del blanco usual.]
 
-image:images/image-091.png[Administrador de documentos con filtro]
+image::images/image-091.png[Administrador de documentos con filtro]
 
 Cuando nuestra UH incluye una gran cantidad de información (e.g. cientos de Pds o de códigos) puede ser práctico aplicar este tipo de filtros simplemente para visualizar en el administrador o en la lista desplegable sólo una parte de dicha información. Por ejemplo, puede ser práctico en determinados momentos no visualizar el conjunto de documentos primarios de la UH, sino sólo los documentos con sesiones del Senado. Para ello se aplicaría un filtro de familia que deje fuera a los documentos con otros contenidos, siempre y cuando hayamos creado previamente las familias en cuestión y asignado los PDs a las que les correspondan.
 
@@ -99,7 +97,7 @@ Sin embargo, la utilidad de los filtros por familia va mucho más allá, sobre t
 
 Podemos operar de la misma forma con las familias de códigos, aunque la activación de filtro por familia de códigos no afecta a la visualización del administrador de citas. Las familias de códigos pueden ser utilizadas como filtros para visualizar únicamente los códigos relacionados con una familia. Podemos visualizar, por ejemplo, sólo los códigos relacionados con la familia de códigos __Evasion__. En la figura podemos ver el resultado: la visualización de cuatro códigos (1) por la activación del filtro de familia _Evasión_ (2).
 
-image:images/image-092.png[Administrador de códigos con filtro]
+image::images/image-092.png[Administrador de códigos con filtro]
 
 Si antes de la aplicación del filtro pedimos un listado de las citas de *todos* los códigos utilizando la opción del menú `Códigos > Imprimir > Todos los códigos con citas`, el resultado será un listado de las citas del conjunto de códigos de la UH, mientras que si realizamos la misma operación con posterioridad a la aplicación del filtro el resultado será un listado de las citas de los cuatro códigos de la familia __Evasión__, puesto que en ese momento esos son *todos* los códigos de la Unidad Hermenéutica.
 

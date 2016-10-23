@@ -7,7 +7,7 @@
 Antes de continuar, es necesario que comencemos a familiarizarnos con la pantalla principal de ATLAS.ti (figura ).
 
 .Interfaz principal de ATLAS.ti
-image:images/image-007.png[Interfaz principal de ATLAS.ti]
+image::images/image-007.png[Interfaz principal de ATLAS.ti]
 
 A continuación, ofrecemos una breve descripción de los elementos que la componen:
 
@@ -22,7 +22,7 @@ por el usuario.]
 
 Cuando se activa un DP de texto, queda conformada el área de trabajo básica. Los elementos que aparecen con el área de trabajo son (ver figura ):
 
-image:images/image-008.png[Interfaz principal con un documento activo]
+image::images/image-008.png[Interfaz principal con un documento activo]
 
 6.  Información del documento activo. Muestra el nombre del DP activo y, los iconos que aparecen a la derecha, permiten cerrar el documento y abrir (en el caso de que existan), los documentos relacionados con el DP activo (ver Sincronización audio-texto en pág. 58)
 7.  Ventana de Documentos Primarios. En ella podremos visualizar el DP activo para realizar el trabajo de segmentación y codificación o, en fases posteriores del análisis, para consultar o modificar las Citas creadas o su vinculación a determinados códigos.
@@ -32,11 +32,11 @@ proporcional con el trabajo interpretativo realizado sobre el DP en cuestión.
 10.  Navegadores de elementos. Podemos además, (figura ), activar/desactivar (haciendo clic en el icono con tres cabezas de flecha) la visualización de “navegadores” de elementos, pudiendo seleccionar si deseamos visualizar lista de documentos, códigos, citas, memos o vistas de red.
 
 .Navegadores de elementos en interfaz principal
-image:images/image-009.png[Navegadores de elementos en interfaz principal]
+image::images/image-009.png[Navegadores de elementos en interfaz principal]
 
 1.  Haciendo clic en este icono, podemos visualizar simultáneamente más de un DP en la pantalla principal (ver figura ).
 
-image:images/image-010.png[Visualización de dos Documentos Primarios]
+image::images/image-010.png[Visualización de dos Documentos Primarios]
 
 1.  Barra de estado. Presenta información sobre el DP activo, incluyendo el nombre completo del archivo, su ubicación y forma de asignación a la UH y el tamaño con el que se visualiza. Permite hacer algunas operaciones como cambiar el porcentaje de visualización (aumentar o reducir la apariencia del DP). Ofrece además un pequeño texto de ayuda relacionado con la opción de menú sobre el que se sitúe el cursor para recordarnos las acciones que realizan los diferentes menús.
 
@@ -48,7 +48,7 @@ novel trabajar con la configuración por defecto y postergar cualquier cambio a 
 
 Los menús de la pantalla principal del ATLAS.ti incluyen prácticamente todas las operaciones y opciones de visualización y configuración a las que puede recurrir el usuario o permiten acceder a ellas (figura ). Los menús pueden agruparse en tres categorías: generales, por objeto y extras. Los menús por objeto hacen referencia a opciones y operaciones asociadas a cada uno de los bloques que se van construyendo dentro de su UH conforme avanza en el proceso de análisis.
 
-image:images/image-011.png[Barra de menús]
+image::images/image-011.png[Barra de menús]
 
 La descripción pormenorizada de estas operaciones y opciones la iremos realizando a lo largo de los próximos capítulos. Por ahora, haremos una sencilla descripción de lo que contiene cada uno de los 12 menús de tal forma que el usuario cuente con una base para comenzar a utilizar el programa. Es conveniente señalar que algunas de las opciones más utilizadas también pueden ejecutarse con las combinaciones de teclas que aparecen a la derecha del comando.
 
@@ -98,14 +98,14 @@ actualizaciones que ya están en algunos de los menús anteriores, así como la 
 Ya hemos hecho referencia a los administradores y listas desplegables en la descripción de las secciones que componen la pantalla principal del ATLAS.ti. Ambos, especialmente los administradores, son sin duda las opciones más empleadas en el transcurso de un proceso de análisis. Las listas desplegables permiten seleccionar los diferentes elementos creados en la UH: DPs, citas, códigos y memos. La selección de los elementos se realiza haciendo clic en la flecha situada a la derecha del
 recuadro de lista para "desplegarla" y a continuación sobre el elemento deseado (1 en figura ).
 
-image:images/image-012.png[Administrador de códigos y lista desplegable de códigos]
+image::images/image-012.png[Administrador de códigos y lista desplegable de códigos]
 
 Los iconos que aparecen a la izquierda de cada una de las listas desplegables (2 en Ilustración) abren los administradores de cada objeto. Los administradores permiten visualizar sus correspondientes
 objetos (DPs, citas, códigos o memos) en ventanas independientes. Además de permitirnos seleccionar y visualizar algún elemento, como en el caso de las listas desplegables, los administradores posibilitan una visualización de conjunto mucho más detallada, con listados de objetos que incluyen sus características más importantes y que pueden reordenarse en función de tales características. Aunque presentan algunas diferencias en cuanto a las funciones que permiten realizar, los cuatro administradores tienen una estructura similar y en buena medida nos ofrecen otra vía para acceder a las opciones que ya aparecen en los menús de cada objeto.
 
 La figura nos muestra las secciones que componen el administrador de DPs y que son, en general, comunes al resto de administradores:
 
-image:images/image-013.png[Administrador de Documentos Primario]
+image::images/image-013.png[Administrador de Documentos Primario]
 
 1. En la parte superior del marco de la ventana, está la barra de título, que nos informa del tipo de componente que se está mostrando (en este caso, el administrador de DPs) y la UH a la que pertenece.
 

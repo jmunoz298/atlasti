@@ -8,7 +8,7 @@ La asignación de documentos es probablemente uno de los cambios más importante
 
 Para añadir documentos podemos utilizar alguna de las múltiples opciones del menú Documentos > Nuevo (ver figura ).
 
-image:images/image-023.png[Añadir Documentos Primarios]
+image::images/image-023.png[Añadir Documentos Primarios]
 
 [[agregar-documentos-adesde-las-bibliotecas]]
 ==== Agregar documentos a/desde las bibliotecas
@@ -26,18 +26,18 @@ biblioteca, es decir, que no lo hemos añadido previamente para utilizar en esta
 Al utilizar la opción __Agregar documentos__, nos aparecerá una ventana de navegación (figura ) en la que tenemos que seleccionar el/los archivos que queremos convertir en DPs. Por defecto, el programa
 seleccionará como ubicación de origen la carpeta __Textbank__, pero evidentemente podemos tener ubicados nuestros archivos en cualquier otra parte de nuestro ordenador.
 
-image:images/image-024.png[Agregar documentos a la biblioteca]
+image::images/image-024.png[Agregar documentos a la biblioteca]
 
 Por su parte, la opción _Agregar desde biblioteca_ abrirá una ventana (figura ) con la biblioteca de documentos, en la que aparecerán todos los documentos que previamente hayan sido asignados a la __biblioteca__, independientemente de la UH a la que estén asignados. Para la asignación de cualquiera de esos documentos a la UH activa, sólo tenemos que seleccionarlos y hacer clic en _Agregar selección._
 
-image:images/image-025.png[Agregar documentos desde biblioteca]
+image::images/image-025.png[Agregar documentos desde biblioteca]
 
 También podemos añadir documentos (a las bibliotecas) arrastrando los archivos desde la carpeta en la que se encuentren (en este caso sin utilizar la opción Documentos > Nuevo, sino desde una ventana de
 exploración de archivos de Windows hasta a) la lista desplegable de documentos primarios__,__ b) el _administrador_ de documentos, o c) la ventana principal. Podemos arrastrar, uno o varios documentos e incluso una carpeta entera. En ese último caso se asignarán a la UH todos los documentos contenidos en la carpeta. Pueden arrastrarse múltiples archivos tanto a la lista desplegable como al _administrador_ de documentos, mientras que a la ventana principal sólo puede arrastrarse un archivo en cada ocasión.
 
 Para ver los documentos incluidos en nuestras bibliotecas, tenemos que hacer clic en `Documentos > Administrador de fuentes de datos > Abrir administrador de biblioteca`. En la figura podemos ver cómo se nos muestran los documentos existentes en la biblioteca seleccionada (__Mi biblioteca__ o __Biblioteca de equipo__) y cómo al seleccionar un documento podemos ver, en la parte inferior izquierda de la ventana la historia de cambios realizados sobre el documento y, en la parte inferior derecha las UH a las que está asignado.
 
-image:images/image-026.png[Administrador de Biblioteca de documentos]
+image::images/image-026.png[Administrador de Biblioteca de documentos]
 
 [[asignar-archivos-externos]]
 ==== Asignar archivos externos
@@ -48,7 +48,7 @@ posibles DPs__.__ Para realizar la asignación, únicamente tenemos que seleccio
 En el ejemplo de la figura , vemos cómo en la ventana _Asignar documentos externos_ se muestran únicamente archivos de texto (.rtf) y archivos multimedia (.mp3 y .avi), que son formatos de archivo que
 pueden asignarse a la UH. Si posteriormente queremos añadir un nuevo DP, como por ejemplo, un archivo de sonido con la grabación de una de las entrevistas, o una nueva transcripción, sólo tenemos que volver a repetir el proceso de asignación seleccionando sólo ese archivo. No es imprescindible, por lo tanto, asignar todos los DPs a la UH antes de empezar a trabajar, podemos asignar nuevos documentos en cualquier momento del proceso de análisis.
 
-image:images/image-027.png[Asignar documentos externos]
+image::images/image-027.png[Asignar documentos externos]
 
 Una vez asignado un documento, para verlo en la pantalla principal de ATLAS.ti bastará con seleccionar su nombre en la lista desplegable de documentos o en el administrador de documentos.
 
@@ -57,7 +57,7 @@ Una vez asignado un documento, para verlo en la pantalla principal de ATLAS.ti b
 
 Aunque tienen características similares a los documentos enriquecidos, mención aparte merece la posibilidad de utilizar documentos creados directamente en ATLAS.ti. En este caso tenemos dos posibilidades, la de crear un nuevo documento de texto que quedará incrustado en la HU, recurriendo a la opción `Documentos &gt; Nuevo &gt; Nuevo documento de texto` (ver ), o la de utilizar un _Memo_ existente como DP. En este último caso, debemos seleccionar un _Memo_ creado previamente y utilizar la opción `Memos > Miscelánea > Usar como documento primario` (ver ). Esta última modalidad de los memos como documentos, aunque factible, no es la más recomendable, puesto que implica “duplicar” información como memo y como documento. Esta modalidad resulta prácticamente obsoleta si consideramos la primera, la de documentos incrustados, introducida a partir de la versión 6 de ATLAS.ti.
 
-image:images/image-029.png[Usar memos como Documento primario]
+image::images/image-029.png[Usar memos como Documento primario]
 
 La utilización de este tipo de documentos incrustados puede ser práctica en aquellos casos en que dispongamos de un número limitado de documentos, pues estos estarán incluidos en el archivo .hpr7, lo que facilitará el traslado de la unidad hermenéutica. Por contra, esta opción no será adecuada si queremos utilizar los mismos datos en diferentes análisis (diferentes UHs). Otra ventaja de la opción _Nuevo documento de texto_ es que los documentos creados de esta forma son editables, algo que no ocurre con los documentos a partir de memos.
 
@@ -67,7 +67,7 @@ La utilización de este tipo de documentos incrustados puede ser práctica en aq
 Si nuestros datos se derivan de las respuestas a preguntas abiertas en una encuesta, podemos utilizar otra estrategia para la asignación de los documentos. En este caso, en vez de utilizar como fuente de datos archivos de texto, tendremos que introducirlos en una hoja de cálculo utilizando un formato especial. Este formato se caracteriza por utilizar determinadas claves para nombrar las columnas —los identificadores de campo— de la matriz de datos, de modo que ATLAS.ti utilice los contenidos de forma distinta. En la figura podemos ver un ejemplo ficticio de datos de este tipo, en el que la primera fila se corresponde con los identificadores de campo y el resto de filas con cada uno de los casos o encuestas. Las tres primeras columnas del ejemplo son datos identificativos de la encuesta, mientras que el resto se corresponden con las preguntas que incluye, tanto abiertas como cerradas. En la
 conversión de una matriz de datos, cada caso —cada fila— se transforma en un PD incrustado en la UH. Si tenemos 200 casos a nuestra encuesta e importamos la base de datos a ATLAS.ti, el resultado será un conjunto de 200 DP.
 
-image:images/image-030.png[Hoja de cálculo con datos de encuesta]
+image::images/image-030.png[Hoja de cálculo con datos de encuesta]
 
 El primer carácter de las etiquetas de la primera fila indica las características de la información que aparece en la columna. De esta forma, en la primera columna la etiqueta `!Caso`, precedida por el carácter `!` indica que la columna se corresponde con cada uno de los casos de encuesta, mientras que el carácter `:`, que precede a la etiqueta :Universidad en la quinta columna, indica que los datos que encabeza son respuestas a preguntas de elección simple con varias opciones de respuesta. En el cuadro podemos ver el conjunto de identificadores de campos de documento, mientras que en la Tabla aparecen los
 identificadores de campos de preguntas.
@@ -102,22 +102,22 @@ La importación (asignación) de los datos la realizaremos con la opción Docume
 
 En la figura podemos ver el resultado de la importación de los datos del ejemplo, con los cuatro documentos que se corresponden con los cuatro casos footnote:[El icono de documento incluye un punto verde, lo que nos indica que es un documento incrustado.]. Además de la importación, se crearán familias de documentos en función de las variables de la encuesta.
 
-image:images/image-031.png[Datos de encuesta importados]
+image::images/image-031.png[Datos de encuesta importados]
 
 En la figura podemos ver cómo la familia _SoftConoce::MaxQDA_ incluye los dos documentos (casos) en los que el valor de la variable es 1 (Sí).
 
-image:images/image-032.png[Encuestas: Familias de documentos]
+image::images/image-032.png[Encuestas: Familias de documentos]
 
 Por último, en la figura podemos ver el documento primario con la pregunta abierta del caso 1.
 
-image:images/image-033.png[Encuestas: Documento primario]
+image::images/image-033.png[Encuestas: Documento primario]
 
 [[comentarios]]
 ==== Comentarios
 
 De nuevo, tal y como hemos hecho con la UH, el siguiente paso, una vez que hemos asignado los DPs, consistirá en añadirles un comentario que permita describirlos en función de las características que sean relevantes para el análisis. Si, por ejemplo, se trata de una entrevista, podríamos incluir información relativa a la(s) persona(s) entrevistada(s), al entrevistador, la fecha de realización, etc. En nuestro caso, incluiremos como la descripción del documento, los parlamentarios participantes y los grupos parlamentarios a los que pertenecen e información sobre los posibles archivos relacionados (ver ).
 
-image:images/image-034.png[Comentarios de Documento primario]
+image::images/image-034.png[Comentarios de Documento primario]
 
 Insistimos en la conveniencia de no obviar este paso, puesto que la documentación es fundamental para la calidad de nuestro análisis. En el caso de los datos, garantizará tener presente en todo momento las
 características del documento con el que estemos trabajando y, además, facilitará el trabajo en equipo o la posible reutilización de los datos por otros investigadores.
@@ -131,7 +131,7 @@ Una vez que hemos realizado la asignación de los documentos primarios, podemos 
 
 En el caso de la lista desplegable, la información que aparecerá será la siguiente (figura ):
 
-image:images/image-035.png[Lista desplegable de documentos]
+image::images/image-035.png[Lista desplegable de documentos]
 
 * *Icono* representando el tipo de documento.
 * *P n* Donde *_P_* es un identificador (invariable) de _Documento Primario_ y *_n_* es el número de orden del documento (orden en que se ha realizado la asignación).
@@ -181,11 +181,11 @@ Si hemos asignado los documentos con la opción __Asignar documentos externos__,
 
 Para acceder a las funciones de edición de documento, se debe seleccionar en la pantalla principal algún documento que sea susceptible de ser editado. Aparecerá entonces una nueva barra de iconos. El primer icono de la izquierda de la barra es el que permitirá entrar en el modo de edición de documentos (ver ), salir directamente cuando no hemos realizado cambios (derecha), y salir guardando o cancelando los cambios que hayamos realizado (inferior).
 
-image:images/image-037.png[Icono y opciones de edicion]
+image::images/image-037.png[Icono y opciones de edicion]
 
 Una vez que hayamos entrado en el modo de edición se activarán las funciones de edición inactivas hasta ese momento (figura ).
 
-image:images/image-038.png[Funciones de edicion]
+image::images/image-038.png[Funciones de edicion]
 
 Entonces podemos editar el documento, realizando las modificaciones necesarias, incluyendo borrar o añadir texto, además de las opciones de formato disponibles en la barra de iconos (códigos de negrita, cursiva, subrayado, tamaño de letra...)
 
@@ -201,11 +201,11 @@ Por su parte, la opción de insertar objetos (`Edición > Insertar > Insertar ob
 Si seleccionamos esta opción nos aparecerá una­ ventana (figura ), con un listado de los diferentes tipos de objetos (archivos) que podemos crear (dependiente de la configuración de nuestro ordenador). Al
 seleccionar alguno de ellos se abrirá el programa correspondiente y podremos crear un nuevo objeto que quedará incrustado en el DP.
 
-image:images/image-039.png[Insertar objeto (crear)]
+image::images/image-039.png[Insertar objeto (crear)]
 
 En la Ilustración, podemos observar que está seleccionada la opción __Crear nuevo__, pero también podemos elegir __Crear desde archivo__. Si seleccionamos esa última opción, la pantalla cambiará el formato (figura ), y podremos entonces seleccionar un archivo existente en nuestro ordenador haciendo clic en el botón __Examinar__.
 
-image:images/image-040.png[Insertar objeto (desde archivo)]
+image::images/image-040.png[Insertar objeto (desde archivo)]
 
 Esa pantalla también nos permite seleccionar (o no) la opción de _Vincular_ al objeto existente. Si la seleccionamos, significa que si posteriormente a la vinculación realizamos cambios en el archivo
 original, éstos quedarán reflejados en el objeto vinculado en el DP; mientras que si no la seleccionamos, el objeto quedará incrustado en el DP y por lo tanto los cambios en el archivo original no quedarán reflejados en el objeto incrustado..

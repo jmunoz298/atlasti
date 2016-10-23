@@ -27,7 +27,7 @@ al que vemos en la figura footnote:[El listado incluye también una
 primera página con información sobre el documento que incluye, entre
 otras cosas, el comentario del mismo. El formato de salida ha sido].
 
-image:images/image-180.png[Imprimir con margen]
+image::images/image-180.png[Imprimir con margen]
 
 Si el resultado de la impresión del informe no es el deseado, podemos
 realizar cambios con la opción Herramientas > Preferencias >
@@ -35,4 +35,4 @@ Preferencias generales, en la pestaña Impresión de DP. Como podemos ver
 en la figura , lo que se nos ofrece es poco más que la posibilidad de
 cambiar los márgenes.
 
-image:images/image-181.png[Preferencias de impresión con margen]
+image::images/image-181.png[Preferencias de impresión con margen]

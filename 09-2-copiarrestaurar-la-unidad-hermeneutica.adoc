@@ -27,7 +27,7 @@ asignados a la UH activa para que seleccionemos aquellos que queremos
 incluir en la copia (en el caso de que no los querramos incluir todos).
 También nos informa de posibles conflictos con los documentos.
 
-image:images/image-169.png[Crear paquete de copia]
+image::images/image-169.png[Crear paquete de copia]
 
 Este sistema copia única y exclusivamente los documentos y la UH,
 cualquier otro archivo que pueda estar vinculado, como por ejemplo memos
@@ -40,14 +40,14 @@ copia. En este caso, dado que estamos creándola para trasladar nuestro
 trabajo a otro ordenador, hemos guardado el archivo en una carpeta de un
 lápiz de memoria.
 
-image:images/image-171.png[Arvhico de copia]
+image::images/image-171.png[Arvhico de copia]
 
 A continuación, en el otro ordenador, accedemos al menú Proyecto >
 Desempaquetar la copia. Se nos abrirá una ventana como la de la figura
 en la que destacamos en primer lugar (1) que se nos ofrecen dos opciones
 de desempaquetado: _Migrar_ o _Restaurar._
 
-image:images/image-172.png[Desempaquetar paquete de copia]
+image::images/image-172.png[Desempaquetar paquete de copia]
 
 En este caso lo que queremos es evidentemente una migración, por lo que
 dejamos activada esa opción. En (2) se nos informa del destino de la

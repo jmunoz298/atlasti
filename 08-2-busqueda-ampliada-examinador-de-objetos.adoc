@@ -18,7 +18,7 @@ objetos, nos aparecerá la ventana que podemos ver en la figura , que en
 la práctica está compuesta por tres secciones, puesto que son tres los
 pasos de la búsqueda.
 
-image:images/image-136.png[Examinador de objetos: Definición de
+image::images/image-136.png[Examinador de objetos: Definición de
 búsqueda]
 
 En primer lugar (1) definiremos la sentencia de búsqueda, para a
@@ -50,7 +50,7 @@ realizaría únicamente en los comentarios de todos los objetos de la UH.
 Si el término apareciera por ejemplo en una cita (pero no en un
 comentario de cita), la búsqueda no lo incluiría.
 
-image:images/image-137.png[Examinador de objetos: Selección de objetos]
+image::images/image-137.png[Examinador de objetos: Selección de objetos]
 
 La última sección de la herramienta nos muestra finalmente los
 resultados de la búsqueda. Como podemos ver en la figura , la búsqueda
@@ -60,4 +60,4 @@ al seleccionar uno de los resultados, en la parte inferior de la ventana
 podemos ver el contexto en el que se encuentra. En este caso, la palabra
 “falsedad” aparece en la memo __Mentira__.
 
-image:images/image-138.png[Examinador de objetos: Resultados]
+image::images/image-138.png[Examinador de objetos: Resultados]
