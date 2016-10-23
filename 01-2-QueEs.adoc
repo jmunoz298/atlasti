@@ -1,12 +1,26 @@
-[[que-es-atlas.ti]]
-===¿Qué es **ATLAS.ti**?
+[[qué-es-atlas.ti]]
+¿Qué es **ATLAS.ti**?
+~~~~~~~~~~~~~~~~~~~~~
 
-El ATLAS.ti se originó en la Universidad Tecnológica de Berlín, en el marco del proyecto ATLAS, entre 1989 y 1992. El nombre es un acrónimo de Archiv für Technik, Lebenswelt und Alltagssprache, que en alemán quiere decir 'Archivo para la Tecnología, el Mundo de la Vida y el Lenguaje Cotidiano'. La extensión '.ti' significa interpretación de textos. Se pueden encontrar mayores detalles sobre el origen del programa en el interesante relato de Heiner Legewie (2014). En 1996 fue lanzada la primera versión comercial y en 2012 apareció la versión 7. El lanzamiento de la versión 8 fue anunciado para finales de 2015.
+El ATLAS.ti se originó en la Universidad Tecnológica de Berlín, en el
+marco del proyecto ATLAS, entre 1989 y 1992. El nombre es un acrónimo de
+Archiv für Technik, Lebenswelt und Alltagssprache, que en alemán quiere
+decir 'Archivo para la Tecnología, el Mundo de la Vida y el Lenguaje
+Cotidiano'. La extensión '.ti' significa interpretación de textos. Se
+pueden encontrar mayores detalles sobre el origen del programa en el
+interesante relato de Heiner Legewie (2014). En 1996 fue lanzada la
+primera versión comercial y en 2012 apareció la versión 7. El
+lanzamiento de la versión 8 fue anunciado para finales de 2015.
 
-A continuación describiremos algunas de las características principales de ATLAS.ti. En primer lugar haremos un repaso de los componentes principales del programa. En segundo lugar, presentaremos algunas de las operaciones básicas relacionadas con la documentación, la segmentación y codificación y el establecimiento de relaciones entre elementos
+A continuación describiremos algunas de las características principales
+de ATLAS.ti. En primer lugar haremos un repaso de los componentes
+principales del programa. En segundo lugar, presentaremos algunas de las
+operaciones básicas relacionadas con la documentación, la segmentación y
+codificación y el establecimiento de relaciones entre elementos
 
 [[componentes]]
-=== Componentes
+Componentes
+^^^^^^^^^^^
 
 *Unidad Hermenéutica:* El trabajo de análisis con ATLAS.ti se organiza y
 almacena en un único archivo que se denomina _Unidad Hermenéutica_ (UH a

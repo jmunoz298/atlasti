@@ -1,0 +1,31 @@
+[[analizador-de-codificaciones]]
+Analizador de codificaciones
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Otra herramienta que puede sernos interesante en algunas fases del
+análisis es el __Analizador de codificaciones__, que nos informará de si
+existen codificaciones redundantes, es decir, códigos que han sido
+relacionados con citas muy similares, entre las que hay sólo una ligera
+diferencia. El _analizador_ nos informará de ello y dejará al analista
+la decisión de qué hacer en esos casos.
+
+En la figura podemos ver un hipotético ejemplo de codificación
+redundante. Tenemos un mismo párrafo con tres citas muy similares. Entre
+la primera y la segunda la diferencia es que la primera incluye algo más
+de texto. Entre la segunda y la tercera, la única diferencia es que en
+un caso se ha incluido la identificación de hablante (__Presidetne.-__)
+y en el otro no. En este caso todas las citas han sido codificadas con
+el mismo código __Economía__.
+
+image:images/image-160.png[Ejemplo de codificación redundante]
+
+Al utilizar el __Analizador de codificación redundante__, aparecerá una
+ventana como la de la figura , en la que podemos ver (1) los códigos que
+según el programa podrían incluir citas redundantes. Si seleccionamos
+uno de esos códigos, en (2) y (3) se nos mostrarán las parejas de citas
+que podrían ser redundantes.
+
+image:images/image-161.png[Analizador de codificación redundante]
+
+Podemos entonces decidir si queremos _eliminar_ o _desvincular_ la cita
+en (2) o en (3) o si queremos _fusionar_ ambas citas.

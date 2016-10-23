@@ -1,0 +1,12 @@
+[[empezando-a-trabajar]]
+Empezando a trabajar
+--------------------
+
+Para comenzar a usar ATLAS.ti lo único que se necesita es tener una idea
+general de la interfaz del programa y de un par de sus operaciones
+básicas. Lo importante es ponerse manos a la obra. Este capítulo tiene
+como propósito facilitar ese proceso de asimilación inicial. Para ello,
+describiremos cómo se inicia el programa y cuáles son las
+características de la pantalla principal. Además, explicaremos de forma
+detallada los primeros pasos a seguir, a saber, la creación, guardado y
+apertura de una UH y la creación y visualización de memos y comentarios.

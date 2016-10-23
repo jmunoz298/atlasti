@@ -1,0 +1,19 @@
+[[informes-xml]]
+Informes XML
+~~~~~~~~~~~~
+
+Como hemos visto, los informes anteriores son “espartanos”, primando la
+funcionalidad a la estética, pero tenemos también la posibilidad de
+obtener informes más sofisticados con la opción Herramientas > Exportar
+> Explorador XML.
+
+Al utilizar esta opción, se abrirá una ventana (figura ) con el conjunto
+de los tipos de informes disponibles.
+
+image:images/image-182.png[Explorador Informes XSL]
+
+Lo mejor es que exploremos todas las posibilidades que se nos ofrecen,
+pero para empezar a hacernos una idea, podemos ver un ejemplo de este
+tipo de informes en la figura .
+
+image:images/image-183.png[InformeXSL]
