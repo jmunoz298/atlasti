@@ -17,7 +17,7 @@
     * [Sincronización Audio-Texto](04-3-sincronizacion-audio-texto.adoc)
 * [Segmentar y codificar](05-Segmentar.adoc)
     * [Creación de códigos](05-1-creacion-de-codigos.adoc)
-    * [Citas](05-2citas.adoc)
+    * [Citas](05-2-citas.adoc)
     * [Codificacion](05-3codificacion.adoc)
     * [Autocodificación](05-4-autocodificacion.adoc)
     * [Visualización](05-5-visualizacion.adoc)
