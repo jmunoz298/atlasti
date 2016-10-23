@@ -24,7 +24,7 @@ Para Patton (1990), la pretensión de la investigación cualitativa consiste en 
 
 Como mostramos de forma esquemática en la figura , una manera habitual y bastante difundida de entender las tareas básicas del análisis cualitativo consiste en trazar el recorrido hacia esa reducción y búsqueda del significado de los datos como un proceso recursivo desde los datos hacia la elaboración de modelos teóricos sustantivos.
 
-[[img-proceso]]
+[[img-proceso, Proceso de análisis]]
 .Proceso típico de análisis cualitativo (con Atlas.ti)
 image::images/image-001.png[Proceso típico de análisis cualitativo (con Atlas.ti), width=100, link="images/image-001.png"]
 
