@@ -12,7 +12,7 @@ el programaría arrancaría con una UH nueva y vacía. También podemos iniciar 
 la UH sobre la que se ha hecho clic).
 
 .Unidad Hermenéutica de ejemplo
-image::images/image-006.png[Unidad Hermenéutica de ejemplo]
+image::images/image-006.png[Unidad Hermenéutica de ejemplo, float="right",align="center"]
 
 La UH _Welcome_ ilustra la forma de realizar las operaciones más básicas y muestra simultáneamente qué tipo de elementos se generan con ellas. Esta UH nos señala el icono que permite añadir DPs. Nos muestra un código en el menú desplegable que le corresponde y también a la derecha del documento primario activado, junto a la cita que codifica. Es curioso que el único DP que incluye esta UH de bienvenida sea un archivo de imagen y no de texto.
 
