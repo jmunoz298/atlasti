@@ -23,7 +23,7 @@ por el usuario.]
 Cuando se activa un DP de texto, queda conformada el área de trabajo básica. Los elementos que aparecen con el área de trabajo son (ver figura ):
 
 .Interfaz principal con un documento activo
-image::images/image-008.png[Interfaz principal con un documento activo, float="right",align="center"]
+image::images/image-008.png[Interfaz principal con un documento activo, align="center"]
 
 [start=6]
 6.  Información del documento activo. Muestra el nombre del DP activo y, los iconos que aparecen a la derecha, permiten cerrar el documento y abrir (en el caso de que existan), los documentos relacionados con el DP activo (ver Sincronización audio-texto en pág. 58)
