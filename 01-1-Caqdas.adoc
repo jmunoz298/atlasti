@@ -22,7 +22,7 @@ Una vez establecido el marco para abordar el tema que nos ocupa, es conveniente 
 Para Patton (1990), la pretensión de la investigación cualitativa consiste en dar sentido a grandes volúmenes de datos en un proceso definido por la reducción de información, la identificación de pautas significativas y la construcción de un marco que permita comunicar lo que revelan los datos. Si bien es cierto que la investigación cualitativa en ciencias sociales se caracteriza por su diversidad y pluralidad de enfoques, métodos y técnicas (Silverman, 2005), es posible afirmar que las distintas aproximaciones comparten una orientación naturalista e interpretativa y que la mayoría de las modalidades de análisis que ofrecen se distinguen por estar teóricamente informadas
 (Íñiguez-Rueda, 1999).
 
-Como mostramos de forma esquemática en la figura , una manera habitual y bastante difundida de entender las tareas básicas del análisis cualitativo consiste en trazar el recorrido hacia esa reducción y búsqueda del significado de los datos como un proceso recursivo desde los datos hacia la elaboración de modelos teóricos sustantivos.
+Como mostramos de forma esquemática en la figura <<img-proceso>>, una manera habitual y bastante difundida de entender las tareas básicas del análisis cualitativo consiste en trazar el recorrido hacia esa reducción y búsqueda del significado de los datos como un proceso recursivo desde los datos hacia la elaboración de modelos teóricos sustantivos.
 
 [[img-proceso]]
 .Proceso típico de análisis cualitativo (con Atlas.ti)
