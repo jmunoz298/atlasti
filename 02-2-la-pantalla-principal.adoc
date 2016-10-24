@@ -25,6 +25,7 @@ Cuando se activa un DP de texto, queda conformada el área de trabajo básica. L
 .Interfaz principal con un documento activo
 image::images/image-008.png[Interfaz principal con un documento activo, float="right",align="center"]
 
+[start=6]
 6.  Información del documento activo. Muestra el nombre del DP activo y, los iconos que aparecen a la derecha, permiten cerrar el documento y abrir (en el caso de que existan), los documentos relacionados con el DP activo (ver Sincronización audio-texto en pág. 58)
 7.  Ventana de Documentos Primarios. En ella podremos visualizar el DP activo para realizar el trabajo de segmentación y codificación o, en fases posteriores del análisis, para consultar o modificar las Citas creadas o su vinculación a determinados códigos.
 8.  Margen derecho. Esta sección ofrece información sobre los elementos relacionados con el texto que se esté visualizando en ese momento. Las barras verticales señalan la ubicación de las Citas en el documento y los elementos con los que están relacionadas, sean Códigos, Hipervínculos (relaciones con otras citas) o Memos. La cantidad de elementos visibles en este espacio tiene una relación directamente
@@ -35,12 +36,13 @@ proporcional con el trabajo interpretativo realizado sobre el DP en cuestión.
 .Navegadores de elementos en interfaz principal
 image::images/image-009.png[Navegadores de elementos en interfaz principal, float="right",align="center"]
 
-
+[start=11]
 11.  Haciendo clic en este icono, podemos visualizar simultáneamente más de un DP en la pantalla principal (ver figura ).
 
 .Visualización de dos Documentos Primarios
 image::images/image-010.png[Visualización de dos Documentos Primarios, float="right",align="center"]
 
+[start=12]
 12.  Barra de estado. Presenta información sobre el DP activo, incluyendo el nombre completo del archivo, su ubicación y forma de asignación a la UH y el tamaño con el que se visualiza. Permite hacer algunas operaciones como cambiar el porcentaje de visualización (aumentar o reducir la apariencia del DP). Ofrece además un pequeño texto de ayuda relacionado con la opción de menú sobre el que se sitúe el cursor para recordarnos las acciones que realizan los diferentes menús.
 
 Hasta ahora, hemos presentado la pantalla principal de ATLAS.ti 7 con DPs activos de tipo textual. En el caso de documentos de imagen, audio, vídeo o geo-referencias hay algunas particularidades de presentación que señalaremos más adelante, al desarrollar la forma en la que se opera en ATLAS.ti con estos tipos de datos. Por otra parte, es conveniente recordar que, si bien existe la posibilidad de reubicar, añadir o quitar elementos a la pantalla principal de ATLAS.ti, recomendamos al usuario
