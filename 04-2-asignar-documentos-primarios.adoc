@@ -84,6 +84,7 @@ identificadores de campos de preguntas.
 
 El resto de identificadores se corresponden con las preguntas, que pueden ser tanto abiertas como cerradas. En el caso de las preguntas cerradas, estas se importarán como familias (ver Familias en pág. 91) asociadas con los documentos, mientras que las preguntas abiertas serán los “datos” del documento.
 
+.Identificadores de campos (preguntas cerradas)
 [width="100%",cols="^6%,<94%",options="header",]
 |=======================================================================
 |Carácter |Función
@@ -94,7 +95,6 @@ El resto de identificadores se corresponden con las preguntas, que pueden ser ta
 |# |Pregunta de elección múltiple. Se pueden introducir varios valores separados por coma. El nombre de la familia será el mismo que la etiqueta más los valores que se incluyan en la celda
 |=======================================================================
 
-Identificadores de campos (preguntas cerradas)
 
 Las etiquetas de columna sin prefijo se interpretarán como preguntas abiertas
 
@@ -141,6 +141,7 @@ image::images/image-035.png[Lista desplegable de documentos]
 
 También podemos visualizar los documentos en el _Administrador de documentos_ que, además de mostrarnos información adicional sobre los mismos, nos permitirá acceder a todas las funciones del programa relacionadas con los DPs. En la Tabla podemos ver las informaciones disponibles en el _administrador_ de documentos (ver también la figura )
 
+.Administrador de documentos primarios: Columnas
 [width="100%",cols="<16%,<84%",]
 |=======================================================================
 |ID |Icono e identificador del documento
@@ -167,7 +168,6 @@ También podemos visualizar los documentos en el _Administrador de documentos_ q
 documento
 |=======================================================================
 
-Administrador de documentos primarios: Columnas
 
 [[edicion-de-documentos]]
 ==== Edición de documentos
