@@ -7,7 +7,8 @@
 Antes de continuar, es necesario que comencemos a familiarizarnos con la pantalla principal de ATLAS.ti (figura ).
 
 .Interfaz principal de ATLAS.ti
-image::images/image-007.png[Interfaz principal de ATLAS.ti, float="right",align="center"]
+[.text-center]
+image::images/image-007.png[Interfaz principal de ATLAS.ti]
 
 A continuación, ofrecemos una breve descripción de los elementos que la componen:
 
