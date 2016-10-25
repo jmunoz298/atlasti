@@ -1,9 +1,4 @@
-[[visualización]]
-Visualización
-~~~~~~~~~~~~~
+[[visualizacion]]
+=== Visualización
 
-El editor de _redes_ ofrece diferentes opciones para modificar la forma
-en que se representarán los nodos y sus relaciones. Estas opciones están
-disponibles en el menú _Diseño_ y en el menú __Presentación__. Dada la
-gran cantidad de opciones, no nos es posible describirlas aquí, por lo
-que nuevamente será el lector quien tendrá que explorarlas.
+El editor de _redes_ ofrece diferentes opciones para modificar la forma en que se representarán los nodos y sus relaciones. Estas opciones están disponibles en el menú _Diseño_ y en el menú __Presentación__. Dada la gran cantidad de opciones, no nos es posible describirlas aquí, por lo que nuevamente será el lector quien tendrá que explorarlas.

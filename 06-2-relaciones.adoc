@@ -5,6 +5,7 @@ image::images/image-093.png[Relaciones entre componentes]
 
 Aunque no hayamos hablado explícitamente de ello, hasta ahora hemos visto cómo podemos crear relaciones ente algunos objetos de la UH. Por una parte, la codificación implica relacionar _citas_ con __códigos__, mientras que la creación de _familias_ implica crear un tipo específico de vínculo entre objetos. En el caso de dos códigos incluidos en la misma familia, la relación se podría leer así: "el código A tiene en común alguna característica o propiedad con el código B". Si, por ejemplo, asignamos los códigos _Zapatero_ y _Rubalcaba_ a la familia __PSOE__, estamos diciendo que ambos comparten como propiedad su pertenencia al mismo partido político. De forma semejante, nuestro análisis podría implicar la creación de relaciones entre otros objetos. Para ello, ATLAS.ti nos permite relacionar entre sí citas, códigos y memos como se muestra en el cuadro .
 
+.Tipos de relaciones
 [cols=",,,",options="header",]
 |==========================================
 | |Cita |Código |Memo
@@ -13,7 +14,6 @@ Aunque no hayamos hablado explícitamente de ello, hasta ahora hemos visto cómo
 |Memo | | |Relación
 |==========================================
 
-Tipos de relaciones
 
 A diferencia del resto, las relaciones __cita-cita__, y las relaciones _código-código_ deben especificarse a partir de sus respectivos menús de tipos de relación. Establecer relaciones entre estos objetos significa crear un vínculo lógico que *debe* definir la analista. En muchos casos, esta labor constituye una de las etapas importantes del análisis conceptual. Una vez avanzado el trabajo de establecer vínculos, la red que conforma un conjunto de objetos relacionados se puede visualizar y editar en un entorno gráfico a través de las _Vistas de red_ (pág. 115). Este recurso nos facilitará. por una parte, el trabajo conceptual al poder visualizar las relaciones ya creadas y crear nuevas de una forma gráfica, y por otra, nos permitirá ilustrar de una forma mucho más clara nuestro trabajo.
 

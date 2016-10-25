@@ -1,151 +1,76 @@
 [[referencias]]
-Referencias
------------
+== Referencias
 
-Attride-Stirling, J. (2001). Thematic networks: An analytic tool for
-qualitative research. __Qualitative Research__, __1__(3), 385-405.
-http://doi.org/10.1177/146879410100100307
+Attride-Stirling, J. (2001). Thematic networks: An analytic tool for qualitative research. __Qualitative Research__, __1__(3), 385-405. http://doi.org/10.1177/146879410100100307
 
-Birks, M., Chapman, Y., & Francis, K. (2008). Memoing in qualitative
-research: Probing data and processes. __Journal of Research in
-Nursing__, __13__(1), 68-75. http://doi.org/10.1177/1744987107081254
+Birks, M., Chapman, Y., & Francis, K. (2008). Memoing in qualitative research: Probing data and processes. __Journal of Research in Nursing__, __13__(1), 68-75. http://doi.org/10.1177/1744987107081254
 
-Blismas, N. G., & Dainty, A. R. J. (2003). Computer-aided qualitative
-data analysis: panacea or paradox? __Building Research and
-Information__, __31__, 455-463.
-http://doi.org/10.1080/0961321031000108816
+Blismas, N. G., & Dainty, A. R. J. (2003). Computer-aided qualitative data analysis: panacea or paradox? __Building Research and Information__, __31__, 455-463. http://doi.org/10.1080/0961321031000108816
 
-Bong, S. A. (2002). Debunking Myths in Qualitative Data Analysis.
-__Forum Qualitative Social Research__, __3__(2). Recuperado a partir de
-http://www.qualitative-research.net/index.php/fqs/article/viewArticle/849
+Bong, S. A. (2002). Debunking Myths in Qualitative Data Analysis. __Forum Qualitative Social Research__, __3__(2). Recuperado a partir de http://www.qualitative-research.net/index.php/fqs/article/viewArticle/849
 
-Bringer, J. D., Johnston, L. H., & Brackenridge, C. H. (2006). Using
-Computer-Assisted Qualitative Data Analysis Software to Develop a
-Grounded Theory Project. __Field Methods__, __18__(3), 245-266.
-http://doi.org/10.1177/1525822x06287602
+Bringer, J. D., Johnston, L. H., & Brackenridge, C. H. (2006). Using Computer-Assisted Qualitative Data Analysis Software to Develop a Grounded Theory Project. __Field Methods__, __18__(3), 245-266. http://doi.org/10.1177/1525822x06287602
 
-Carvajal, D. (2002). The Artisan’s Tools. Critical Issues when Teaching
-and Learning CAQDAS. __Forum Qualitative Social Research__, __3__(2).
-Recuperado a partir de
-http://www.qualitative-research.net/index.php/fqs/article/viewArticle/853/1854
+Carvajal, D. (2002). The Artisan’s Tools. Critical Issues when Teaching and Learning CAQDAS. __Forum Qualitative Social Research__, __3__(2). Recuperado a partir de http://www.qualitative-research.net/index.php/fqs/article/viewArticle/853/1854
 
-Coffey, A., Holbrook, B., & Atkinson, P. (1996). Qualitative Data
-Analysis: Technologies and Representations. __Sociological Research
-Online__, __1__(1). http://doi.org/10.5153/sro.1
+Coffey, A., Holbrook, B., & Atkinson, P. (1996). Qualitative Data Analysis: Technologies and Representations. __Sociological Research Online__, __1__(1). http://doi.org/10.5153/sro.1
 
-Fielding, N. G., & Lee, R. M. (1998). __Computer analysis and
-qualitative research__. London: Sage.
+Fielding, N. G., & Lee, R. M. (1998). __Computer analysis and qualitative research__. London: Sage.
 
-Íñiguez-Rueda, L. (1999). Investigación y evaluación cualitativa: Bases
-teóricas y conceptuales. __Atención Primaria__, __23__(8), 496-502.
+Íñiguez-Rueda, L. (1999). Investigación y evaluación cualitativa: Bases teóricas y conceptuales. __Atención Primaria__, __23__(8), 496-502.
 
-Kelle, U., & Laurie, H. (1995). Computer issue in qualitative research
-and issues of validity. En U. Kelle (Ed.), _Computer-Aided Qualitative
-Data Analysis: Theory, Methods and Practice_ (pp. 19-28). London: Sage.
+Kelle, U., & Laurie, H. (1995). Computer issue in qualitative research and issues of validity. En U. Kelle (Ed.), _Computer-Aided Qualitative Data Analysis: Theory, Methods and Practice_ (pp. 19-28). London: Sage.
 
-Lee, R. M., & Esterhuizen, L. (2000). Computer software and qualitative
-analysis: trends, issues and resources. __International Journal of
-Social Research Methodology__, __3__(3), 231-243.
-http://doi.org/10.1080/13645570050083715
+Lee, R. M., & Esterhuizen, L. (2000). Computer software and qualitative analysis: trends, issues and resources. __International Journal of Social Research Methodology__, __3__(3), 231-243. http://doi.org/10.1080/13645570050083715
 
-Lee, R. M., & Fielding, N. G. (1991). __Using computers in qualitative
-research__. London: Sage.
+Lee, R. M., & Fielding, N. G. (1991). __Using computers in qualitative research__. London: Sage.
 
-Legewie, H. (2014). ATLAS.ti – How it all began (A grandfather’s
-perspective). En S. Friese & T. G. Ringmayr (Eds.), __ATLAS.ti User
-Conference 2013. Fostering Dialog on Qualitative Methods__. Berlin:
-Universitätsverlag der TU Berlin.
-http://doi.org/10.14279/depositonce-4828
+Legewie, H. (2014). ATLAS.ti – How it all began (A grandfather’s perspective). En S. Friese & T. G. Ringmayr (Eds.), __ATLAS.ti User Conference 2013. Fostering Dialog on Qualitative Methods__. Berlin: Universitätsverlag der TU Berlin. http://doi.org/10.14279/depositonce-4828
 
-Lewins, A., & Silver, C. (2007). __Using Software in Qualitative
-Reseach. A Step-By-step Guide__. London: Sage.
+Lewins, A., & Silver, C. (2007). __Using Software in Qualitative Reseach. A Step-By-step Guide__. London: Sage.
 
-Lewins, A., & Silver, C. (2009, enero 5). Choosing a CAQDAS Package.
-Recuperado a partir de
+Lewins, A., & Silver, C. (2009, enero 5). Choosing a CAQDAS Package. Recuperado a partir de
 http://www.surrey.ac.uk/sociology/research/researchcentres/caqdas/files/2009ChoosingaCAQDASPackage.pdf
 
-Lonkila, M. (1995). Grounded theory as an emerging paradigm for
-computer-assisted qualitative data analysis. En U. Kelle (Ed.),
-_Computer-Aided Qualitative Data Analysis_ (pp. 41-50). London: Sage.
+Lonkila, M. (1995). Grounded theory as an emerging paradigm for computer-assisted qualitative data analysis. En U. Kelle (Ed.), _Computer-Aided Qualitative Data Analysis_ (pp. 41-50). London: Sage.
 
-MacQueen, K. M., McLellan, E., & Milstein, B. (1998). Codebook
-development for team-based qualitative analysis. __Cultural Anthropology
-Methods__, __10__(2), 31-36. http://doi.org/10.1177/1525822x980100020301
+MacQueen, K. M., McLellan, E., & Milstein, B. (1998). Codebook development for team-based qualitative analysis. __Cultural Anthropology Methods__, __10__(2), 31-36. http://doi.org/10.1177/1525822x980100020301
 
-Mangabeira, W. C., Lee, R. M., & Fielding, N. G. (2004). Computers and
-Qualitative Research: Adoption, Use, and Representation. __Social
-Science Computer Review__, __22__(2), 167-178.
-http://doi.org/10.1177/0894439303262622
+Mangabeira, W. C., Lee, R. M., & Fielding, N. G. (2004). Computers and Qualitative Research: Adoption, Use, and Representation. __Social Science Computer Review__, __22__(2), 167-178. http://doi.org/10.1177/0894439303262622
 
-Miles, M. B., & Huberman, A. M. (1994). _Qualitative Data Analysis: An
-Expanded Sourcebook_ (2nd ed). Thousand Oaks, Ca.: Sage.
+Miles, M. B., & Huberman, A. M. (1994). _Qualitative Data Analysis: An Expanded Sourcebook_ (2nd ed). Thousand Oaks, Ca.: Sage.
 
-Morison, M., & Moir, J. (1998). The role of computer software in the
-analysis of qualitative data: efficient clerk, research assistant or
-Trojan horse? __Journal of Advanced Nursing__, __28__(1), 106-116.
-http://doi.org/10.1046/j.1365-2648.1998.00768.x
+Morison, M., & Moir, J. (1998). The role of computer software in the analysis of qualitative data: efficient clerk, research assistant or Trojan horse? __Journal of Advanced Nursing__, __28__(1), 106-116. http://doi.org/10.1046/j.1365-2648.1998.00768.x
 
-Muñoz Justicia, J., & Sahagún Padilla, M. Á. (2011). Análisis
-cualitativo asistido por ordenador con ATLAS.ti. En C. Izquierdo & A.
-Perinat (Eds.), _Investigar en Psicología de la Educación. Nuevas
-Perspectivas Conceptuales y Metodológicas_ (pp. 299-363). Barcelona:
-Amentia. Recuperado a partir de
+Muñoz Justicia, J., & Sahagún Padilla, M. Á. (2011). Análisis cualitativo asistido por ordenador con ATLAS.ti. En C. Izquierdo & A. Perinat (Eds.), _Investigar en Psicología de la Educación. Nuevas Perspectivas Conceptuales y Metodológicas_ (pp. 299-363). Barcelona: Amentia. Recuperado a partir de
 http://psicologiasocial.uab.es/juan/index.php?option=com_docman&task=doc_download&gid=21&Itemid=89
 
-Notación polaca inversa. (2015, abril 18). En __Wikipedia, la
-enciclopedia libre__. Recuperado a partir de
-https://es.wikipedia.org/w/index.php?title=Notaci%C3%B3n_polaca_inversa&oldid=81492869
+Notación polaca inversa. (2015, abril 18). En __Wikipedia, la enciclopedia libre__. Recuperado a partir de https://es.wikipedia.org/w/index.php?title=Notaci%C3%B3n_polaca_inversa&oldid=81492869
 
-Patton, M. (2002). _Qualitative research and evaluation methods_ (3
-ed.). Thousand Oaks Calif.: Sage Publications.
+Patton, M. (2002). _Qualitative research and evaluation methods_ (3 ed.). Thousand Oaks Calif.: Sage Publications.
 
-Patton, M. Q. (1990). _Qualitative Evaluation and Research Methods_
-(Second Edition). London: Sage Publications.
+Patton, M. Q. (1990). _Qualitative Evaluation and Research Methods_ (Second Edition). London: Sage Publications.
 
-Psillos, S. (2009). An Explorer Upon Untrodden Ground: Peirce on
-Abduction. En D. Gabbay (Ed.), _The Handbook of the History of Logic_
-(pp. 10–117). Elsevier.
+Psillos, S. (2009). An Explorer Upon Untrodden Ground: Peirce on Abduction. En D. Gabbay (Ed.), _The Handbook of the History of Logic_ (pp. 10–117). Elsevier.
 
-Rambaree, K. (2014). Three Methods of Qualitative Data Analysis Using
-ATLAS.ti: ‘A posse ad esse’. Presentado en ATLAS.ti User Conference
-2013 : Fostering Dialog on Qualitative Methods, Berlin:
-Universitätsverlag der TU Berlin. Recuperado a partir de
-https://opus4.kobv.de/opus4-tuberlin/frontdoor/index/index/docId/4427
+Rambaree, K. (2014). Three Methods of Qualitative Data Analysis Using ATLAS.ti: ‘A posse ad esse’. Presentado en ATLAS.ti User Conference 2013 : Fostering Dialog on Qualitative Methods, Berlin: Universitätsverlag der TU Berlin. Recuperado a partir de https://opus4.kobv.de/opus4-tuberlin/frontdoor/index/index/docId/4427
 
-Rasiah, P. (2010). A framework for the systematic analysis of evasion in
-parliamentary discourse. __Journal of Pragmatics__, __42__(3), 664-680.
-http://doi.org/10.1016/j.pragma.2009.07.010
+Rasiah, P. (2010). A framework for the systematic analysis of evasion in parliamentary discourse. __Journal of Pragmatics__, __42__(3), 664-680. http://doi.org/10.1016/j.pragma.2009.07.010
 
 Saldaña, J. (2009). __The coding manual__. London: Sage Publications.
 
-Silver, C., & Patashnick, J. (2010). Finding Fidelity: Advancing
-Audiovisual Analysis Using Software. __Forum Qualitative Sozialforschung
-/ Forum: Qualitative Social Research__, __12__(1). Recuperado a partir
-de
-http://www.qualitative-research.net/index.php/fqs/article/view/1629/3157
+Silver, C., & Patashnick, J. (2010). Finding Fidelity: Advancing Audiovisual Analysis Using Software. __Forum Qualitative Sozialforschung / Forum: Qualitative Social Research__, __12__(1). Recuperado a partir de http://www.qualitative-research.net/index.php/fqs/article/view/1629/3157
 
-Silverman, D. (2005). _Doing Qualitative Research: A Practical Handbook_
-(2on ed.). SAGE Publications Ltd.
+Silverman, D. (2005). _Doing Qualitative Research: A Practical Handbook_ (2on ed.). London: SAGE Publications Ltd.
 
-St John, W., & Johnson, P. (2000). The Pros and Cons of Data Analysis
-Software for Qualitative Research. __Journal of Nursing Scholarship__,
-__32__(4), 393-397. http://doi.org/10.1111/j.1547-5069.2000.00393.x
+St John, W., & Johnson, P. (2000). The Pros and Cons of Data Analysis Software for Qualitative Research. __Journal of Nursing Scholarship__, __32__(4), 393-397. http://doi.org/10.1111/j.1547-5069.2000.00393.x
 
-Strauss, A. (1997). Introduction. En T. Muhr (Ed.), _Atlas.ti Short
-User’s Manual_ (p. 1). Berlin: Scientific Software Development.
+Strauss, A. (1997). Introduction. En T. Muhr (Ed.), _Atlas.ti Short User’s Manual_ (p. 1). Berlin: Scientific Software Development.
 
-Strauss, A., & Corbin, J. (2002). __Bases de la investigación
-cualitativa: técnicas y procedimientos para desarrollar la teoría
-fundamentada__. Antioquia: Universidad de Antioquia.
+Strauss, A., & Corbin, J. (2002). __Bases de la investigación cualitativa: técnicas y procedimientos para desarrollar la teoría fundamentada__. Antioquia: Universidad de Antioquia.
 
-Vaismoradi, M., Turunen, H., & Bondas, T. (2013). Content analysis and
-thematic analysis: Implications for conducting a qualitative descriptive
-study. __Nursing & Health Sciences__, __15__(3), 398-405.
-http://doi.org/10.1111/nhs.12048
+Vaismoradi, M., Turunen, H., & Bondas, T. (2013). Content analysis and thematic analysis: Implications for conducting a qualitative descriptive study. __Nursing & Health Sciences__, __15__(3), 398-405. http://doi.org/10.1111/nhs.12048
 
-Verdinelli, S., & Scagnoli, N. I. (2013). Data Display in Qualitative
-Research. __International Journal of Qualitative Methods__, __12__(0),
-359-381.
+Verdinelli, S., & Scagnoli, N. I. (2013). Data Display in Qualitative Research. __International Journal of Qualitative Methods__, __12__(0), 359-381.
 
-Weitzman, E. A., & Miles, M. B. (1995). __Computer programs for
-qualitative data analysis. A software sourcebook__. London: Sage.
+Weitzman, E. A., & Miles, M. B. (1995). __Computer programs for qualitative data analysis. A software sourcebook__. London: Sage.
