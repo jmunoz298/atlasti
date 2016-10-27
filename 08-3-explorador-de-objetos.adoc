@@ -11,11 +11,15 @@ Aparte del diferente ámbito al que se aplican (un código, códigos y UH), no e
 
 En la figura podemos observar cómo aparecen el conjunto de objetos de la UH (en los otros casos se mostrarían únicamente un código o el conjunto de códigos). A la izquierda de cada uno de ellos encontramos un signo `+` que permite desplegar la “rama” del objeto para mostrar sus relaciones. En el caso de los DPs, sus relaciones son las citas que incluyen, y para ellas los códigos con los que están relacionadas.
 
-image:images/image-139.png[Explorador de UH]
+[[img-explorador-uh, Explorador de UH]]
+.Explorador de UH
+image::images/image-139.png[{alt="Explorador de UH", float="right", align="center"]
 
 Si desplegamos la rama de códigos, la visualización será idéntica a la que podemos ver con el _Árbol de códigos_ o con el _Bosque de códigos._ En el caso de las __familias__, podemos ver sus miembros y, en el caso de haber creado _superfamilias_ podemos ver no sólo sus miembros sino también los operadores que han dado lugar a su creación. En el ejemplo de la figura , podemos ver cómo la superfamilia Derecha tiene como miembros los códigos “Anasagasti”, “Belda”, etc,.. y que en su creación se ha utilizado el operador lógico OR.
 
-image:images/image-140.png[Explorador de UH: Familias de códigos]
+[[img-explorador-uh-familias, Explorador de UH: Familias de códigos]]
+.Explorador de UH: Familias de códigos
+image::images/image-140.png[{alt="Explorador de UH: Familias de códigos", float="right", align="center"]
 
 Además de poder visualizar los diferentes objetos, podemos realizar acciones sobre los mismos, por ejemplo en la parte inferior de la ventana podemos editar o crear sus comentarios, mientras que si clicamos sobre un objeto con el botón derecho del ratón tendremos acceso a alguna de las acciones habituales sobre el mismo.
 

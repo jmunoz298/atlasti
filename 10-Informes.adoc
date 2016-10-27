@@ -6,21 +6,27 @@ El trabajo del analista implicará pasar un número considerable de horas delant
 
 Dado el gran número de posibilidades que nos ofrece el programa en cuanto a la elaboración de informes, sería excesivamente tedioso exponerlas todas aquí, por lo que preferimos mostrar aquí sólo los principios generales de creación de informes y algunos de los que consideramos más interesantes. Dejamos a la iniciativa del lector explorar todas las posibilidades.
 
-image:images/image-175.png[Tipos de informes de DPs]
+[[img-tipos-informes-dp, Tipos de informes de DPs]]
+.Tipos de informes de DPs
+image::images/image-175.png[{alt="Tipos de informes de DPs", float="right", align="center"]
 
 Prácticamente todos los menús del programa incluyen una opción __Imprimir__, que ofrecerá a su vez diferentes formatos de listados relacionados con el tipo de menú que hayamos seleccionado. A título de ejemplo, en la figura vemos las opciones del menú _Imprimir_ para el caso de los DPs.
 
 También podemos encontrar el menú _Imprimir_ en muchos de los __administradores__, y en algunos de ellos también un icono de impresora que da acceso a algunas opciones particulares.
 
-Podemos empezar, por ejemplo solicitando un informe con la lista de DPs de nuestra UH. Por lo tanto, seleccionaremos Documentos > Imprimir > Lista de documentos. Lo primero que aparecerá será una ventana en la que se nos preguntará si queremos incluir en el informe los comentarios de los documentosfootnote:[Esta ventana no aparecerá siempre, sólo lo hará cuando el elemento que queremos listar tiene información de ese tipo. Por ejemplo, si pedimos un listado de citas de un código pero ninguna cita tiene asociados comentarios o memos ni tiene hypervínculos, esta pantalla no aparecerá.]. Esto puede ocurrir también en otros informes, e incluso se nos puede preguntar sobre la inclusión de alguna otra información.
+Podemos empezar, por ejemplo solicitando un informe con la lista de DPs de nuestra UH. Por lo tanto, seleccionaremos `Documentos > Imprimir > Lista de documentos`. Lo primero que aparecerá será una ventana en la que se nos preguntará si queremos incluir en el informe los comentarios de los documentosfootnote:[Esta ventana no aparecerá siempre, sólo lo hará cuando el elemento que queremos listar tiene información de ese tipo. Por ejemplo, si pedimos un listado de citas de un código pero ninguna cita tiene asociados comentarios o memos ni tiene hypervínculos, esta pantalla no aparecerá.]. Esto puede ocurrir también en otros informes, e incluso se nos puede preguntar sobre la inclusión de alguna otra información.
 
-image:images/image-176.png[image]
+[[img-informes-enviar-resultado, Informes: enviar resultado a]]
+.Informes: enviar resultado a
+image::images/image-176.png[{alt="Informes: enviar resultado a", float="right", align="center"]
 
 Una vez que hemos contestado esas preguntas, aparecerá una nueva ventana (figura ) en la que tendremos que especificar el destino del informe: __Editor__, _Impresora_ o _Archivo_ (o la opción __Archivo & EJECUTAR__, que guardará en un archivo y mostrará en pantalla). Recomendamos utilizar la opción __Editor__, puesto que podremos ver el informe en pantalla (en un editor de texto) para comprobar que es efectivamente el tipo de informe que deseamos, y posteriormente, utilizando las funcionalidades del editor, podemos guardar el archivo y/o imprimirlo.
 
 En la figura podemos ver el resultado del informe anterior. De entrada, podemos apreciar que los informes no son sofisticados estéticamente, son únicamente archivos de texto que cumplen únicamente la función de ser archivos de trabajo.
 
-image:images/image-177.png[Listado de Documentos primarios]
+[[img-listado-dp, Listado de Documentos primarios]]
+.Listado de Documentos primarios
+image::images/image-177.png[{alt="Listado de Documentos primarios", float="right", align="center"]
 
 También podemos apreciar que el informe nos ofrece una serie de informaciones adicionales. En este caso, en primer lugar, se nos informa que el informe se ha ejecutado con un filtro activo __Filtro: Texto__, ya que hemos aplicado un filtro en base a una de las familias que habíamos creado previamente, dado que sólo queremos información de los documentos de texto (no queremos que se incluyan los de audio ni los de vídeo). Esto significa que, además de las múltiples posibilidades de informes de que disponemos, podemos “afinar” los resultados que obtenemos utilizando __filtros__, puesto que al activar un filtro todas las operaciones que se realizan a continuación afectan sólo a los elementos activos.
 
@@ -28,12 +34,16 @@ A continuación se nos ofrece datos informativos sobre la UH en la que hemos eje
 
 Y finalmente, aparece el listado, en el que de nuevo, para cada uno de los elementos, aparece información contextual, las familias a las que pertenece y el comentario que habíamos decidido incluir en el primer paso de generación del informe.
 
-Otro posible informe interesante es el que podemos hacer de las citas de determinados códigos para, como comentábamos realizar una depuración de las mismas. Para ello, una vez que hayamos seleccionado el código del que queramos obtener el listado, utilizaremos la opción Imprimir > Citas de código seleccionado del menú _Códigos_ (figura ).
+Otro posible informe interesante es el que podemos hacer de las citas de determinados códigos para, como comentábamos realizar una depuración de las mismas. Para ello, una vez que hayamos seleccionado el código del que queramos obtener el listado, utilizaremos la opción `Imprimir > Citas de código seleccionado` del menú _Códigos_ (figura ).
 
-image:images/image-178.png[Listados de Códigos]
+[[img-listado-codigos, Listados de Códigos]]
+.Listados de Códigos
+image::images/image-178.png[{alt="Listados de Códigos", float="right", align="center"]
 
 Como vemos en la Ilustración, podemos solicitar una gran variedad de tipos de informes relacionados los códigos, entre los que el lector debería explorar como mínimo los de _Códigos con comentarios_ y _Tabla códigos-documentos primarios._
 
 Las opciones de informes relacionados con códigos también están disponibles en el __administrador de códigos__, en el menú __Imprimir__. En este administrador encontraremos además un icono de impresora que permitirá acceder a una ventana especial de generación de informes.
 
-image:images/image-179.png[Ventana de opciones de informes de códigos]
+[[img-ventana-opciones-informes, Ventana de opciones de informes de códigos]]
+.Ventana de opciones de informes de códigos
+image::images/image-179.png[{alt="Ventana de opciones de informes de códigos", float="right", align="center"]

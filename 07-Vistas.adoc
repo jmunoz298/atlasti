@@ -12,7 +12,9 @@ ____
 
 Otros autores hacen planteamientos similares a los de Strauss y Corbin (Miles & Huberman, 1994; M. Patton, 2002; Vaismoradi, Turunen, & Bondas, 2013; Verdinelli & Scagnoli, 2013), pero desde nuestro punto de vista la propuesta que más se acerca a las _vistas de red_ de ATLAS.ti es la que realiza Jennifer Attride-Stirling (2001), quien plantea las _redes temáticas_ como, “web-like illustrations (networks) that summarize the main themes constituting a piece of text.” (p. 386). En la figura podemos ver un ejemplo de red temática en la que se están relacionando diferentes niveles de __temas__, y que si utilizamos “lenguaje” ATLAS.ti, podríamos interpretar como la representación de diferentes _códigos_ (en la práctica, un _código_ puede ser un tema).
 
-image::images/image-112.png[Redes temáticas Attride-Stirling, 2001, p.388]
+[[img-redes-tematicas, Redes temáticas Attride-Stirling, 2001, p.388]]
+.Redes temáticas Attride-Stirling, 2001, p.388
+image::images/image-112.png[{alt="Redes temáticas Attride-Stirling, 2001, p.388", float="right", align="center"]
 
 Las _Redes_ nos permitirán no sólo representar gráficamente las relaciones creadas entre los diferentes componentes que forman parte de la UH, sino que serán también un espacio donde podremos crear nuevas relaciones entre componentesfootnote:[En la práctica, la forma más fácil de crear relaciones entre elementos es desde el editor de __Vistas de Red__.] o incluso crear nuevos componentes (códigos, anotaciones y familias). Esto significa que podemos considerar a las _Redes_ no sólo como el espacio para la representación del trabajo realizado, sino como un espacio para *desarrollar y refinar* dicho trabajo.
 

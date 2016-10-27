@@ -5,18 +5,24 @@ Ahora que ya estamos familiarizados con la interfaz de ATLAS.ti, y si todavía n
 
 Para ello, simplemente tenemos que hacer clic sobre el menú _Proyecto_ y seleccionar la opción _Nueva unidad hermenéutica_ (1 en la figura ). Se abrirá entonces una nueva ventana, como la que hemos visto en la Ilustración (pág. Ilustración) en la que ya podemos empezar a trabajar.
 
-image::images/image-014.png[Menú Proyecto]
+[[img-menu-proyecto, Menú Proyecto]]
+.Menú Proyecto
+image::images/image-014.png[{alt="Menú Proyecto", float="left", align="center"]
 
 Durante este manual insistiremos de forma reiterada en la necesidad de documentar nuestro trabajo, algo que podemos hacer de formas diferentes y en momentos diferentes. Para ir acostumbrándonos a hacerlo, el
 siguiente paso que sugerimos, es precisamente documentar nuestro archivo de UH. Para ello, en el mismo menú _Proyecto_ haremos clic en la opción _Editar comentario_ (2 en la Ilustración). Como vemos en la figura , se nos abrirá una nueva ventana con un editor de texto en el que escribiremos un comentario. No consideramos que sea necesario introducir una amplísima descripción, pues esto lo podemos hacer con otras
 herramientas, pero como mínimo deberíamos describir y/o identificar las características principales de la UH.
 
-image::images/image-015.png[Comentario de Unidad Hermenéutica]
+[[img-comentario-uh, Comentario de Unidad Hermenéutica]]
+.Comentario de Unidad Hermenéutica
+image::images/image-015.png[{alt="Comentario de Unidad Hermenéutica", float="right", align="center"]
 
 Una vez que hemos escrito el comentario de UH, y aunque podríamos seguir trabajando (seguro que estamos ansiosos por comenzar...), procederemos a guardar el trabajo realizado hasta el momento (sólo el comentario, pero algo es...). Para ello, utilizaremos la opción _Guardar como..._ (3 en la Ilustración). Al hacer clic sobre la opción aparecerá una ventana de navegación para que seleccionemos el nombre que daremos a nuestro archivo de UH (que se guardará con la extensión __.hpr7__), y la ubicación de nuestro ordenador donde queremos guardarla. Como vemos en la figura , el programa sugiere, por defecto, que guardemos el archivo en una carpeta denominada __Textbank__, aunque evidentemente podemos elegir cualquier otra ubicación. Por ejemplo podríamos crear una nueva carpeta, dentro de __Textbank__, a la que podríamos etiquetar con un nombre alusivo a nuestra investigación, por ejemplo __Control Parlamentario__, y guardar en la misma todos los documentos relativos a dicha investigación. El único requisito que consideramos imprescindible, aunque parezca algo excesivamente de sentido común como para
 explicitarlo, es que guardemos nuestro archivo en una ubicación que nos sea fácil de recordar, de forma que posteriormente no tengamos problemas para recuperarlo (algo que hemos visto en demasiadas ocasiones).
 
-image::images/image-016.png[Ruta de Textbank]
+[[img-ruta-textbank, Ruta de Textbank]]
+.Ruta de Textbank
+image::images/image-016.png[{alt="Ruta de Textbank", float="right", align="center"]
 
 Podemos ahora cerrar el programa para practicar otras opciones del menú __Proyectos__.
 
@@ -25,4 +31,6 @@ En el caso de que esa UH no sea aquella con la que queremos trabajar, podemos ut
 
 En esa ventana (figura ) podemos ver (1), como decíamos, la lista de las últimas UHs con las que se ha trabajado en ese ordenador, junto a (2) una descripción de la UH seleccionada que incluye el comentario de UH que hemos creado previamente. Haciendo clic en (3) abriremos la UH seleccionada. El resto de opciones de esta ventana son bastante intuitivas, por lo que en vez de explicitarlas lo dejamos para que el lector explore.
 
-image::images/image-017.png[Explorar proyectos]
+[[img-explorar-proyectos, Explorar proyectos]]
+.Explorar proyectos
+image::images/image-017.png[{alt="Explorar proyectos", float="right", align="center"]

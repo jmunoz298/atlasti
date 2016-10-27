@@ -10,26 +10,36 @@ Si somos el único analista de una UH puede que no sea necesario realizar ningú
 
 Lo primero que tendremos que hacer, por lo tanto, será crear nuevos usuarios. Para ello, utilizarmos la opción `Herramientas > Administración de usuario > Editor de usuario` (figura ).
 
-image:images/image-162.png[Administración de usuarios]
+[[img-administracion-usuarios, Administración de usuarios]]
+.Administración de usuarios
+image::images/image-162.png[{alt="Administración de usuarios", float="right", align="center"]
 
 En la figura vemos (3) que existen tres usuarios predefinidos, __Admin__, _GUEST_ y __Super__. En la zona (1) de la pantlla podemos ver los datos identificativos del usuario seleccionado y en (2) sus privilegios, que pueden ser como _Administrador_ o como usuario __Estandar__.
 
-image:images/image-163.png[Edición de usuarios]
+[[img-edicion-usuarios, Edición de usuarios]]
+.Edición de usuarios
+image::images/image-163.png[{alt="Edición de usuarios", float="right", align="center"]
 
-Para crear un nuevo usuario, sólo tenemos que acceder al menú `Edición > Nuevo usuario` e ir completando los datos que se nos van solicitando. Una vez creado el nuevo usuario, hacer clicemos en el menú `Archivo > Guardar`. Esta es la opción por defecto, pero también podemos elegir `Archivo > Guardar como` si queremos guardar los cambios en un archivo diferente al que se utiliza por defecto (hermence.hdb). Si lo hacemos así, esa información no estará disponible “por defecto” al abrir el programa, y tendríamos que acceder de nuevo a esta ventana para cargarla con la opción Archivo > Cargar base de datos.
+Para crear un nuevo usuario, sólo tenemos que acceder al menú `Edición > Nuevo usuario` e ir completando los datos que se nos van solicitando. Una vez creado el nuevo usuario, hacer clicemos en el menú `Archivo > Guardar`. Esta es la opción por defecto, pero también podemos elegir `Archivo > Guardar como` si queremos guardar los cambios en un archivo diferente al que se utiliza por defecto (hermence.hdb). Si lo hacemos así, esa información no estará disponible “por defecto” al abrir el programa, y tendríamos que acceder de nuevo a esta ventana para cargarla con la opción `Archivo > Cargar base de datos`.
 
 Evidentemente podemos crear tantos usuarios como sea necesario.
 
-image:images/image-164.png[Cambiar usuario] Aunque acabamos de crear un usuario, el programa seguirá identificándonos como _Super_ hasta que no realicemos el _Ingreso_ (login). Para ello, de nuevo en el menú __Herramientas__, hacer clicemos en Administrador de usuario > Cambiar usuario. La pantalla que aparece (figura ) es bastante evidente, pero queremos destacar la opción __Ingreso automático__, que está activado por defecto. Si la dejamos activada, cada vez que iniciemos el programa el usuario activo será el último que haya sido elegido en esta pantalla.
+[[img-cambiar-usuario, Cambiar usuario]]
+.Cambiar usuario
+image::images/image-164.png[{alt="Cambiar usuario", float="left", align="center"]
 
-Otra de las posibilidades es la de definir/cambiar coautorías de la UH. Está disponible en Administrador de usuarios > Coautorías, y se nos ofrecen tres opciones: __Registrar coautores__, _Eliminar coautores_ y __Mostrar coautores__. Los coautores serán las personas a las que se les da permiso para acceder a la UH, pero evidentemente esta opción no tienen ningún efecto si hemos dejado activada la opción __Ingreso automático__.
+Aunque acabamos de crear un usuario, el programa seguirá identificándonos como _Super_ hasta que no realicemos el _Ingreso_ (login). Para ello, de nuevo en el menú __Herramientas__, hacer clicemos en `Administrador de usuario > Cambiar usuario`. La pantalla que aparece (figura ) es bastante evidente, pero queremos destacar la opción __Ingreso automático__, que está activado por defecto. Si la dejamos activada, cada vez que iniciemos el programa el usuario activo será el último que haya sido elegido en esta pantalla.
+
+Otra de las posibilidades es la de definir/cambiar coautorías de la UH. Está disponible en `Administrador de usuarios > Coautorías`, y se nos ofrecen tres opciones: __Registrar coautores__, _Eliminar coautores_ y __Mostrar coautores__. Los coautores serán las personas a las que se les da permiso para acceder a la UH, pero evidentemente esta opción no tienen ningún efecto si hemos dejado activada la opción __Ingreso automático__.
 
 [[proteccion-de-acceso]]
 ==== Protección de acceso
 
-Como nos habremos dado cuenta, aunque en el momento de crear nuevos usuarios se nos solicita definir una contraseña, esa información, no se nos ha solicitado en ningún momento para acceder al programa o a alguna UH. Para configurar el programa para que solicite la contraseña, es necesario realizar un cambio en el archivo __ATLAS.INI__footnote:[Recomendamos hacer una copia antes de realizar cambios en el archivo.]_,_ que está en la carpeta de datos comunes de la aplicación. En la figura podemos ver la ubicación, pero la forma más fácil de acceder a la misma es Herramientas > Explorador > Datos de aplicación común, que abrirá directamente esa carpeta.
+Como nos habremos dado cuenta, aunque en el momento de crear nuevos usuarios se nos solicita definir una contraseña, esa información, no se nos ha solicitado en ningún momento para acceder al programa o a alguna UH. Para configurar el programa para que solicite la contraseña, es necesario realizar un cambio en el archivo __ATLAS.INI__footnote:[Recomendamos hacer una copia antes de realizar cambios en el archivo.]_,_ que está en la carpeta de datos comunes de la aplicación. En la figura podemos ver la ubicación, pero la forma más fácil de acceder a la misma es `Herramientas > Explorador > Datos de aplicación común`, que abrirá directamente esa carpeta.
 
-image:images/image-165.png[Archivo ATLAS.INI]
+[[img-archivo-atlas-ini, Archivo ATLAS.INI]]
+.Archivo ATLAS.INI
+image::images/image-165.png[{alt="Archivo ATLAS.INI", float="right", align="center"]
 
 El cambio que tenemos que hacer en ese archivo es modificar la línea
 
@@ -43,15 +53,21 @@ A partir de ese momento será necesario introducir la contraseña correspondient
 
 Por defecto, cuando creamos una UH está tendrá la propiedad de ser __Privada__, por lo que sólo tendrán acceso a la misma su creador y las personas que se hayan definido como coautoras, pero podemos cambiar ese comportamiento con la opción `Herramientas > Adnministrador de usuarios > Cambiar derechos de acceso`, que nos permitirá dar acceso a esta UH a otras personas con posibilidades de edición Público – leer y escribir o sólo con derechos de visualización pero no para realizar cambios Público – solamente lectura. Esta última opción puede ser interesante en aquellos casos en que queremos que alguien vea nuestro trabajo (un colega o incluso un comité evaluador por ejemplo) pero que no haga cambios.
 
-image:images/image-166.png[Contraseña UH] En el menú _Cambiar derechos de acceso_ encontramos otra opción para proteger la UH que puede ser más práctica y con toda seguridad más sencilla que la explicada anteriormente, consistente en asignar una contraseña a la UH. Una vez asignada la contraseña, será necesario ingresarla para tener acceso a la UH. De esta forma, sólo podrán hacerlo los usuarios que la conozcanfootnote:[Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que los cambios tengan efecto.].
+[[img-solicitud-contraseña, Solicitud contraseña UH]]
+.Solicitud contraseña UH
+image::images/image-166.png[{alt="Solicitud contraseña UH", float="left", align="center"]
+
+En el menú _Cambiar derechos de acceso_ encontramos otra opción para proteger la UH que puede ser más práctica y con toda seguridad más sencilla que la explicada anteriormente, consistente en asignar una contraseña a la UH. Una vez asignada la contraseña, será necesario ingresarla para tener acceso a la UH. De esta forma, sólo podrán hacerlo los usuarios que la conozcanfootnote:[Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que los cambios tengan efecto.].
 
 Si en algún momento queremos anular la contraseña, simplemente tenemos que seleccionar alguna otra de las opciones de derechos de acceso, volver a _Privado_ por ejemplofootnote:[Se nos pedirá introducir la contraseña actual para confirmar el cambio, e igualmente que al crearla será necesario guardar la UH para que el cambio sea efectivo.].
 
 [[propiedad-de-objetos]]
 ==== Propiedad de objetos
 
-Para finalizar con las opciones de administración de usuarios, otra de las posibilidades que tenemos es la de cambiar globalmente la autoría de todo lo creado hasta el momento en la UH. Esta opción puede ser práctica si hemos empezado el análisis en una UH sin crear nuestro propio usuario y queremos aparecer como autores en vez de __Super__. Para ello, utilizaremos la opción Herramientas > Administración de usuario > Cambiar propiedad del objeto. Nos aparecerá una ventana como la de la figura en la que, como vemos tenemos dos zonas con nombres de usuarios. A la izquierda, aparecen los usuarios que tienen objetos en propiedad. En este caso aparece únicamente __Super__. En la zona derecha de la ventana aparecen todos los usuarios definidos. Para cambiar la propiedad, sólo tenemos que seleccionar un usuario en la zona derecha y otro en la zona derecha a quien le será transferida la propiedad de todos los objetos de la UH al hacer clic en _Cambiar propiedad._
+Para finalizar con las opciones de administración de usuarios, otra de las posibilidades que tenemos es la de cambiar globalmente la autoría de todo lo creado hasta el momento en la UH. Esta opción puede ser práctica si hemos empezado el análisis en una UH sin crear nuestro propio usuario y queremos aparecer como autores en vez de __Super__. Para ello, utilizaremos la opción `Herramientas > Administración de usuario > Cambiar propiedad del objeto`. Nos aparecerá una ventana como la de la figura en la que, como vemos tenemos dos zonas con nombres de usuarios. A la izquierda, aparecen los usuarios que tienen objetos en propiedad. En este caso aparece únicamente __Super__. En la zona derecha de la ventana aparecen todos los usuarios definidos. Para cambiar la propiedad, sólo tenemos que seleccionar un usuario en la zona derecha y otro en la zona derecha a quien le será transferida la propiedad de todos los objetos de la UH al hacer clic en _Cambiar propiedad._
 
-image:images/image-167.png[Cambio global de propiedad de objetos]
+[[img-cambio-global-propiedades, Cambio global de propiedad de objetos]]
+.Cambio global de propiedad de objetos
+image::images/image-167.png[{alt="Cambio global de propiedad de objetos", float="right", align="center"]
 
-Esta opción de cambio de propiedad afecta a *todos* los objetos de la UH. Si queremos, hacer cambios sólo para objetos concretos, podemos hacerlo con la opción Miscelánea > Cambiar autor, presente en prácticamente todos los _administradores._
+Esta opción de cambio de propiedad afecta a *todos* los objetos de la UH. Si queremos, hacer cambios sólo para objetos concretos, podemos hacerlo con la opción `Miscelánea > Cambiar autor`, presente en prácticamente todos los _administradores._

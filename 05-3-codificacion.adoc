@@ -5,7 +5,9 @@ Podemos entender las estrategias de segmentación/codificación explicadas hasta
 
 Como podemos ver en la figura , el menú contextual que aparece después de seleccionar un fragmento de texto y hacer clic sobre él con el botón derecho, nos ofrece varias opciones de codificación. Todas ellas implican que de forma simultánea se creará una cita, un código (si no existe previamente) y una relación entre la cita y el código.
 
-image::images/image-063.png[Opciones de codificación]
+[[img-opciones-codificacion, Opciones de codificación]]
+.Opciones de codificación
+image::images/image-063.png[{alt="Opciones de codificación", float="right", align="center"]
 
 La primera opción, _Ingresar nombre(s) de código_ abrirá una nueva ventana, como la que veíamos previamente al crear _códigos libres_ (ver Ilustración, pág. Ilustración) en la que introduciremos los nombres de nuevos códigos y simultáneamente los relacionaremos con la cita. Si introdujésemos el nombre de un código exactamente igual a uno ya existente, ATLAS.ti no creará uno nuevo, sino que utilizará el que ya existe para codificar la cita.
 

@@ -3,6 +3,8 @@
 
 El ATLAS.ti se originó en la Universidad Tecnológica de Berlín, en el marco del proyecto ATLAS, entre 1989 y 1992. El nombre es un acrónimo de Archiv für Technik, Lebenswelt und Alltagssprache, que en alemán quiere decir 'Archivo para la Tecnología, el Mundo de la Vida y el Lenguaje Cotidiano'. La extensión '.ti' significa interpretación de textos. Se pueden encontrar mayores detalles sobre el origen del programa en el interesante relato de Heiner Legewie (2014). En 1996 fue lanzada la primera versión comercial y en 2012 apareció la versión 7. El lanzamiento de la versión 8 fue anunciado para finales de 2015.
 
+<<img-proceso-tipico-analisis>>
+
 A continuación describiremos algunas de las características principales de ATLAS.ti. En primer lugar haremos un repaso de los componentes principales del programa. En segundo lugar, presentaremos algunas de las operaciones básicas relacionadas con la documentación, la segmentación y codificación y el establecimiento de relaciones entre elementos
 
 [[componentes]]
@@ -12,7 +14,9 @@ A continuación describiremos algunas de las características principales de ATL
 
 La UH contiene toda la información producida en el transcurso de nuestro análisis. La información se organiza en diferentes objetos. Los objetos básicos, los 'componentes principales' del programa (ver figura ), son los _Documentos Primarios_ (DPs a partir de ahora), las __Citas__, los _Códigos_ y los _Memos_ (anotaciones). Junto a ellos, otros objetos importantes de la UH son las __Familias__, los _Vínculos_ (relaciones entre objetos) y las __Vistas de red__.
 
-image:::images/image-002.png[Componentes]
+[[img-componentes, Componentes principales]]
+.Componentes
+image::images/image-002.png[alt="Componentes", align="center"]
 
 Los _*Documentos Primarios*_ serán normalmente la base de nuestro análisis, puesto que se corresponderán con nuestros datos (entrevistas, observaciones, diarios de campo, documentos y registros de información de diversa índole). Una UH puede incluir un gran número de DPs, tantos como datos se incluyan en nuestro análisis. En cuanto al formato de los datos que podemos utilizar, tenemos un amplio abanico de posibilidades. En primer lugar —lo más habitual— podemos tener archivos de texto con las transcripciones de las entrevistas, observaciones o cualquier otro tipo de material textual. Podemos incluir archivos de texto 'plano' o sin editar (___.txt__), documentos de Microsoft Word (__*.doc__), documentos con formato de texto enriquecido (__*.rtf__) —la opción más recomendable— e incluso documentos adobe (_*.pdf).* Podemos incluir también archivos multimedia como imágenes o fotografías, archivos de audio y archivos de vídeo. Y, finalmente, otra de las posibilidades es incluir como DPs archivos de Google Earth.
 
@@ -30,4 +34,6 @@ Las _*Vistas de red*_ son uno de los componentes más interesantes y caracterís
 
 La figura ilustra los componentes principales del ATLAS.ti y las relaciones que pueden establecerse entre ellos. La presentación de los componentes y sus relaciones muestra la progresiva reducción de información, que es simultáneamente un proceso de interpretación y abstracción. El punto de partida son los documentos primarios, de los cuales se extraen citas que después se vinculan a códigos. Tanto las citas como los códigos pueden relacionarse entre ellos mismos. Además, es posible y frecuente incluir códigos que no están directamente asociados a citas, pero sí a otros códigos. Finalmente, podemos vincular memos con citas, códigos y otros memos.
 
-image::images/image-003.png[Componentes y relaciones]
+[[img-componentes-relaciones, Componentes y relaciones]]
+.Componentes y relaciones
+image::images/image-003.png[{alt="Componentes y relaciones", align="center"]

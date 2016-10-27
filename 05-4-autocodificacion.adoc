@@ -9,12 +9,16 @@ Puesto que la búsqueda de texto es el elemento básico de la autocodificación 
 
 En la figura podemos ver un ejemplo en el que vamos a autocodificar todas las intervenciones del presidente Zapatero. En primer lugar (1) seleccionaremos el código con el que queremos trabajar. Si no lo hemos hecho previamente, podemos crearlo en (2). A continuación tenemos que especificar el texto de búsqueda para identificar las intervenciones del presidente Zapatero. Dado que dichas intervenciones van precedidas por el texto “Presidente.-”, en (3) escribiremos dicho texto exactamente, incluyendo .-, de esta forma evitaremos que los resultados de la búsqueda incluyan la aparición de la palabra “Presidente” en partes del texto que no sean el identificador de hablante. Es importante que en el momento de preparación de los datos previo a la asignación utilicemos etiquetas de hablante/participante que sean “únicas”, es decir, que no puedan aparecer en otras partes del texto. Una posibilidad es, que la etiqueta vaya seguida de algún carácter especial, por ejemplo .-, como en nuestros datos.
 
-image:images/image-064.png[Autocodificación]
+[[img-autocodificacion, Autocodificación]]
+.Autocodificación
+image::images/image-064.png[{alt="Autocodificación", float="right", align="center"]
 
 Podemos seleccionar (4) que la búsqueda de la cadena de texto especificada se realice únicamente en el documento activo, en todos los documentos asignados a la HU, o en una familia de documentos. En nuestro caso, dado que nuestros datos incluyen dos legislaturas y el Sr. Zapatero sólo interviene en una de ellas, hemos optado por seleccionar la familia de documentos “Legislatura IX”. De esta forma, la búsqueda sólo afectará a los documentos que hemos asignado a la familia de documentos X Legislatura, creada anteriormente (ver Familias, pág. 91).
 
 El siguiente paso (5) consiste en definir la extensión de la cita una vez que la búsqueda haya sido exitosa. Si la búsqueda arroja algún resultado, se creará una cita que puede variar de tamaño en función de la elección que hayamos realizado en __Crear cita desde el resultado hasta:__. Por ejemplo, en el caso de que hayamos seleccionado como criterio de búsqueda, la expresión “Ent”, cada vez que ésta aparezca en el documento se creará una cita de la siguiente forma:
 
+[[tab-autocodificacion-opciones, Autocodificación: opciones de creación de la cita]]
+.Autocodificación: opciones de creación de la cita
 [width="100%",cols="<16%,<84%",options="header",]
 |=======================================================================
 |Parámetro |Acción
@@ -37,8 +41,6 @@ salto de línea manual
 
 |Todos los textos |Seleccionará como cita todo el documento primario
 |=======================================================================
-
-Autocodificación: opciones de creación de la cita
 
 En nuestro caso seleccionamos la opción __Múltiples saltos de línea__, puesto que las intervenciones de un mismo hablante pueden incluir varios párrafos (salto de línea simple), mientras que las intervenciones de dos personas diferentes están separados por un doble salto de línea.
 

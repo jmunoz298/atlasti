@@ -4,7 +4,9 @@
 
 En este apartado veremos dos de las tareas iniciales en buena parte de las modalidades de análisis cualitativo, la segmentación y codificación de nuestros datos, un proceso que nos permitirá realizar una primera “reducción” de los mismos. Como comentábamos anteriormente, parte del trabajo de análisis implica la reducción de los datos, pasar de los datos brutos originales a unidades significativas más manejables. Esto lo podemos hacer mediante la creación de citas (fragmentos significativos de texto) y su agrupación en códigos, entendidos como categorías que marcan conjuntos de citas con alguna característica en común (figura ).
 
-image::images/image-051.png[Segmentar y codificar]
+[[img-segmentar-codificar, Segmentar y codificar]]
+.Segmentar y codificar
+image::images/image-051.png[{alt="Segmentar y codificar", float="right", align="center"]
 
 Dependiendo de nuestra perspectiva de análisis, el proceso de segmentación-codificación podemos realizarlo de dos formas diferentes. Si estamos realizando un análisis de tipo deductivo, partimos de una teoría previa que queremos contrastar con nuestros datos o dar cuenta de ella en términos empíricos, por lo que, en la práctica, muy probablemente partiremos de un conjunto de códigos predefinido y nuestro objetivo será “encontrar” en los datos citas que se correspondan con esos códigos.
 
@@ -20,7 +22,9 @@ ____
 
 Como podemos ver en la figura \{fig-estrategias}, dependiendo de nuestra estrategia, variará la forma de realizar nuestro trabajo con ATLAS.ti. Si nuestra estrategia es deductiva, primero crearemos __Códigos libres__, mientras que si nuestra estrategia es inductiva primero crearemos _Citas_ (también libres).
 
-image::images/image-052.png[Estrategias de segmentación/codificación]
+[[img-estrategias-segmentacion, Estrategias de segmentación/codificación]]
+.Estrategias de segmentación/codificación
+image::images/image-052.png[{alt="Estrategias de segmentación/codificación", float="right", align="center"]
 
 De todas formas, el iniciar el trabajo de una u otra forma (creando códigos o creando citas), no necesariamente implica que estemos realizando un análisis deductivo o inductivo. Por ejemplo, si estamos realizando un trabajo de análisis en equipo, de forma que los diferentes analistas trabajarán sobre diferentes documentos, una posibilidad es, antes de iniciar el trabajo con ATLAS.ti, consensuar, un “libro de códigos” común para todos los analistas. Esto no significa necesariamente que el análisis sea deductivo, puesto que esos códigos pueden haber surgido de un trabajo inductivo previo mediante la lectura de los datos.
 

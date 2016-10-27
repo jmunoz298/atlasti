@@ -9,17 +9,23 @@ La segunda opción, es utilizar la herramienta de copia de que dispone el progra
 
 Como vemos en la figura , el programa nos mostrará todos los DPs asignados a la UH activa para que seleccionemos aquellos que queremos incluir en la copia (en el caso de que no los querramos incluir todos). También nos informa de posibles conflictos con los documentos.
 
-image::images/image-169.png[Crear paquete de copia]
+[[img-crear-paquete-copia, Crear paquete de copia]]
+.Crear paquete de copia
+image::images/image-169.png[{alt="Crear paquete de copia", float="right", align="center"]
 
 Este sistema copia única y exclusivamente los documentos y la UH, cualquier otro archivo que pueda estar vinculado, como por ejemplo memos con documentos asociado, con la UH, será ignorado.
 
 Una vez que cliquemos al botón __Crear paquete__, se creará, en la ubicación que decidamos, un arhivo de copia, con el mismo nombre que la UH y con extensión _atlcb._ En la figura vemos el resultado de nuestra copia. En este caso, dado que estamos creándola para trasladar nuestro trabajo a otro ordenador, hemos guardado el archivo en una carpeta de un lápiz de memoria.
 
-image::images/image-171.png[Arvhico de copia]
+[[img-archivo-copia, Archivo de copia]]
+.Archivo de copia
+image::images/image-171.png[{alt="Archivo de copia", float="right", align="center"]
 
 A continuación, en el otro ordenador, accedemos al menú `Proyecto > Desempaquetar la copia`. Se nos abrirá una ventana como la de la figura en la que destacamos en primer lugar (1) que se nos ofrecen dos opciones de desempaquetado: _Migrar_ o _Restaurar._
 
-image::images/image-172.png[Desempaquetar paquete de copia]
+[[img-desempaquetar-paquete-copia, Desempaquetar paquete de copia]]
+.Desempaquetar paquete de copia
+image::images/image-172.png[{alt="Desempaquetar paquete de copia", float="right", align="center"]
 
 En este caso lo que queremos es evidentemente una migración, por lo que dejamos activada esa opción. En (2) se nos informa del destino de la copia (el archivo en el lápiz de memoria) y se nos da a elegir si queremos migrar o no también la UH. En (3) aparece el origen de la copia. En este caso, la carpeta _textbank._ Dado que el archivo origen se encontraba en una carpeta denominada “ControlParlamentario”, al realizar la copia se creará esa carpeta en _textbank_ en el ordenador de destino. En (4) podemos ver los DPs que se van a copiar, junto a un código de color que nos indica si hay algún conflicto para realizar la copia o no.. Y finalmente en (5) se nos muestra de forma textual el estatus de la copia.
 

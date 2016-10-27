@@ -6,11 +6,15 @@
 
 Como podemos ver en la figura (izquierda), la primera opción del menú __Códigos__, nos permite la creación de códigos “libres”, es decir, códigos que en principio no están relacionados con ningún otro elemento. También podemos crear códigos libres desde el _Administrador_ de códigos, utilizando la misma opción del menú o con el icono de creación (figura , derecha).
 
-image::images/image-053.png[Opciones de creación de códigos libres]
+[[img-opciones-creacion-codigos-libres, Opciones de creación de códigos libres]]
+.Opciones de creación de códigos libres
+image::images/image-053.png[{alt="Opciones de creación de códigos libres", float="right", align="center"]
 
 En ambos casos, nos aparecerá una nueva ventana (figura ) en la que introduciremos la etiqueta de código. Como podemos ver, a medida que vamos introduciendo etiquetas de código, se añaden nuevas filas en la ventana, por lo que podemos crear varios códigos de forma simultánea, hasta que hagamos clic en el botón __OK__.
 
-image::images/image-054.png[Creación de códigos libres]
+[[img-creacion-codigos-libres, Creación de códigos libres]]
+.Creación de códigos libres
+image::images/image-054.png[{alt="Creación de códigos libres", float="right", align="center"]
 
 La etiqueta de código debe ser clara y concisa, y aunque puede ser relativamente extensa, es preferible no utilizar nombres excesivamente largos pues complicaría la visualización de los códigos en el margen derecho. La descripción detallada la realizaremos como comentario (ver Comentarios de códigos en pág. 71).
 
@@ -18,11 +22,13 @@ Desde el momento de su creación todos los códigos tienen exactamente las misma
 
 En el ejemplo de la Ilustración hemos añadido un conjunto de códigos que utilizaremos durante el texto para ilustrar algunas funcionalidades. Se trata de la clasificación de tipos de preguntas y respuestas formulada por Parameswary Rasiah (2010) en su análisis de las respuestas evasivas en el discurso parlamentario. Los códigos que aparecen remiten a diferentes tipos de preguntas. Si tenemos un código como “Question” podemos entenderlo como el “código de nivel 1”. Códigos que remitan a formas especificas de evadir preguntando como los que aparecen en la ilustración serían “códigos de nivel 2” (y por lo tanto su etiqueta empieza con una letra en mayúscula). Por lo tanto el código “Question” lo etiquetaríamos como “QUESTION” o “N1_Question”, según la pauta empleada.
 
-Si tenemos previamente definida una amplia lista de códigos, existen otras formas rápidas de crearlos. Podemos, por ejemplo, crear un archivo de texto con la lista de códigos (un código por línea) e importarlo a ATLAS.ti utilizando la opción Códigos > Importar/Exportar > Importar lista de códigos. El único requisito que tiene que cumplir el archivo es que sea un archivo sólo texto pero que tenga extensión “COD” (por ejemplo “Codigos.cod”).
+Si tenemos previamente definida una amplia lista de códigos, existen otras formas rápidas de crearlos. Podemos, por ejemplo, crear un archivo de texto con la lista de códigos (un código por línea) e importarlo a ATLAS.ti utilizando la opción `Códigos > Importar/Exportar > Importar lista de códigos`. El único requisito que tiene que cumplir el archivo es que sea un archivo sólo texto pero que tenga extensión “COD” (por ejemplo “Codigos.cod”).
 
-Otra forma, quizás más sencilla de añadir una lista amplia de códigos es creando un _Memo_ con las mismas características que el archivo anterior, es decir, un nombre de código por línea (figura , izquierda), y una vez guardado el _Memo_ utilizar la opción Miscelánea > Crear códigos desde el memo seleccionado del administrador de memos (figura , derecha).
+Otra forma, quizás más sencilla de añadir una lista amplia de códigos es creando un _Memo_ con las mismas características que el archivo anterior, es decir, un nombre de código por línea (figura , izquierda), y una vez guardado el _Memo_ utilizar la opción `Miscelánea > Crear códigos desde el memo seleccionado` del administrador de memos (figura , derecha).
 
-image::images/image-055.png[Creación de códigos a partir de Memo]
+[[img-creacion-codigos-desde-memos, Creación de códigos a partir de Memo]]
+.Creación de códigos a partir de Memo
+image::images/image-055.png[{alt="Creación de códigos a partir de Memo", float="right", align="center"]
 
 [[comentarios-de-codigos]]
 ==== Comentarios de códigos
@@ -31,6 +37,8 @@ Una vez más, mientras vamos creando los códigos, es conveniente dedicar un tie
 
 Una posible forma de sistematizar los contenidos a añadir a los comentarios de códigos es seguir el modelo que proponen MacQueen, McLellan, & Milstein (1998), del que ofrecemos un ejemplo en la Tabla.
 
+[[tab-elementos-comentarios-codigos, Elementos comentarios de códigos (MacQueen, McLellan, Kay y Milstein ,1998)]]
+.Elementos comentarios de códigos (MacQueen, McLellan, Kay y Milstein ,1998)
 [width="11%",cols="50%,50%",options="header",]
 |=======================================================================
 |ELEMENTO |EJEMPLO
@@ -59,9 +67,6 @@ comunidad (ver SELMFAR)
 prostitutas.”
 |=======================================================================
 
-Elementos comentarios de códigos (MacQueen, McLellan, Kay y Milstein
-,1998)
-
 No estamos sugiriendo, de todas formas, que se utilice este modelo de una forma mimética para cada uno de nuestros códigos. En algunos casos puede ser casi imprescindible este nivel de especificidad, mientras que en otros una simple etiqueta amplia puede ser suficiente. Por otra parte, el comentario puede ser también el lugar donde podemos empezar a elaborar hipótesis sobre el tipo de significado del código, donde podemos empezar a preguntarnos por el tipo de relaciones que se pueden establecer entre este código y otros, etc. El que estos comentarios pertenezcan a la “categoría” _comentario_ o a la categoría _Memo_ puede ser una cuestión de matiz, una pequeña diferencia cualitativa. De hecho, algo que puede empezar siendo un comentario de código puede acabar convirtiéndose, a medida que va haciéndose más compleja, en un __Memo__. De todas formas, nuestro criterio suele ser que si el comentario va más allá de la descripción del código, es mejor crear un _Memo_ y vincularlo con el _código_ (ver Relaciones con Memos, pág.108).
 
 [[visualización]]
@@ -69,10 +74,14 @@ No estamos sugiriendo, de todas formas, que se utilice este modelo de una forma 
 
 A medida que vamos creando códigos, estos aparecerán tanto en la lista desplegable de códigos como en el administrador de códigos.
 
-image::images/image-056.png[Código en lista desplegable]
+[[img-codigo-lista-desplegable, Código en lista desplegable]]
+.Código en lista desplegable
+image::images/image-056.png[{alt="Código en lista desplegable", float="right", align="center"]
 
 La única información que podremos ver en la lista desplegable es el nombre de código junto a dos números entre corchetes. El primer número hace referencia a la cantidad de _citas_ con las que está relacionado el código, mientras que el segundo número lo hace respecto a los otros códigos con los que el código en cuestión está relacionado (ver Relaciones entre Códigos, en pág. 104). Además, en algunas ocasiones veremos el signo ~, que nos indica que el código tiene un comentario. Operativamente hablando, el comentario puede ser solo un punto, por ejemplo, lo cual probablemente carece de interés desde el punto de vista de los fines del análisis. Sin embargo, la herramienta seguiría considerando que, en este caso, el código está comentado y presentaría el signo ~.
 
 El administrador de códigos (figura ) incluye, además de la información anterior, el nombre del usuario creador del código, la fecha de creación y modificación y las familias a las que pertenece. La columna _Fundamentado_ hace referencia al número de citas vinculadas al código, mientras que la columna _Densidad_ lo hace con respecto al número de relaciones con otros códigos. Además, como en todos los administradores, tenemos la zona de comentario.footnote:[Este es formato de visualización por defecto, pero en todos los administradores pueden elegirse otros formatos desde el menú __Visualización__.]
 
-image::images/image-057.png[Administrador de códigos a partir de Memo]
+[[img-administrador-codigos-desde-memo, Administrador de códigos a partir de Memo]]
+.Administrador de códigos a partir de Memo
+image::images/image-057.png[{alt="Administrador de códigos a partir de Memo", float="right", align="center"]

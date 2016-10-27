@@ -3,15 +3,19 @@
 
 En algunas ocasiones, el trabajo de análisis no lo realizará un único analista, sino que varios miembros de un equipo pueden responsabilizarse de realizar, como mínimo, un análisis inicial. Las estrategias de trabajo para realizar el trabajo de esta forma pueden ser diferentes, pero prácticamente todas implicarán que en algún momento existirán diferentes UHs que sería conveniente convertir en una única UH que contenga el trabajo de los diferentes analistas.
 
-Para poder realizar la unión, disponemos de la herramienta de fusión, en el menú Proyecto > Fusionar con UH.
+Para poder realizar la unión, disponemos de la herramienta de fusión, en el menú `Proyecto > Fusionar con UH`.
 
 En la primera pantalla que aparecerá (figura ) sólo tenemos que seleccionar la UH origien y la UH destino. En este caso, como podemos ver, la UH destino es una __Nueva unidad hermenéutica__, porque en nuestro caso, en el momento de seleccionar la opción de fusión no tenemos ninguna UH activa. En el caso de que la tuviéramos, esa sería la unidad objetivo (pero creemos que es mejor realizar la fusión de las diferentes UHs en una nueva).
 
-image:images/image-172.png[Fusionar UHs: Primer paso]
+[[img-fusionar-uh-1, Fusionar UHs: Primer paso]]
+.Fusionar UHs: Primer paso
+image::images/image-172.png[{alt="Fusionar UHs: Primer paso", float="right", align="center"]
 
 Una vez que hemos seleccionado un origen, y clicamos en __Siguiente__, nos aparecerá una nueva ventana (figura ) en la que tenemos que tomar toda una serie de decisiones en función de la estrategia de trabajo que hayamos elegido.
 
-image:images/image-173.png[Fusionar UHs: Segundo paso]
+[[img-fusionar-uh-2, Fusionar UHs: Segundo paso]]
+.Fusionar UHs: Segundo paso
+image::images/image-173.png[{alt="Fusionar UHs: Segundo paso", float="right", align="center"]
 
 En la parte izquierda de la pantalla (1 en la Ilustración) nos aparecen diferentes posibles estrategias de trabajo en equipo. Las opciones de fusión que aparecen en (2) se ajustarán, en función de la estrategia que seleccionemos, a unos valores predeterminados que podremos modificar si no se ajustan a nuestras necesidades.
 

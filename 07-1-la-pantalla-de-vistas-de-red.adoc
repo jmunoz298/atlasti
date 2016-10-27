@@ -3,7 +3,9 @@
 
 La pantalla de las _Vistas de Red_ (figura )tiene características similares a la pantalla principal del programa, en el sentido que es un espacio de trabajo con entidad propia. A continuación, pasaremos a describir sus principales zonas.
 
-image:images/image-113.png[Pantalla de Vista de Red]
+[[img-pantalla-vista-red, Pantalla de Vista de Red]]
+.Pantalla de Vista de Red
+image::images/image-113.png[{alt="Pantalla de Vista de Red", float="right", align="center"]
 
 1.  Como en el resto de pantallas, tenemos información sobre el título de la red.
 2.  Un conjunto de menús que permitirán realizar todas las acciones relacionadas con las redes.

@@ -13,7 +13,9 @@ Activamos la herramienta con la opción `Edición > Buscar` o con el icono lupa 
 
 La ventana que aparece (figura ) tiene las siguientes secciones:
 
-image::image-131.png[Ventana de herramienta de búsqueda]
+[[img-ventana-herramientas-busqueda, Ventana de herramienta de búsqueda]]
+.Ventana de herramienta de búsqueda
+image::images/image-131.png[{alt="Ventana de herramienta de búsqueda", float="right", align="center"]
 
 1.  Espacio para escritura (y almacenamiento) de la expresión de búsqueda.
 2.  Botones para ejecutar la búsqueda hacia adelante o hacia atrás.
@@ -27,7 +29,9 @@ image::image-131.png[Ventana de herramienta de búsqueda]
 
 Para realizar una búsqueda simple, lo único que tenemos que hacer es introducir en (1) la expresión de búsqueda,footnote:[Podemos utilizar el carácter especial “*” para indicar “cualquier carácter o caracteres. Si el asterisco va a continuación de la sentencia sería equivalente a indicar “todos los caracteres a continuación”, si la precede, el significado sería “todos los caracteres anteriores”.] decidir si queremos que la búsqueda diferencie entre mayúsculas y minúsculas (3) y hacer clic en (2) para ejecutar la búsqueda hacia adelante o hacia atrás. Una vez que se haya realizado la búsqueda en el documento activo, el programa nos preguntará si queremos continuarla en el resto de documentos de la UH (figura ). Si contestamos que sí, se realizará la búsqueda en el resto de documentos, sin volver a pedirnos confirmación. Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se haya realizado en el último documento de la UH, por lo que si hemos dado la orden de inicio de la búsqueda estando activo el documento P3, al llegar al último documento la búsqueda no continuará en los documentos P1 y P2.
 
-image::images/image-132.png[Continuar búsqueda]
+[[img-continuar-busqueda, Continuar búsqueda]]
+.Continuar búsqueda
+image::images/image-132.png[{alt="Continuar búsqueda", float="right", align="center"]
 
 [[búsqueda-por-categorias]]
 ==== Búsqueda por categorías
@@ -38,7 +42,9 @@ En nuestro caso, podría interesarnos buscar todas las referencias que hacen los
 
 Para ello, introduciremos en la zona de búsqueda los nombres de los diferentes países separados por una barra vertical `|`.footnote:[En la mayoría de los teclados, para introducimos este signo con la combinación de teclas AltGr”+1 (aunque este último carácter puede variar en función del teclado).]
 
-image::images/image-133.png[Búsqueda por categorías]
+[[img-busqueda-categorias, Búsqueda por categorías]]
+.Búsqueda por categorías
+image::images/image-133.png[{alt="Búsqueda por categorías", float="right", align="center"]
 
 Si cerramos la ventana de búsqueda y volvemos a abrirla, observaremos que sigue apareciendo la última sentencia de búsqueda que habíamos realizado, pero precedida por los caracteres `TEMP:=`
 
@@ -74,7 +80,9 @@ POLITICOS:=$AUTONOMICO|$ESTATAL
 
 Hay que tener en cuenta que una vez que cerremos la sesión con Atlas, desaparecerán las categorías así definidas. Para poder utilizarlas durante más de una sesión hay que archivarlas mediante la opción __Guardar Categorías__, a la que podemos acceder con el botón _Opciones_ de la ventana de búsqueda (figura ). Atlas pedirá un nombre de archivo con el que salvar la lista, y sugerirá como nombre por defecto “SEARCHBIB.SKT”.
 
-image::images/image-135.png[Opciones de búsqueda]
+[[img-opciones-busqueda, Opciones de búsqueda]]
+.Opciones de búsqueda
+image::images/image-135.png[{alt="Opciones de búsqueda", float="right", align="center"]
 
 Podemos sobreescribir ese archivo o dar un nombre diferente, teniendo en cuenta que si lo sobreescribimos, la lista que acabamos de salvar será la que utilizará ATLAS.ti por defecto la próxima vez que utilicemos el programa. En el caso de dar un nombre de archivo diferente, para poder recuperar esa lista en futuras sesiones, tendremos que utilizar la opción __Cargar Categorías__. También podemos eliminar elementos de la lista de categorías con la opción __Borrar Categoría.__footnote:[Otra forma de modificar la lista de categorías es modificar directamente el fichero Srchbib.skt(o crear otro fichero .skt) con un editor de texto.]
 
@@ -87,6 +95,7 @@ Esta modalidad de búsqueda, implica utilizar caracteres “comodín” junto al
 
 Aunque es muy probable que no necesitemos toda la potencia de la búsqueda GREP, no está de más saber de su existencia para poder consultar los operadores en el caso en que necesitemos una búsqueda especial. En la Tabla ofrecemos el listado de los operadores que hemos comprobado que funcionan en ATLAS.ti, y a continuación ilustraremos su utilización con algunos ejemplos.
 
+[[tab-operadores-grep, Operadores GREP]]
 .Operadores GREP
 [width="11%",cols="50%,50%",options="header",]
 |=======================================================================
