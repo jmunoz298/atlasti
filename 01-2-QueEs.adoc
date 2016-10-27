@@ -5,6 +5,9 @@ El ATLAS.ti se originó en la Universidad Tecnológica de Berlín, en el marco d
 
 <<01-1-Caqdas.adoc#img-proceso-tipico-analisis>>
 
+<<01-1-Caqdas.adoc#img-proceso-tipico-analisis, Proceso típico de análisis>>
+
+
 A continuación describiremos algunas de las características principales de ATLAS.ti. En primer lugar haremos un repaso de los componentes principales del programa. En segundo lugar, presentaremos algunas de las operaciones básicas relacionadas con la documentación, la segmentación y codificación y el establecimiento de relaciones entre elementos
 
 [[componentes]]
