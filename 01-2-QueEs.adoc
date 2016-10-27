@@ -5,6 +5,8 @@ El ATLAS.ti se originó en la Universidad Tecnológica de Berlín, en el marco d
 
 <<01-1-Caqdas.adoc#img-proceso-tipico-analisis>>
 
+--- 
+
 <<01-1-Caqdas.adoc#img-proceso-tipico-analisis, Proceso típico de análisis>>
 
 
