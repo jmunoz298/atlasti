@@ -26,7 +26,7 @@ Como mostramos de forma esquemática en la figura <<img-proceso-tipico-analisis>
 
 [[img-proceso-tipico-analisis, Proceso típico de análisis]]
 .Proceso típico de análisis cualitativo (con Atlas.ti)
-image::images/image-001.png[alt="Proceso típico de análisis", float="right",align="center"]
+image::images/image-001.png[alt="Proceso típico de análisis", align="center"]
 
 El proceso recursivo atraviesa por la segmentación y codificación del conjunto de datos, el establecimiento de relaciones entre códigos, el desarrollo de anotaciones y una cuidadosa revisión del sistema empleado. Aunque sea discutible si esta concepción del proceso de análisis cualitativo es generalizable a la gran mayoría de orientaciones metodológicas, el diagrama ilustra las transformaciones y producciones específicas que operan sobre el material empírico durante un proceso de análisis. Tareas básicas como la organización y el almacenamiento de datos, la selección y etiquetaje de pasajes o secciones del material, la sistematización de los procedimientos de etiquetaje, la recuperación de las secciones etiquetadas y el desarrollo de anotaciones (memos) que den cuenta del proceso y sus resultados suelen estar presentes en la mayoría de los estudios de corte cualitativo.
 
