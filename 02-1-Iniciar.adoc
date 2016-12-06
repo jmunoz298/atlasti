@@ -7,7 +7,7 @@ Trabajando con una instalación estándar, podemos arrancar el programa desde el
 
 También podemos iniciar el programa haciendo doble clic sobre una UH existente.
 
-Al arrancar el programa por primera vez, ATLAS.ti cargará la UH _Welcome_ (ver ). Por defecto, al abrir el programa se cargará la última UH con la que se trabajó. Esta opción puede ser desactivada y, de serlo,
+Al arrancar el programa por primera vez, ATLAS.ti cargará la UH _Welcome_ (ver <<img-uh-ejemplo>>). Por defecto, al abrir el programa se cargará la última UH con la que se trabajó. Esta opción puede ser desactivada y, de serlo,
 el programaría arrancaría con una UH nueva y vacía. También podemos iniciar el programa haciendo doble clic sobre el nombre de una UH existente (evidentemente, el programa iniciará abriendo simultáneamente
 la UH sobre la que se ha hecho clic).
 
