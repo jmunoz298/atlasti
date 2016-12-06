@@ -99,7 +99,7 @@ identificadores de campos de preguntas.
 |& |Fecha
 |==============================================
 
-El resto de identificadores se corresponden con las preguntas, que pueden ser tanto abiertas como cerradas. En el caso de las preguntas cerradas, estas se importarán como familias (ver <<06-1-familias.adoc, Familias>>) asociadas con los documentos, mientras que las preguntas abiertas serán los “datos” del documento.
+El resto de identificadores se corresponden con las preguntas, que pueden ser tanto abiertas como cerradas. En el caso de las preguntas cerradas, estas se importarán como familias (ver <<06-1-familias.adoc#familias, Familias>>) asociadas con los documentos, mientras que las preguntas abiertas serán los “datos” del documento.
 
 [[tab-identificadores-campos, Identificadores de campos (preguntas cerradas)]]
 .Identificadores de campos (preguntas cerradas)
