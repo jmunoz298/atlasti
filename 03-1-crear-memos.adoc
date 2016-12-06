@@ -31,4 +31,4 @@ Un caso similar es el del _Memo_ “Participantes”, un PDF en el que hemos rec
 image::images/image-022.png[{alt="Memo con archivo PDF", float="right", align="center"]
 
 En síntesis, los memos, progresivamente elaborados, desarrollados, revisados y organizados en el curso del análisis contienen —o al menos deberían contener— los aspectos más significativos del análisis, tanto
-en términos de resultados como de proceso. Más adelante (Inserción de objetos/ficheros, en pág. 55) explicamos con más detalle cómo utilizar esta funcionalidad.
+en términos de resultados como de proceso. Más adelante (<<04-2-asignar-documentos-primarios.adoc#insercion-de-objetosficheros, Inserción de objetos/ficheros>>) explicamos con más detalle cómo utilizar esta funcionalidad.
