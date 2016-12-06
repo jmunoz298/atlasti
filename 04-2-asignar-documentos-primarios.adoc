@@ -247,8 +247,7 @@ image::images/image-040.png[{alt="Insertar objeto (desde archivo)", float="right
 Esa pantalla también nos permite seleccionar (o no) la opción de _Vincular_ al objeto existente. Si la seleccionamos, significa que si posteriormente a la vinculación realizamos cambios en el archivo
 original, éstos quedarán reflejados en el objeto vinculado en el DP; mientras que si no la seleccionamos, el objeto quedará incrustado en el DP y por lo tanto los cambios en el archivo original no quedarán reflejados en el objeto incrustado..
 
-Cualquiera que haya sido la forma de incluir el objeto__,__ haciendo doble clic sobre el mismo, podrá editarse utilizando la aplicación original con la que se haya creado. En algunos casos, la edición se
-realizará en la misma ventana de ATLAS.ti (la pantalla mostrará cambios respecto a su apariencia habitual), mientras que en otros se abrirá el programa adecuado para la edición.
+Cualquiera que haya sido la forma de incluir el objeto__,__ haciendo doble clic sobre el mismo, podrá editarse utilizando la aplicación original con la que se haya creado. En algunos casos, la edición se realizará en la misma ventana de ATLAS.ti (la pantalla mostrará cambios respecto a su apariencia habitual), mientras que en otros se abrirá el programa adecuado para la edición.
 
 Como hemos visto, tenemos entonces dos formas de incluir información en el documento primario, inserción de texto e inserción de objetos, las diferencias principales entre ellas son dos:
 
