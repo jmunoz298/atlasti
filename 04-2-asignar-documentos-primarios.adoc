@@ -139,7 +139,7 @@ image::images/image-033.png[{alt="Encuestas: Documento primario", float="right",
 [[comentarios]]
 ==== Comentarios
 
-De nuevo, tal y como hemos hecho con la UH, el siguiente paso, una vez que hemos asignado los DPs, consistirá en añadirles un comentario que permita describirlos en función de las características que sean relevantes para el análisis. Si, por ejemplo, se trata de una entrevista, podríamos incluir información relativa a la(s) persona(s) entrevistada(s), al entrevistador, la fecha de realización, etc. En nuestro caso, incluiremos como la descripción del documento, los parlamentarios participantes y los grupos parlamentarios a los que pertenecen e información sobre los posibles archivos relacionados (ver ).
+De nuevo, tal y como hemos hecho con la UH, el siguiente paso, una vez que hemos asignado los DPs, consistirá en añadirles un comentario que permita describirlos en función de las características que sean relevantes para el análisis. Si, por ejemplo, se trata de una entrevista, podríamos incluir información relativa a la(s) persona(s) entrevistada(s), al entrevistador, la fecha de realización, etc. En nuestro caso, incluiremos como la descripción del documento, los parlamentarios participantes y los grupos parlamentarios a los que pertenecen e información sobre los posibles archivos relacionados.
 
 [[img-comentarios-dp, Comentarios de Documento primario]]
 .Comentarios de Documento primario
@@ -148,14 +148,14 @@ image::images/image-034.png[{alt="Comentarios de Documento primario", float="rig
 Insistimos en la conveniencia de no obviar este paso, puesto que la documentación es fundamental para la calidad de nuestro análisis. En el caso de los datos, garantizará tener presente en todo momento las
 características del documento con el que estemos trabajando y, además, facilitará el trabajo en equipo o la posible reutilización de los datos por otros investigadores.
 
-Podemos realizar la edición del comentario de documento con la opción `Documentos > Editar comentario` (previa selección del mismo en la lista desplegable de documentos) o directamente en el _administrador_ de DPs (ver Ilustración). Si usamos el __administrador__, hay que seleccionar el DP a comentar e introducir la información en el campo de texto que ocupa la parte inferior derecha de la ventana.
+Podemos realizar la edición del comentario de documento con la opción `Documentos > Editar comentario` (previa selección del mismo en la lista desplegable de documentos) o directamente en el _administrador_ de DPs (<<img-comentarios-dp>>). Si usamos el __administrador__, hay que seleccionar el DP a comentar e introducir la información en el campo de texto que ocupa la parte inferior derecha de la ventana.
 
 [[visualizacion]]
 ==== Visualización
 
 Una vez que hemos realizado la asignación de los documentos primarios, podemos acceder a ellos desde la lista desplegable de documentos o desde el administrador de documentos.
 
-En el caso de la lista desplegable, la información que aparecerá será la siguiente (figura ):
+En el caso de la lista desplegable, la información que aparecerá será la siguiente:
 
 [[img-lista-desplegable-dp, Lista desplegable de documentos]]
 .Lista desplegable de documentos
@@ -167,7 +167,7 @@ image::images/image-035.png[{alt="Lista desplegable de documentos", float="right
 * *\{n}* Número de citas en el documento.
 * *_~_* indica que el documento tiene un comentario.
 
-También podemos visualizar los documentos en el _Administrador de documentos_ que, además de mostrarnos información adicional sobre los mismos, nos permitirá acceder a todas las funciones del programa relacionadas con los DPs. En la Tabla podemos ver las informaciones disponibles en el _administrador_ de documentos (ver también la figura )
+También podemos visualizar los documentos en el _Administrador de documentos_ que, además de mostrarnos información adicional sobre los mismos, nos permitirá acceder a todas las funciones del programa relacionadas con los DPs. En la siguiente tabla podemos ver las informaciones disponibles en el _administrador_ de documentos (ver también <<img-comentarios-dp>>)
 
 [[tab-administrador-dp-columnas, Administrador de documentos primarios: Columnas]]
 .Administrador de documentos primarios: Columnas
@@ -208,13 +208,13 @@ Si hemos asignado los documentos con la opción __Asignar documentos externos__,
 [[modo-de-edicion]]
 ==== Modo de edición
 
-Para acceder a las funciones de edición de documento, se debe seleccionar en la pantalla principal algún documento que sea susceptible de ser editado. Aparecerá entonces una nueva barra de iconos. El primer icono de la izquierda de la barra es el que permitirá entrar en el modo de edición de documentos (ver ), salir directamente cuando no hemos realizado cambios (derecha), y salir guardando o cancelando los cambios que hayamos realizado (inferior).
+Para acceder a las funciones de edición de documento, se debe seleccionar en la pantalla principal algún documento que sea susceptible de ser editado. Aparecerá entonces una nueva barra de iconos. El primer icono de la izquierda de la barra es el que permitirá entrar en el modo de edición de documentos, salir directamente cuando no hemos realizado cambios, y salir guardando o cancelando los cambios que hayamos realizado.
 
 [[img-icono-opciones-edicion, Icono y opciones de edicion]]
 .Icono y opciones de edicion
 image::images/image-037.png[{alt="Icono y opciones de edicion", float="right", align="center"]
 
-Una vez que hayamos entrado en el modo de edición se activarán las funciones de edición inactivas hasta ese momento (figura ).
+Una vez que hayamos entrado en el modo de edición se activarán las funciones de edición inactivas hasta ese momento.
 
 [[img-funciones-edicion, Funciones de edicion]]
 .Funciones de edicion
@@ -231,14 +231,14 @@ La inserción de archivos (`Edición > Insertar > Insertar archivo...`) permite 
 
 Por su parte, la opción de insertar objetos (`Edición > Insertar > Insertar objeto...`) permitirá incrustar o vincular en el documento primario archivos de prácticamente cualquier formato (imágenes, hojas de cálculo y presentaciones _Power Point_ entre otros). De hecho, los formatos posibles vendrán determinados por las posibilidades de nuestro ordenador.
 
-Si seleccionamos esta opción nos aparecerá una­ ventana (figura ), con un listado de los diferentes tipos de objetos (archivos) que podemos crear (dependiente de la configuración de nuestro ordenador). Al
+Si seleccionamos esta opción nos aparecerá una­ ventana (<<img-insertar-objetos-crear>>), con un listado de los diferentes tipos de objetos (archivos) que podemos crear (dependiente de la configuración de nuestro ordenador). Al
 seleccionar alguno de ellos se abrirá el programa correspondiente y podremos crear un nuevo objeto que quedará incrustado en el DP.
 
 [[img-insertar-objetos-crear, Insertar objeto (crear)]]
 .Insertar objeto (crear)
 image::images/image-039.png[{alt="Insertar objeto (crear)", float="right", align="center"]
 
-En la Ilustración, podemos observar que está seleccionada la opción __Crear nuevo__, pero también podemos elegir __Crear desde archivo__. Si seleccionamos esa última opción, la pantalla cambiará el formato (figura ), y podremos entonces seleccionar un archivo existente en nuestro ordenador haciendo clic en el botón __Examinar__.
+En la figura <<img-insertar-objetos-crear>>, podemos observar que está seleccionada la opción __Crear nuevo__, pero también podemos elegir __Crear desde archivo__. Si seleccionamos esa última opción, la pantalla cambiará el formato (<<img-insertar-objestos-desde>>), y podremos entonces seleccionar un archivo existente en nuestro ordenador haciendo clic en el botón __Examinar__.
 
 [[img-insertar-objestos-desde, Insertar objeto (desde archivo)]]
 .Insertar objeto (desde archivo)
