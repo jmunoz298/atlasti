@@ -30,12 +30,10 @@ Por último, dentro de esta categoría de formatos enriquecidos encontramos los 
 ==== Multimedia
 
 Además de documentos textuales, podemos incluir como fuentes prácticamente cualquier otro tipo de datos, como imágenes fijas footnote:[Las imágenes pueden ser tanto documentos independientes como
-elementos incluidos en los archivos de tipo _.doc_, _.rtf_ y _.pdf_.], audio e incluso vídeo. Esta variedad de fuentes de datos nos permitirá probablemente una mayor flexibilidad y riqueza en nuestro análisis. Una posibilidad que se nos abre con esta diversidad de formatos es la de utilizar la transcripción de una entrevista junto a su registro sonoro o audiovisual, de forma que, en caso de requerirlo, dispondremos de una información mucho más rica y precisa a la hora de realizar el análisis
-que si sólo disponemos de la transcripción.
+elementos incluidos en los archivos de tipo _.doc_, _.rtf_ y _.pdf_.], audio e incluso vídeo. Esta variedad de fuentes de datos nos permitirá probablemente una mayor flexibilidad y riqueza en nuestro análisis. Una posibilidad que se nos abre con esta diversidad de formatos es la de utilizar la transcripción de una entrevista junto a su registro sonoro o audiovisual, de forma que, en caso de requerirlo, dispondremos de una información mucho más rica y precisa a la hora de realizar el análisis que si sólo disponemos de la transcripción.
 
 Una de las funcionalidades más interesantes del programa es la sincronización entre documentos primarios textuales y audiovisuales. ATLAS.ti nos permite, por ejemplo, sincronizar una transcripción con su
-correspondiente archivo sonoro de forma que desde un punto concreto de la transcripción, podríamos acceder inmediatamente al mismo punto o momento en el documento de audio o vídeo (ver <<04-3-sincronizacion-audio-texto.adoc, Sincronización
-audio-texto>>).
+correspondiente archivo sonoro de forma que desde un punto concreto de la transcripción, podríamos acceder inmediatamente al mismo punto o momento en el documento de audio o vídeo (ver <<04-3-sincronizacion-audio-texto.adoc#sincronizacion-audio-texto, Sincronización audio-texto>>).
 
 [[geo-referencias]]
 ==== Geo-referencias
