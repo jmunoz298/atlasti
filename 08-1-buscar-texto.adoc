@@ -33,7 +33,7 @@ Para realizar una búsqueda simple, lo único que tenemos que hacer es introduci
 .Continuar búsqueda
 image::images/image-132.png[{alt="Continuar búsqueda", float="right", align="center"]
 
-[[búsqueda-por-categorias]]
+[[busqueda-por-categorias]]
 ==== Búsqueda por categorías
 
 La búsqueda por categorías implica la definición, en la sentencia de búsqueda, de un conjunto de términos diferentes que se buscarán de forma simultánea. Por lo tanto, podemos realizar búsquedas de un término cuya formulación concreta pueda variar en el texto (por ejemplo un término y sus sinónimos) o de conjuntos de términos que compartan alguna característica (para poner un ejemplo muy simple, podríamos buscar la aparición de “todos los artículos determinados” especificando en la búsqueda “el”, “la”, “los” y “las”).
@@ -87,7 +87,7 @@ image::images/image-135.png[{alt="Opciones de búsqueda", float="right", align="
 Podemos sobreescribir ese archivo o dar un nombre diferente, teniendo en cuenta que si lo sobreescribimos, la lista que acabamos de salvar será la que utilizará ATLAS.ti por defecto la próxima vez que utilicemos el programa. En el caso de dar un nombre de archivo diferente, para poder recuperar esa lista en futuras sesiones, tendremos que utilizar la opción __Cargar Categorías__. También podemos eliminar elementos de la lista de categorías con la opción __Borrar Categoría.__footnote:[Otra forma de modificar la lista de categorías es modificar directamente el fichero Srchbib.skt(o crear otro fichero .skt) con un editor de texto.]
 
 [[busqueda-grep]]
-====Búsqueda GREP
+==== Búsqueda GREP
 
 Si la búsqueda por categorías permite la realización de búsquedas sofisticadas, la opción GREP aumenta todavía más las posibilidades de las mismas gracias a la posibilidad de la utilización de __expresiones regulares__.
 
