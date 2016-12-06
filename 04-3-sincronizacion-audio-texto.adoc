@@ -27,7 +27,7 @@ image::images/image-042.png[{alt="F4: Menú", float="right", align="center"]
 9.  Mostrar/ocultar ventana vídeo
 10. Controles de reproducción
 
-En primer lugar, una vez que hemos ejecutado el programa, tenemos que añadir el archivo de texto correspondiente a la transcripción. Para ello, haremos clic en (1) (<<img-f4-menu>>) y elegiremos, el archivo sobre el que queremos realizar la sincronización. Una vez cargado ese archivo, el programa nos preguntará si queremos “cargar el archivo de medios correspondiente”, es decir, el archivo de audio o vídeo al que se corresponde el texto que hemos cargado previamente (<<img-f4-carga-archivos>>).footnote:[Si por cualquier motivo no cargamos el archivo de medios en ese momento, podemos hacerlo posteriormente haciendo clic en (2) (<<img-f4-menu>>.] Una vez que digamos que sí, ya podemos empezar a realizar la sincronización.
+En primer lugar, una vez que hemos ejecutado el programa, tenemos que añadir el archivo de texto correspondiente a la transcripción. Para ello, haremos clic en (1) (<<img-f4-menu>>) y elegiremos, el archivo sobre el que queremos realizar la sincronización. Una vez cargado ese archivo, el programa nos preguntará si queremos “cargar el archivo de medios correspondiente”, es decir, el archivo de audio o vídeo al que se corresponde el texto que hemos cargado previamente (<<img-f4-carga-archivos>>).footnote:[Si por cualquier motivo no cargamos el archivo de medios en ese momento, podemos hacerlo posteriormente haciendo clic en (2) en <<img-f4-menu>>.] Una vez que digamos que sí, ya podemos empezar a realizar la sincronización.
 
 [[img-f4-carga-archivos, F4: Carga de archivo de medios]]
 .F4: Carga de archivo de medios
@@ -49,7 +49,7 @@ image::images/image-045.png[{alt="Documento con marcas de tiempo", float="right"
 
 El siguiente paso será incorporar el texto y el audio en ATLAS.ti.
 
-Como veíamos anteriormente (Asignar Documentos Primarios, figura ), la asignación de documentos con marcas de tiempo se realiza con la opción `Documentos > Nuevo > Importar transcripción`.footnote:[Esta opción sólo permite importar los documentos a la biblioteca de usuario (Mi biblioteca) o a la biblioteca de equipo.] Al realizar la importación seleccionaremos únicamente el archivo de texto con las marcas de tiempo (recordamos que en nuestro caso, siempre será un archivo “01”), y ATLAS.ti realizará automáticamente la asignación del archivo de audio correspondiente.
+La asignación de documentos con marcas de tiempo se realiza con la opción `Documentos > Nuevo > Importar transcripción`.footnote:[Esta opción sólo permite importar los documentos a la biblioteca de usuario (Mi biblioteca) o a la biblioteca de equipo.] Al realizar la importación seleccionaremos únicamente el archivo de texto con las marcas de tiempo (recordamos que en nuestro caso, siempre será un archivo “01”), y ATLAS.ti realizará automáticamente la asignación del archivo de audio correspondiente.
 
 [[img-importar-transcipcion, Importar transcripción]]
 .Importar transcripción
@@ -58,7 +58,7 @@ image::images/image-046.png[{alt="Importar transcripción", float="right", align
 [[sincronizar-con-atlas.ti]]
 ==== Sincronizar con *ATLAS.ti*
 
-En el caso de querer realizar la sincronización utilizando ATLAS.ti, en primer lugar tendremos que realizar el proceso de asignación de documentos de la forma habitual, asignando tanto el documento de texto como el documento de audio. Una vez asignados los documentos, seleccionamos uno de ellos, por ejemplo el documento textual y (sólo después de haber realizado la selección de forma que lo veamos en pantalla) en el menú _Docs-A_ seleccionamos la opción __Abrir editor de asociación__, con lo que nos aparecerá la ventana que podemos ver en la figura . Seleccionamos entonces la opción `Asociación > Insertar documento primario`, que hará que quede seleccionado el documento activo en ese momento en la ventana principal. Repetiremos el mismo proceso con el documento de audio (activación del documento en la pantalla principal, y Asociación > Insertar documento primario). Si hemos realizado bien los pasos, observaremos que ahora en la ventana del editor de asociaciones tenemos la referencia a los dos archivos que hemos “insertado”.
+En el caso de querer realizar la sincronización utilizando ATLAS.ti, en primer lugar tendremos que realizar el proceso de asignación de documentos de la forma habitual, asignando tanto el documento de texto como el documento de audio. Una vez asignados los documentos, seleccionamos uno de ellos, por ejemplo el documento textual y (sólo después de haber realizado la selección de forma que lo veamos en pantalla) en el menú _Docs-A_ seleccionamos la opción __Abrir editor de asociación__, con lo que nos aparecerá la ventana que podemos ver en la figura <<img-editor-asociaciones>>. Seleccionamos entonces la opción `Asociación > Insertar documento primario`, que hará que quede seleccionado el documento activo en ese momento en la ventana principal. Repetiremos el mismo proceso con el documento de audio (activación del documento en la pantalla principal, y `Asociación > Insertar documento primario`). Si hemos realizado bien los pasos, observaremos que ahora en la ventana del editor de asociaciones tenemos la referencia a los dos archivos que hemos “insertado”.
 
 [[img-editor-asociaciones, Editor de asociaciones]]
 .Editor de asociaciones
@@ -75,13 +75,13 @@ La estrategia que sugerimos es visualizar en la pantalla principal el archivo de
 [[trabajar-con-la-sincronizacion]]
 ==== Trabajar con la sincronización
 
-Ahora ya podemos utilizar las opciones de sincronización de ATLAS.ti. Para ello, volveremos al menú _Docs-A_ para seleccionar la forma de reproducción del texto (figura ).
+Ahora ya podemos utilizar las opciones de sincronización de ATLAS.ti. Para ello, volveremos al menú _Docs-A_ para seleccionar la forma de reproducción del texto.
 
 [[img-opciones-sincronizacion, Opciones de sincronización de documentos]]
 .Opciones de sincronización de documentos
 image::images/image-049.png[{alt="Opciones de sincronización de documentos", float="right", align="center"]
 
-Si lo que queremos es ir escuchando el archivo de audio y al mismo tiempo que queden resaltados los fragmentos de texto correspondientes, en primer lugar seleccionaremos una de las opciones de `Documentos > Docs-A > Text *`(figura ).
+Si lo que queremos es ir escuchando el archivo de audio y al mismo tiempo que queden resaltados los fragmentos de texto correspondientes, en primer lugar seleccionaremos una de las opciones de `Documentos > Docs-A > Text *`.
 
 [[img-sincronizacion-modoresaltado, Sincronización, modo resaltado de texto]]
 .Sincronización, modo resaltado de texto
