@@ -4,7 +4,7 @@
 [[espacio-de-trabajo]]
 ==== Espacio de trabajo
 
-Antes de continuar, es necesario que comencemos a familiarizarnos con la pantalla principal de ATLAS.ti (figura ).
+Antes de continuar, es necesario que comencemos a familiarizarnos con la pantalla principal de ATLAS.ti.
 
 [[img-interfaz, Interfaz principal de Atlas.ti]]
 .Interfaz principal de Atlas.ti
@@ -12,35 +12,36 @@ image::images/image-007.png[{alt="Interfaz principal de Atlas.ti", float="right"
 
 A continuación, ofrecemos una breve descripción de los elementos que la componen:
 
-1.  Título de la UH. Muestra el nombre de la UH activa. Se corresponde con el nombre con que se haya guardado el archivo (como podemos ver en la imagen, si no tenemos ninguna UH activa, aparecerá como título “Nueva unidad hermenéutica”).
-2.  Barra de menús. Permite acceder a las diferentes acciones relacionadas con ficheros, documentos, citas, códigos, anotaciones, etc. A las opciones más comunes también podemos acceder a través de las barras de iconos (3 y 5 en la figura ) y, sobre todo, utilizando los menús contextuales, a los que se accede haciendo clic con el botón derecho del ratón sobre los diferentes elementos que aparecen en
-pantalla.
-3.  Barra de iconos horizontal. Los iconos de la barra horizontal sirven como ‘acceso directo’ a algunas de las funciones más utilizadas en relación con la UH.
-4.  Botones de administradores y listas desplegables. Los botones permiten activar los administradores (ver Administradores y listas desplegables en pág. 26) de cada uno de los componentes principales de la UH, mientras que las listas desplegables permiten visualizar/seleccionar los diferentes elementos creados para cada uno de esos componentes principales). Tanto los botones de administradores como
-las listas desplegables hacen referencia, de izquierda a derecha, a DPs, Citas, Códigos y Memos.footnote:[Esta disposición puede ser modificada
-por el usuario.]
-5.  Barra de iconos vertical. Los iconos de la barra vertical realizan funciones relacionadas con los DPs. Aunque estos iconos siempre son visibles, sólo son operativos con un DP activado. En caso contrario, los iconos aparecen en gris claro.
+*1.  Título de la UH*. Muestra el nombre de la UH activa. Se corresponde con el nombre con que se haya guardado el archivo (como podemos ver en la imagen <<img-interfaz>>, si no tenemos ninguna UH activa, aparecerá como título “Nueva unidad hermenéutica”).
 
-Cuando se activa un DP de texto, queda conformada el área de trabajo básica. Los elementos que aparecen con el área de trabajo son (ver figura ):
+*2.  Barra de menús*. Permite acceder a las diferentes acciones relacionadas con ficheros, documentos, citas, códigos, anotaciones, etc. A las opciones más comunes también podemos acceder a través de las barras de iconos (3 y 5 en la figura <<img-interfaz>>) y, sobre todo, utilizando los menús contextuales, a los que se accede haciendo clic con el botón derecho del ratón sobre los diferentes elementos que aparecen en pantalla.
+
+*3.  Barra de iconos horizontal*. Los iconos de la barra horizontal sirven como ‘acceso directo’ a algunas de las funciones más utilizadas en relación con la UH.
+
+*4.  Botones de administradores y listas desplegables*. Los botones permiten activar los administradores (ver <<administradores-y-listas-desplegables>>) de cada uno de los componentes principales de la UH, mientras que las listas desplegables permiten visualizar/seleccionar los diferentes elementos creados para cada uno de esos componentes principales). Tanto los botones de administradores como las listas desplegables hacen referencia, de izquierda a derecha, a DPs, Citas, Códigos y Memos.footnote:[Esta disposición puede ser modificada por el usuario.]
+
+*5.  Barra de iconos vertical*. Los iconos de la barra vertical realizan funciones relacionadas con los DPs. Aunque estos iconos siempre son visibles, sólo son operativos con un DP activado. En caso contrario, los iconos aparecen en gris claro.
+
+Cuando se activa un DP de texto, queda conformada el área de trabajo básica. Los elementos que aparecen con el área de trabajo son:
 
 [[img-interfaz-con-documento, Interfaz principal con un documento activo]]
 .Interfaz principal con un documento activo
 image::images/image-008.png[{alt="Interfaz principal con un documento activo", float="right", align="center"]
 
+*6.  Información del documento activo*. Muestra el nombre del DP activo y, los iconos que aparecen a la derecha, permiten cerrar el documento y abrir (en el caso de que existan), los documentos relacionados con el DP activo (ver Sincronización audio-texto)
 
-[start=6]
-6.  Información del documento activo. Muestra el nombre del DP activo y, los iconos que aparecen a la derecha, permiten cerrar el documento y abrir (en el caso de que existan), los documentos relacionados con el DP activo (ver Sincronización audio-texto en pág. 58)
 7.  Ventana de Documentos Primarios. En ella podremos visualizar el DP activo para realizar el trabajo de segmentación y codificación o, en fases posteriores del análisis, para consultar o modificar las Citas creadas o su vinculación a determinados códigos.
-8.  Margen derecho. Esta sección ofrece información sobre los elementos relacionados con el texto que se esté visualizando en ese momento. Las barras verticales señalan la ubicación de las Citas en el documento y los elementos con los que están relacionadas, sean Códigos, Hipervínculos (relaciones con otras citas) o Memos. La cantidad de elementos visibles en este espacio tiene una relación directamente
-proporcional con el trabajo interpretativo realizado sobre el DP en cuestión.
+
+8.  Margen derecho. Esta sección ofrece información sobre los elementos relacionados con el texto que se esté visualizando en ese momento. Las barras verticales señalan la ubicación de las Citas en el documento y los elementos con los que están relacionadas, sean Códigos, Hipervínculos (relaciones con otras citas) o Memos. La cantidad de elementos visibles en este espacio tiene una relación directamente proporcional con el trabajo interpretativo realizado sobre el DP en cuestión.
+
 9.  Numeración de los párrafos del documento. Esta forma de visualización es especialmente útil cuando queremos identificar la ubicación de una cita en el texto a partir de un listado de citas, pues como veremos más adelante (pág. 76), las etiquetas de las citas incluyen información sobre el número de párrafo de inicio y fin en el documento.
+
 10.  Navegadores de elementos. Podemos además, (figura ), activar/desactivar (haciendo clic en el icono con tres cabezas de flecha) la visualización de “navegadores” de elementos, pudiendo seleccionar si deseamos visualizar lista de documentos, códigos, citas, memos o vistas de red.
 
 [[img-navegadores, Navegadores de elementos en interfaz principal]]
 .Navegadores de elementos en interfaz principal
 image::images/image-009.png[{alt="Navegadores de elementos en interfaz principal", float="right", align="center"]
 
-[start=11]
 11.  Haciendo clic en este icono, podemos visualizar simultáneamente más de un DP en la pantalla principal (ver figura ).
 
 [[img-visualizacion-documentos, Visualización de dos Documentos Primarios]]
@@ -48,7 +49,6 @@ image::images/image-009.png[{alt="Navegadores de elementos en interfaz principal
 image::images/image-010.png[{alt="Visualización de dos Documentos Primarios", float="right", align="center"]
 
 
-[start=12]
 12.  Barra de estado. Presenta información sobre el DP activo, incluyendo el nombre completo del archivo, su ubicación y forma de asignación a la UH y el tamaño con el que se visualiza. Permite hacer algunas operaciones como cambiar el porcentaje de visualización (aumentar o reducir la apariencia del DP). Ofrece además un pequeño texto de ayuda relacionado con la opción de menú sobre el que se sitúe el cursor para recordarnos las acciones que realizan los diferentes menús.
 
 Hasta ahora, hemos presentado la pantalla principal de ATLAS.ti 7 con DPs activos de tipo textual. En el caso de documentos de imagen, audio, vídeo o geo-referencias hay algunas particularidades de presentación que señalaremos más adelante, al desarrollar la forma en la que se opera en ATLAS.ti con estos tipos de datos. Por otra parte, es conveniente recordar que, si bien existe la posibilidad de reubicar, añadir o quitar elementos a la pantalla principal de ATLAS.ti, recomendamos al usuario
@@ -72,8 +72,7 @@ Siguiendo el orden en el que aparecen de izquierda a derecha, los primeros dos m
 **Edición**. Este menú sólo despliega sus opciones cuando un DP de tipo textual ha sido activado. Dependiendo del formato específico del documento de texto, aparecerán más o menos opciones. En el caso de DPs con formato .rtf (Rich Text Format) y .txt (Text File), las opciones del menú son más numerosas, incluyendo la posibilidad de editar. En otros formatos como .doc (Microsoft Word) o .pdf (Portable Document Format), las opciones del menú son reducidas, pero siguen siendo interesantes, ya
 que permiten hacer búsquedas o copiar segmentos de texto.
 
-El siguiente grupo de menús ofrecen opciones en cuanto a la creación, edición y visualización de los elementos fundamentales de la UH: documentos primarios, citas, códigos, memos y vistas de red. Muchas de
-las opciones de este grupo de menús son comunes: crear el elemento, agrupar en familias, generar informes, abrir administradores, etc. Este grupo de menús es quizá el que más se utilizará en el trabajo analítico propiamente dicho y muchas de estas opciones son accesibles también a través de los administradores o desde los menús contextuales. Las opciones serán descritas en detalle en los siguientes capítulos del manual. A continuación, ofrecemos una breve descripción que sirva como punto de partida:
+El siguiente grupo de menús ofrecen opciones en cuanto a la creación, edición y visualización de los elementos fundamentales de la UH: documentos primarios, citas, códigos, memos y vistas de red. Muchas de las opciones de este grupo de menús son comunes: crear el elemento, agrupar en familias, generar informes, abrir administradores, etc. Este grupo de menús es quizá el que más se utilizará en el trabajo analítico propiamente dicho y muchas de estas opciones son accesibles también a través de los administradores o desde los menús contextuales. Las opciones serán descritas en detalle en los siguientes capítulos del manual. A continuación, ofrecemos una breve descripción que sirva como punto de partida:
 
 **Documentos**. El menú _Documentos_ despliega opciones que nos permiten hacer operaciones relativas a los DPs vinculados a nuestra UH: vincular o desvincular DPs, desactivarlos, reordenarlos o filtrarlos de acuerdo con diferentes criterios, editar comentarios sobre ellos, agruparlos en familias y generar informes. Algunas opciones, como la que nos permite abrir una vista de red, sólo están operativas con un DP activado. El menú incluye el apartado __A-Docs__. Sus opciones nos permiten establecer, modificar y utilizar sincronizaciones entre, por ejemplo, la grabación en audio de una entrevista y su correspondiente transcripción. También existe la posibilidad de importar este tipo de sincronización
 (ver Sincronización con F4 en pág.58).
