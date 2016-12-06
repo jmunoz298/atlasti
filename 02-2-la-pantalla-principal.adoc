@@ -28,7 +28,7 @@ Cuando se activa un DP de texto, queda conformada el área de trabajo básica. L
 .Interfaz principal con un documento activo
 image::images/image-008.png[{alt="Interfaz principal con un documento activo", float="right", align="center"]
 
-*6.  Información del documento activo*. Muestra el nombre del DP activo y, los iconos que aparecen a la derecha, permiten cerrar el documento y abrir (en el caso de que existan), los documentos relacionados con el DP activo (ver <<04-3-sincronizacion-audio-texto.adoc>> Sincronización audio-texto)
+*6.  Información del documento activo*. Muestra el nombre del DP activo y, los iconos que aparecen a la derecha, permiten cerrar el documento y abrir (en el caso de que existan), los documentos relacionados con el DP activo (ver <<04-3-sincronizacion-audio-texto.adoc#sincronizacion-audio-texto, Sincronización audio-texto>>)
 
 7.  Ventana de Documentos Primarios. En ella podremos visualizar el DP activo para realizar el trabajo de segmentación y codificación o, en fases posteriores del análisis, para consultar o modificar las Citas creadas o su vinculación a determinados códigos.
 
