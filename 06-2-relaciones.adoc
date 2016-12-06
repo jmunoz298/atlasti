@@ -98,7 +98,7 @@ La información que podemos ver bajo la etiqueta aparece cuando seleccionamos la
 
 El menú contextual que nos permitía acceder a la información sobre el __hipervínculo__, ofrece también la posibilidad de eliminarlo (__Desvincular__). Esta opción hay que utilizarla con cierta precaución puesto que no se nos pedirá confirmar la opción de borrado del __hipervínculo__. No existe opción para deshacer el borrado.
 
-[[relaciones-entre-códigos]]
+[[relaciones-entre-codigos]]
 ==== Relaciones entre Códigos
 
 Las relaciones entre códigos siguen los mismos principios que las relaciones entre citas. La creación de estas relaciones está disponible mediante el menú `Códigos > Vincular código a:` (figura ).
