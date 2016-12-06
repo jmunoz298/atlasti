@@ -6,11 +6,10 @@ Para poder empezar a trabajar, es necesario relacionar nuestros datos (textos, i
 La asignación de documentos es probablemente uno de los cambios más importantes que ha experimentado ATLAS.ti en su versión 7, puesto que con esta nueva versión ha aparecido el concepto de _Biblioteca_ o
 “repositorio” de documentos que amplia de una forma sustancial la forma de gestión de los mismos por parte del software y supone cambios importantes en las opciones por defecto.
 
-Para añadir documentos podemos utilizar alguna de las múltiples opciones del menú `Documentos > Nuevo` (ver figura ).
-
-[[img-añadir-dp, Añadir Documentos Primarios]]
+[[img-editor-memos, Añadir Documentos Primarios]]
 .Añadir Documentos Primarios
 image::images/image-023.png[{alt="Añadir Documentos Primarios", float="right", align="center"]
+
 
 [[agregar-documentos-adesde-las-bibliotecas]]
 ==== Agregar documentos a/desde las bibliotecas
@@ -25,23 +24,23 @@ Otra característica de los archivos que ubicamos en las bibliotecas, es que suf
 Si optamos por utilizar las bibliotecas, la asignación de archivos a la UH se realizará utilizando la opción `Documentos > Nuevo > Agregar documentos` (si el documento no ha sido añadido previamente a la
 biblioteca, es decir, que no lo hemos añadido previamente para utilizar en esta o en otra UH) o bien `Documentos > Nuevo > Agregar desde biblioteca` (cuando el documento ha sido asignado previamente a alguna de las bibliotecas).
 
-Al utilizar la opción __Agregar documentos__, nos aparecerá una ventana de navegación (figura ) en la que tenemos que seleccionar el/los archivos que queremos convertir en DPs. Por defecto, el programa
+Al utilizar la opción __Agregar documentos__, nos aparecerá una ventana de navegación (<<img-agregar-documentos-a-biblioteca>>) en la que tenemos que seleccionar el/los archivos que queremos convertir en DPs. Por defecto, el programa
 seleccionará como ubicación de origen la carpeta __Textbank__, pero evidentemente podemos tener ubicados nuestros archivos en cualquier otra parte de nuestro ordenador.
 
 [[img-agregar-documentos-a-biblioteca, Agregar documentos a la biblioteca]]
 .Agregar documentos a la biblioteca
 image::images/image-024.png[{alt="Agregar documentos a la biblioteca", float="right", align="center"]
 
-Por su parte, la opción _Agregar desde biblioteca_ abrirá una ventana (figura ) con la biblioteca de documentos, en la que aparecerán todos los documentos que previamente hayan sido asignados a la __biblioteca__, independientemente de la UH a la que estén asignados. Para la asignación de cualquiera de esos documentos a la UH activa, sólo tenemos que seleccionarlos y hacer clic en _Agregar selección._
+Por su parte, la opción _Agregar desde biblioteca_ abrirá una ventana con la biblioteca de documentos (<<img-agregar-documentos-desde-biblioteca>>), en la que aparecerán todos los documentos que previamente hayan sido asignados a la __biblioteca__, independientemente de la UH a la que estén asignados. Para la asignación de cualquiera de esos documentos a la UH activa, sólo tenemos que seleccionarlos y hacer clic en _Agregar selección._
 
 [[img-agregar-documentos-desde-biblioteca, Agregar documentos desde biblioteca]]
 .Agregar documentos desde biblioteca
 image::images/image-025.png[{alt="Agregar documentos desde biblioteca", float="right", align="center"]
 
 También podemos añadir documentos (a las bibliotecas) arrastrando los archivos desde la carpeta en la que se encuentren (en este caso sin utilizar la opción `Documentos > Nuevo`, sino desde una ventana de
-exploración de archivos de Windows hasta a) la lista desplegable de documentos primarios__,__ b) el _administrador_ de documentos, o c) la ventana principal. Podemos arrastrar, uno o varios documentos e incluso una carpeta entera. En ese último caso se asignarán a la UH todos los documentos contenidos en la carpeta. Pueden arrastrarse múltiples archivos tanto a la lista desplegable como al _administrador_ de documentos, mientras que a la ventana principal sólo puede arrastrarse un archivo en cada ocasión.
+exploración de archivos de Windows hasta a) la lista desplegable de documentos primarios__,__ b) el _administrador_ de documentos, o c) la ventana principal. Podemos arrastrar, uno o varios documentos e incluso una carpeta entera. En ese último caso se asignarán a la UH todos los documentos contenidos en la carpeta.footnote:[Pueden arrastrarse múltiples archivos tanto a la lista desplegable como al _administrador_ de documentos, mientras que a la ventana principal sólo puede arrastrarse un archivo en cada ocasión.]
 
-Para ver los documentos incluidos en nuestras bibliotecas, tenemos que hacer clic en `Documentos > Administrador de fuentes de datos > Abrir administrador de biblioteca`. En la figura podemos ver cómo se nos muestran los documentos existentes en la biblioteca seleccionada (__Mi biblioteca__ o __Biblioteca de equipo__) y cómo al seleccionar un documento podemos ver, en la parte inferior izquierda de la ventana la historia de cambios realizados sobre el documento y, en la parte inferior derecha las UH a las que está asignado.
+Para ver los documentos incluidos en nuestras bibliotecas, tenemos que hacer clic en `Documentos > Administrador de fuentes de datos > Abrir administrador de biblioteca`. En la siguiente figura podemos ver cómo se nos muestran los documentos existentes en la biblioteca seleccionada (__Mi biblioteca__ o __Biblioteca de equipo__) y cómo al seleccionar un documento podemos ver, en la parte inferior izquierda de la ventana la historia de cambios realizados sobre el documento y, en la parte inferior derecha las UH a las que está asignado.
 
 [[img-administrador-biblioteca-documentos, Administrador de Biblioteca de documentos]]
 .Administrador de Biblioteca de documentos
@@ -50,10 +49,14 @@ image::images/image-026.png[{alt="Administrador de Biblioteca de documentos", fl
 [[asignar-archivos-externos]]
 ==== Asignar archivos externos
 
-También podemos asignar documentos sin que estos pasen a formar parte de la biblioteca —la forma de asignación normal en versiones anteriores del programa. Este tipo de asignación la podemos hacer de dos formas. La primera consiste en utilizar la opción `Documentos > Nuevo > Asignar documentos externos` (ver figura ), que abrirá una ventana (ver figura )footnote:[En la figura aparecen los documentos de la carpeta `Textbank > ControlParlamentario`, que es donde hemos ubicado nuestros documentos de trabajo. Evidentemente, en el caso de que los tengamos en otra ubicación de nuestro ordenador, tendremos que navegar a la misma.], en la que aparecen los ficheros con las extensiones reconocidas por ATLAS.ti como
-posibles DPs__.__ Para realizar la asignación, únicamente tenemos que seleccionar el/los documentos deseados y hacer clic en __Abrir__.
+[TIP]
+====
+Si utilizamos esta forma de asignación de documentos, es muy recomendable leer el apartado Copiar/Restarurar la Unidad Hermenéutica.
+====
 
-En el ejemplo de la figura , vemos cómo en la ventana _Asignar documentos externos_ se muestran únicamente archivos de texto (.rtf) y archivos multimedia (.mp3 y .avi), que son formatos de archivo que
+También podemos asignar documentos sin que estos pasen a formar parte de la biblioteca —la forma de asignación normal en versiones anteriores del programa. Este tipo de asignación la podemos hacer de dos formas. La primera consiste en utilizar la opción `Documentos > Nuevo > Asignar documentos externos` (ver <<img-editor-memos>>), que abrirá una ventana (<<img-asignar-documentos-externos>>)footnote:[En la figura aparecen los documentos de la carpeta `Textbank > ControlParlamentario`, que es donde hemos ubicado nuestros documentos de trabajo. Evidentemente, en el caso de que los tengamos en otra ubicación de nuestro ordenador, tendremos que navegar a la misma.], en la que aparecen los ficheros con las extensiones reconocidas por ATLAS.ti como posibles DPs. Para realizar la asignación, únicamente tenemos que seleccionar el/los documentos deseados y hacer clic en __Abrir__.
+
+En el ejemplo de la figura <<img-asignar-documentos-externos>>, vemos cómo en la ventana _Asignar documentos externos_ se muestran únicamente archivos de texto (.rtf) y archivos multimedia (.mp3 y .avi), que son formatos de archivo que
 pueden asignarse a la UH. Si posteriormente queremos añadir un nuevo DP, como por ejemplo, un archivo de sonido con la grabación de una de las entrevistas, o una nueva transcripción, sólo tenemos que volver a repetir el proceso de asignación seleccionando sólo ese archivo. No es imprescindible, por lo tanto, asignar todos los DPs a la UH antes de empezar a trabajar, podemos asignar nuevos documentos en cualquier momento del proceso de análisis.
 
 [[img-asignar-documentos-externos, Asignar documentos externos]]
