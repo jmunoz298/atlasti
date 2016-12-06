@@ -135,6 +135,6 @@ su disposición inicial cuando situamos el cursor encima de la barra colapsada. 
 5. Elementos según el tipo de administrador e información adicional para cada uno de ellos. En este caso, encontramos una primera columna con el conjunto de códigos definidos en la UH. La segunda columna,
 __Fundamentado__, nos indica el número de citas con las que está relacionado el código seleccionado, mientras que la columna _Densidad_ hace referencia al número de relaciones que ese código tiene con otros códigos. La columna _Autor_ nos indica, evidentemente, el usuario que ha creado el elemento (ver <<09-1-administracion-de-usuarios.adoc#administracion-de-usuarios, Administración de usuarios>>). A continuación nos encontramos con dos columnas que nos informan de la fecha de creación y de modificación del elemento. Por último, la columna _Familias_ nos indica a qué familias pertenece el elemento en cuestión. Podemos ordenar la visualización con un clic en la etiqueta de la columna que deseemos.
 
-6. En todos los administradores encontraremos también una zona en la que podemos/debemos escribir un comentario sobre el elemento seleccionado. (ver Comentarios de códigos en pág. 71).
+6. En todos los administradores encontraremos también una zona en la que podemos/debemos escribir un comentario sobre el elemento seleccionado. (ver <<05-1-creacion-de-codigos.adoc#comentarios-de-codigos,Comentarios de códigos>>).
 
 7. Barra de estado con información adicional sobre el objeto que se tiene seleccionado.
