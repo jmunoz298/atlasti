@@ -6,7 +6,7 @@ Para poder empezar a trabajar, es necesario relacionar nuestros datos (textos, i
 La asignación de documentos es probablemente uno de los cambios más importantes que ha experimentado ATLAS.ti en su versión 7, puesto que con esta nueva versión ha aparecido el concepto de _Biblioteca_ o
 “repositorio” de documentos que amplia de una forma sustancial la forma de gestión de los mismos por parte del software y supone cambios importantes en las opciones por defecto.
 
-[[img-editor-memos, Añadir Documentos Primarios]]
+[[img-anadir-documentos-primarios, Añadir Documentos Primarios]]
 .Añadir Documentos Primarios
 image::images/image-023.png[{alt="Añadir Documentos Primarios", float="right", align="center"]
 
@@ -46,15 +46,15 @@ Para ver los documentos incluidos en nuestras bibliotecas, tenemos que hacer cli
 .Administrador de Biblioteca de documentos
 image::images/image-026.png[{alt="Administrador de Biblioteca de documentos", float="right", align="center"]
 
-[[asignar-archivos-externos]]
-==== Asignar archivos externos
-
 [TIP]
 ====
 Si utilizamos esta forma de asignación de documentos, es muy recomendable leer el apartado Copiar/Restarurar la Unidad Hermenéutica.
 ====
 
-También podemos asignar documentos sin que estos pasen a formar parte de la biblioteca —la forma de asignación normal en versiones anteriores del programa. Este tipo de asignación la podemos hacer de dos formas. La primera consiste en utilizar la opción `Documentos > Nuevo > Asignar documentos externos` (ver <<img-editor-memos>>), que abrirá una ventana (<<img-asignar-documentos-externos>>)footnote:[En la figura aparecen los documentos de la carpeta `Textbank > ControlParlamentario`, que es donde hemos ubicado nuestros documentos de trabajo. Evidentemente, en el caso de que los tengamos en otra ubicación de nuestro ordenador, tendremos que navegar a la misma.], en la que aparecen los ficheros con las extensiones reconocidas por ATLAS.ti como posibles DPs. Para realizar la asignación, únicamente tenemos que seleccionar el/los documentos deseados y hacer clic en __Abrir__.
+[[asignar-archivos-externos]]
+==== Asignar archivos externos
+
+También podemos asignar documentos sin que estos pasen a formar parte de la biblioteca —la forma de asignación normal en versiones anteriores del programa. Este tipo de asignación la podemos hacer de dos formas. La primera consiste en utilizar la opción `Documentos > Nuevo > Asignar documentos externos` (ver <<img-anadir-documentos-primarios>>), que abrirá una ventana (<<img-asignar-documentos-externos>>)footnote:[En la figura aparecen los documentos de la carpeta `Textbank > ControlParlamentario`, que es donde hemos ubicado nuestros documentos de trabajo. Evidentemente, en el caso de que los tengamos en otra ubicación de nuestro ordenador, tendremos que navegar a la misma.], en la que aparecen los ficheros con las extensiones reconocidas por ATLAS.ti como posibles DPs. Para realizar la asignación, únicamente tenemos que seleccionar el/los documentos deseados y hacer clic en __Abrir__.
 
 En el ejemplo de la figura <<img-asignar-documentos-externos>>, vemos cómo en la ventana _Asignar documentos externos_ se muestran únicamente archivos de texto (.rtf) y archivos multimedia (.mp3 y .avi), que son formatos de archivo que
 pueden asignarse a la UH. Si posteriormente queremos añadir un nuevo DP, como por ejemplo, un archivo de sonido con la grabación de una de las entrevistas, o una nueva transcripción, sólo tenemos que volver a repetir el proceso de asignación seleccionando sólo ese archivo. No es imprescindible, por lo tanto, asignar todos los DPs a la UH antes de empezar a trabajar, podemos asignar nuevos documentos en cualquier momento del proceso de análisis.
@@ -68,7 +68,7 @@ Una vez asignado un documento, para verlo en la pantalla principal de ATLAS.ti b
 [[documentos-incrustados]]
 ==== Documentos incrustados
 
-Aunque tienen características similares a los documentos enriquecidos, mención aparte merece la posibilidad de utilizar documentos creados directamente en ATLAS.ti. En este caso tenemos dos posibilidades, la de crear un nuevo documento de texto que quedará incrustado en la HU, recurriendo a la opción `Documentos &gt; Nuevo &gt; Nuevo documento de texto` (ver ), o la de utilizar un _Memo_ existente como DP. En este último caso, debemos seleccionar un _Memo_ creado previamente y utilizar la opción `Memos > Miscelánea > Usar como documento primario` (ver ). Esta última modalidad de los memos como documentos, aunque factible, no es la más recomendable, puesto que implica “duplicar” información como memo y como documento. Esta modalidad resulta prácticamente obsoleta si consideramos la primera, la de documentos incrustados, introducida a partir de la versión 6 de ATLAS.ti.
+Aunque tienen características similares a los documentos enriquecidos, mención aparte merece la posibilidad de utilizar documentos creados directamente en ATLAS.ti. En este caso tenemos dos posibilidades, la de crear un nuevo documento de texto que quedará incrustado en la UH, recurriendo a la opción `Documentos &gt; Nuevo &gt; Nuevo documento de texto` (ver <<img-anadir-documentos-primarios>> ), o la de utilizar un _Memo_ existente como DP. En este último caso, debemos seleccionar un _Memo_ creado previamente y utilizar la opción `Memos > Miscelánea > Usar como documento primario` (<<img-usar-memos-como-dp>>). Esta última modalidad de los memos como documentos, aunque factible, no es la más recomendable, puesto que implica “duplicar” información como memo y como documento. Esta modalidad resulta prácticamente obsoleta si consideramos la primera, la de documentos incrustados, introducida a partir de la versión 6 de ATLAS.ti.
 
 [[img-usar-memos-como-dp, Usar memos como Documento primario]]
 .Usar memos como Documento primario
@@ -79,14 +79,13 @@ La utilización de este tipo de documentos incrustados puede ser práctica en aq
 [[encuestas]]
 ==== Encuestas
 
-Si nuestros datos se derivan de las respuestas a preguntas abiertas en una encuesta, podemos utilizar otra estrategia para la asignación de los documentos. En este caso, en vez de utilizar como fuente de datos archivos de texto, tendremos que introducirlos en una hoja de cálculo utilizando un formato especial. Este formato se caracteriza por utilizar determinadas claves para nombrar las columnas —los identificadores de campo— de la matriz de datos, de modo que ATLAS.ti utilice los contenidos de forma distinta. En la figura podemos ver un ejemplo ficticio de datos de este tipo, en el que la primera fila se corresponde con los identificadores de campo y el resto de filas con cada uno de los casos o encuestas. Las tres primeras columnas del ejemplo son datos identificativos de la encuesta, mientras que el resto se corresponden con las preguntas que incluye, tanto abiertas como cerradas. En la
-conversión de una matriz de datos, cada caso —cada fila— se transforma en un PD incrustado en la UH. Si tenemos 200 casos a nuestra encuesta e importamos la base de datos a ATLAS.ti, el resultado será un conjunto de 200 DP.
+Si nuestros datos se derivan de las respuestas a preguntas abiertas en una encuesta, podemos utilizar otra estrategia para la asignación de los documentos. En este caso, en vez de utilizar como fuente de datos archivos de texto, tendremos que introducirlos en una hoja de cálculo utilizando un formato especial. Este formato se caracteriza por utilizar determinadas claves para nombrar las columnas —los identificadores de campo— de la matriz de datos, de modo que ATLAS.ti utilice los contenidos de forma distinta. En la figura <<img-hoja-con-datos-encuesta>> podemos ver un ejemplo ficticio de datos de este tipo, en el que la primera fila se corresponde con los identificadores de campo y el resto de filas con cada uno de los casos o encuestas. Las tres primeras columnas del ejemplo son datos identificativos de la encuesta, mientras que el resto se corresponden con las preguntas que incluye, tanto abiertas como cerradas. En la conversión de una matriz de datos, cada caso —cada fila— se transforma en un PD incrustado en la UH. Si tenemos 200 casos a nuestra encuesta e importamos la base de datos a ATLAS.ti, el resultado será un conjunto de 200 DP.
 
 [[img-hoja-con-datos-encuesta, Hoja de cálculo con datos de encuesta]]
 .Hoja de cálculo con datos de encuesta
 image::images/image-030.png[{alt="Hoja de cálculo con datos de encuesta", float="right", align="center"]
 
-El primer carácter de las etiquetas de la primera fila indica las características de la información que aparece en la columna. De esta forma, en la primera columna la etiqueta `!Caso`, precedida por el carácter `!` indica que la columna se corresponde con cada uno de los casos de encuesta, mientras que el carácter `:`, que precede a la etiqueta :Universidad en la quinta columna, indica que los datos que encabeza son respuestas a preguntas de elección simple con varias opciones de respuesta. En el cuadro podemos ver el conjunto de identificadores de campos de documento, mientras que en la Tabla aparecen los
+El primer carácter de las etiquetas de la primera fila indica las características de la información que aparece en la columna. De esta forma, en la primera columna la etiqueta `!Caso`, precedida por el carácter `!` indica que la columna se corresponde con cada uno de los casos de encuesta, mientras que el carácter `:`, que precede a la etiqueta `:Universidad` en la quinta columna, indica que los datos que encabeza son respuestas a preguntas de elección simple con varias opciones de respuesta. En la tabla siguiente podemos ver el conjunto de identificadores de campos de documento, mientras que en la Tabla aparecen los
 identificadores de campos de preguntas.
 
 [[tab-encuestas-identificacores, Encuestas: Identificadores de campos (documento)]]
@@ -100,7 +99,7 @@ identificadores de campos de preguntas.
 |& |Fecha
 |==============================================
 
-El resto de identificadores se corresponden con las preguntas, que pueden ser tanto abiertas como cerradas. En el caso de las preguntas cerradas, estas se importarán como familias (ver Familias en pág. 91) asociadas con los documentos, mientras que las preguntas abiertas serán los “datos” del documento.
+El resto de identificadores se corresponden con las preguntas, que pueden ser tanto abiertas como cerradas. En el caso de las preguntas cerradas, estas se importarán como familias (ver <<06-1-familias.adoc, Familias>>) asociadas con los documentos, mientras que las preguntas abiertas serán los “datos” del documento.
 
 [[tab-identificadores-campos, Identificadores de campos (preguntas cerradas)]]
 .Identificadores de campos (preguntas cerradas)
@@ -117,21 +116,21 @@ El resto de identificadores se corresponden con las preguntas, que pueden ser ta
 
 Las etiquetas de columna sin prefijo se interpretarán como preguntas abiertas
 
-La importación (asignación) de los datos la realizaremos con la opción `Documentos > Nuevo > Importar datos de encuesta` (ver Ilustración, pág. Ilustración). De la misma forma que con los documentos incrustados descritos anteriormente, los DPs formarán parte de la UH; estarán incrustados, no vinculados, por lo que no dependerán de lo que hagamos con la hoja de cálculo.
+La importación (asignación) de los datos la realizaremos con la opción `Documentos > Nuevo > Importar datos de encuesta` (ver <<img-asignar-documentos-externos>>). De la misma forma que con los documentos incrustados descritos anteriormente, los DPs formarán parte de la UH; estarán incrustados, no vinculados, por lo que no dependerán de lo que hagamos con la hoja de cálculo.
 
-En la figura podemos ver el resultado de la importación de los datos del ejemplo, con los cuatro documentos que se corresponden con los cuatro casos footnote:[El icono de documento incluye un punto verde, lo que nos indica que es un documento incrustado.]. Además de la importación, se crearán familias de documentos en función de las variables de la encuesta.
+En la siguiente figura podemos ver el resultado de la importación de los datos del ejemplo, con los cuatro documentos que se corresponden con los cuatro casos footnote:[El icono de documento incluye un punto verde, lo que nos indica que es un documento incrustado.]. Además de la importación, se crearán familias de documentos en función de las variables de la encuesta.
 
 [[img-datos-encuesta-importados, Datos de encuesta importados]]
 .Datos de encuesta importados
 image::images/image-031.png[{alt="Datos de encuesta importados", float="right", align="center"]
 
-En la figura podemos ver cómo la familia _SoftConoce::MaxQDA_ incluye los dos documentos (casos) en los que el valor de la variable es 1 (Sí).
+A continuación podemos ver cómo la familia _SoftConoce::MaxQDA_ incluye los dos documentos (casos) en los que el valor de la variable es 1 (Sí).
 
 [[img-encuestas-familias-dp, Encuestas: Familias de documentos]]
 .Encuestas: Familias de documentos
 image::images/image-032.png[{alt="Encuestas: Familias de documentos", float="right", align="center"]
 
-Por último, en la figura podemos ver el documento primario con la pregunta abierta del caso 1.
+Por último, en la siguiente figura podemos ver el documento primario con la pregunta abierta del caso 1.
 
 [[img-encuestas-dp, Encuestas: Documento primario]]
 .Encuestas: Documento primario
