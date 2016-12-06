@@ -108,16 +108,16 @@ actualizaciones que ya están en algunos de los menús anteriores, así como la 
 ==== Administradores y listas desplegables
 
 Ya hemos hecho referencia a los administradores y listas desplegables en la descripción de las secciones que componen la pantalla principal del ATLAS.ti. Ambos, especialmente los administradores, son sin duda las opciones más empleadas en el transcurso de un proceso de análisis. Las listas desplegables permiten seleccionar los diferentes elementos creados en la UH: DPs, citas, códigos y memos. La selección de los elementos se realiza haciendo clic en la flecha situada a la derecha del
-recuadro de lista para "desplegarla" y a continuación sobre el elemento deseado (1 en figura ).
+recuadro de lista para "desplegarla" y a continuación sobre el elemento deseado (1 en <<img-administrador-codigos>>).
 
 [[img-administrador-codigos, Administrador de códigos y lista desplegable de códigos]]
 .Administrador de códigos y lista desplegable de códigos
 image::images/image-012.png[{alt="Administrador de códigos y lista desplegable de códigos", float="right", align="center"]
 
-Los iconos que aparecen a la izquierda de cada una de las listas desplegables (2 en Ilustración) abren los administradores de cada objeto. Los administradores permiten visualizar sus correspondientes
+Los iconos que aparecen a la izquierda de cada una de las listas desplegables (2 en la figura) abren los administradores de cada objeto. Los administradores permiten visualizar sus correspondientes
 objetos (DPs, citas, códigos o memos) en ventanas independientes. Además de permitirnos seleccionar y visualizar algún elemento, como en el caso de las listas desplegables, los administradores posibilitan una visualización de conjunto mucho más detallada, con listados de objetos que incluyen sus características más importantes y que pueden reordenarse en función de tales características. Aunque presentan algunas diferencias en cuanto a las funciones que permiten realizar, los cuatro administradores tienen una estructura similar y en buena medida nos ofrecen otra vía para acceder a las opciones que ya aparecen en los menús de cada objeto.
 
-La figura nos muestra las secciones que componen el administrador de DPs y que son, en general, comunes al resto de administradores:
+La siguiente figura nos muestra las secciones que componen el administrador de DPs y que son, en general, comunes al resto de administradores:
 
 [[img-administrador-documentos, Administrador de Documentos Primarios]]
 .Administrador de Documentos Primarios
@@ -133,7 +133,7 @@ su disposición inicial cuando situamos el cursor encima de la barra colapsada. 
 4. Iconos con funciones específicas dependiendo del tipo de objeto al que se dedica el administrador.
 
 5. Elementos según el tipo de administrador e información adicional para cada uno de ellos. En este caso, encontramos una primera columna con el conjunto de códigos definidos en la UH. La segunda columna,
-__Fundamentado__, nos indica el número de citas con las que está relacionado el código seleccionado, mientras que la columna _Densidad_ hace referencia al número de relaciones que ese código tiene con otros códigos. La columna _Autor_ nos indica, evidentemente, el usuario que ha creado el elemento (ver Administración de usuarios, pág. 171). A continuación nos encontramos con dos columnas que nos informan de la fecha de creación y de modificación del elemento. Por último, la columna _Familias_ nos indica a qué familias pertenece el elemento en cuestión. +
+__Fundamentado__, nos indica el número de citas con las que está relacionado el código seleccionado, mientras que la columna _Densidad_ hace referencia al número de relaciones que ese código tiene con otros códigos. La columna _Autor_ nos indica, evidentemente, el usuario que ha creado el elemento (ver <<Administración de usuarios>>). A continuación nos encontramos con dos columnas que nos informan de la fecha de creación y de modificación del elemento. Por último, la columna _Familias_ nos indica a qué familias pertenece el elemento en cuestión. +
 Podemos ordenar la visualización con un clic en la etiqueta de la columna que deseemos.
 
 6. En todos los administradores encontraremos también una zona en la que podemos/debemos escribir un comentario sobre el elemento seleccionado. (ver Comentarios de códigos en pág. 71).
