@@ -36,20 +36,20 @@ image::images/image-008.png[{alt="Interfaz principal con un documento activo", f
 
 *9. Numeración de los párrafos del documento*. Esta forma de visualización es especialmente útil cuando queremos identificar la ubicación de una cita en el texto a partir de un listado de citas, pues como veremos más adelante (<<05-2-citas.adoc#visualizacion, Visualización de citas>>), las etiquetas de las citas incluyen información sobre el número de párrafo de inicio y fin en el documento.
 
-*10. Navegadores de elementos*. Podemos además, (figura ), activar/desactivar (haciendo clic en el icono con tres cabezas de flecha) la visualización de “navegadores” de elementos, pudiendo seleccionar si deseamos visualizar lista de documentos, códigos, citas, memos o vistas de red.
+*10. Navegadores de elementos*. Podemos además activar/desactivar (haciendo clic en el icono con tres cabezas de flecha) la visualización de “navegadores” de elementos, pudiendo seleccionar si deseamos visualizar lista de documentos, códigos, citas, memos o vistas de red.
 
 [[img-navegadores, Navegadores de elementos en interfaz principal]]
 .Navegadores de elementos en interfaz principal
 image::images/image-009.png[{alt="Navegadores de elementos en interfaz principal", float="right", align="center"]
 
-11.  Haciendo clic en este icono, podemos visualizar simultáneamente más de un DP en la pantalla principal (ver figura ).
+*11*. Haciendo clic en este icono, podemos visualizar simultáneamente más de un DP en la pantalla principal (ver figura ).
 
 [[img-visualizacion-documentos, Visualización de dos Documentos Primarios]]
 .Visualización de dos Documentos Primarios
 image::images/image-010.png[{alt="Visualización de dos Documentos Primarios", float="right", align="center"]
 
 
-12.  Barra de estado. Presenta información sobre el DP activo, incluyendo el nombre completo del archivo, su ubicación y forma de asignación a la UH y el tamaño con el que se visualiza. Permite hacer algunas operaciones como cambiar el porcentaje de visualización (aumentar o reducir la apariencia del DP). Ofrece además un pequeño texto de ayuda relacionado con la opción de menú sobre el que se sitúe el cursor para recordarnos las acciones que realizan los diferentes menús.
+*12. Barra de estado*. Presenta información sobre el DP activo, incluyendo el nombre completo del archivo, su ubicación y forma de asignación a la UH y el tamaño con el que se visualiza. Permite hacer algunas operaciones como cambiar el porcentaje de visualización (aumentar o reducir la apariencia del DP). Ofrece además un pequeño texto de ayuda relacionado con la opción de menú sobre el que se sitúe el cursor para recordarnos las acciones que realizan los diferentes menús.
 
 Hasta ahora, hemos presentado la pantalla principal de ATLAS.ti 7 con DPs activos de tipo textual. En el caso de documentos de imagen, audio, vídeo o geo-referencias hay algunas particularidades de presentación que señalaremos más adelante, al desarrollar la forma en la que se opera en ATLAS.ti con estos tipos de datos. Por otra parte, es conveniente recordar que, si bien existe la posibilidad de reubicar, añadir o quitar elementos a la pantalla principal de ATLAS.ti, recomendamos al usuario
 novel trabajar con la configuración por defecto y postergar cualquier cambio a nivel de interfaz hasta que se adquiera cierta soltura y familiaridad en el uso del programa.
@@ -57,7 +57,7 @@ novel trabajar con la configuración por defecto y postergar cualquier cambio a 
 [[menus]]
 ==== Menús
 
-Los menús de la pantalla principal del ATLAS.ti incluyen prácticamente todas las operaciones y opciones de visualización y configuración a las que puede recurrir el usuario o permiten acceder a ellas (figura ). Los menús pueden agruparse en tres categorías: generales, por objeto y extras. Los menús por objeto hacen referencia a opciones y operaciones asociadas a cada uno de los bloques que se van construyendo dentro de su UH conforme avanza en el proceso de análisis.
+Los menús de la pantalla principal del ATLAS.ti incluyen prácticamente todas las operaciones y opciones de visualización y configuración a las que puede recurrir el usuario o permiten acceder a ellas (<<img-barra-menus>>). Los menús pueden agruparse en tres categorías: generales, por objeto y extras. Los menús por objeto hacen referencia a opciones y operaciones asociadas a cada uno de los bloques que se van construyendo dentro de su UH conforme avanza en el proceso de análisis.
 
 [[img-barra-menus, Barra de menús]]
 .Barra de menús
@@ -69,13 +69,13 @@ Siguiendo el orden en el que aparecen de izquierda a derecha, los primeros dos m
 
 **Proyecto**. Este menú es el menú general de la UH y, por tanto, el primero con el que tenemos que familiarizarnos. Contiene comandos que permiten crear, abrir o cerrar UHs, así como editar información general sobre las mismas o generar informes con todos los objetos desarrollados en el proceso de análisis. También hay comandos que permiten fusionar dos UHs —funcionalidad crucial cuando el análisis lo realizan dos o más personas— o analizar y eliminar redundancias y solapamientos en la codificación. Este menú es el menú general de la UH y, por tanto, el primero con el que tenemos que familiarizarnos.
 
-**Edición**. Este menú sólo despliega sus opciones cuando un DP de tipo textual ha sido activado. Dependiendo del formato específico del documento de texto, aparecerán más o menos opciones. En el caso de DPs con formato .rtf (Rich Text Format) y .txt (Text File), las opciones del menú son más numerosas, incluyendo la posibilidad de editar. En otros formatos como .doc (Microsoft Word) o .pdf (Portable Document Format), las opciones del menú son reducidas, pero siguen siendo interesantes, ya
+**Edición**. Este menú sólo despliega sus opciones cuando un DP de tipo textual ha sido activado. Dependiendo del formato específico del documento de texto, aparecerán más o menos opciones. En el caso de DPs con formato _.rtf_ (Rich Text Format) y _.txt_ (Text File), las opciones del menú son más numerosas, incluyendo la posibilidad de editar. En otros formatos como _.doc_ (Microsoft Word) o _.pdf_ (Portable Document Format), las opciones del menú son reducidas, pero siguen siendo interesantes, ya
 que permiten hacer búsquedas o copiar segmentos de texto.
 
 El siguiente grupo de menús ofrecen opciones en cuanto a la creación, edición y visualización de los elementos fundamentales de la UH: documentos primarios, citas, códigos, memos y vistas de red. Muchas de las opciones de este grupo de menús son comunes: crear el elemento, agrupar en familias, generar informes, abrir administradores, etc. Este grupo de menús es quizá el que más se utilizará en el trabajo analítico propiamente dicho y muchas de estas opciones son accesibles también a través de los administradores o desde los menús contextuales. Las opciones serán descritas en detalle en los siguientes capítulos del manual. A continuación, ofrecemos una breve descripción que sirva como punto de partida:
 
 **Documentos**. El menú _Documentos_ despliega opciones que nos permiten hacer operaciones relativas a los DPs vinculados a nuestra UH: vincular o desvincular DPs, desactivarlos, reordenarlos o filtrarlos de acuerdo con diferentes criterios, editar comentarios sobre ellos, agruparlos en familias y generar informes. Algunas opciones, como la que nos permite abrir una vista de red, sólo están operativas con un DP activado. El menú incluye el apartado __A-Docs__. Sus opciones nos permiten establecer, modificar y utilizar sincronizaciones entre, por ejemplo, la grabación en audio de una entrevista y su correspondiente transcripción. También existe la posibilidad de importar este tipo de sincronización
-(ver Sincronización con F4 en pág.58).
+(ver <<04-3-sincronizacion-audio-texto#).
 
 **Citas**. De forma análoga al menú anterior, éste nos ofrece opciones para el trabajo con citas: crearlas, transformarlas, eliminarlas, etc. También nos permite abrir vistas de red focalizada en una cita, establecer relaciones entre citas —los hipervínculos— y asignar códigos a citas.
 
