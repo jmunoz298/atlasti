@@ -4,13 +4,13 @@
 [[codigos-libres]]
 === Códigos libres
 
-Como podemos ver en la figura (izquierda), la primera opción del menú __Códigos__, nos permite la creación de códigos “libres”, es decir, códigos que en principio no están relacionados con ningún otro elemento. También podemos crear códigos libres desde el _Administrador_ de códigos, utilizando la misma opción del menú o con el icono de creación (figura , derecha).
+Como podemos ver en la parte izquierda de la figura <<img-opciones-creacion-codigos-libres>>, la primera opción del menú __Códigos__, nos permite la creación de códigos “libres”, es decir, códigos que en principio no están relacionados con ningún otro elemento. También podemos crear códigos libres desde el _Administrador_ de códigos, utilizando la misma opción del menú o con el icono de creación (derecha de la figura).
 
 [[img-opciones-creacion-codigos-libres, Opciones de creación de códigos libres]]
 .Opciones de creación de códigos libres
 image::images/image-053.png[{alt="Opciones de creación de códigos libres", float="right", align="center"]
 
-En ambos casos, nos aparecerá una nueva ventana (figura ) en la que introduciremos la etiqueta de código. Como podemos ver, a medida que vamos introduciendo etiquetas de código, se añaden nuevas filas en la ventana, por lo que podemos crear varios códigos de forma simultánea, hasta que hagamos clic en el botón __OK__.
+En ambos casos, nos aparecerá una nueva ventana en la que introduciremos la etiqueta de código. Como podemos ver, a medida que vamos introduciendo etiquetas de código, se añaden nuevas filas en la ventana, por lo que podemos crear varios códigos de forma simultánea, hasta que hagamos clic en el botón __OK__.
 
 [[img-creacion-codigos-libres, Creación de códigos libres]]
 .Creación de códigos libres
