@@ -20,7 +20,7 @@ capturador de la esencia, y/o evocativo a una porción de datos textuales
 o visuales.
 ____
 
-Como podemos ver en la figura \{fig-estrategias}, dependiendo de nuestra estrategia, variará la forma de realizar nuestro trabajo con ATLAS.ti. Si nuestra estrategia es deductiva, primero crearemos __Códigos libres__, mientras que si nuestra estrategia es inductiva primero crearemos _Citas_ (también libres).
+Como podemos ver en la figura <<img-estrategias-segmentacion>>, dependiendo de nuestra estrategia, variará la forma de realizar nuestro trabajo con ATLAS.ti. Si nuestra estrategia es deductiva, primero crearemos __Códigos libres__, mientras que si nuestra estrategia es inductiva primero crearemos _Citas_ (también libres).
 
 [[img-estrategias-segmentacion, Estrategias de segmentación/codificación]]
 .Estrategias de segmentación/codificación
