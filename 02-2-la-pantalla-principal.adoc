@@ -34,7 +34,7 @@ image::images/image-008.png[{alt="Interfaz principal con un documento activo", f
 
 *8. Margen derecho*. Esta sección ofrece información sobre los elementos relacionados con el texto que se esté visualizando en ese momento. Las barras verticales señalan la ubicación de las Citas en el documento y los elementos con los que están relacionadas, sean Códigos, Hipervínculos (relaciones con otras citas) o Memos. La cantidad de elementos visibles en este espacio tiene una relación directamente proporcional con el trabajo interpretativo realizado sobre el DP en cuestión.
 
-*9. Numeración de los párrafos del documento*. Esta forma de visualización es especialmente útil cuando queremos identificar la ubicación de una cita en el texto a partir de un listado de citas, pues como veremos más adelante (pág. 76), las etiquetas de las citas incluyen información sobre el número de párrafo de inicio y fin en el documento.
+*9. Numeración de los párrafos del documento*. Esta forma de visualización es especialmente útil cuando queremos identificar la ubicación de una cita en el texto a partir de un listado de citas, pues como veremos más adelante (<<05-2-citas.adoc#visualizacion, Visualización de citas>>), las etiquetas de las citas incluyen información sobre el número de párrafo de inicio y fin en el documento.
 
 *10. Navegadores de elementos*. Podemos además, (figura ), activar/desactivar (haciendo clic en el icono con tres cabezas de flecha) la visualización de “navegadores” de elementos, pudiendo seleccionar si deseamos visualizar lista de documentos, códigos, citas, memos o vistas de red.
 
