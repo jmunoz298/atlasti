@@ -18,7 +18,7 @@ Como vemos, Rambaree apuesta por la utilización de _Memos_ desde un primer mome
 
 Pero queremos insistir además en que su función va mucho más allá de la utilización de ATLAS.ti o de cualquier otra herramienta de análisis. Es decir, tienen que ver con el análisis, no con la herramienta, puesto que:
 
-[quote, Birks, Chapman, & Francis, "2008, p. 69"]
+[quote, "Birks, Chapman, & Francis", "2008, p. 69"]
 ____
 Mediante el uso de memorandos, el investigador es capaz de sumergirse en los datos, explorar los significados que estos datos tienen, mantener la continuidad y mantener el impulso en la realización de la investigación. Como crónica de un viaje de investigación, los memorandos permanecen como un registro, indeleble pero flexible, para retención personal o para difundir a otros.
 ____
