@@ -183,23 +183,23 @@ Si queremos que identifique palabras completas acabadas en “er” podemos ayud
 `*` = Una o más veces el carácter anterior
 
 Una búsqueda con la combinación de estos dos operadores encontraría cualquier palabra completa, puesto que el significado de la expresión sería “busca la aparición de cualquier cantidad (asterisco) de
-caracteres alfanuméricos ()”.
+caracteres alfanuméricos (`\w`)”.
 
-Si a continuación añadimos er&gt;, estaremos ampliando nuestra expresión para que identifique únicamente las palabras “acabados en 'er'”
+Si a continuación añadimos `er\>`, estaremos ampliando nuestra expresión para que identifique únicamente las palabras “acabados en 'er'”
 
-*er&gt;
+ \w*er\>
 
 Para finalizar, podemos unir los operadores "inicio de palabra" y "fin de palabra" para encontrar palabras completas con un determinado inicio y un determinado final. Por ejemplo, la expresión
 
-<p*a&gt;
+ <p\w*a\>
 
 encontrará cualquier palabra que empiece con "p" y acabe con "a", puesto que:
 
-<p es sinónimo de "palabra que empiece con la letra p"
+`<p` es sinónimo de "palabra que empiece con la letra p"
 
-* es sinónimo de "cualquier carácter alfanumérico () de cualquier longitud (*)"
+`\w*` es sinónimo de "cualquier carácter alfanumérico (`\w`) de cualquier longitud (`*`)"
 
-a&gt; es sinónimo de "palabra que termine con "a"
+`a\>` es sinónimo de "palabra que termine con "a"
 
 *Búsqueda de varios términos de forma simultánea*
 
