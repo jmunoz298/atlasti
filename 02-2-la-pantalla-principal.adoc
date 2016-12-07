@@ -46,6 +46,7 @@ image::images/image-008.png[Interfaz principal con un documento activo, align="c
 
 *10. Navegadores de elementos*. Podemos además activar/desactivar (haciendo clic en el icono con tres cabezas de flecha) la visualización de “navegadores” de elementos, pudiendo seleccionar si deseamos visualizar lista de documentos, códigos, citas, memos o vistas de red.
 
+[.text-center]
 [[img-navegadores, Navegadores de elementos en interfaz principal]]
 .Navegadores de elementos en interfaz principal
 image::images/image-009.png[Navegadores de elementos en interfaz principal, align="center"]
