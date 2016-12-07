@@ -54,7 +54,7 @@ image::images/image-009.png[Navegadores de elementos en interfaz principal, alig
 *11*. Haciendo clic en este icono, podemos visualizar simultáneamente más de un DP en la pantalla principal (<<img-visualizacion-documentos>>).
 
 [[img-visualizacion-documentos, Visualización de dos Documentos Primarios]]
-[role="related thumb right"]
+[role="related thumb center"]
 .Visualización de dos Documentos Primarios
 image::images/image-010.png[Visualización de dos Documentos Primarios, align="center"]
 --
