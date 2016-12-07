@@ -54,10 +54,11 @@ image::images/image-009.png[Navegadores de elementos en interfaz principal, alig
 *11*. Haciendo clic en este icono, podemos visualizar simultáneamente más de un DP en la pantalla principal (<<img-visualizacion-documentos>>).
 
 [[img-visualizacion-documentos, Visualización de dos Documentos Primarios]]
-[role="related thumb", .text-center]
+[role="related thumb"]
+[.text-center]
 .Visualización de dos Documentos Primarios
 image::images/image-010.png[Visualización de dos Documentos Primarios, align="center"]
---
+
 
 *12. Barra de estado*. Presenta información sobre el DP activo, incluyendo el nombre completo del archivo, su ubicación y forma de asignación a la UH y el tamaño con el que se visualiza. Permite hacer algunas operaciones como cambiar el porcentaje de visualización (aumentar o reducir la apariencia del DP). Ofrece además un pequeño texto de ayuda relacionado con la opción de menú sobre el que se sitúe el cursor para recordarnos las acciones que realizan los diferentes menús.
 
