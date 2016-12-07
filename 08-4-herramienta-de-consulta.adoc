@@ -180,7 +180,7 @@ image::images/image-148a.png[{alt="Consulta múltiple", float="right", align="ce
 [[operadores-semanticos]]
 ===== Operadores Semánticos
 
-Como hemos visto, las _consultas_ con operadores booleanos, sólo requieren de la existencia de códigos. En el caso de los operadores semánticos necesitamos además haber creado previamente relaciones entre códigos. Más concretamente, los operadores semánticos se basan en la existencia de relaciones de tipo transitivo entre códigosfootnote:[En las relaciones predefinidas: “Is part of”, “Is cause of” y “Is a”.](ver Editar relaciones).
+Como hemos visto, las _consultas_ con operadores booleanos, sólo requieren de la existencia de códigos. En el caso de los operadores semánticos necesitamos además haber creado previamente relaciones entre códigos. Más concretamente, los operadores semánticos se basan en la existencia de relaciones de tipo transitivo entre códigos.footnote:[En las relaciones predefinidas: “Is part of”, “Is cause of” y “Is a”.]
 
 [[tab-operadores-semanticos, Operadores semánticos]]
 .Operadores semánticos
@@ -200,15 +200,15 @@ superior (hijos). No recupera las relacionadas con el nivel superior
 (padre)
 |=======================================================================
 
-Como también comentábamos, ATLAS.ti, a diferencia de otros programas, no permite crear jerarquías de códigos, pero sí nos permite crear estructuras de codificación gracias a la creación de relaciones entre códigos. Anteriormente habíamos creado (a través de la definición de relaciones del tipo is a y de is cause of) una jerarquía de códigos para reproducir la clasificación de tipos de respuestas de Rasiah (2010). Si disponemos de esta estructura definida previa a la asignación de citas a códigos, nuestra estrategia de codificación implicará codificar única y exclusivamente los códigos del nivel inferior en la jerarquía: __Ans Direct__, __Ans Indirect__, __Ev Full__, __Ev Substantial__, etc. El resto de códigos en la estructura (__Answer__, __Evasion__...) serán códigos libres, sin citas asociadas, pero aún así podremos, con la utilización de los operadores semánticos, obtener el conjunto de citas relacionadas con cualquiera de los códigos que se encuentran en niveles superiores de la estructura. Si _Ans Direct_ tiene 6 citas y _Ans Indirect_ tiene 9 citas, dado que ambas son un tipo de __Answer__, aunque este código tenga cero citas parece lógico pensar que en realidad tenemos 15 citas relacionadas con __Answer__. Igualmente, si sumamos el conjunto de citas de los códigos vinculados con __Evasion__, aunque _Evasion_ tiene cero citas, en realidad tenemos 93 citas con modalidades de evasión.
+Como también comentábamos, ATLAS.ti, a diferencia de otros programas, no permite crear jerarquías de códigos, pero sí nos permite crear estructuras de codificación gracias a la creación de relaciones entre códigos. Anteriormente habíamos creado (a través de la definición de relaciones del tipo `is a` y de `is cause of`) una jerarquía de códigos para reproducir la clasificación de tipos de respuestas de Rasiah (2010). Si disponemos de esta estructura definida previa a la asignación de citas a códigos, nuestra estrategia de codificación implicará codificar única y exclusivamente los códigos del nivel inferior en la jerarquía: __Ans Direct__, __Ans Indirect__, __Ev Full__, __Ev Substantial__, etc. El resto de códigos en la estructura (__Answer__, __Evasion__...) serán códigos libres, sin citas asociadas, pero aún así podremos, con la utilización de los operadores semánticos, obtener el conjunto de citas relacionadas con cualquiera de los códigos que se encuentran en niveles superiores de la estructura. Si _Ans Direct_ tiene 6 citas y _Ans Indirect_ tiene 9 citas, dado que ambas son un tipo de __Answer__, aunque este código tenga cero citas parece lógico pensar que en realidad tenemos 15 citas relacionadas con __Answer__. Igualmente, si sumamos el conjunto de citas de los códigos vinculados con __Evasion__, aunque _Evasion_ tiene cero citas, en realidad tenemos 93 citas con modalidades de evasión.
 
-Para obtener esos resultados utilizaremos el operador DOWN, por lo tanto:
+Para obtener esos resultados utilizaremos el operador `DOWN`, por lo tanto:
 
-Todas las citas por debajo de Answer: Answer DOWN
+Todas las citas por debajo de Answer: `Answer DOWN`
 
-Todas las citas por debajo de Evasion: Evasion DOWN
+Todas las citas por debajo de Evasion: `Evasion DOWN`
 
-En la figura podemos ver la _vista de red_ de los códigos Answer DOWN_._ Dado que _Ans Direct_ tiene 6 citas y _Ans Indirect_ tiene 9, el resultado de Answer DOWN será de 15 citas (si no hay ninguna que esté en ambos códigos).
+En la figura podemos ver la _vista de red_ de los códigos `Answer DOWN`. Dado que _Ans Direct_ tiene 6 citas y _Ans Indirect_ tiene 9, el resultado de `Answer DOWN` será de 15 citas (si no hay ninguna que esté en ambos códigos).
 
 [[img-red-answer, Red _Answer_]]
 .Red _Answer_
@@ -216,34 +216,37 @@ image::images/image-148b.png[{alt="Red _Answer_", float="right", align="center"]
 
 Por supuesto, podemos combinar los operadores semánticos con los otros tipos de operadores (booleanos y de proximidad). En un ejemplo anterior construíamos una consulta para identificar todas las citas de intervenciones de los presidentes Zapatero y Rajoy codificadas como Evasion.
 
-\(1) Zapatero Evasion AND
+(1) `Zapatero Evasion AND`
 
-\(2) RajoyPR Evasion AND
+(2) `RajoyPR Evasion AND`
 
-\(3) OR
+(3) `OR`
+
+
+
 
 Pero dado que nuestro código _Evasion_ en realidad es un código libre, el resultado de esa consulta será de cero citas. Como hemos visto, tendremos que realizarla de nuevo incluyendo el operador DOWN
 
-\(1) Zapatero
+(1) `Zapatero`
 
-\(2) Evasion DOWN
+(2) `Evasion DOWN`
 
-\(3) AND
+(3) `AND`
 
-\(4) RajoyLO
+(4) `RajoyLO`
 
-\(5) Evasion DOWN
+(5) `Evasion DOWN`
 
-\(6) AND
+(6) `AND`
 
-\(7) OR
+(7) `OR`
 
-Aunque parezca una consulta muy compleja en realidad es simple, puesto que en (1) introducimos un operando, en (2) un operando y un operador, lo que nos da un resultado y por lo tanto ese resultado se convierte en un segundo operando; en (3) combinamos los dos operandos anteriores con un nuevo operador. Los tres comandos siguientes realizan la misma acción para el presidente Rajoy, y en (7) combinamos ambos resultados con el operador OR
+Aunque parezca una consulta muy compleja en realidad es simple, puesto que en (1) introducimos un operando, en (2) un operando y un operador, lo que nos da un resultado y por lo tanto ese resultado se convierte en un segundo operando; en (3) combinamos los dos operandos anteriores con un nuevo operador. Los tres comandos siguientes realizan la misma acción para Rajoy (líder de la oposición), y en (7) combinamos ambos resultados con el operador `OR`.
 
 [[operadores-de-proximidad]]
 ===== Operadores de Proximidad
 
-Por último, los operadores de proximidad, como su nombre indica, permiten recuperar citas en función de la relación espacial existente entre diferentes códigos ( Tabla).
+Por último, los operadores de proximidad, como su nombre indica, permiten recuperar citas en función de la relación espacial existente entre diferentes códigos.
 
 [[tab-operadores-proximidad, Operadores de proximidad]]
 .Operadores de proximidad
@@ -285,9 +288,9 @@ En la figura hemos simulado una hipotética codificación que nos permitirá ilu
 .Operadores de proximidad
 image::images/image-149.png[{alt="Operadores de proximidad", float="right", align="center"]
 
-Como vemos, el operador _Cooccur_ es una combinación de varios de los operadores de proximidad (todos menos _Follows_ y __Precedes__), por lo que en muchas ocasiones podremos utilizarlo en vez de alguno de los otros. Además, probablemente sea conveniente su utilización en vez del operador booleano AND. Efectivamente, el operador AND es altamente selectivo, puesto que implica que Código-A Código-B AND sólo obtendrá resultados cuando una cita está vinculada con ambos códigos.
+Como vemos, el operador `Cooccur` es una combinación de varios de los operadores de proximidad (todos menos _Follows_ y _Precedes_), por lo que en muchas ocasiones podremos utilizarlo en vez de alguno de los otros. Además, probablemente sea conveniente su utilización en vez del operador booleano _AND_. Efectivamente, el operador _AND_ es altamente selectivo, puesto que implica que `Código-A Código-B AND` sólo obtendrá resultados cuando una cita está vinculada con ambos códigos.
 
-Volviendo una vez más a nuestro ejemplo, en la figura podemos ver cómo en un mismo párrafo tenemos una cita (barra gris) codificada como _Zapatero_ (resultado de la autocodificación original) y otra cita (resaltada) codificada como __Ev Medium__, se trata por lo tanto de una intervención del presidente Zapatero que hemos codificado como respuesta evasiva. Sin embargo, en una consulta como la que habíamos realizado previamente, utilizando el operador AND no aparecería esta cita, puesto que la cita codificada como _Ev Medium_ no está codificada al mismo tiempo como __Zapatero__. Por lo tanto, para poder recuperar citas que tengan estas características debemos utilizar el operador _Cooccur_ (aunque en este ejemplo también funcionaría __Within__).
+Volviendo una vez más a nuestro ejemplo, en la figura <<img-concurrencia-citas>> podemos ver cómo en un mismo párrafo tenemos una cita (barra gris) codificada como _Zapatero_ (resultado de la autocodificación original) y otra cita (resaltada) codificada como __Ev Medium__, se trata por lo tanto de una intervención del presidente Zapatero que hemos codificado como respuesta evasiva. Sin embargo, en una consulta como la que habíamos realizado previamente, utilizando el operador AND no aparecería esta cita, puesto que la cita codificada como _Ev Medium_ no está codificada al mismo tiempo como __Zapatero__. Por lo tanto, para poder recuperar citas que tengan estas características debemos utilizar el operador _Cooccur_ (aunque en este ejemplo también funcionaría __Within__).
 
 [[img-concurrencia-citas, Concurrencia de citas]]
 .Concurrencia de citas
@@ -295,43 +298,43 @@ image::images/image-150.png[{alt="Concurrencia de citas", float="right", align="
 
 Por lo tanto, nuestra consulta debería ser.
 
-\(1) Evasion DOWN
+(1) `Evasion DOWN`
 
-\(2) Zapatero
+(2) `Zapatero`
 
-\(3) Cooccur
+(3) `Cooccur`
 
 Para finalizar con esta sección de operadores de proximidad, pondremos otro ejemplo para ilustrar los operadores _Follows_ y __Precedes__. Estos operadores nos permitirán contestar a la pregunta ¿en qué ocasiones se ha hecho referencia al tema X a continuación (o antes de) el tema Y? Es decir, ¿qué citas hemos codificado como X a continuación de citas codificadas como Y?
 
 En el modelo de Rasiah (2010) que hemos utilizado para codificar las respuestas evasivas, estas, al igual que las respuestas (__Answer__) y las respuestas intermedias (__A Intermediate__) podían ser consecuencia de tres modalidades de pregunta (__Q Y/N__, _Q Wh_ y __Q Disjunctive__). Nos puede interesar, por lo tanto, identificar citas codificadas como _Evasion_ que aparecen única y exclusivamente a continuación de citas codificadas como _Q Y/N_ (preguntas de tipo Sí/No). En ese caso la consulta anterior quedaría de la siguiente forma:
 
-\(1) Evasion DOWN
+(1) `Evasion DOWN`
 
-\(2) Zapatero
+(2) `Zapatero`
 
-\(3) Cooccur
+(3) `Cooccur`
 
-\(4) Q Y/N
+(4) `Q Y/N`
 
-\(5) Follows
+(5) `Follows`
 
 [[super-codigos]]
 ==== Super Códigos
 
-En el apartado dedicado a las familias veíamos la posibilidad de crear un nuevo objeto, las _superfamilias_ (de documentos, códigos o memos) utilizando un editor de consultas simplificado con respecto al que estamos viendo en esta sección. Ahora, a partir de las consultas que venimos realizando, podemos crear un nuevo objeto, los __supercódigos__, haciendo clic en el icono __Super-códgio__. La característica peculiar de estos códigos es que su contenido (citas) será el resultado dinámico de la consulta a partir de la que se hayan construido y que por lo tanto son la forma práctica de “guardar” consultas (no existe ninguna otra, si queremos guardar una consulta tenemos que crear un __supercódigo__). El significado de “resultado dinámico” es que, en tanto que son una consulta guardada, cualquier cambio en la UH que afecte a la consulta quedará registrado en el __supercódigo__. Es decir, imaginemos que nuestro código _Ans Direct_ incluye 12 citas y nuestro código _Ans Indirect_ 14 citas; la consulta _Answer SUB_ nos dará un resultado de 26 citas, por lo que si creamos un _supercódigo_ a partir de esta consulta este contendrá las mismas 26 citas. Si posteriormente a la creación del _supercódigo_ añadimos dos citas más al código __Ans Direct__, el _supercódigo_ las incorporará automáticamente^[Podemos crear una “vista fija” de un supercódigo con la opción `Códigos > Miscelánea > Crear instantánea`, que creará un nuevo código con la misma etiqueta a la que añadirá “[SN 1]” y que mantendrá fijo el número de citas que tenía el supercódigo en el momento de la creación.de este nuevo código.].
+En el apartado dedicado a las familias veíamos la posibilidad de crear un nuevo objeto, las _superfamilias_ (de documentos, códigos o memos) utilizando un editor de consultas simplificado con respecto al que estamos viendo en esta sección. Ahora, a partir de las consultas que venimos realizando, podemos crear un nuevo objeto, los __supercódigos__, haciendo clic en el icono __Super-códgio__. La característica peculiar de estos códigos es que su contenido (citas) será el resultado dinámico de la consulta a partir de la que se hayan construido y que por lo tanto son la forma práctica de “guardar” consultas (no existe ninguna otra, si queremos guardar una consulta tenemos que crear un __supercódigo__). El significado de “resultado dinámico” es que, en tanto que son una consulta guardada, cualquier cambio en la UH que afecte a la consulta quedará registrado en el __supercódigo__. Es decir, imaginemos que nuestro código _Ans Direct_ incluye 12 citas y nuestro código _Ans Indirect_ 14 citas; la consulta `Answer SUB` nos dará un resultado de 26 citas, por lo que si creamos un _supercódigo_ a partir de esta consulta este contendrá las mismas 26 citas. Si posteriormente a la creación del _supercódigo_ añadimos dos citas más al código __Ans Direct__, el _supercódigo_ las incorporará automáticamente.footnote:[Podemos crear una “vista fija” de un supercódigo con la opción `Códigos > Miscelánea > Crear instantánea`, que creará un nuevo código con la misma etiqueta a la que añadirá “[SN 1]” y que mantendrá fijo el número de citas que tenía el supercódigo en el momento de la creación.de este nuevo código.].
 
-Teóricamente es posible modificar las características de un __supercódigo__, es decir, modificar la consulta a partir de la que se ha creado, por ejemplo, en el caso anterior, podríamos decidir añadir un nuevo tipo de _Answer_ creando un código __Ans Intermediate__, por lo que la consulta Answer SUB debería incluirlo también. Para ello podríamos utilizar la opción `Códigos > Miscelánea > Editar consulta`, aunque dada la complejidad de la sintaxis de edición prácticamente es preferible volver a crear el _supercódigo_ desde el inicio (rehaciendo la __consulta__). Una prueba de dicha dificultad es que, por ejemplo, la _consulta_ Evasion SUB queda representada, en el editor de consultas como d(c(Evasion!)).
+Teóricamente es posible modificar las características de un __supercódigo__, es decir, modificar la consulta a partir de la que se ha creado, por ejemplo, en el caso anterior, podríamos decidir añadir un nuevo tipo de _Answer_ creando un código __Ans Intermediate__, por lo que la consulta `Answer SUB` debería incluirlo también. Para ello podríamos utilizar la opción `Códigos > Miscelánea > Editar consulta`, aunque dada la complejidad de la sintaxis de edición prácticamente es preferible volver a crear el _supercódigo_ desde el inicio (rehaciendo la __consulta__). Una prueba de dicha dificultad es que, por ejemplo, la _consulta_ Evasion SUB queda representada, en el editor de consultas como `d(c(Evasion!))`.
 
 Por lo demás, se trata de códigos con las mismas características que el resto, es decir, pueden relacionarse con otros códigos y con anotaciones y pueden incluirse en las vistas de red, aunque no podemos incluir citas en ellas siguiendo el procedimiento habitual.
 
-Para consultas simples en las que únicamente queremos combinar códigos utilizando el operador OR (Código-A Código-B OR) no es necesario utilizar la __Herramienta de consulta__. Podemos hacerlo directamente desde el administrador (o el menú) de códigos seleccionando varios códigos y eligiendo la opción `Miscelánea > Crear super código.`
+Para consultas simples en las que únicamente queremos combinar códigos utilizando el operador OR (`Código-A Código-B OR`) no es necesario utilizar la __Herramienta de consulta__. Podemos hacerlo directamente desde el administrador (o el menú) de códigos seleccionando varios códigos y eligiendo la opción `Miscelánea > Crear super código.`
 
 [[seleccion-de-documentos]]
 ==== Selección de documentos
 
 Si utilizamos la _consulta_ tal y como la hemos descrito, ésta dará como resultado las citas, que cumplan las condiciones especificadas en toda la UH. Pero nos puede interesar que el resultado haga referencia sólo a determinados DPs. Podemos utilizar esta opción, por ejemplo, si nos interesa obtener las citas relacionadas con un código determinado, pero sólo en los DPs que hemos agrupado en la _familia_ _Legisltura IX._
 
-Para la selección de documentos, en la ventana de la _Herramienta de consulta_ haremos clic en el botón __Alcance__, lo que nos abrirá una nueva ventana, similar a la principal de consultas, como la que podemos ver en la figura . En este caso los operandos son tanto los documentos como las familias de documentos y los operadores únicamente los booleanos.
+Para la selección de documentos, en la ventana de la _Herramienta de consulta_ haremos clic en el botón __Alcance__, lo que nos abrirá una nueva ventana similar a la principal de consultas. En este caso los operandos son tanto los documentos como las familias de documentos y los operadores únicamente los booleanos.
 
 [[img-consultas-alcance, Consultas: alcance]]
 .Consultas: alcance
