@@ -3,25 +3,25 @@
 
 Uno de los problemas a los que suelen enfrentarse los usuarios de ATLAS.ti es el de “trasladar” una UH de un ordenador a otro. Básicamente, lo que suele ocurrir es que suelen olvidarse que la UH no incluye los DPs, por lo que no copian también los DPs asociados a la misma y, al abrir la UH en otro ordenador descubren alarmados que los DPs han desaparecido.
 
-Para evitar que ocurra esto existen dos alternativas. La primera es realizar la asignación de documentos utilizando la opción _Asignar documentos externos (ver_ Asignar archivos externos, pág.46) y tener siempre la UH y los DPs en la misma carpeta del ordenador. De esta forma, si queremos trasladar nuestro trabajo a otro ordenador, sólo tenemos que copiar esa carpeta, que contendrá todo lo necesario para continuar nuestro análisis sin problemas.
+Para evitar que ocurra esto existen dos alternativas. La primera es realizar la asignación de documentos utilizando la opción <<04-2-asignar-documentos-primarios#asignar-archivos-externos, Asignar documentos externos>> y tener siempre la UH y los DPs en la misma carpeta del ordenador. De esta forma, si queremos trasladar nuestro trabajo a otro ordenador, sólo tenemos que copiar esa carpeta, que contendrá todo lo necesario para continuar nuestro análisis sin problemas.
 
 La segunda opción, es utilizar la herramienta de copia de que dispone el programa, que encontraremos en el menú `Proyecto > Guardar paquete de copia`. Posteriormente, podremos restaurar la copia así creada con la opción `Proyecto > Desempaquetar la copia`.
 
-Como vemos en la figura , el programa nos mostrará todos los DPs asignados a la UH activa para que seleccionemos aquellos que queremos incluir en la copia (en el caso de que no los querramos incluir todos). También nos informa de posibles conflictos con los documentos.
+Como vemos en la figura, el programa nos mostrará todos los DPs asignados a la UH activa para que seleccionemos aquellos que queremos incluir en la copia (en el caso de que no los querramos incluir todos). También nos informa de posibles conflictos con los documentos.
 
 [[img-crear-paquete-copia, Crear paquete de copia]]
 .Crear paquete de copia
 image::images/image-169.png[{alt="Crear paquete de copia", float="right", align="center"]
 
-Este sistema copia única y exclusivamente los documentos y la UH, cualquier otro archivo que pueda estar vinculado, como por ejemplo memos con documentos asociado, con la UH, será ignorado.
+Este sistema copia única y exclusivamente los documentos y la UH, cualquier otro archivo que pueda estar vinculado con la UH, como por ejemplo memos con documentos asociados, será ignorado.
 
-Una vez que cliquemos al botón __Crear paquete__, se creará, en la ubicación que decidamos, un arhivo de copia, con el mismo nombre que la UH y con extensión _atlcb._ En la figura vemos el resultado de nuestra copia. En este caso, dado que estamos creándola para trasladar nuestro trabajo a otro ordenador, hemos guardado el archivo en una carpeta de un lápiz de memoria.
+Una vez que cliquemos al botón __Crear paquete__, se creará, en la ubicación que decidamos, un arhivo de copia con el mismo nombre que la UH y con extensión _atlcb._ En la figura vemos el resultado de nuestra copia. En este caso, dado que estamos creándola para trasladar nuestro trabajo a otro ordenador, hemos guardado el archivo en una carpeta de un lápiz de memoria.
 
 [[img-archivo-copia, Archivo de copia]]
 .Archivo de copia
 image::images/image-171.png[{alt="Archivo de copia", float="right", align="center"]
 
-A continuación, en el otro ordenador, accedemos al menú `Proyecto > Desempaquetar la copia`. Se nos abrirá una ventana como la de la figura en la que destacamos en primer lugar (1) que se nos ofrecen dos opciones de desempaquetado: _Migrar_ o _Restaurar._
+A continuación, en el otro ordenador, accedemos al menú `Proyecto > Desempaquetar la copia`. Se nos abrirá una ventana como la de la figura <<img-desempaquetar-paquete-copia>> en la que destacamos en primer lugar (1) que se nos ofrecen dos opciones de desempaquetado: _Migrar_ o _Restaurar._
 
 [[img-desempaquetar-paquete-copia, Desempaquetar paquete de copia]]
 .Desempaquetar paquete de copia
