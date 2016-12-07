@@ -49,7 +49,7 @@ image::images/image-008.png[Interfaz principal con un documento activo, align="c
 [[img-navegadores, Navegadores de elementos en interfaz principal]]
 [.text-center]
 .Navegadores de elementos en interfaz principal
-image::images/image-009.png[Navegadores de elementos en interfaz principal, align="center", role="related thumb right"]
+image::images/image-009.png[Navegadores de elementos en interfaz principal, align="center", role="related thumb"]
 
 *11*. Haciendo clic en este icono, podemos visualizar simultáneamente más de un DP en la pantalla principal (<<img-visualizacion-documentos>>).
 
