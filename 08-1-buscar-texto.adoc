@@ -174,13 +174,13 @@ Así, si queremos encontrar palabra que acaben con "er" podríamos escribir cual
 
 La búsqueda anterior sólo identificará la cadena exacta "er" (al final de palabra), es decir, encontraría “er” en la palabra “conceder”, pero el texto seleccionado sería sólo “er”, no la palabra completa.
 
-conceder
+conced**er**
 
 Si queremos que identifique palabras completas acabadas en “er” podemos ayudarnos de otros dos operadores GREP
 
-= Cualquier carácter alfanumérico
+`\w`= Cualquier carácter alfanumérico
 
-* = Una o más veces el carácter anterior
+`*` = Una o más veces el carácter anterior
 
 Una búsqueda con la combinación de estos dos operadores encontraría cualquier palabra completa, puesto que el significado de la expresión sería “busca la aparición de cualquier cantidad (asterisco) de
 caracteres alfanuméricos ()”.
