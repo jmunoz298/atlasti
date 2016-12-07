@@ -1,7 +1,7 @@
 [[la-pantalla-de-vistas-de-red]]
 === La pantalla de Vistas de Red
 
-La pantalla de las _Vistas de Red_ (figura )tiene características similares a la pantalla principal del programa, en el sentido que es un espacio de trabajo con entidad propia. A continuación, pasaremos a describir sus principales zonas.
+La pantalla de las _Vistas de Red_ tiene características similares a la pantalla principal del programa, en el sentido que es un espacio de trabajo con entidad propia. A continuación, pasaremos a describir sus principales zonas.
 
 [[img-pantalla-vista-red, Pantalla de Vista de Red]]
 .Pantalla de Vista de Red
