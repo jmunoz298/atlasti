@@ -1,3 +1,5 @@
+:figure-caption!:
+
 [[la-pantalla-principal-de-atlas.ti]]
 === La pantalla principal de ATLAS.ti
 
@@ -6,9 +8,12 @@
 
 Antes de continuar, es necesario que comencemos a familiarizarnos con la pantalla principal de ATLAS.ti.
 
+[.float-group]
+--
 [[img-interfaz, Interfaz principal de Atlas.ti]]
 .Interfaz principal de Atlas.ti
-image::images/image-007.png[{alt="Interfaz principal de Atlas.ti", float="right",  align="center"]
+image::images/image-007.png[Interfaz principal de Atlas.ti, align="center"]
+--
 
 A continuación, ofrecemos una breve descripción de los elementos que la componen:
 
