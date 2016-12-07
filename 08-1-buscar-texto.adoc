@@ -40,7 +40,7 @@ La búsqueda por categorías implica la definición, en la sentencia de búsqued
 
 En nuestro caso, podría interesarnos buscar todas las referencias que hacen los parlamentarios a terceros países, por lo que podríamos definir una búsqueda en la que se incluyeran Francia, Alemania, Inglaterra… de forma que la búsqueda fuera exitosa con la aparición de cualquiera de ellos en el texto.
 
-Para ello, introduciremos en la zona de búsqueda los nombres de los diferentes países separados por una barra vertical `|`.footnote:[En la mayoría de los teclados, para introducimos este signo con la combinación de teclas AltGr”+1 (aunque este último carácter puede variar en función del teclado).]
+Para ello, introduciremos en la zona de búsqueda los nombres de los diferentes países separados por una barra vertical `|`.footnote:[En la mayoría de los teclados, para introducimos este signo con la combinación de teclas `AltGr+1` (aunque este último carácter puede variar en función del teclado).]
 
 [[img-busqueda-categorias, Búsqueda por categorías]]
 .Búsqueda por categorías
