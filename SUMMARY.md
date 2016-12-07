@@ -1,6 +1,7 @@
 # Summary
 
-* [Créditos.adoc](00-0-creditosadoc.md)
+* [Introduction](README.md)
+* [Créditos.adoc](00-0-creditos.adoc)
 * [Introducción](01-introduccion.adoc)
    * [CAQDAS](01-1-caqdas.adoc)
    * [¿Qué es Atlas.ti?](01-2-que-es.adoc)
