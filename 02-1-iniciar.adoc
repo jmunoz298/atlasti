@@ -13,9 +13,12 @@ Al arrancar el programa por primera vez, ATLAS.ti cargará la UH _Welcome_ (ver 
 el programaría arrancaría con una UH nueva y vacía. También podemos iniciar el programa haciendo doble clic sobre el nombre de una UH existente (evidentemente, el programa iniciará abriendo simultáneamente
 la UH sobre la que se ha hecho clic).
 
+[.float-group]
+--
 [[img-uh-ejemplo, Unidad Hermenéutica de ejemplo]]
 .Unidad Hermenéutica de ejemplo
-image::images/image-006.png[{alt="Unidad Hermenéutica de ejemplo", align="center"]
+image::images/image-006.png[Unidad hermenéutica de ejemplo, align="center"]
+--
 
 La UH _Welcome_ ilustra la forma de realizar las operaciones más básicas y muestra simultáneamente qué tipo de elementos se generan con ellas. Esta UH nos señala el icono que permite añadir DPs. Nos muestra un código en el menú desplegable que le corresponde y también a la derecha del documento primario activado, junto a la cita que codifica. Es curioso que el único DP que incluye esta UH de bienvenida sea un archivo de imagen y no de texto.
 
