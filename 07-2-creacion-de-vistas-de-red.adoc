@@ -55,7 +55,7 @@ Realizaríamos esta misma operación para el resto de nodos, es decir, si el nú
 Este proceso no siempre tenemos que llevarlo al límite, es decir, a intentar representar todas y cada una de las relaciones de todos los códigos, puesto que podría llegar un momento en que la representación incluiría demasiados códigos como para ser práctica.footnote:[En la práctica, la forma más fácil de crear relaciones entre elementos es desde el editor de networks]
 ====
 
-El resultado final en nuestro caso es el que aparece en la siguientefigura, una representación completa del modelo de Rasiah.
+El resultado final en nuestro caso es el que aparece en la siguiente figura, una representación completa del modelo de Rasiah.
 
 [[img-red-question-type-3, Red Question Type]]
 .Red Question Type
