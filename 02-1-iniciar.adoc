@@ -1,3 +1,5 @@
+:figure-caption!:
+
 [[iniciar-el-programa]]
 === Iniciar el programa
 
