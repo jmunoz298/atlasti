@@ -7,19 +7,19 @@ Podemos, por ejemplo, empezar a crear una _Red_ partiendo “desde cero”, es d
 
 Consideramos que la mejor estrategia es la segunda, pues dado que entendemos las _Redes_ como la representación de un trabajo conceptual previo, entendemos que el punto de partida debe ser ese trabajo conceptual (que implica la existencia previa de nodos y relaciones) que podemos ir desarrollando y ampliando posteriormente en la __vista de red__.
 
-[[redes-vacías]]
+[[redes-vacias]]
 ==== Redes vacías
 
-Para la creación de una _red_ de este tipo, utilizaremos la opción `Redes > Nueva vista de red` de la pantalla principal de ATLAS.ti.
+Para la creación de una red de este tipo, utilizaremos la opción `Redes > Nueva vista de red` de la pantalla principal de ATLAS.ti.
 
-Se nos pedirá que demos un nombre a la nueva red y, a continuación se abrirá la pantalla principal de redes, en la que podremos ir añadiendo la información que consideremos oportuna (ver Importar Nodos, pág. 124). La forma de trabajar a partir de ese momento no es excesivamente diferente a como lo haríamos con una red focalizada, por lo que remitimos al lector al siguiente apartado.
+Se nos pedirá que demos un nombre a la nueva red y, a continuación se abrirá la pantalla principal de redes, en la que podremos ir añadiendo la información que consideremos oportuna (ver <<importar-nodos>>). La forma de trabajar a partir de ese momento no es excesivamente diferente a como lo haríamos con una red focalizada, por lo que remitimos al lector al siguiente apartado.
 
 [[redes-focalizadas]]
 ==== Redes focalizadas
 
 La creación de una red focalizada implicará siempre la selección previa de algún elemento que se convertirá en el nodo inicial de la red. Los elementos a partir de los que podemos crear las redes focalizadas son prácticamente cualquiera de los que hemos creado anteriormente: DPs, citas, códigos y memos, pero también las familias.
 
-image:images/image-114.png[alt="Icono vista de red"]Aunque existen otras posibilidades, la forma más fácil de creación es desde cualquiera de los __administradores__. En todos los que permiten la creación de redes focalizadas, encontramos un icono que, una vez seleccionado algún elemento, abrirá la pantalla de redes y lo representará en la misma.
+Aunque existen otras posibilidades, la forma más fácil de creación es desde cualquiera de los __administradores__. En todos los que permiten la creación de redes focalizadas, encontramos un icono que, una vez seleccionado algún elemento, abrirá la pantalla de redes y lo representará en la misma.
 
 En esa primera representación se incluirá el elemento seleccionado, el resto de elementos con los que tenga una relación directa, y las relaciones que existan entre los elementos representados.
 
@@ -32,7 +32,7 @@ definido previamente.
 .Vista de red Question Type. Primer paso
 image::images/image-116.png[{alt="Vista de red Question Type. Primer paso", float="right", align="center"]
 
-En estos momentos lo que tenemos es la representación de un código y sus relaciones directas con otros códigos, pero podríamos expandir esta red para representar también las relaciones directas de esos otros códigos. Para ello, en primer lugar, lo que haremos será pedirle al programa que nos muestre, junto a la etiqueta de __código__, información sobre sus relaciones, para poder saber si están representadas. Haremos esto con la opción de menú `Presentación > Presentar etiqueta ampliada de código`.
+En estos momentos lo que tenemos es la representación de un código y sus relaciones directas con otros códigos, pero podríamos expandir esta red para representar también las relaciones directas de esos otros códigos. Para ello, en primer lugar, lo que haremos será pedirle al programa que nos muestre, junto a la etiqueta de código, información sobre sus relaciones, para poder saber si están representadas. Haremos esto con la opción de menú `Presentación > Presentar etiqueta ampliada de código`.
 
 [[img-etiqueta-ampliada, Etiqueta ampliada]]
 .Etiqueta ampliada
@@ -40,7 +40,7 @@ image::images/image-117.png[{alt="Etiqueta ampliada", float="right", align="cent
 
 En la figura podemos ver cómo la etiqueta del código _Q Y/N_ incluye la información del número de citas (1) y del número de relaciones con otros códigos (4). Dado que el número total de líneas que parten o llegan al nodo es sólo una, sabemos que sólo hay representada una de las cuatro relaciones de ese código, por lo que el siguiente paso que daremos será el de representarlas también.
 
-Para representar las relaciones de un nodo presente en la red, tenemos que seleccionar el nodo y el menú `Nodos > Importar vecinos`. El resultado de realizar esta operación sobre el código _Q Y/N_ es el que podemos ver en la figura , se han importado los códigos relacionados con _Q Y/N_ y al mismo tiempo se han representado las relaciones con ese código y con los otros previamente representados en la red con los que también tienen relaciones.
+Para representar las relaciones de un nodo presente en la red, tenemos que seleccionar el nodo y el menú `Nodos > Importar vecinos`. El resultado de realizar esta operación sobre el código _Q Y/N_ es el que podemos ver en la figura siguiente, se han importado los códigos relacionados con _Q Y/N_ y al mismo tiempo se han representado las relaciones con ese código y con los otros previamente representados en la red con los que también tienen relaciones.
 
 [[img-red-question-type-2, Vista de red Question Type. Importar códigos vecinos]]
 .Vista de red Question Type. Importar códigos vecinos
@@ -48,15 +48,20 @@ image::images/image-118.png[{alt="Vista de red Question Type. Importar códigos 
 
 Dado que la visualización es algo confusa, lo siguiente que haremos es pedirle al programa que ajuste de forma automática la representación, con la opción de menú `Diseño > Diseño semántico`. Esta opción representará los nodos en función de las características definidas previamente en el __editor de relaciones.__footnote:[Una de las características de las relaciones es la “dirección de la relación”, que puede ser: de izquierda a derecha (y viceversa) o de arriba hacia abajo (y viceversa).] Probablemente cuando tengamos representados un número mínimamente elevado de nodos será necesario también realizar algún ajuste manual de posición.
 
-Realizaríamos esta misma operación para el resto de nodos, es decir, si el número de relaciones que indica la etiqueta es menor que el número de relaciones representadas, procederíamos a importar a sus __vecinos__. Evidentemente este proceso no siempre tenemos que llevarlo al límite, es decir, a intentar representar todas y cada una de las relaciones de todos los códigos, puesto que podría llegar un momento en que la representación incluiría demasiados códigos como para ser práctica.footnote:[En la práctica, la forma más fácil de crear relaciones entre elementos es desde el editor de networks]
+Realizaríamos esta misma operación para el resto de nodos, es decir, si el número de relaciones que indica la etiqueta es menor que el número de relaciones representadas, procederíamos a importar a sus __vecinos__. 
 
-El resultado final en nuestro caso es el que aparece en la figura , una representación completa del modelo de Rasiah.
+[TIP]
+====
+Este proceso no siempre tenemos que llevarlo al límite, es decir, a intentar representar todas y cada una de las relaciones de todos los códigos, puesto que podría llegar un momento en que la representación incluiría demasiados códigos como para ser práctica.footnote:[En la práctica, la forma más fácil de crear relaciones entre elementos es desde el editor de networks]
+====
+
+El resultado final en nuestro caso es el que aparece en la siguientefigura, una representación completa del modelo de Rasiah.
 
 [[img-red-question-type-3, Red Question Type]]
 .Red Question Type
 image::images/image-119.png[{alt="Red Question Type", float="right", align="center"]
 
-En el ejemplo que hemos visto hemos utilizado únicamente _códigos_ como _nodos_ de la red, pero evidentemente podemos crear también una red partiendo de una __cita__. En la figura vemos la red que hemos creado a partir de la cita 2:7. Al tratarse de una red focalizada en una cita, se representan automáticamente las citas y códigos con las que está relacionada. En nuestro ejemplo, sólo hemos expandido la red importando los _vecinos_ de la cita 3:9 (el códgio __Erkoreka__)_,_ y los de la cita 2:14 (el código __EntidadesFinancieras__). Una vez que tenemos representados estos elementos, podemos “leer” la red más o menos de la siguiente forma: el presidente _Zapatero_ realiza dos afirmaciones sobre _Economía_ que se contradicen entre sí (2:7 y 2:14), en una de ellas (2:7) está criticando algo expuesto (2:2) por el congresista __Erkoreka__.
+En el ejemplo que hemos visto hemos utilizado únicamente códigos como _nodos_ de la red, pero evidentemente podemos crear también una red partiendo de una cita. En la figura <<img-red-desde-cita vemos la red que hemos creado a partir de la cita 2:7. Al tratarse de una red focalizada en una cita, se representan automáticamente las citas y códigos con las que está relacionada. En nuestro ejemplo, sólo hemos expandido la red importando los _vecinos_ de la cita 3:9 (el códgio __Erkoreka__)_,_ y los de la cita 2:14 (el código __EntidadesFinancieras__). Una vez que tenemos representados estos elementos, podemos “leer” la red más o menos de la siguiente forma: el presidente _Zapatero_ realiza dos afirmaciones sobre _Economía_ que se contradicen entre sí (2:7 y 2:14), en una de ellas (2:7) está criticando algo expuesto (2:2) por el congresista __Erkoreka__.
 
 [[img-red-desde-cita, Red desde cita]]
 .Red desde cita
@@ -65,21 +70,21 @@ image::images/image-120.png[{alt="Red a partir de cita", float="right", align="c
 [[importar-nodos]]
 ==== Importar Nodos
 
-Tanto si partimos de una _red vacía_ como si lo hacemos de una focalizada, puede que en algún momento deseemos añadir algún nodo que no esté vinculado con ninguno de los representados en ese momento (y por lo tanto no podemos utilizar la opción de __importar vecinos__). Podemos hacerlo de dos formas. La primera, consiste en utilizar la opción `Nodos > Importar nodos...`, que abrirá una ventana como la de la figura , en la que podemos ver que podemos elegir, en la lista desplegable, el tipo de nodo que queremos importar. Una vez seleccionado el tipo, podemos seleccionar el/los nodos que queremos representar en la __red__. Podemos hacer exactamente lo mismo, importar nodos de cualquier tipo, arrastrándolos desde cualquiera de los __administradores__.
+Tanto si partimos de una _red vacía_ como si lo hacemos de una _focalizada_, puede que en algún momento deseemos añadir algún nodo que no esté vinculado con ninguno de los representados en ese momento (y por lo tanto no podemos utilizar la opción de __importar vecinos__). Podemos hacerlo de dos formas. La primera, consiste en utilizar la opción `Nodos > Importar nodos...`, que abrirá una ventana como la de la figura <<img-importar-nodos>>, en la que podemos ver que podemos elegir, en la lista desplegable, el tipo de nodo que queremos importar. Una vez seleccionado el tipo, podemos seleccionar el/los nodos que queremos representar en la red. Podemos hacer exactamente lo mismo, importar nodos de cualquier tipo, arrastrándolos desde cualquiera de los __administradores__.
 
 [[img-importar-nodos, Importar nodos]]
 .Importar nodos
 image::images/image-121.png[{alt="Importar nodos", float="right", align="center"]
 
-Al realizar la importación, aparecerá representado en la _red_ únicamente el nodo seleccionado (no se importarán los posibles nodos con los que esté relacionado), aunque si el nodo que importamos tiene definida previamente alguna relación con algún nodo presente en la __red__, ésta quedará representada.
+Al realizar la importación, aparecerá representado en la red únicamente el nodo seleccionado (no se importarán los posibles nodos con los que esté relacionado), aunque si el nodo que importamos tiene definida previamente alguna relación con algún nodo presente en la red, ésta quedará representada.
 
-Como hemos visto en la , una de las opciones que tenemos es la de importar __Vistas de red__. Al seleccionar esta opción se importará como nodo la _red_ que hayamos seleccionado, pero únicamente como nodo, no se importará la _red_ como tal.
+Como hemos visto en la figura <<img-importar-nodos>>, una de las opciones que tenemos es la de importar __Vistas de red__. Al seleccionar esta opción se importará como nodo la red que hayamos seleccionado, pero únicamente como nodo, no se importará la _red_ como tal.
 
 [[img-importar-red, Importar red]]
 .Importar red
 image::images/image-122.png[{alt="Importar red", float="right", align="center"]
 
-En la podemos ver un ejemplo en el que tenemos representado el códgio __Q Disjunctive__, que incluye ocho relaciones de las cuales sólo están representadas cuatro. En esta ocasión hemos decidido no continuar expandiendo en esa _vista de red_ todas las relaciones de ese código, pero dada su relevancia hemos considerado necesario crear una nueva _red_ focalizada en ese código. Una vez creada la nueva _Vista de red_ __Q Disjunctive__, hemos importado el nodo como una forma de informarnos de que tenemos que explorar también esa red, y de llegar de una forma fácil a la misma haciendo clic con el botón derecho sobre el nodo y seleccionando Abrir red. Podríamos hacer algo similar haciendo clic sobre el código, pero mientras en el primer caso se abriría una _vista de red_ existente (con las posibles ediciones que hayamos podido hacer en la misma), en el segundo se abriría una nueva vista de red en la que se representaría el código y sus relaciones.
+En la figura <<img-importar-red>> podemos ver un ejemplo en el que tenemos representado el códgio __Q Disjunctive__, que incluye ocho relaciones de las cuales sólo están representadas cuatro. En esta ocasión hemos decidido no continuar expandiendo en esa _vista de red_ todas las relaciones de ese código, pero dada su relevancia hemos considerado necesario crear una nueva _red_ focalizada en ese código. Una vez creada la nueva _Vista de red_ __Q Disjunctive__, hemos importado el nodo como una forma de informarnos de que tenemos que explorar también esa red, y de llegar de una forma fácil a la misma haciendo clic con el botón derecho sobre el nodo y seleccionando _Abrir red_. Podríamos hacer algo similar haciendo clic sobre el código, pero mientras en el primer caso se abriría una _vista de red_ existente (con las posibles ediciones que hayamos podido hacer en la misma), en el segundo se abriría una nueva vista de red en la que se representaría el código y sus relaciones.
 
 Aún así, si en algún momento nos interesa incluir en una _red_ los nodos ya representados en otra, podemos hacerlo con la opción `Nodos > Fusionar vista de red`.
 
