@@ -23,7 +23,7 @@ small{font-size:80%}
 sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
 sup{top:-.5em}
 sub{bottom:-.25em}
-img{border:4px, margin:3px}
+img{border:0}
 svg:not(:root){overflow:hidden}
 figure{margin:0}
 fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
