@@ -5,7 +5,7 @@ Desde nuestro punto de vista, la herramienta más potente del programa es la __H
 
 Una posible consulta podría ser algo del tipo: “muéstrame todas las citas que están codificadas como... y al mismo tiempo como... O “muéstrame todas las citas que están codificadas como... pero no como...”.
 
-En el apartado dedicado a la autocodificación (pág. 78) vimos cómo habíamos codificado las intervenciones de cada uno de los participantes y que posteriormente habíamos creado familias en las que agrupábamos a los participantes en función de su adscripción política. Tenemos por lo tanto una serie de códigos que podremos utilizar para realizar consultas en las que veamos las posibles diferencias en el discurso en función del partido político.
+En el apartado dedicado a la <<05-4-autocodificacion.adoc#autocodificacion, autocodificación>> vimos cómo habíamos codificado las intervenciones de cada uno de los participantes y que posteriormente habíamos creado familias en las que agrupábamos a los participantes en función de su adscripción política. Tenemos por lo tanto una serie de códigos que podremos utilizar para realizar consultas en las que veamos las posibles diferencias en el discurso en función del partido político.
 
 Nos podría interesar, por ejemplo, comparar las características de las respuestas evasivas del presidente Zapatero y del presidente Rajoy. Puesto que tenemos los códigos __Zapatero__, _RajoyPR_ y __Evasión__, podríamos realizar una consulta para solicitar las “citas codificadas como _Evasión_ y al mismo tiempo como __Zapatero__” y otra para solicitar las “citas codificadas como _Evasión_ y al mismo tiempo como __RajoyPR__”. Una vez que tenemos los resultados de ambas consultas (podríamos generar un informe impreso de cada una de ellas), podemos proceder a comparar las posibles similitudes y/o diferencias de ambos discursos.
 
@@ -16,35 +16,37 @@ Una consulta consistirá siempre en la combinación de uno o más _operandos_ co
 [[la-pantalla-de-consulta]]
 ==== La pantalla de Consulta
 
-Podemos acceder a la _Herramienta de consulta_ utilizando el icono “Prismático” de la barra de herramientas vertical o desde el menú `Análisis > Herramienta de consulta`. A continuación analizaremos la compleja ventana que nos aparece ( figura ).
+Podemos acceder a la _Herramienta de consulta_ utilizando el icono “Prismático” de la barra de herramientas vertical o desde el menú `Análisis > Herramienta de consulta`. A continuación analizaremos la compleja ventana que nos aparece.
 
 [[img-herramienta-consulta, Herramienta de consulta]]
 .Herramienta de consulta
 image::images/image-141.png[{alt="Herramienta de consulta", float="right", align="center"]
 
-\1) Códigos y Familias de Códigosfootnote:[En el resto de esta sección nos referiremos a ellos como __operandos__.] existentes en la UH. Como decíamos, son los _Operandos_ que utilizaremos en la definición de la __consulta__. La activación de los operandos para su inclusión en la consulta se realiza haciendo clic dos veces sobre ellos,footnote:[Para la definición de la consulta no necesitamos escribir nada, todo el trabajo lo realizaremos haciendo clic sobre operandos y operadores.] lo que hará que en la ventana de resultados (5) aparezcan las citas relacionadas. Aunque en principio una consulta tiene que incluir operandos y operadores, simplemente seleccionando un operando veremos sus citas (si las tiene) en la zona de resultados. A medida que vayamos añadiendo más operandos y operadores, la zona de resultados cambiará para reflejar los cambios.
+1) **Códigos y Familias de Códigos**footnote:[En el resto de esta sección nos referiremos a ellos como __operandos__.] existentes en la UH. Como decíamos, son los _Operandos_ que utilizaremos en la definición de la __consulta__. La activación de los operandos para su inclusión en la consulta se realiza haciendo clic dos veces sobre ellos,footnote:[Para la definición de la consulta no necesitamos escribir nada, todo el trabajo lo realizaremos haciendo clic sobre operandos y operadores.] lo que hará que en la ventana de resultados (5) aparezcan las citas relacionadas. Aunque en principio una consulta tiene que incluir operandos y operadores, simplemente seleccionando un operando veremos sus citas (si las tiene) en la zona de resultados. A medida que vayamos añadiendo más operandos y operadores, la zona de resultados cambiará para reflejar los cambios.
 
-\2) Condiciones a utilizar como operadores. Están agrupadas en tres categorías: Operadores __booleanos__, operadores _semánticos_ y operadores de __proximidad__. De nuevo, para seleccionar un operador sólo tenemos que hacer clic sobre el icono correspondiente.
+2) *Condiciones* a utilizar como operadores. Están agrupadas en tres categorías: Operadores __booleanos__, operadores _semánticos_ y operadores de __proximidad__. De nuevo, para seleccionar un operador sólo tenemos que hacer clic sobre el icono correspondiente.
 
-\3) Conjunto de las expresiones formuladas, es decir, conjunto de combinaciones de operandos y operadores. Cada línea visualizada en esta zona genera un resultado. Como podemos ver ( Ilustración), hemos realizado dos consultas, la primera para citas que cumplan la condición de estar codificadas como Zapatero Y Evasión, y la segunda para las codificadas como RajoyLO Y Evasión.
+3) Conjunto de las *expresiones* formuladas, es decir, conjunto de combinaciones de operandos y operadores. Cada línea visualizada en esta zona genera un resultado. Como podemos ver (figura <<herramienta-de-consulta>>), hemos realizado dos consultas, la primera para citas que cumplan la condición de estar codificadas como `Zapatero Y Evasión`, y la segunda para las codificadas como `RajoyLO Y Evasión`.
 
-\4) Esta zona es similar a la anterior, pero utiliza una _sintaxis_ diferente para visualizar las condiciones utilizadas. Como podemos ver, lo que se nos muestra es la última consulta realizada. Si en el paso anterior, tras las consultas ya realizadas hubiéramos clicado en el operador O, se nos mostraría el resultado de esa consulta:
+4) Esta zona es similar a la anterior, pero utiliza una _sintaxis_ diferente para visualizar las condiciones utilizadas. Como podemos ver, lo que se nos muestra es la *última consulta realizada*. Si en el paso anterior, tras las consultas ya realizadas hubiéramos clicado en el operador `O`, se nos mostraría el resultado de esa consulta:
 
-\5) Resultados, citas que cumplen las condiciones de la última _consulta_ definida (la que se visualiza en (3)).
+ ((“Zapatero” & “Evasion”) | (“RajoyLO” & “Evasion”))
 
-\6) Posibilidad de seleccionar (para los operadores de distancia) la distancia máxima que debe separar a dos citas (y el tipo de unidad de media: párrafos...) para que sean incluidas en los resultados.
+5) *Resultados*, citas que cumplen las condiciones de la última _consulta_ definida (la que se visualiza en (3)).
 
-\7) Acceso a una nueva ventana (__Alcance de consulta__, ver figura ) para seleccionar los documentos a los que se aplicará la consulta_._ En este caso los operandos serán documentos y familias de documentos y los operadores sólo los booleanos.
+6) Posibilidad de seleccionar (para los operadores de distancia) la *distancia máxima* que debe separar a dos citas (y el tipo de unidad de media: párrafos...) para que sean incluidas en los resultados.
+
+7) Acceso a la ventana <<img-herramienta-consulta-alcance, Alcance de consulta>>, para seleccionar los documentos a los que se aplicará la consulta. En este caso los operandos serán documentos y familias de documentos y los operadores sólo los booleanos.
 
 [[img-herramienta-consulta-alcance, Herramienta de consulta: Alcance]]
 .Herramienta de consulta: Alcance
 image::images/image-142.png[{alt="Herramienta de consulta: Alcance", float="right", align="center"]
 
-\8) Convierte los resultados de la _consulta_ en una _Super-código_ (ver pág. 162).
+8) Convierte los resultados de la _consulta_ en un <<super-codigos, súper-código>>.
 
-\9) Conjunto de iconos que permiten eliminar una cita de la lista de resultados (no se borra la cita, sólo se la hace desaparecer de esta lista) o imprimir la lista de resultados.
+9) Conjunto de iconos que permiten eliminar una cita de la lista de resultados (no se borra la cita, sólo se la hace desaparecer de esta lista) o imprimir la lista de resultados.
 
-\10) Opciones de edición de las expresiones
+10) Opciones de edición de las expresiones
 
 C = Borra todas las expresiones introducidas previamente.
 
@@ -52,7 +54,7 @@ S = Invierte el orden de los dos últimos operandos.
 
 P = Duplica el último operando introducido.
 
-Recalc = Vuelve a calcular la _consulta_ después de hacer cambios en la selección de documentos (7 en la ilustración anterior) o en la distancia (6 en la ilustración anterior).
+Recalc = Vuelve a calcular la _consulta_ después de hacer cambios en la selección de documentos o en la distancia.
 
 Deshacer = Deshace la última acción.
 
@@ -68,19 +70,19 @@ ____
 “La __Notación Polaca Inversa__, notación de postfijo, o notación posfija, (en inglés, __Reverse polish notation__, o RPN), es un método algebraico alternativo de introducción de datos. Su nombre viene por analogía con la relacionada notación polaca, una notación de prefijo introducida en 1920 por el matemático polaco Jan Lukasiewicz, en donde cada operador está antes de sus operandos. En la notación polaca inversa es al revés, primero están los operandos y después viene el operador que va a realizar los cálculos sobre ellos. Tanto la notación polaca como la notación polaca inversa no necesitan usar paréntesis para indicar el orden de las operaciones mientras la aridad del operador sea fija.”
 ____
 
-Esto significa que, si habitualmente una suma la escribiríamos 4 + 5, donde 4 y 5 son los operandos y el signo + es el operador, al utilizar la RPN tenemos que escribir en primer lugar los operandos y a continuación el operador, es decir, 4 5 +.
+Esto significa que, si habitualmente una suma la escribiríamos `4 + 5`, donde 4 y 5 son los operandos y el signo `+` es el operador, al utilizar la RPN tenemos que escribir en primer lugar los operandos y a continuación el operador, es decir, `4 5 +`.
 
-Volviendo a nuesto ejemplo, en vez de Zapatero Y Evasion, tendríamos que escribir Zapatero Evasion AND.footnote:[Como comentábamos, en esta herramienta no escribimos, sino que clicamos, por lo que cuando en este apartado hagamos referencia a “escribir”, el significado real es realizar diversas combinaciones de clics sobre operandos y operadores.]
+Volviendo a nuesto ejemplo, en vez de Zapatero Y Evasion, tendríamos que escribir `Zapatero Evasion AND`.footnote:[Como comentábamos, en esta herramienta no escribimos, sino que clicamos, por lo que cuando en este apartado hagamos referencia a “escribir”, el significado real es realizar diversas combinaciones de clics sobre operandos y operadores.]
 
-En el caso de que quisiéramos obtener como resultado todas las citas del código _Evasion_ en las intervenciones de cualquiera de los presidentes (Zapatero o Rajoy) tendríamos que añadir alguna condición más a nuestra consulta. Tendríamos que realizar una consulta para obtener las citas de cada uno de los presidentes y posteriormente combinar los resultados con una condición O. Para ello, con una “sintaxis clásica” habríamos utilizado paréntesis para definir la prioridad de las operaciones. Pero como veíamos en la cita anterior, otra de las características de la RPN es que no utiliza paréntesis, por lo que tendríamos que formular la consulta de la siguiente forma:
+En el caso de que quisiéramos obtener como resultado todas las citas del código _Evasion_ en las intervenciones de cualquiera de los presidentes (Zapatero o Rajoy) tendríamos que añadir alguna condición más a nuestra consulta. Tendríamos que realizar una consulta para obtener las citas de cada uno de los presidentes y posteriormente combinar los resultados con una condición `O`. Para ello, con una “sintaxis clásica” habríamos utilizado paréntesis para definir la prioridad de las operaciones. Pero como veíamos en la cita anterior, otra de las características de la RPN es que no utiliza paréntesis, por lo que tendríamos que formular la consulta de la siguiente forma:
 
-\(1) Zapatero RajoyLO OR
+(1) `Zapatero RajoyLO OR`
 
-\(2) Evasion
+(2) `Evasion`
 
-\(3) AND
+(3) `AND`
 
-Aunque la formulación pueda parecer extraña, en la práctica es relativamente sencilla si tenemos en cuenta que cada vez que obtenemos un resultado en una consulta ese resultado pasa a convertirse en un operando. Es decir, una vez que hemos obtenido las citas correspondientes a la primera parte de la consulta (1) éstas se convierten en un operando, lo mismo que las de (2), por lo que una vez que tenemos dos operandos los combinamos con el operador OR en (3).
+Aunque la formulación pueda parecer extraña, en la práctica es relativamente sencilla si tenemos en cuenta que cada vez que obtenemos un resultado en una consulta ese resultado pasa a convertirse en un operando. Es decir, una vez que hemos obtenido las citas correspondientes a la primera parte de la consulta (1) éstas se convierten en un operando, lo mismo que las de (2), por lo que una vez que tenemos dos operandos los combinamos con el operador `AND` en (3).
 
 [[img-esquema-consulta-a, Esquema consulta (a)]]
 .Esquema consulta (a)
@@ -90,7 +92,7 @@ image::images/image-143a.png[{alt="Esquema consulta (a)", float="right", align="
 .Esquema consulta (b)
 image::images/image-143b.png[{alt="Esquema consulta (b)", float="right", align="center"]
 
-También nos puede ayudar tener en cuenta que cuando escribimos la consulta en el programa, cada una de las líneas que aparecen en la zona 3 de la Ilustración es un operando, por lo que una consulta implicará combinar dos líneas (operandos) con un operador.footnote:[Aunque esto no es exactamente así, puesto que no todas las consultas requieren de dos operandos.] En la Ilustración podemos ver el proceso de escritura. En (1) hemos introducido los dos primeros operandos (códigos), que hemos combinado con el operador AND. En (2) tendríamos por lo tanto el resultado de la consulta, que a su vez será un operando. En (3) hemos vuelto a introducir dos operandos (códigos) que de nuevo hemos combinado con el operador AND (que afecta sólo a las dos primeras líneas que vemos en la ilustración), por lo que tenemos (en 4) el resultado de esa consulta en la primera línea, y el resultado de la anterior en la segunda. Al combinar ambos operandos con el operador OR, nos dará el resultado que podemos ver (5), es decir, “Todas las intervenciones del presidente Zapatero o del líder de la oposición Rajoy, que han sido codificadas como __Evasion__”.
+También nos puede ayudar tener en cuenta que cuando escribimos la consulta en el programa, cada una de las líneas que aparecen en la zona 3 de la figura <<img-herramienta-consulta>> es un operando, por lo que una consulta implicará combinar dos líneas (operandos) con un operador.footnote:[Aunque esto no es exactamente así, puesto que no todas las consultas requieren de dos operandos.] En la figura <<img-consulta-secuencia-escritura>> podemos ver el proceso de escritura. En (1) hemos introducido los dos primeros operandos (códigos), que hemos combinado con el operador `AND`. En (2) tendríamos por lo tanto el resultado de la consulta, que a su vez será un operando. En (3) hemos vuelto a introducir dos operandos (códigos) que de nuevo hemos combinado con el operador `AND` (que afecta sólo a las dos primeras líneas que vemos en la ilustración), por lo que tenemos (en 4) el resultado de esa consulta en la primera línea, y el resultado de la anterior en la segunda. Al combinar ambos operandos con el operador `OR`, nos dará el resultado que podemos ver (5), es decir, “Todas las intervenciones del presidente Zapatero o del líder de la oposición Rajoy, que han sido codificadas como __Evasion__”.
 
 [[img-consulta-secuencia-escritura, Consulta: Secuencia de escritura]]
 .Consulta: Secuencia de escritura
@@ -99,7 +101,7 @@ image::images/image-143.png[{alt="Consulta: Secuencia de escritura", float="righ
 [[operadores]]
 ==== Operadores
 
-Para ilustrar la sintaxis de la _Consulta_ hemos utilizado los operadores AND y OR, que junto a XOR y NOT forman parte de la categoría de operadores booleanos. Junto a estos, disponemos de otros dos conjuntos de operadores, los semánticos y los de proximidad. A continuación procederemos a explicar las características de cada uno de ellos.
+Para ilustrar la sintaxis de la _Consulta_ hemos utilizado los operadores `AND` y `OR`, que junto a `XOR` y `NOT` forman parte de la categoría de operadores booleanos. Junto a estos, disponemos de otros dos conjuntos de operadores, los semánticos y los de proximidad. A continuación procederemos a explicar las características de cada uno de ellos.
 
 [[operadores-booleanos]]
 ===== Operadores booleanos
@@ -125,13 +127,13 @@ códigos...”]
 |=======================================================================
 
 
-A continuación utilizaremos diagramas de Venn para ilustrar gráficamente los resultados de cada uno de los operadores. En los diagramas, cada uno de los conjuntos (círculos) equivaldría a un operando (código o familia de códigos), y las zonas sombreadas serán el equivalente al resultado obtenido, es decir, a las citas que serían recuperadas. En la figura tenemos el primer ejemplo con los operadores booleanos.
+A continuación utilizaremos diagramas de Venn para ilustrar gráficamente los resultados de cada uno de los operadores. En los diagramas, cada uno de los conjuntos (círculos) equivaldría a un operando (código o familia de códigos), y las zonas coloreadas serán el equivalente al resultado obtenido, es decir, a las citas que serían recuperadas. En la figura tenemos el primer ejemplo con los operadores booleanos.
 
 [[img-diagrama-venn-booleanos, Diagrama de Venn: Operadores Booleanos]]
 .Diagrama de Venn: Operadores Booleanos
 image::images/image-144.png[{alt="Diagrama de Venn: Operadores Booleanos", float="right", align="center"]
 
-En (1) tenemos el resultado de la aplicación del operador OR, que implica la selección de todas las citas que están codificadas como A o codificadas como B. Por lo tanto se trata de un operador inclusivo, El operador XOR (O exclusivo) seleccionar igualmente las citas que están codificadas como A o como B pero no aquellas que están codificadas como A y al mismo tiempo como B, por lo que quedarían fuera las de la intersección de ambos conjuntos (2). En (3) vemos el operador más exclusivo, AND, puesto que en este caso sólo quedarán seleccionadas aquellas que están codificadas al mismo tiempo de una forma y de otra. En (4) tenemos el resultado de A NOT, es decir, todas aquellas citas que no están codificadas como A.
+En (1) tenemos el resultado de la aplicación del operador `OR`, que implica la selección de todas las citas que están codificadas como A o codificadas como B. Por lo tanto se trata de un operador inclusivo, El operador `XOR` (O exclusivo) seleccionar igualmente las citas que están codificadas como A o como B pero no aquellas que están codificadas como A y al mismo tiempo como B, por lo que quedarían fuera las de la intersección de ambos conjuntos (2). En (3) vemos el operador más exclusivo, `AND`, puesto que en este caso sólo quedarán seleccionadas aquellas que están codificadas al mismo tiempo de una forma y de otra. En (4) tenemos el resultado de `A NOT`, es decir, todas aquellas citas que no están codificadas como A.
 
 En la figura podemos ver la representación del ejemplo anterior en el que queríamos obtener “Todas las intervenciones del presidente Zapatero o del líder de la oposición Rajoy, que han sido codificadas como __Evasion__”,
 
@@ -139,7 +141,7 @@ En la figura podemos ver la representación del ejemplo anterior en el que quer�
 .Diagrama: (Zapatero OR Rajoy) AND Evasion
 image::images/image-145.png[{alt="Diagrama: (Zapatero OR Rajoy) AND Evasion", float="right", align="center"]
 
-Imaginemos ahora una situación como la representada en la figura , en la que el diagrama de Venn representa cuatro códigos que incluyen un total de catorce citas distribuidas de la siguiente forma:
+Imaginemos ahora una situación como la representada en la siguiente figura, en la que el diagrama de Venn representa cuatro códigos que incluyen un total de catorce citas distribuidas de la siguiente forma:
 
 [[img-diagrama-ejemplo, Diagrama de Venn: Ejemplo de codificación]]
 .Diagrama de Venn: Ejemplo de codificación
@@ -169,7 +171,7 @@ Podemos ir “apilando” los resultados de las consultas para definir otras má
 .Diagrama de Venn: Consulta múltiple
 image::images/image-147.png[{alt="Diagrama de Venn: Consulta múltiple", float="right", align="center"]
 
-Y la forma de realizarla sería como vemos en la siguiente tabla.
+Y la forma de realizarla sería como vemos en la siguiente figura.
 
 [[img-consulta-multiple, Consulta múltiple]]
 .Consulta múltiple
@@ -313,9 +315,8 @@ En el modelo de Rasiah (2010) que hemos utilizado para codificar las respuestas 
 
 \(5) Follows
 
-[[super-códigos]]
-Super Códigos
-^^^^^^^^^^^^^
+[[super-codigos]]
+==== Super Códigos
 
 En el apartado dedicado a las familias veíamos la posibilidad de crear un nuevo objeto, las _superfamilias_ (de documentos, códigos o memos) utilizando un editor de consultas simplificado con respecto al que estamos viendo en esta sección. Ahora, a partir de las consultas que venimos realizando, podemos crear un nuevo objeto, los __supercódigos__, haciendo clic en el icono __Super-códgio__. La característica peculiar de estos códigos es que su contenido (citas) será el resultado dinámico de la consulta a partir de la que se hayan construido y que por lo tanto son la forma práctica de “guardar” consultas (no existe ninguna otra, si queremos guardar una consulta tenemos que crear un __supercódigo__). El significado de “resultado dinámico” es que, en tanto que son una consulta guardada, cualquier cambio en la UH que afecte a la consulta quedará registrado en el __supercódigo__. Es decir, imaginemos que nuestro código _Ans Direct_ incluye 12 citas y nuestro código _Ans Indirect_ 14 citas; la consulta _Answer SUB_ nos dará un resultado de 26 citas, por lo que si creamos un _supercódigo_ a partir de esta consulta este contendrá las mismas 26 citas. Si posteriormente a la creación del _supercódigo_ añadimos dos citas más al código __Ans Direct__, el _supercódigo_ las incorporará automáticamente^[Podemos crear una “vista fija” de un supercódigo con la opción `Códigos > Miscelánea > Crear instantánea`, que creará un nuevo código con la misma etiqueta a la que añadirá “[SN 1]” y que mantendrá fijo el número de citas que tenía el supercódigo en el momento de la creación.de este nuevo código.].
 
