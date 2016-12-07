@@ -1,7 +1,7 @@
 [[buscar-texto]]
 === Buscar texto
 
-En el apartado dedicado a la autocodificación (pág. 78), hemos visto que ésta implicaba realizar una búsqueda de texto, y avanzábamos que esta función de ATLAS.ti va mucho más allá de las posibilidades a las que estamos acostumbrados habitualmente en los procesadores de texto. Tres son las características principales del sistema de búsqueda:
+En el apartado dedicado a la <<05-4-autocodificacion#autocodificacion, autocodificación>>, hemos visto que ésta implicaba realizar una búsqueda de texto, y avanzábamos que esta función de ATLAS.ti va mucho más allá de las posibilidades a las que estamos acostumbrados habitualmente en los procesadores de texto. Tres son las características principales del sistema de búsqueda:
 
 1.  La búsqueda abarca el conjunto de documentos que componen la UH, y no únicamente el documento activo.
 2.  Pueden realizarse búsquedas de varios términos de forma simultánea.
@@ -11,7 +11,7 @@ Respecto a la primera característica no hay demasiado que comentar, por lo que 
 
 Activamos la herramienta con la opción `Edición > Buscar` o con el icono lupa de la barra de herramientas de documentos (vertical).
 
-La ventana que aparece (figura ) tiene las siguientes secciones:
+La ventana que aparece tiene las siguientes secciones:
 
 [[img-ventana-herramientas-busqueda, Ventana de herramienta de búsqueda]]
 .Ventana de herramienta de búsqueda
@@ -27,7 +27,7 @@ image::images/image-131.png[{alt="Ventana de herramienta de búsqueda", float="r
 [[busqueda-simple]]
 ==== Búsqueda simple
 
-Para realizar una búsqueda simple, lo único que tenemos que hacer es introducir en (1) la expresión de búsqueda,footnote:[Podemos utilizar el carácter especial “*” para indicar “cualquier carácter o caracteres. Si el asterisco va a continuación de la sentencia sería equivalente a indicar “todos los caracteres a continuación”, si la precede, el significado sería “todos los caracteres anteriores”.] decidir si queremos que la búsqueda diferencie entre mayúsculas y minúsculas (3) y hacer clic en (2) para ejecutar la búsqueda hacia adelante o hacia atrás. Una vez que se haya realizado la búsqueda en el documento activo, el programa nos preguntará si queremos continuarla en el resto de documentos de la UH (figura ). Si contestamos que sí, se realizará la búsqueda en el resto de documentos, sin volver a pedirnos confirmación. Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se haya realizado en el último documento de la UH, por lo que si hemos dado la orden de inicio de la búsqueda estando activo el documento P3, al llegar al último documento la búsqueda no continuará en los documentos P1 y P2.
+Para realizar una búsqueda simple, lo único que tenemos que hacer es introducir en (1) la expresión de búsqueda,footnote:[Podemos utilizar el carácter especial “*” para indicar “cualquier carácter o caracteres. Si el asterisco va a continuación de la sentencia sería equivalente a indicar “todos los caracteres a continuación”, si la precede, el significado sería “todos los caracteres anteriores”.] decidir si queremos que la búsqueda diferencie entre mayúsculas y minúsculas (3) y hacer clic en (2) para ejecutar la búsqueda hacia adelante o hacia atrás. Una vez que se haya realizado la búsqueda en el documento activo, el programa nos preguntará si queremos continuarla en el resto de documentos de la UH (figura <<img-continuar-busqueda>>). Si contestamos que sí, se realizará la búsqueda en el resto de documentos, sin volver a pedirnos confirmación. Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se haya realizado en el último documento de la UH, por lo que si hemos dado la orden de inicio de la búsqueda estando activo el documento P3, al llegar al último documento la búsqueda no continuará en los documentos P1 y P2.
 
 [[img-continuar-busqueda, Continuar búsqueda]]
 .Continuar búsqueda
@@ -48,37 +48,37 @@ image::images/image-133.png[{alt="Búsqueda por categorías", float="right", ali
 
 Si cerramos la ventana de búsqueda y volvemos a abrirla, observaremos que sigue apareciendo la última sentencia de búsqueda que habíamos realizado, pero precedida por los caracteres `TEMP:=`
 
-TEMP:=Francia|Alemania|Inglaterra
+ TEMP:=Francia|Alemania|Inglaterra
 
-Si clicamos sobre la flecha ubicada a la derecha de la zona de escritura de la búsqueda, veremos además que, junto a esta, nos aparecen toda otra serie de búsquedas (predefinidas), todas ellas precedidas por algún término y los caracteres := (dos puntos y signo de igualdad). Estos caracteres son los que utilizamos para definir auténticas categorías de búsqueda, es decir, para definir un identificador para las búsquedas. Dado que no lo habíamos hecho previamente, el programa ha identificado nuestra búsqueda como “TEMP”, pero podemos cambiar esa etiqueta por otra más significativa, como por ejemplo EUROPA.footnote:[Si no cambiamos la etiqueta de la categoría, al realizar una nueva búsqueda, la anterior desaparecería de la lista, puesto que la nueva quedaría identificada igualmente como “TEMP”.] De esta forma, nuestra sentencia de búsqueda sería
+Si clicamos sobre la flecha ubicada a la derecha de la zona de escritura de la búsqueda, veremos además que, junto a esta, nos aparecen toda otra serie de búsquedas (predefinidas), todas ellas precedidas por algún término y los caracteres `:=` (dos puntos y signo de igualdad). Estos caracteres son los que utilizamos para definir auténticas categorías de búsqueda, es decir, para definir un identificador para las búsquedas. Dado que no lo habíamos hecho previamente, el programa ha identificado nuestra búsqueda como “TEMP”, pero podemos cambiar esa etiqueta por otra más significativa, como por ejemplo "EUROPA".footnote:[Si no cambiamos la etiqueta de la categoría, al realizar una nueva búsqueda, la anterior desaparecería de la lista, puesto que la nueva quedaría identificada igualmente como “TEMP”.] De esta forma, nuestra sentencia de búsqueda sería
 
-EUROPA:=Francia|Alemania|Inglaterra
+ EUROPA:=Francia|Alemania|Inglaterra
 
 A continuación, podríamos crear otra categoría en la que incluyéramos a países americanos, por ejemplo
 
-AMERICA:=Estados Unidos|Canadá|México|Argentina
+ AMERICA:=Estados Unidos|Canadá|México|Argentina
 
 Con la primera categoría encontraremos referencias a países europeos, con la segunda, referencias a países americanos, pero ¿y si queremos realizar una búsqueda en la que se incluyan tanto países europeos como americanos? Evidentemente una posibilidad sería crear una categoría en la que se incluyan todos los países de las categorías anteriores, pero dado que ya tenemos las categorías “EUROPA” y “AMÉRICA”, podemos hacer una búsqueda en la que la sentencia incluya a ambas categorías. Para ello, podríamos escribir lo siguiente.
 
-PAISES:=$EUROPA|$AMERICA
+ PAISES:=$EUROPA|$AMERICA
 
-Como podemos observar, la que hemos hecho ha sido preceder el nombre de las categorías con el signo $ , y por lo tanto el significado de la búsqueda sería “Busca todos los elementos incluidos en la categoría EUROPA y en la categoría AMERICA”.
+Como podemos observar, la que hemos hecho ha sido preceder el nombre de las categorías con el signo `$`, y por lo tanto el significado de la búsqueda sería “Busca todos los elementos incluidos en la categoría EUROPA y en la categoría AMERICA”.
 
 De la misma forma que buscamos países, podría interesarnos hacer búsquedas para encontrar referencias a políticos de determinados partidos. En este caso podríamos proceder a crear categorías para los diferentes partidos:
 
-BNG:=Jorquera|Pérez-Bouza
+ BNG:=Jorquera|Pérez-Bouza
 
-CC:=Oramas|Quintero
+ CC:=Oramas|Quintero
 
 A continuación podríamos crear nuevas categorías para agrupar a los partidos en función de su ámbito terrirorial:
 
-AUTONOMICO:= $AMAIUR|$BNG|$CiU|$PNV|$ICV|$UPN
+ AUTONOMICO:= $AMAIUR|$BNG|$CiU|$PNV|$ICV|$UPN
 
 Y por último una categoría que englobara a todos los partidos (y por lo tanto a todos los políticos).
 
-POLITICOS:=$AUTONOMICO|$ESTATAL
+ POLITICOS:=$AUTONOMICO|$ESTATAL
 
-Hay que tener en cuenta que una vez que cerremos la sesión con Atlas, desaparecerán las categorías así definidas. Para poder utilizarlas durante más de una sesión hay que archivarlas mediante la opción __Guardar Categorías__, a la que podemos acceder con el botón _Opciones_ de la ventana de búsqueda (figura ). Atlas pedirá un nombre de archivo con el que salvar la lista, y sugerirá como nombre por defecto “SEARCHBIB.SKT”.
+Hay que tener en cuenta que una vez que cerremos la sesión con Atlas, desaparecerán las categorías así definidas. Para poder utilizarlas durante más de una sesión hay que archivarlas mediante la opción __Guardar Categorías__, a la que podemos acceder con el botón _Opciones_ de la ventana de búsqueda. Atlas pedirá un nombre de archivo con el que salvar la lista, y sugerirá como nombre por defecto “SEARCHBIB.SKT”.
 
 [[img-opciones-busqueda, Opciones de búsqueda]]
 .Opciones de búsqueda
@@ -91,9 +91,9 @@ Podemos sobreescribir ese archivo o dar un nombre diferente, teniendo en cuenta 
 
 Si la búsqueda por categorías permite la realización de búsquedas sofisticadas, la opción GREP aumenta todavía más las posibilidades de las mismas gracias a la posibilidad de la utilización de __expresiones regulares__.
 
-Esta modalidad de búsqueda, implica utilizar caracteres “comodín” junto al texto de búsqueda, de una forma similar a la utilización del _comodín_ * (asterisco) en las búsquedas simples, pero permitiendo en este caso muchas más posibilidades que el “simple” “todo lo que venga a continuación”.
+Esta modalidad de búsqueda, implica utilizar caracteres “comodín” junto al texto de búsqueda, de una forma similar a la utilización del _comodín_ `*` (asterisco) en las búsquedas simples, pero permitiendo en este caso muchas más posibilidades que el “simple” “todo lo que venga a continuación”.
 
-Aunque es muy probable que no necesitemos toda la potencia de la búsqueda GREP, no está de más saber de su existencia para poder consultar los operadores en el caso en que necesitemos una búsqueda especial. En la Tabla ofrecemos el listado de los operadores que hemos comprobado que funcionan en ATLAS.ti, y a continuación ilustraremos su utilización con algunos ejemplos.
+Aunque es muy probable que no necesitemos toda la potencia de la búsqueda GREP, no está de más saber de su existencia para poder consultar los operadores en el caso en que necesitemos una búsqueda especial. En la siguiente tabla ofrecemos el listado de los operadores que hemos comprobado que funcionan en ATLAS.ti, y a continuación ilustraremos su utilización con algunos ejemplos.
 
 [[tab-operadores-grep, Operadores GREP]]
 .Operadores GREP
@@ -108,19 +108,19 @@ especificado.
 |__término__$ |Limita la expresión de búsqueda precedente al final de la
 línea.
 
-|&lt;__término__ |Limita la expresión de búsqueda siguiente al inicio de
+|\<__término__ |Limita la expresión de búsqueda siguiente al inicio de
 una palabra.
 
-|__término__&gt; |Limita la expresión de búsqueda precedente al inicio
+|__término__\> |Limita la expresión de búsqueda precedente al inicio
 de una palabra
 
-| |Limita la expresión de búsqueda siguiente a NO incio de palabra
+| \B |Limita la expresión de búsqueda siguiente a NO incio de palabra
 
-| |Limita la expresión de búsqueda precedente a NO final de palabra
+| B\ |Limita la expresión de búsqueda precedente a NO final de palabra
 
 |. |Localiza cualquier carácter.
 
-| |Localiza cualquier carácter alfanumérico.
+| \w |Localiza cualquier carácter alfanumérico.
 
 |* |Localiza cualquier cantidad (o su ausencia) de la expresión
 precedente.
@@ -131,24 +131,23 @@ precedente.
 
 |[ ] |Localiza un rango de caracteres.
 
-|(__término__ _término_ __término__) |Localiza varios términos de forma
-simultánea.
+|(_término_ | _término_ | _término_) |Localiza varios términos de forma simultánea.
 
 |:d |Localiza cualquier dígito.
 
-| |Carácter utilizado cuando en la expresión se debe incluir uno de los
+| \ |Carácter utilizado cuando en la expresión se debe incluir uno de los
 caracteres especiales anteriores.
 |=======================================================================
 
 *Búsqueda al inicio de línea*
 
-Anteriormente hemos realizado la autocodificación de las intervenciones de los participantes utilizando como criterio de búsqueda la etiqueta de participante. Comentábamos que para que el resultado sea correcto, el formato de las etiquetas debía ser lo suficientemente exclusivo como para no poder confundirse con el mismo texto apareciendo en otra parte del documento sin ser etiqueta de participante. Por ejemplo, si queremos autocodificar las intervenciones del Presidente, la etiqueta “Presidente” no sería válida, puesto que podemos encontrar la misma palabra en momentos en que otros participantes aludan al presidente. En nuestro caso esto no ocurre, puesto que la etiqueta de participante es “Presidente.-”, es decir, incluye los caracteres .- lo que hace altamente improbable que ese texto exacto esté presente en otras partes del documento.
+Anteriormente hemos realizado la autocodificación de las intervenciones de los participantes utilizando como criterio de búsqueda la etiqueta de participante. Comentábamos que para que el resultado sea correcto, el formato de las etiquetas debía ser lo suficientemente exclusivo como para no poder confundirse con el mismo texto apareciendo en otra parte del documento sin ser etiqueta de participante. Por ejemplo, si queremos autocodificar las intervenciones del Presidente, la etiqueta “Presidente” no sería válida, puesto que podemos encontrar la misma palabra en momentos en que otros participantes aludan al presidente. En nuestro caso esto no ocurre, puesto que la etiqueta de participante es “Presidente.-”, es decir, incluye los caracteres `.-` lo que hace altamente improbable que ese texto exacto esté presente en otras partes del documento.
 
-¿Pero qué pasaría si nuestras etiquetas no cumplen esa característica? Evidentemente, si no hemos realizado previamente ningún trabajo de segmentación/codificación sobre el documento, la mejor alternativa es volver al archivo original para modificar las etiquetas y volver a realizar la asignación del documento. En caso contrario, podemos optar por una opción (quizás no óptima) consistente en considerar que la aparición del término “Presidente” al inicio de un párrafo probablemente será la etiqueta del participante. Por lo tanto, nuestra búsqueda GREP debería ser `Presidente`.
+¿Pero qué pasaría si nuestras etiquetas no cumplen esa característica? Evidentemente, si no hemos realizado previamente ningún trabajo de segmentación/codificación sobre el documento, la mejor alternativa es volver al archivo original para modificar las etiquetas y volver a realizar la asignación del documento. En caso contrario, podemos optar por una opción (quizás no óptima) consistente en considerar que la aparición del término “Presidente” al inicio de un párrafo probablemente será la etiqueta del participante. Por lo tanto, nuestra búsqueda GREP debería ser `^Presidente`.
 
 Si nuestros datos son entrevistas en las que han participado diferentes entrevistadores a los que hemos identificado etiquetas del tipo “Ent1:”, “Ent2:”, etc., y queremos autocodificar sus intervenciones de una forma genérica, con un único código “Entrevistador”, podemos utilizar otra combinación de expresiones.
 
-Volveremos a utilizar el operador ^ seguido de “Ent” para especificar que la búsqueda sea al inicio de línea, y para que la búsqueda incluya el número de entrevistador utilizaremos el operador :d, es decir “cualquier carácter numérico”. Finalmente podemos incluir también el carácter : que forma parte del identificador de entrevistador, con lo que el resultado sería ^Ent:d: . Es decir, “localiza, al inicio de la línea, todas las ocurrencias de 'Ent1:, Ent2: Ent3:...”
+Volveremos a utilizar el operador `^` seguido de “Ent” para especificar que la búsqueda sea al inicio de línea, y para que la búsqueda incluya el número de entrevistador utilizaremos el operador `:d`, es decir “cualquier carácter numérico”. Finalmente podemos incluir también el carácter : que forma parte del identificador de entrevistador, con lo que el resultado sería `^Ent:d:`. Es decir, “localiza, al inicio de la línea, todas las ocurrencias de 'Ent1:, Ent2: Ent3:...”
 
 *Búsqueda al inicio de palabra*
 
@@ -156,19 +155,20 @@ Otra posibilidad que tenemos es hacer búsquedas que funciones únicamente cuand
 
 Imaginemos, por ejemplo, que queremos encontrar palabras que empiecen por "pre". Si hacemos una búsqueda normal (no GREP), obtendríamos como resultado tanto “presidente”, "precisión" y "presente" como "imprecisión", "impresionante" o "comprensión", en las que el término de búsqueda forma parte de la palabra aunque no al inicio.
 
-Una forma de hacer esta búsqueda utilizando GREP es mediante el operador &gt;__término__ (o también __término__) de forma que la búsqueda sólo dará resultados si la ocurrencia es al inicio del término buscado
+Una forma de hacer esta búsqueda utilizando GREP es mediante el operador `\>__término__` (o también `\b__término__`) de forma que la búsqueda sólo dará resultados si la ocurrencia es al inicio del término buscado
 
-&lt;pre
+ \<pre
+
+ \bpre
 
 Si lo que queremos es lo contrario, que la búsqueda sólo de resultado cuando el término aparece al final de palabra, podemos utilizar:
-
-__término__&gt; (o __término__)
+`__término__\>` (o `__término__\b`)
 
 Así, si queremos encontrar palabra que acaben con "er" podríamos escribir cualquiera de las siguientes expresiones.
 
-er&gt;
+ er\>
 
-er
+ er\b
 
 *Búsqueda de palabras completas*
 
