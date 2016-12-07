@@ -222,19 +222,19 @@ Por supuesto es posible dar un nombre y una dirección de archivo diferentes. En
 
 Hemos señalado que una de las formas de visualizar las relaciones entre códigos es mediante la herramienta _Árbol de códigos_ pero no disponemos de una herramienta similar para la visualización de los hipervínculos. Aún así, podemos visualizar en conjunto los hipervínculos y las relaciones entre códigos que hemos creado con los administradores de relaciones: _Administrador de hipervínculos_ y __Administrador de vínculos de códigos__. Podemos acceder a ambos desde el menú _Redes._ Esta opción no existe para las relaciones entre anotaciones y otros elementos.
 
-En ambos casos se abrirá una ventana como la que aparece en la figura , que permitirá una cómoda visualización de las relaciones definidas en nuestra UH. Como podemos observar, entre la información que nos muestra podemos ver el código fuente, el tipo de relación, y el código destino. Mediante la barra de menús (__Vínculos códigos__) o mediante el menú contextual, podemos acceder a algunas opciones de edición de la relación, como por ejemplo cambiar la dirección de la misma (__Voltear vínculo)__ o incluso cambiar el tipo de relación (__Cambiar relación__).
+En ambos casos se abrirá una ventana que permitirá una cómoda visualización de las relaciones definidas en nuestra UH. Como podemos observar, entre la información que nos muestra podemos ver el código fuente, el tipo de relación, y el código destino. Mediante la barra de menús (__Vínculos códigos__) o mediante el menú contextual, podemos acceder a algunas opciones de edición de la relación, como por ejemplo cambiar la dirección de la misma (__Voltear vínculo)__ o incluso cambiar el tipo de relación (__Cambiar relación__).
 
 [[img-administrador-relaciones, Administrador de relaciones]]
 .Administrador de relaciones
 image::images/image-110.png[{alt="Administrador de relaciones", float="right", align="center"]
 
 [[atajos-de-creacion-de-relaciones]]
-====Atajos de creación de relaciones
+==== Atajos de creación de relaciones
 
 Además de la “mecánica” de creación que hemos explicado, existen otras formas de crear las relaciones que quizás puedan ser más rápidas o cómodas para algunas personas. Por ejemplo, podemos crear hipervínculos desde el _administrador de citas_ seleccionando una cita y arrastrándola hasta otra. Este mismo sistema de arrastre podemos utilizarlo para arrastrar, en el margen derecho de la pantalla, la barra identificadora de cita hasta otra barra identificadora. Evidentemente ambos sistemas serán prácticos cuando las citas que queremos relacionar estén cercanas. Si no lo están, otra forma de relacionar arrastrando es seleccionando una cita en el administrador de citas y arrastrándola hasta la barra identificadora del margen derecho (o viceversa). En el caso de los códigos también podemos relacionarlos entre sí arrastrando un código sobre otro en el __administrador de códigos__.
+
+Otra de las formas que pueden ser prácticas consiste en utilizar los _navegadores de elementos_ que podemos activar en el margen izquierdo de la pantalla principal. Recordemos que los navegadores del margen izquierdo permiten visualizar los objetos principales de la UH: DPs, citas, códigos, memos y vistas de red. En la figura <<img-relacionar-arrastrando>> ofrecemos un ejemplo de su utilización, en el que se está arrastrando un código desde el _navegador_ del margen izquierdo hasta el __administrador de códigos__. Por supuesto se pueden utilizar otras combinaciones, pero esas tendrás que encontrarlas en el uso.
 
 [[img-relacionar-arrastrando, Relacionar arrastrando]]
 .Relacionar arrastrando
 image::images/image-111.png[{alt="Relacionar arrastrando", float="right", align="center"]
-
-Otra de las formas que pueden ser prácticas consiste en utilizar los _navegadores de elementos_ que podemos activar en el margen izquierdo de la pantalla principal. Recordemos que los navegadores del margen izquierdo permiten visualizar los objetos principales de la UH: DPs, citas, códigos, memos y vistas de red. En la Ilustración ofrecemos un ejemplo de su utilización, en el que se está arrastrando un código desde el _navegador_ del margen izquierdo hasta el __administrador de códigos__. Por supuesto se pueden utilizar otras combinaciones, pero esas tendrás que encontrarlas en el uso.
