@@ -7,7 +7,7 @@ Esta opción puede sernos especialmente práctica si queremos realizar una revis
 
 Accederemos a este informe con la opción `Documentos > Imprimir > Imprimir con márgenes`.
 
-Una diferencia entre este informe y el resto es que en esta ocasión no se nos ofrecerá la opción de elegir el destino del mismo (editor, archivo, impresora), puesto que sólo lo podremos enviar a la impresora (o guardarlo como PDF si tenemos esa posibilidad desde nuestras opciones de impresión). Por lo tanto, al ejecutar el comando lo primero que aparecerá será la ventana de impresión estándar de nuestro ordenador. Una vez que cliquemos en imprimir, el resultado será similar al que vemos en la figura footnote:[El listado incluye también una primera página con información sobre el documento que incluye, entre otras cosas, el comentario del mismo. El formato de salida ha sido].
+Una diferencia entre este informe y el resto es que en esta ocasión no se nos ofrecerá la opción de elegir el destino del mismo (editor, archivo, impresora), puesto que sólo lo podremos enviar a la impresora (o guardarlo como PDF si tenemos esa posibilidad desde nuestras opciones de impresión). Por lo tanto, al ejecutar el comando lo primero que aparecerá será la ventana de impresión estándar de nuestro ordenador. Una vez que cliquemos en imprimir, el resultado será similar al que vemos en la figura footnote:[El listado incluye también una primera página con información sobre el documento que incluye, entre otras cosas, el comentario del mismo.].
 
 [[img-imprimir-con-margen, Imprimir con margen]]
 .Imprimir con margen
