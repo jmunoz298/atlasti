@@ -5,8 +5,15 @@ Juan Muñoz-Justicia <juan.munoz@uab.cat>; Miguel Sahagún-Padilla <correo@xxx.m
 v 1.0, diciembre 2016: Primera versión formato adoc
 
 :figure-caption!:
+:icons: font
+
 
 == Los autores
+
+[TIP]
+====
+image:images/image-018.png[{alt="Icono crear", float="left", align="center"] Siempre que veamos este icono, podremos crear un nuevo elemento. Es decir, crearemos un Memo si lo visualizamos en el _Administrador de Memos_, crearemos un código en el _Administrador de códigos_ y así en cada caso.
+====
 
 Juan Muñoz Justicia es profesor titular del Departamento de Psicología Social de la Universidad Autónoma de Barcelona (España).
 
