@@ -1,7 +1,8 @@
 {
     "plugins": [
         "fancybox",
-        "richquotes"
+        "richquotes",
+        "callouts"
     ],
     "pluginsConfig": {}
 }
