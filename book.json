@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "fancybox",
-        "richquotes"
+        "fancybox"
     ],
     "pluginsConfig": {}
 }
