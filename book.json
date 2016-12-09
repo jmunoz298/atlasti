@@ -2,7 +2,7 @@
     "plugins": [
         "fancybox",
         "richquotes",
-        "callouts"
+        "-callouts"
     ],
     "pluginsConfig": {}
 }
