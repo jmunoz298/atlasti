@@ -5,13 +5,6 @@
 
 Para la creación de __Memos__, podemos seleccionar la opción _Crear memo libre_ desde el menú _Memos_ o, desde ese mismo menú, abrir el _Administrador de memos_ y hacer clic en el icono de creación.
 
-> #### type::title
->
-> cotent
-
-**Info** Info
-
-> **Info** Info
 
 [icon="images/image-018.png"] 
 [TIP]
