@@ -6,11 +6,7 @@ v 1.0, diciembre 2016: Primera versión formato adoc
 
 :figure-caption!:
 
-++++
-<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">
-++++
-
-:icons: font
+:icons:
 
 
 == Los autores
