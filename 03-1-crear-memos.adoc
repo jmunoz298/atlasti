@@ -1,4 +1,3 @@
-:icons: font
 
 [[crear-memos]]
 === Crear Memos
