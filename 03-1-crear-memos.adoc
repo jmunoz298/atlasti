@@ -1,3 +1,5 @@
+:icons:
+
 [[crear-memos]]
 === Crear Memos
 
