@@ -6,7 +6,7 @@
 Para la creación de __Memos__, podemos seleccionar la opción _Crear memo libre_ desde el menú _Memos_ o, desde ese mismo menú, abrir el _Administrador de memos_ y hacer clic en el icono de creación.
 
 
-[icon="images/image-018.png"] 
+[icon="images/image-018.png"]
 [TIP]
 ====
 image:images/image-018.png[{alt="Icono crear", float="left", align="center"] Siempre que veamos este icono, podremos crear un nuevo elemento. Es decir, crearemos un Memo si lo visualizamos en el _Administrador de Memos_, crearemos un código en el _Administrador de códigos_ y así en cada caso.

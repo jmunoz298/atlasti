@@ -1,12 +1,10 @@
  Hacer análisis cualitativo con ATLAS.ti 7: Manual de uso
- 
+
 Juan Muñoz-Justicia <juan.munoz@uab.cat>; Miguel Sahagún-Padilla <correo@xxx.mx>
 
 v 1.0, diciembre 2016: Primera versión formato adoc
 
 :figure-caption!:
-
-:icons:
 
 
 == Los autores
