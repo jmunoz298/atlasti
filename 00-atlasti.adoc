@@ -1,0 +1,95 @@
+= Hacer análisis cualitativo con Atlas.ti 7: Manual de uso
+Juan Muñoz-Justicia <juan.munoz@uab.cat>; Miguel Sahagún-Padilla <masahagun@correo.uaa.mx>
+v1.0, Diciembre, 2015
+:description: A story chronicling the inexplicable hazards and vicious beasts a \
+documentation team must surmount and vanquish on their journey to finding an \
+open source project's true power.
+:keywords: documentation, team, obstacles, journey, victory
+:doctype: book
+:toc: left
+:source-highlighter: highlightjs
+:listing-caption: Listing
+:icons: font
+:imagesdir: ./images
+:sectnums:
+:figure-caption: Figura
+:table-caption: Tabla
+// Uncomment next line to set page size (default is Letter)
+:pdf-page-size: A4
+//:theme: volnitsky
+//:theme: flask
+//:stylesheet: stylesheets/github.css
+//:stylesheet: stylesheets/juan.css
+:stylesheet: stylesheets/asciidoctor.css
+:y: icon:check[role="green"]
+:n: icon:times[role="red"]
+:c: icon:file-text-o[role="blue"]
+:bibtex-file: atlas.bib
+:bibtex-order: alphabetical
+:bibtex-style: apa
+:bibtex-format: latex
+:linkcss:
+:linkattrs:
+
+{author} es profesor titular del Departamento de Psicología Social de la Universidad Autónoma de Barcelona (España) - {email}.
+
+{author_2} es profesor e investigador de tiempo completo del Departamento de Psicología de la Universidad Autónoma de Aguascalientes (México) - {email_2}.
+
+[discrete]
+==== Licencia
+****
+Esta obra está licenciada bajo la Licencia Creative Commons Atribución 4.0 Internacional.
+
+Para ver una copia de esta licencia, visita
+
+http://creativecommons.org/licenses/by/4.0/
+
+[[img-cc-by, Creative Commons By]]
+image::by.png[{alt="Creative Commons By", align="center"]
+****
+
+:sectnums:
+
+<<<
+
+include::01-introduccion.adoc[]
+
+<<<
+
+include::02-empezando.adoc[]
+
+<<<
+
+include::03-documentar.adoc[]
+
+<<<
+
+include::04-documentos.adoc[]
+
+<<<
+
+include::05-segmentar.adoc[]
+
+<<<
+
+include::06-agrupar.adoc[]
+
+<<<
+
+include::07-vistas.adoc[]
+
+<<<
+
+include::08-herramientas.adoc[]
+
+<<<
+
+include::09-otras-herramientas.adoc[]
+
+<<<
+
+include::10-informes.adoc[]
+
+<<<
+
+include::11-referencias.adoc[]

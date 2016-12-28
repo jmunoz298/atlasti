@@ -1,0 +1,156 @@
+[[otras-herramientas]]
+== Otras herramientas
+
+En este capítulo veremos otras herramientas del programa, relacionadas principalmente con la configuración del mismo. No haremos ni mucho menos un repaso exhaustivo, sino que simplemente mencionaremos aquellas que nos parecen más relevantes. De todas formas, aunque las opciones por defecto suelen ser adecuadas en la mayoría de ocasiones, no está de más que el usuario haga un repaso por su cuenta.
+
+[[administracion-de-usuarios]]
+=== Administración de usuarios
+
+[[usuarios-autores-y-coautores]]
+==== Usuarios, autores y coautores
+
+Puede que al empezar a trabajar con el programa hayamos visto que en los __administradores__, en la columna de identificación del creador de citas, códigos, etc., sistemáticamente aparece como autor __Super__. Podemos sentirnos halagados por el hecho de que el programa nos considere __Super__, pero desafortunadamente se trata simplemente de la identificación del usuario por defecto, un superusuario en el sentido de que tiene todos los privilegios posibles.
+
+Si somos el único analista de una UH puede que no sea necesario realizar ningún cambio al respecto (aunque lo consideramos conveniente), pero sí que lo consideramos prácticamente imprescindible cuando el análisis se está realizando en equipo, con diferentes analistas que en algún momento procederán a unir en una única UH el trabajo de cada uno de ellos.
+
+Lo primero que tendremos que hacer, por lo tanto, será crear nuevos usuarios. Para ello, utilizarmos la opción `Herramientas > Administración de usuario > Editor de usuario`.
+
+[[img-administracion-usuarios, Administración de usuarios]]
+.Administración de usuarios
+image::image-162.png[{alt="Administración de usuarios", align="center"]
+
+En la figura <<img-edicion-usuarios>> vemos (3) que existen tres usuarios predefinidos, __Admin__, _GUEST_ y __Super__. En la zona (1) de la pantalla podemos ver los datos identificativos del usuario seleccionado y en (2) sus privilegios, que pueden ser como _Administrador_ o como usuario __Estandar__.
+
+[[img-edicion-usuarios, Edición de usuarios]]
+.Edición de usuarios
+image::image-163.png[{alt="Edición de usuarios", align="center"]
+
+Para crear un nuevo usuario, sólo tenemos que acceder al menú `Edición > Nuevo usuario` e ir completando los datos que se nos van solicitando. Una vez creado el nuevo usuario, hacer clic en el menú `Archivo > Guardar`. Esta es la opción por defecto, pero también podemos elegir `Archivo > Guardar como` si queremos guardar los cambios en un archivo diferente al que se utiliza por defecto (hermence.hdb). Si lo hacemos así, esa información no estará disponible “por defecto” al abrir el programa, y tendríamos que acceder de nuevo a esta ventana para cargarla con la opción `Archivo > Cargar base de datos`.
+
+Evidentemente podemos crear tantos usuarios como sea necesario.
+
+[[img-cambiar-usuario, Cambiar usuario]]
+.Cambiar usuario
+image::image-164.png[{alt="Cambiar usuario", float="left", align="center"]
+
+Aunque acabamos de crear un usuario, el programa seguirá identificándonos como _Super_ hasta que no realicemos el _Ingreso_ (login). Para ello, de nuevo en el menú __Herramientas__, haremos clic en `Administrador de usuario > Cambiar usuario`. La pantalla que aparece es bastante evidente, pero queremos destacar la opción __Ingreso automático__, que está activado por defecto. Si la dejamos activada, cada vez que iniciemos el programa el usuario activo será el último que haya sido elegido en esta pantalla.
+
+Otra de las posibilidades es la de definir/cambiar coautorías de la UH. Está disponible en `Administrador de usuarios > Coautorías`, y se nos ofrecen tres opciones: __Registrar coautores__, _Eliminar coautores_ y __Mostrar coautores__. Los coautores serán las personas a las que se les da permiso para acceder a la UH, pero evidentemente esta opción no tienen ningún efecto si hemos dejado activada la opción __Ingreso automático__.
+
+[[proteccion-de-acceso]]
+==== Protección de acceso
+
+Como nos habremos dado cuenta, aunque en el momento de crear nuevos usuarios se nos solicita definir una contraseña, esa información, no se nos ha solicitado en ningún momento para acceder al programa o a alguna UH. Para configurar el programa para que solicite la contraseña, es necesario realizar un cambio en el archivo __ATLAS.INI__footnote:[Recomendamos hacer una copia antes de realizar cambios en el archivo.]_,_ que está en la carpeta de datos comunes de la aplicación. En la figura podemos ver la ubicación, pero la forma más fácil de acceder a la misma es `Herramientas > Explorador > Datos de aplicación común`, que abrirá directamente esa carpeta.
+
+[[img-archivo-atlas-ini, Archivo ATLAS.INI]]
+.Archivo ATLAS.INI
+image::image-165.png[{alt="Archivo ATLAS.INI", align="center"]
+
+El cambio que tenemos que hacer en ese archivo es modificar la línea
+
+ relaxedUserManagement = enabled
+
+por
+
+ relaxedUserManagement = disabled
+
+A partir de ese momento será necesario introducir la contraseña correspondiente junto al nombre de usuario, para poder iniciar una sesión.
+
+Por defecto, cuando creamos una UH esta tendrá la propiedad de ser __Privada__, por lo que sólo tendrán acceso a la misma su creador y las personas que se hayan definido como coautoras, pero podemos cambiar ese comportamiento con la opción `Herramientas > Adnministrador de usuarios > Cambiar derechos de acceso`, que nos permitirá dar acceso a esta UH a otras personas con posibilidades de edición _Público –leer y escribir_ o sólo con derechos de visualización pero no para realizar cambios _Público– solamente lectura_. Esta última opción puede ser interesante en aquellos casos en que queremos que alguien vea nuestro trabajo (un colega o incluso un comité evaluador por ejemplo) pero que no haga cambios.
+
+
+
+[[img-solicitud-contrasena, Solicitud contraseña UH]]
+.Solicitud contraseña UH
+image::image-166.png[{alt="Solicitud contraseña UH", float="left", align="center"]
+
+En el menú _Cambiar derechos de acceso_ encontramos otra opción para proteger la UH que puede ser más práctica y con toda seguridad más sencilla que la explicada anteriormente, consistente en asignar una contraseña a la UH. Una vez asignada la contraseña, será necesario ingresarla para tener acceso a la UH. De esta forma, sólo podrán hacerlo los usuarios que la conozcan
+
+WARNING: Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que los cambios tengan efecto.
+
+Si en algún momento queremos anular la contraseña, simplemente tenemos que seleccionar alguna otra de las opciones de derechos de acceso, volver a _Privado_ por ejemplofootnote:[Se nos pedirá introducir la contraseña actual para confirmar el cambio, e igualmente que al crearla será necesario guardar la UH para que el cambio sea efectivo.].
+
+[[propiedad-de-objetos]]
+==== Propiedad de objetos
+
+Para finalizar con las opciones de administración de usuarios, otra de las posibilidades que tenemos es la de cambiar globalmente la autoría de todo lo creado hasta el momento en la UH. Esta opción puede ser práctica si hemos empezado el análisis en una UH sin crear nuestro propio usuario y queremos aparecer como autores en vez de __Super__. Para ello, utilizaremos la opción `Herramientas > Administración de usuario > Cambiar propiedad del objeto`. Nos aparecerá una ventana como la de la figura <<img-cambio-global-propiedades>> en la que, como vemos tenemos dos zonas con nombres de usuarios. A la izquierda, aparecen los usuarios que tienen objetos en propiedad. En este caso aparece únicamente __Super__. En la zona derecha de la ventana aparecen todos los usuarios definidos. Para cambiar la propiedad, sólo tenemos que seleccionar un usuario en la zona derecha y otro en la zona derecha a quien le será transferida la propiedad de todos los objetos de la UH al hacer clic en _Cambiar propiedad._
+
+[[img-cambio-global-propiedades, Cambio global de propiedad de objetos]]
+.Cambio global de propiedad de objetos
+image::image-167.png[{alt="Cambio global de propiedad de objetos", align="center"]
+
+Esta opción de cambio de propiedad afecta a *todos* los objetos de la UH. Si queremos, hacer cambios sólo para objetos concretos, podemos hacerlo con la opción `Miscelánea > Cambiar autor`, presente en prácticamente todos los _administradores._
+
+[[copiarrestarurar-la-unidad-hermeneutica]]
+=== Copiar/Restarurar la Unidad Hermenéutica
+
+Uno de los problemas a los que suelen enfrentarse los usuarios de ATLAS.ti es el de “trasladar” una UH de un ordenador a otro. Básicamente, lo que suele ocurrir es que suelen olvidarse que la UH no incluye los DPs, por lo que no copian también los DPs asociados a la misma y, al abrir la UH en otro ordenador descubren alarmados que los DPs han desaparecido.
+
+Para evitar que ocurra esto existen dos alternativas. La primera es realizar la asignación de documentos utilizando la opción <<asignar-archivos-externos, Asignar documentos externos>> y tener siempre la UH y los DPs en la misma carpeta del ordenador. De esta forma, si queremos trasladar nuestro trabajo a otro ordenador, sólo tenemos que copiar esa carpeta, que contendrá todo lo necesario para continuar nuestro análisis sin problemas.
+
+La segunda opción, es utilizar la herramienta de copia de que dispone el programa, que encontraremos en el menú `Proyecto > Guardar paquete de copia`. Posteriormente, podremos restaurar la copia así creada con la opción `Proyecto > Desempaquetar la copia`.
+
+Como vemos en la figura, el programa nos mostrará todos los DPs asignados a la UH activa para que seleccionemos aquellos que queremos incluir en la copia (en el caso de que no los querramos incluir todos). También nos informa de posibles conflictos con los documentos.
+
+[[img-crear-paquete-copia, Crear paquete de copia]]
+.Crear paquete de copia
+image::image-169.png[{alt="Crear paquete de copia", align="center"]
+
+Este sistema copia única y exclusivamente los documentos y la UH, cualquier otro archivo que pueda estar vinculado con la UH, como por ejemplo memos con documentos asociados, será ignorado.
+
+Una vez que cliquemos al botón __Crear paquete__, se creará, en la ubicación que decidamos, un arhivo de copia con el mismo nombre que la UH y con extensión _atlcb._ En la figura vemos el resultado de nuestra copia. En este caso, dado que estamos creándola para trasladar nuestro trabajo a otro ordenador, hemos guardado el archivo en una carpeta de un lápiz de memoria.
+
+[[img-archivo-copia, Archivo de copia]]
+.Archivo de copia
+image::image-171.png[{alt="Archivo de copia", align="center"]
+
+A continuación, en el otro ordenador, accedemos al menú `Proyecto > Desempaquetar la copia`. Se nos abrirá una ventana como la de la figura <<img-desempaquetar-paquete-copia>> en la que destacamos en primer lugar (1) que se nos ofrecen dos opciones de desempaquetado: _Migrar_ o _Restaurar._
+
+[[img-desempaquetar-paquete-copia, Desempaquetar paquete de copia]]
+.Desempaquetar paquete de copia
+image::image-172.png[{alt="Desempaquetar paquete de copia", align="center"]
+
+En este caso lo que queremos es evidentemente una migración, por lo que dejamos activada esa opción. En (2) se nos informa del destino de la copia (el archivo en el lápiz de memoria) y se nos da a elegir si queremos migrar o no también la UH. En (3) aparece el origen de la copia. En este caso, la carpeta _textbank._ Dado que el archivo origen se encontraba en una carpeta denominada “ControlParlamentario”, al realizar la copia se creará esa carpeta en _textbank_ en el ordenador de destino. En (4) podemos ver los DPs que se van a copiar, junto a un código de color que nos indica si hay algún conflicto para realizar la copia o no.. Y finalmente en (5) se nos muestra de forma textual el estatus de la copia.
+
+La otra opción que podemos seleccionar en (1) es __Restaurar__, es decir, sobreescribir una UH existente con datos que hemos guardado previamente, volviendo a un estado anterior de la misma. Es decir, que en este caso se utilizaría el archivo de copia como una copia de seguridad que nos permitiría solucionar posibles pérdidas de la UH en la que estemos trabajando.
+
+[[unir-unidades-hermeneuticas]]
+=== Unir Unidades Hermenéuticas
+
+En algunas ocasiones, el trabajo de análisis no lo realizará un único analista, sino que varios miembros de un equipo pueden responsabilizarse de realizar, como mínimo, un análisis inicial. Las estrategias de trabajo para realizar el trabajo de esta forma pueden ser diferentes, pero prácticamente todas implicarán que en algún momento existirán diferentes UHs que sería conveniente convertir en una única UH que contenga el trabajo de los diferentes analistas.
+
+Para poder realizar la unión, disponemos de la herramienta de fusión, en el menú `Proyecto > Fusionar con UH`.
+
+En la primera pantalla que aparecerá (figura <<img-fusionar-uh-1>>) sólo tenemos que seleccionar la UH origien y la UH destino. En este caso, como podemos ver, la UH destino es una __Nueva unidad hermenéutica__, porque en nuestro caso, en el momento de seleccionar la opción de fusión no tenemos ninguna UH activa. En el caso de que la tuviéramos, esa sería la unidad objetivo (pero creemos que es mejor realizar la fusión de las diferentes UHs en una nueva).
+
+[[img-fusionar-uh-1, Fusionar UHs: Primer paso]]
+.Fusionar UHs: Primer paso
+image::image-173.png[{alt="Fusionar UHs: Primer paso", align="center"]
+
+Una vez que hemos seleccionado un origen, y clicamos en __Siguiente__, nos aparecerá una nueva ventana en la que tenemos que tomar toda una serie de decisiones en función de la estrategia de trabajo que hayamos elegido.
+
+[[img-fusionar-uh-2, Fusionar UHs: Segundo paso]]
+.Fusionar UHs: Segundo paso
+image::image-174.png[{alt="Fusionar UHs: Segundo paso", align="center"]
+
+En la parte izquierda de la pantalla (1) nos aparecen diferentes posibles estrategias de trabajo en equipo. Las opciones de fusión que aparecen en (2) se ajustarán, en función de la estrategia que seleccionemos, a unos valores predeterminados que podremos modificar si no se ajustan a nuestras necesidades.
+
+Como vemos, las estrategias predefinidas se basan en si los DPs en las diferentes UHs que queremos fusionar son los mismos o diferentes, y lo mismo para el caso de los códigos.
+
+En la práctica, esto significa que nuestra estrategia de análisis en equipo ha podido implicar que diferentes analistas trabajan de forma simultánea con los mismos DPs, es decir, todos ellos analizan los mismos datos, o que cada uno de los analistas ha trabajado con una parte de los datos (DPs) de forma independiente. Además, independientemente de lo anterior, hemos podido decidir que cada analista irá creando códigos a medida que avanza su análisis o que todos ellos parten de una lista de códigos comunes.
+
+Por nuestra parte, consideramos que una buena estrategia para el análisis en equipo es optar por la opción _Diferentes DPs – Mismos códigos_.
+
+En cuanto a los códigos, podríamos pensar que si nuestra análisis es de tipo inductivo evidentemente tenemos que escoger la opción códigos diferentes, pero en la práctica esto no es así, puesto que una opción perfectamente válida es partir de una lista de códigos previamente consensuada por el equipo de investigación a partir de la lectura previa de los datos (lectura previa que teóricamente deberíamos hacer en cualquier caso). Se trata de un trabajo que requiere la inversión de una buena cantidad de tiempo, pero que entendemos que se trata de una inversión que será provechosa. Puede ser interesante al respecto leer el artículo de citenp:[macqueen1998].
+
+Una vez que hemos seleccionado la estrategia, repasaremos las opciones que aparecen en (2) en la figura <<img-fusionar-uh-2>>. Como vemos, para cada uno de los elementos de la UH que podemos fusionar, podemos elegir tres opciones: __Agregar__, _Unificar_ o _Ignorar._
+
+_Agregar_ un elemento significa que se añadirá a la UH destino aunque exista en ella otro con el mismo nombre. En este caso, el objeto origen será renombrado con el mismo nombre que el original, pero añadiéndole un número. Por ejemplo, si con la estrategia que proponemos elegimos _Agregar_ códigos (una opción que no está marcada por defecto), dado que las diferentes unidades tienen los mismos códigos, tendríamos para cada uno de los códigos tantas versiones como UHs estemos fusionando (__Evasion__, __Evasion_1__, __Evasion_2.__,...).
+
+_Unificar_ implica que si un elemento con el mismo nombre existe en la UH origen y en la destino, se mantendrá el de la UH destino, heredando los atributos del elemento de la UH origen.
+
+Evidentemente, la opción _Ignorar_ implica que ese tipo de elementos no serán añadidos a la UH destino.
+
+En principio, las opciones por defecto para cada una de las estrategias deberían funcionar de forma adecuada, pero podemos cambiarlas. Por ejemplo, podemos decidir _Agregar_ los _Memos_ si consideramos (nosotros lo creemos así) que es conveniente que todos los que hayan creado los diferentes analistas tienen que figurar en la UH final.
+
+Una vez que hemos comprobado todas las opciones, podemos hacer clic en __Terminar__. Este proceso tendremos que realizarlo tantas veces como UHs diferentes tengamos.

@@ -1,0 +1,221 @@
+[[vistas-de-red]]
+== Vistas de Red
+
+Las Vistas de Red son uno de los componentes de ATLAS.ti que más atraen al usuario novel, al que le puede impresionar la posibilidad de realizar unos “bonitos dibujos” que muestren parte de su análisis. Sin embargo, la expectativa de generar diagramas para incluir en un informe o publicación —bonitos dibujos— nos llevaría a desaprovechar gran parte de lo que las vistas de red pueden aportar al proceso analítico. Además, si lo que nos interesa son diagramas acabados, podemos hacerlos mejor con otros programas. Desde nuestro punto de vista, lo que es más relevante de las _vistas de red_ es que son una representación gráfica _operable_ de nuestro trabajo conceptual que nos permitirá pensar sobre nuestro análisis y realizar parte de nuestro trabajo conceptual.
+
+Para aclarar lo que queremos decir, recurriremos de nuevo a Strauss y Corbin quienes hablan de los _diagramas_ como “mecanismos visuales que dibujan las relaciones entre los conceptos.” cite:[strauss2002(236)] y los sitúan al mismo nivel de importancia que los memorandos (los desarrollan de forma conjunta en el mismo capítulo). Strauss y Corbin plantean diferentes formas de diagramación (por ejemplo matrices) y a diferentes niveles, y la que más se asemeja a las _redes_ en ATLAS.ti es la que vinculan con la codificación selectiva
+
+[quote]
+____
+(…) el mismo acto de hacer un diagrama integrador final le ayudará al analista a redondear las relaciones y a descubrir las fallas en la lógica. Al final, es importante tener una descripción clara y gráfica de la teoría, que sintetice los principales conceptos y sus conexiones. cite:[strauss2002(258)]
+____
+
+Otros autores hacen planteamientos similares a los de Strauss y Corbin cite:[miles1994, patton2002, vaismoradi2013, verdinelli2013], pero desde nuestro punto de vista la propuesta que más se acerca a las _vistas de red_ de ATLAS.ti es la que realiza Jennifer Attride-Stirling, quien plantea las _redes temáticas_ como, “web-like illustrations (networks) that summarize the main themes constituting a piece of text.” cite:[attride_stirling2001(386)]. En la figura podemos ver un ejemplo de red temática en la que se están relacionando diferentes niveles de __temas__, y que si utilizamos “lenguaje” ATLAS.ti, podríamos interpretar como la representación de diferentes _códigos_ (en la práctica, un _código_ puede ser un tema).
+
+[[img-redes-tematicas, Redes temáticas Attride-Stirling, 2001, p.388]]
+.Redes temáticas Attride-Stirling, 2001, p.388
+image::image-112.png[{alt="Redes temáticas Attride-Stirling, 2001, p.388", align="center"]
+
+Las _Redes_ nos permitirán no sólo representar gráficamente las relaciones creadas entre los diferentes componentes que forman parte de la UH, sino que serán también un espacio donde podremos crear nuevas relaciones entre componentesfootnote:[En la práctica, la forma más fácil de crear relaciones entre elementos es desde el editor de __Vistas de Red__.] o incluso crear nuevos componentes (códigos, anotaciones y familias). Esto significa que podemos considerar a las _Redes_ no sólo como el espacio para la representación del trabajo realizado, sino como un espacio para *desarrollar y refinar* dicho trabajo.
+
+Ahora que quizás tenemos una idea más clara de qué son y de cuan importantes son las __redes__, veamos cómo podemos trabajar con ellas en ATLAS.ti.
+
+[[la-pantalla-de-vistas-de-red]]
+=== La pantalla de Vistas de Red
+
+La pantalla de las _Vistas de Red_ tiene características similares a la pantalla principal del programa, en el sentido que es un espacio de trabajo con entidad propia. A continuación, pasaremos a describir sus principales zonas.
+
+[[img-pantalla-vista-red, Pantalla de Vista de Red]]
+.Pantalla de Vista de Red
+image::image-113.png[{alt="Pantalla de Vista de Red", align="center"]
+
+1.  Como en el resto de pantallas, tenemos información sobre el título de la red.
+2.  Un conjunto de menús que permitirán realizar todas las acciones relacionadas con las redes.
+3.  Barra de iconos que ofrecen acceso a las funciones principales.
+4.  Espacio de visualización y edición en el que podremos representar cualquiera de los componentes de la UH (principalmente códigos, pero también citas, DPs y memos) y las relaciones entre ellos. En este espacio los diferentes componentes recibirán el nombre genérico de __nodos__, mientras que las relaciones entre ellos recibirán el nombre genérico de __vínculo__.
+
+[[creacion-de-vistas-de-red]]
+=== Creación de Vistas de Red
+
+Para la creación de las _Redes_ podemos utilizar diferentes estrategias.
+
+Podemos, por ejemplo, empezar a crear una _Red_ partiendo “desde cero”, es decir, una red que de entrada no incluirá ningún nodo y en la que iremos incluyendo progresivamente nodos y relaciones. Otra estrategia consistiría en crear la _Red_ a partir de información existente en nuestra UH, es decir, crear una red “focalizada” en algún elemento y que iremos completando y modificando.
+
+Consideramos que la mejor estrategia es la segunda, pues dado que entendemos las _Redes_ como la representación de un trabajo conceptual previo, entendemos que el punto de partida debe ser ese trabajo conceptual (que implica la existencia previa de nodos y relaciones) que podemos ir desarrollando y ampliando posteriormente en la __vista de red__.
+
+[[redes-vacias]]
+==== Redes vacías
+
+Para la creación de una red de este tipo, utilizaremos la opción `Redes > Nueva vista de red` de la pantalla principal de ATLAS.ti.
+
+Se nos pedirá que demos un nombre a la nueva red y, a continuación se abrirá la pantalla principal de redes, en la que podremos ir añadiendo la información que consideremos oportuna (ver <<importar-nodos>>). La forma de trabajar a partir de ese momento no es excesivamente diferente a como lo haríamos con una red focalizada, por lo que remitimos al lector al siguiente apartado.
+
+[[redes-focalizadas]]
+==== Redes focalizadas
+
+La creación de una red focalizada implicará siempre la selección previa de algún elemento que se convertirá en el nodo inicial de la red. Los elementos a partir de los que podemos crear las redes focalizadas son prácticamente cualquiera de los que hemos creado anteriormente: DPs, citas, códigos y memos, pero también las familias.
+
+Aunque existen otras posibilidades, la forma más fácil de creación es desde cualquiera de los __administradores__. En todos los que permiten la creación de redes focalizadas, encontramos un icono que, una vez seleccionado algún elemento, abrirá la pantalla de redes y lo representará en la misma.
+
+En esa primera representación se incluirá el elemento seleccionado, el resto de elementos con los que tenga una relación directa, y las relaciones que existan entre los elementos representados.
+
+Ilustraremos la forma de trabajo habitual representando la red _tipo de preguntas_ de citenp:[rasiah2010].
+
+En primer lugar, seleccinamos el código _QuestionType_ en el _administrador de códigos_ y clicamos en el icono de __Vista de red__. Inmediatamente se abrirá una pantalla de red con la representación del código y los códigos con los que está relacionado: __Q Y/N__, _Q Disjunctive_ y __Q Wh__. En la figura podemos ver cómo aparecen representadas las relaciones, en este caso del tipo _es un_ que habíamos
+definido previamente.
+
+[[img-red-question-type-1, Vista de red Question Type. Primer paso]]
+.Vista de red Question Type. Primer paso
+image::image-116.png[{alt="Vista de red Question Type. Primer paso", align="center"]
+
+En estos momentos lo que tenemos es la representación de un código y sus relaciones directas con otros códigos, pero podríamos expandir esta red para representar también las relaciones directas de esos otros códigos. Para ello, en primer lugar, lo que haremos será pedirle al programa que nos muestre, junto a la etiqueta de código, información sobre sus relaciones, para poder saber si están representadas. Haremos esto con la opción de menú `Presentación > Presentar etiqueta ampliada de código`.
+
+[[img-etiqueta-ampliada, Etiqueta ampliada]]
+.Etiqueta ampliada
+image::image-117.png[{alt="Etiqueta ampliada", align="center"]
+
+En la figura podemos ver cómo la etiqueta del código _Q Y/N_ incluye la información del número de citas (1) y del número de relaciones con otros códigos (4). Dado que el número total de líneas que parten o llegan al nodo es sólo una, sabemos que sólo hay representada una de las cuatro relaciones de ese código, por lo que el siguiente paso que daremos será el de representarlas también.
+
+Para representar las relaciones de un nodo presente en la red, tenemos que seleccionar el nodo y el menú `Nodos > Importar vecinos`. El resultado de realizar esta operación sobre el código _Q Y/N_ es el que podemos ver en la figura siguiente, se han importado los códigos relacionados con _Q Y/N_ y al mismo tiempo se han representado las relaciones con ese código y con los otros previamente representados en la red con los que también tienen relaciones.
+
+[[img-red-question-type-2, Vista de red Question Type. Importar códigos vecinos]]
+.Vista de red Question Type. Importar códigos vecinos
+image::image-118.png[{alt="Vista de red Question Type. Importar códigos vecinos", align="center"]
+
+Dado que la visualización es algo confusa, lo siguiente que haremos es pedirle al programa que ajuste de forma automática la representación, con la opción de menú `Diseño > Diseño semántico`. Esta opción representará los nodos en función de las características definidas previamente en el __editor de relaciones.__footnote:[Una de las características de las relaciones es la “dirección de la relación”, que puede ser: de izquierda a derecha (y viceversa) o de arriba hacia abajo (y viceversa).] Probablemente cuando tengamos representados un número mínimamente elevado de nodos será necesario también realizar algún ajuste manual de posición.
+
+Realizaríamos esta misma operación para el resto de nodos, es decir, si el número de relaciones que indica la etiqueta es menor que el número de relaciones representadas, procederíamos a importar a sus __vecinos__.
+
+[TIP]
+====
+Este proceso no siempre tenemos que llevarlo al límite, es decir, a intentar representar todas y cada una de las relaciones de todos los códigos, puesto que podría llegar un momento en que la representación incluiría demasiados códigos como para ser práctica.footnote:[En la práctica, la forma más fácil de crear relaciones entre elementos es desde el editor de networks]
+====
+
+El resultado final en nuestro caso es el que aparece en la siguiente figura, una representación completa del modelo de citenp:[rasiah2010].
+
+[[img-red-question-type-3, Red Question Type]]
+.Red Question Type
+image::image-119.png[{alt="Red Question Type", align="center"]
+
+En el ejemplo que hemos visto hemos utilizado únicamente códigos como _nodos_ de la red, pero evidentemente podemos crear también una red partiendo de una cita. En la figura <<img-red-desde-cita>> vemos la red que hemos creado a partir de la cita 2:7. Al tratarse de una red focalizada en una cita, se representan automáticamente las citas y códigos con las que está relacionada. En nuestro ejemplo, sólo hemos expandido la red importando los _vecinos_ de la cita 3:9 (el códgio __Erkoreka__)_,_ y los de la cita 2:14 (el código __EntidadesFinancieras__). Una vez que tenemos representados estos elementos, podemos “leer” la red más o menos de la siguiente forma: el presidente _Zapatero_ realiza dos afirmaciones sobre _Economía_ que se contradicen entre sí (2:7 y 2:14), en una de ellas (2:7) está criticando algo expuesto (2:2) por el congresista __Erkoreka__.
+
+[[img-red-desde-cita, Red desde cita]]
+.Red desde cita
+image::image-120.png[{alt="Red a partir de cita", align="center"]
+
+[[importar-nodos]]
+==== Importar Nodos
+
+Tanto si partimos de una _red vacía_ como si lo hacemos de una _focalizada_, puede que en algún momento deseemos añadir algún nodo que no esté vinculado con ninguno de los representados en ese momento (y por lo tanto no podemos utilizar la opción de __importar vecinos__). Podemos hacerlo de dos formas. La primera, consiste en utilizar la opción `Nodos > Importar nodos...`, que abrirá una ventana como la de la figura <<img-importar-nodos>>, en la que podemos ver que podemos elegir, en la lista desplegable, el tipo de nodo que queremos importar. Una vez seleccionado el tipo, podemos seleccionar el/los nodos que queremos representar en la red. Podemos hacer exactamente lo mismo, importar nodos de cualquier tipo, arrastrándolos desde cualquiera de los __administradores__.
+
+[[img-importar-nodos, Importar nodos]]
+.Importar nodos
+image::image-121.png[{alt="Importar nodos", align="center"]
+
+Al realizar la importación, aparecerá representado en la red únicamente el nodo seleccionado (no se importarán los posibles nodos con los que esté relacionado), aunque si el nodo que importamos tiene definida previamente alguna relación con algún nodo presente en la red, ésta quedará representada.
+
+Como hemos visto en la figura <<img-importar-nodos>>, una de las opciones que tenemos es la de importar __Vistas de red__. Al seleccionar esta opción se importará como nodo la red que hayamos seleccionado, pero únicamente como nodo, no se importará la _red_ como tal.
+
+En la figura <<img-importar-red>> podemos ver un ejemplo en el que tenemos representado el códgio __Q Disjunctive__, que incluye ocho relaciones de las cuales sólo están representadas cuatro. En esta ocasión hemos decidido no continuar expandiendo en esa _vista de red_ todas las relaciones de ese código, pero dada su relevancia hemos considerado necesario crear una nueva _red_ focalizada en ese código. Una vez creada la nueva _Vista de red_ __Q Disjunctive__, hemos importado el nodo como una forma de informarnos de que tenemos que explorar también esa red, y de llegar de una forma fácil a la misma haciendo clic con el botón derecho sobre el nodo y seleccionando _Abrir red_. Podríamos hacer algo similar haciendo clic sobre el código, pero mientras en el primer caso se abriría una _vista de red_ existente (con las posibles ediciones que hayamos podido hacer en la misma), en el segundo se abriría una nueva vista de red en la que se representaría el código y sus relaciones.
+
+[[img-importar-red, Importar red]]
+.Importar red
+image::image-122.png[{alt="Importar red", align="center"]
+
+Aún así, si en algún momento nos interesa incluir en una _red_ los nodos ya representados en otra, podemos hacerlo con la opción `Nodos > Fusionar vista de red`.
+
+[[importar-nodos-que-co-ocurren]]
+==== Importar nodos que “co-ocurren”
+
+En el capítulo Herramientas de exploración, en el apartado <<concurrencias, Concurrencias>>, veremos que ATLAS.ti ofrece herramientas para explorar las _co-ocurrencias_ de códigos, es decir, aquellos códigos que, sin haber sido relacionados explícitamente por parte del analista, tienen una relación en el sentido de que _co-ocuuren_ en alguna cita. Estas _relaciones_ las podemos visualizar en el margen derecho de la pantalla principal, puesto que veremos varios códigos relacionados con una misma cita (o con citas que se solapan entre sí), pero se trata de una forma muy simple de visualización, que no nos permite visualizar el conjunto de _co-ocurrencias_ de un código. Como decíamos, más adelante veremos otras herramientas que nos pueden ayudar a ello, pero por el momento podemos “ver” también las _co-ocurrencias_ en las __vistas de red__. Para ello, utilizaremos la opción `Nodos > Importar códigos co-ocurrentes`.
+
+Podríamos, por ejemplo, crear una _red_ focalizada en el código _Zapatero_ e importar sus co-ocurrencias, con lo que obtendríamos el conjunto de códigos que aparecen, en todos los DPs, junto al código _Zapatero._
+
+[[crear-eliminar-nodos]]
+==== Crear/Eliminar Nodos
+
+Hasta el momento, hemos visto la forma de incluir en la _red_ elementos ya existentes, pero si consideramos que las _vistas de red_ no son un simple dibujo, sino una herramienta de trabajo, es lógico que también podamos crear algunos elementos directamente en ellas. Lo podemos hacer con la opción `Nodos > Nuevo nodo`, que nos ofrecerá la opción de crear nuevos códigos y nuevos memos. En ambos casos se solicitará que nombremos el elemento creado y este aparecerá representado en la red. En el caso de los memos lo único que habremos creado de esta forma es la etiqueta de memo, por lo que es conveniente hacer clic con el botón derecho sobre el nodo para seleccionar la opción _Editar Memo_.
+
+Aunque no aparezca como opción del menú, también podemos crear citas en la ventana de redes. En este caso, lo que haremos será, en la ventana principal de ATLAS.ti, seleccionar el fragmento de texto que queremos convertir en cita y arrastrarlo hasta la ventana de redes.
+
+Insistimos que lo que hacemos en la ventana de redes es trabajo conceptual con las mismas características que el que podemos hacer en la ventana principal del programa. Por lo tanto, todo lo que hagamos en la ventana de redes quedará reflejado en la pantalla principal, es decir, en nuestra UH. Si creamos un código nuevo, este aparecerá en nuestro __administrador de códigos__, y lo mismo con el resto de elementos.
+
+Esta advertencia es importante sobre todo si lo que hacemos, en vez de crear elementos, es eliminarlos, pues estos no sólo desaparecerán de la __vista de red__, sino que desaparecerán también de la UH.
+
+Para eliminar un nodo, sólo hay que hacer clic sobre él con el botón derecho, y seleccionar la opción _Borrar_. Pero como decimos, esto lo eliminará *a todos los efectos* de la UH.footnote:[Y recordemos que el borrado de un elemento de la UH no puede deshacerse.] Si lo que queremos es simplemente que no aparezca representado en la red, la opción que tenemos que seleccionar es _Eliminar de la vista_.
+
+[[definir-relaciones]]
+==== Definir relaciones
+
+Si podemos crear nodos, es lógico que también podamos crear relaciones en la misma __vista de red__, por ejemplo, cuando tenemos representados códigos que no están relacionados entre sí (porque son el resultado de utilizar las opciones de importar _vecinos_ o __co-ocurrencias)__. Una vez que representamos los códigos en la red puede que veamos con más claridad la conveniencia de crear relaciones entre algunos de ellos que cuando trabajábamos en la pantalla principal (de forma “textual”)
+
+[[img-crear-relacion-origen, Crear relación: Origen]]
+.Crear relación: Origen
+image::image-124.png[{alt="Crear relación: Origen", align="center"]
+
+La forma más fácil de crear las relaciones es seleccionar el nodo que queremos que sea el punto de partida de la relación. Como vemos en la figura <<img-crear-relacion-origen>>, en la esquina superior izquierda del nodo aparece un círculo rojo. Si situamos sobre él el cursor y lo arrastramos, veremos que se irá dibujando una línea que podemos desplazar hacia otros nodos (sin soltar el botón izquierdo del ratón). Si soltamos el botón del ratón sobre otro nodo, nos aparecerán, como podemos ver en la figura <<img-crear-relacion-destino>>, las opciones de creación de relación que habíamos visto anteriormente.
+
+[[img-crear-relacion-destino, Crear relación: Destino]]
+.Crear relación: Destino
+image::image-125.png[{alt="Crear relación: Destino", align="center"]
+
+De la misma forma que con los __nodos__, las relaciones así creadas forman parte de la UH, y de la misma forma que con los __nodos__, si las eliminamos de la _vista de red_ quedarán eliminadas de la UH.footnote:[Evidentemente esto ocurrirá con cualquier relación y con cualquier nodo, con los que hemos creado directamente en la red o con los que existían previamente.] Pero a diferencia de los __nodos__, que podíamos __quitar de la vista__, las relaciones, si existen, no pueden no ser representadas (sería una distorsión de los datos).
+
+Tenemos otras opciones de edición de las relaciones. En el caso de las no simétricas, podemos cambiar la dirección de la relación haciendo clic con el botón derecho del ratón sobre la etiqueta de la relación y seleccionando `Voltear vínculo`. En la siguiente figura, podemos ver que también podemos editar el comentario de la relación e incluso cambiar el tipo de relación.
+
+[[img-editar-relacion, Editar relación]]
+.Editar relación
+image::image-126.png[{alt="Editar relación", align="center"]
+
+[[otras-acciones]]
+=== Otras acciones
+
+Además ce crear nuevos nodos y relaciones, desde la pantalla de _redes_ también podemos realizar un par de acciones más relacionadas con los códigos: crear nuevos códigos uniendo entre sí códigos existentes, y crear nuevas familias de códigos.
+
+[[fusionar-codigos]]
+==== Fusionar Códigos
+
+Anteriormente habíamos visto la posibilidad de crear nuevos códigos fusionando códigos existentes. Esta misma acción la podemos realizar en la pantalla de redes de la siguiente forma:
+
+1) En primer lugar, tenemos que seleccionar uno o varios códigos “origen”.footnote:[La selección múltiple puede realizarse haciendo clic en varios nodos mientras se mantiene pulsada la tecla "Ctrl" o bien, si la posición de los nodos lo permite, dibujando con el ratón un rectángulo que los englobe.] En el ejemplo de la siguiente figura, hemos decidido prescindir de los códigos _Ev Substantial_ y __Ev Subtle__, pues consideramos que no es necesaria una codificación tan exhaustiva y queremos fusionarlos con el código __Ev Medium__. Los seleccionamos por lo tanto, como _códigos origen_ (1 en <<img-redes-fusionar-codigos>>).
+
+[[img-redes-fusionar-codigos, Redes: Fusionar códigos]]
+.Redes: Fusionar códigos
+image::image-127.png[{alt="Redes: Fusionar códigos", align="center"]
+
+2) Una vez seleccionados los nodos, utilizaremos la opción de menú `Nodos > Fusionar códigos`. Esto hará que aparezca una línea con punto de partida en los _códigos origen_ que tenemos que dirigir hacia el _código destino_ (2 en la figura).
+
+Como vemos en (3), los _códigos origen_ desaparecerán (no sólo de la __red__, sino de la UH) y sus _citas_ pasarán a formar parte del _código destino_ que, como vemos, antes de la fusión tenía sólo una cita y tras la fusión tiene nueve. El código resultante incluirá, además, los comentarios de los códigos origen.
+
+[[crear-familias]]
+==== Crear Familias
+
+En el ejemplo anterior, en el que hemos utilizado los códigos relacionados con __Evasión__, vemos que teníamos una _jerarquía_ de códigos, con diferentes niveles de evasión, relacionados con un código __Evasion__. Como hemos vistgo anteriormente, esta es una de las posibilidades que tenemos de agrupar códigos, la otra es la creación de familias. Si en este momento constatamos la necesidad de disponer, además de las relaciones existentes, de una familia para los distintos niveles de __Evasion__, podemos crearla seleccionando los cuatro códigos con los diferentes nivels y haciendo clic en la opción de menú `Especiales > Generar familia > Crear familia de código`. Se abrirá una nueva ventana para que demos nombre a la familia (se nos sugerirá como nombre el mismo que tenga la red) y al hacer clic en _Ok_ se creará la familia.
+
+Como habremos visto al seleccionar el menú, podemos realizar esta misma
+operación de creación de familias con documentos primarios y con memos.
+
+[[visualizacion]]
+=== Visualización
+
+El editor de _redes_ ofrece diferentes opciones para modificar la forma en que se representarán los nodos y sus relaciones. Estas opciones están disponibles en el menú _Diseño_ y en el menú __Presentación__. Dada la gran cantidad de opciones, no nos es posible describirlas aquí, por lo que nuevamente será el lector quien tendrá que explorarlas.
+
+[[guardar]]
+=== Guardar
+
+Una vez creada, podemos guardar la red utilizando la opción `Red > Guardar o Red > Guardar como`. En este último caso, o si se trata de una nueva red, se nos pedirá un nombre.
+
+NOTE: De la misma forma que hemos comentado en ocasiones anteriores, la etiqueta de la red debe ser descriptiva del contenido, pero no es necesario (ni conveniente) que sea excesivamente larga. Una vez más, la descripción amplia del contenido, junto con cualquier otra información que consideremos necesaria, podemos incluirla en un _comentario_ utilizando la opción `Red > Editar Comentario`.
+
+WARNING: Es importante tener en cuenta que al crear una red hemos hecho un cambio en la UH, y por lo tanto *también* será necesario guardar los cambios en la misma, pues en caso contrario la red desaparecerá.
+
+Esta forma de guardar la red, como parte de la UH, evidentemente es necesaria para no perder nuestro trabajo, pero tenemos además la posibilidad de guardarla de forma externa como archivo gráfico, lo que posteriormente nos permitiría incluirla en un informe para ilustrar de una forma gráfica nuestro trabajo conceptual. Utilizaremos para ello la opción de menú `Red > Guardar como archivo gráfico`.
+
+Aunque no sea excesivamente recomendable, otra forma de incluir una red en un informe consiste en utilizar la opción `Red > Copiar al portapapeles`. Evidentemente, en ese caso lo que tendremos que hacer posteriormente es acceder al programa en el que queremos incluirla y seleccionar la opción __pegar__. Si nuestro informe lo estamos realizando (como es lógico) con un programa de procesador de textos, puede que nos “asustemos” al comprobar que el resultado de _pegar_ es una representación textual de la red como la que aparece en la figura siguiente.
+
+[[img-img-representacion-textual-red, Representación textual red]]
+.Representación textual red
+image::image-128.png[{alt="Representación textual red", align="center"]
+
+
+Para insertar la red tal y como la vemos en ATLAS.ti, tendremos que utilizar la opción `Pegado especial` (o el equivalente según el programa de edición que estemos utilizando) y elegir, entre los formatos que se proponen, alguno gráfico, como por ejemplo __Mapa de bits independiente del dispositivo__.

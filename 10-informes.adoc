@@ -1,0 +1,88 @@
+[[informes]]
+== Informes
+
+
+El trabajo del analista implicará pasar un número considerable de horas delante de la pantalla de un ordenador, pero también la necesidad de visualizar, preferiblemente en formato papel, los resultados de su análisis. Anteriormente, en el apartado dedicado a la <<visualizacion-de-las-citas-de-un-codigo, Visualización de las citas de un código>>, comentábamos la necesidad de realizar revisiones o depuraciones de los contenidos de los códigos, es decir, revisar si las citas que incluyen son efectivamente las adecuadas para ese código. Este sería sólo uno de los múltiples casos en que nos puede ayudar las múltiples posibilidades de informes que nos ofrece ATLAS.ti.
+
+Dado el gran número de posibilidades que nos ofrece el programa en cuanto a la elaboración de informes, sería excesivamente tedioso exponerlas todas aquí, por lo que preferimos mostrar aquí sólo los principios generales de creación de informes y algunos de los que consideramos más interesantes. Dejamos a la iniciativa del lector explorar todas las posibilidades.
+
+Prácticamente todos los menús del programa incluyen una opción __Imprimir__, que ofrecerá a su vez diferentes formatos de listados relacionados con el tipo de menú que hayamos seleccionado. A título de ejemplo, en la siguiente figura vemos las opciones del menú _Imprimir_ para el caso de los DPs.
+
+[[img-tipos-informes-dp, Tipos de informes de DPs]]
+.Tipos de informes de DPs
+image::image-175.png[{alt="Tipos de informes de DPs", align="center"]
+
+También podemos encontrar el menú _Imprimir_ en muchos de los __administradores__, y en algunos de ellos también un icono de impresora que da acceso a algunas opciones particulares.
+
+Podemos empezar, por ejemplo solicitando un informe con la lista de DPs de nuestra UH. Por lo tanto, seleccionaremos `Documentos > Imprimir > Lista de documentos`. Lo primero que aparecerá será una ventana en la que se nos preguntará si queremos incluir en el informe los comentarios de los documentosfootnote:[Esta ventana no aparecerá siempre, sólo lo hará cuando el elemento que queremos listar tiene información de ese tipo. Por ejemplo, si pedimos un listado de citas de un código pero ninguna cita tiene asociados comentarios o memos ni tiene hypervínculos, esta pantalla no aparecerá.]. Esto puede ocurrir también en otros informes, e incluso se nos puede preguntar sobre la inclusión de alguna otra información.
+
+Una vez que hemos contestado esas preguntas, aparecerá una nueva ventana (<<img-informes-enviar-resultado>>) en la que tendremos que especificar el destino del informe: __Editor__, _Impresora_ o _Archivo_ (o la opción __Archivo & EJECUTAR__, que guardará en un archivo y mostrará en pantalla). Recomendamos utilizar la opción __Editor__, puesto que podremos ver el informe en pantalla (en un editor de texto) para comprobar que es efectivamente el tipo de informe que deseamos, y posteriormente, utilizando las funcionalidades del editor, podemos guardar el archivo y/o imprimirlo.
+
+
+[[img-informes-enviar-resultado, Informes: enviar resultado a]]
+.Informes: enviar resultado a
+image::image-176.png[{alt="Informes: enviar resultado a", align="center"]
+
+En la siguiente figura podemos ver el resultado del informe anterior. De entrada, podemos apreciar que los informes no son sofisticados estéticamente, son únicamente archivos de texto que cumplen únicamente la función de ser archivos de trabajo.
+
+[[img-listado-dp, Listado de Documentos primarios]]
+.Listado de Documentos primarios
+image::image-177.png[{alt="Listado de Documentos primarios", align="center"]
+
+También podemos apreciar que el informe nos ofrece una serie de informaciones adicionales. En este caso, en primer lugar, se nos informa que el informe se ha ejecutado con un filtro activo __Filtro: Texto__, ya que hemos aplicado un filtro en base a una de las familias que habíamos creado previamente, dado que sólo queremos información de los documentos de texto (no queremos que se incluyan los de audio ni los de vídeo). Esto significa que, además de las múltiples posibilidades de informes de que disponemos, podemos “afinar” los resultados que obtenemos utilizando __filtros__, puesto que al activar un filtro todas las operaciones que se realizan a continuación afectan sólo a los elementos activos.
+
+A continuación se nos ofrece datos informativos sobre la UH en la que hemos ejecutado el listado.
+
+Y finalmente, aparece el listado, en el que de nuevo, para cada uno de los elementos, aparece información contextual, las familias a las que pertenece y el comentario que habíamos decidido incluir en el primer paso de generación del informe.
+
+Otro posible informe interesante es el que podemos hacer de las citas de determinados códigos para, como comentábamos realizar una depuración de las mismas. Para ello, una vez que hayamos seleccionado el código del que queramos obtener el listado, utilizaremos la opción `Imprimir > Citas de código seleccionado` del menú _Códigos_.
+
+[[img-listado-codigos, Listados de Códigos]]
+.Listados de Códigos
+image::image-178.png[{alt="Listados de Códigos", align="center"]
+
+Como vemos en la figura <<img-listado-codigos>>, podemos solicitar una gran variedad de tipos de informes relacionados los códigos, entre los que el lector debería explorar como mínimo los de _Códigos con comentarios_ y _Tabla códigos-documentos primarios._
+
+Las opciones de informes relacionados con códigos también están disponibles en el __administrador de códigos__, en el menú __Imprimir__. En este administrador encontraremos además un icono de impresora que permitirá acceder a una ventana especial de generación de informes.
+
+[[img-ventana-opciones-informes, Ventana de opciones de informes de códigos]]
+.Ventana de opciones de informes de códigos
+image::image-179.png[{alt="Ventana de opciones de informes de códigos", align="center"]
+
+[[documento-con-margen]]
+=== Documento con margen
+
+Una de las opciones de impresión más interesantes es la que nos permite imprimir exactamente la visualización que tenemos en la pantalla principal del programa, es decir, imprimir no sólo el documento, sino también el margen derecho, con la representación de citas, códigos, hiperenlaces…
+
+Esta opción puede sernos especialmente práctica si queremos realizar una revisión _offline_ de nuestro trabajo, lejos de la pantalla del ordenador, o incluso si queremos que esa revisión la realice alguien que no dispone del programa.
+
+Accederemos a este informe con la opción `Documentos > Imprimir > Imprimir con márgenes`.
+
+Una diferencia entre este informe y el resto es que en esta ocasión no se nos ofrecerá la opción de elegir el destino del mismo (editor, archivo, impresora), puesto que sólo lo podremos enviar a la impresora (o guardarlo como PDF si tenemos esa posibilidad desde nuestras opciones de impresión). Por lo tanto, al ejecutar el comando lo primero que aparecerá será la ventana de impresión estándar de nuestro ordenador. Una vez que cliquemos en imprimir, el resultado será similar al que vemos en la figura footnote:[El listado incluye también una primera página con información sobre el documento que incluye, entre otras cosas, el comentario del mismo.].
+
+[[img-imprimir-con-margen, Imprimir con margen]]
+.Imprimir con margen
+image::image-180.png[{alt="Imprimir con margen", align="center"]
+
+Si el resultado de la impresión del informe no es el deseado, podemos realizar cambios con la opción `Herramientas > Preferencias > Preferencias generales`, en la pestaña Impresión de DP. Como podemos ver en la figura , lo que se nos ofrece es poco más que la posibilidad de cambiar los márgenes.
+
+[[img-preferencias-impresion-margen, Preferencias de impresión con margen]]
+.Preferencias de impresión con margen
+image::image-181.png[{alt="Preferencias de impresión con margen", align="center"]
+
+[[informes-xml]]
+=== Informes XML
+
+Como hemos visto, los informes anteriores son “espartanos”, primando la funcionalidad a la estética, pero tenemos también la posibilidad de obtener informes más sofisticados con la opción `Herramientas > Exportar > Explorador XML`.
+
+Al utilizar esta opción, se abrirá una ventana con el conjunto de los tipos de informes disponibles.
+
+[[img-explorador-informes-xml, Explorador Informes XSL]]
+.Explorador Informes XSL
+image::image-182.png[{alt="Explorador Informes XSL", align="center"]
+
+Lo mejor es que exploremos todas las posibilidades que se nos ofrecen, pero para empezar a hacernos una idea, podemos ver un ejemplo de este tipo de informes en la siguiente figura.
+
+[[img-informe-xml, Informe XSL]]
+.Informe XSL
+image::image-183.png[{alt="Informe XSL", align="center"]
