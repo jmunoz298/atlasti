@@ -1,6 +1,0 @@
-[introduccion, Introducción]
-== Introducción
-
-En este capítulo presentaremos, en primer lugar, una breve introducción al software para el análisisi cualitativo de datos textuales (CAQDAS)para, a continuación, presentar algunas de las características principales de Atlas.ti.
-
-

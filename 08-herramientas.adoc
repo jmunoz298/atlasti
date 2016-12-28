@@ -1,4 +1,0 @@
-[[herramientas-de-exploracion]]
-== Herramientas de exploración
-
-En este capítulo describiremos algunas de las herramientas que podemos utilizar para explorar nuestra UH en busca de informaciones concretas. En primer lugar mostraremos la herramienta “simple” de búsqueda de texto en documentos, a continuación la forma de buscar texto en el conjunto de componentes de la UH (__Examinador de objetos__). Veremos también cómo podemos explorar el conjunto de objetos de la UH (__Bosque de códigos__ y __Explorador de UH__). Dedicaremos también un amplio espacio a describir la _Herramienta de consulta_ que nos permite recuperar citas que cumplen determinadas condiciones de codificación. Dedicaremos otro apartado a las herramientas de exploración de concurrencias (__Árbol de concurrencias__ y __Tabla de concurrencias__). Para finalizar, veremos cómo podemos depurar posibles codificaciones redundantes (__Analizador de codificaciones__).
