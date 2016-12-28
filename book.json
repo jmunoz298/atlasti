@@ -1,7 +1,0 @@
-{
-    "plugins": [
-        "-fancybox",
-        "bootstrap-callout"
-    ],
-    "pluginsConfig": {}
-}
