@@ -8,7 +8,7 @@ Página web del manual Atlas.ti
 
 [https://jmunoz298.github.io/Atlasti7/atlasti.pdf](https://jmunoz298.github.io/Atlasti7/atlasti.pdf)
 
-
+Código en: [https://github.com/jmunoz298/Atlasti7](https://github.com/jmunoz298/Atlasti7)
 
 
 ## Software utilizado
