@@ -1,10 +1,12 @@
-# Hacer análisis cualitativo con ATLAS.ti 7:
+# Hacer análisis cualitativo con ATLAS.ti 7: Manual de uso
 
-## Manual de uso
+https://jmunoz298.github.io/Atlasti7/atlasti.html
 
-Juan Muñoz-Justicia
+Juan Muñoz-Justicia / Miguel Sahagún-Padilla
 
-Miguel Sahagún-Padilla
+Página web del manual Atlas.ti
 
 
-Versión 1.0 – 2015
+El archivo html se ha generado con Asciidoctor
+La bibliografía...
+Para general el formato pdf hemos utilizado...

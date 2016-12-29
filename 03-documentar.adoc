@@ -39,12 +39,8 @@ pero puede darnos una pista sobre la relevancia de la temática y las reflexione
 
 Para la creación de __Memos__, podemos seleccionar la opción `Crear memo libre` desde el menú `Memos` o, desde ese mismo menú, abrir el `Administrador de memos` y hacer clic en el icono de creación.
 
+TIP: image:image-018.png[{alt="Icono crear", float="left", align="center"] Siempre que veamos este icono, podremos crear un nuevo elemento. Es decir, crearemos un Memo si lo visualizamos en el _Administrador de Memos_, crearemos un código en el _Administrador de códigos_ y así en cada caso.
 
-
-[TIP]
-====
-image:image-018.png[{alt="Icono crear", float="left", align="center"] Siempre que veamos este icono, podremos crear un nuevo elemento. Es decir, crearemos un Memo si lo visualizamos en el _Administrador de Memos_, crearemos un código en el _Administrador de códigos_ y así en cada caso.
-====
 
 Lo primero que tendremos que hacer, será dar un nombre a nuestro __Memo__, y a continuación (y aquí viene lo más complicado) escribirlo en el editor que nos aparecerá a continuación. En la figura <<img-editor-memos>> podemos apreciar que ese editor se diferencia del que habíamos visto al crear el comentario de UH. En este caso tenemos (1) una zona en la que aparece la etiqueta con la que hemos nombrado el __Memo__, y (2) una lista
 desplegable para seleccionar el tipo de __Memo__. Esta lista nos ofrece tres posibilidades, __Commentary__, _Method_ y __Theory__. Es decir, podemos clasificar nuestros _Memos_ en tres categorías

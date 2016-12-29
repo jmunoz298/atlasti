@@ -1,26 +1,30 @@
 = Hacer análisis cualitativo con Atlas.ti 7: Manual de uso
 Juan Muñoz-Justicia <juan.munoz@uab.cat>; Miguel Sahagún-Padilla <masahagun@correo.uaa.mx>
-v1.0, Diciembre, 2015
+v1.0, Diciembre, 2016
 :description: A story chronicling the inexplicable hazards and vicious beasts a \
 documentation team must surmount and vanquish on their journey to finding an \
 open source project's true power.
-:keywords: documentation, team, obstacles, journey, victory
+:keywords: atlas.ti, CAQDAS, Análisis cualitativo
 :doctype: book
+:lang: es
 :toc: left
 :source-highlighter: highlightjs
 :listing-caption: Listing
 :icons: font
 :imagesdir: ./images
+:stylesdir: ./stylesheets
 :sectnums:
 :figure-caption: Figura
 :table-caption: Tabla
+:chapter-label: Capítulo
+:toc-title: Índice
 // Uncomment next line to set page size (default is Letter)
 :pdf-page-size: A4
 //:theme: volnitsky
 //:theme: flask
 //:stylesheet: stylesheets/github.css
-//:stylesheet: stylesheets/juan.css
-:stylesheet: stylesheets/asciidoctor.css
+//:stylesheet: stylesheets/juan.css , foundation.css, foundation-lime.css, foundation-potion.css, iconic.css, riak.css, colony.css, maker.css, rubygems.css, golo.css, readthedocs.css
+:stylesheet: asciidoctor-mod.css
 :y: icon:check[role="green"]
 :n: icon:times[role="red"]
 :c: icon:file-text-o[role="blue"]
@@ -31,8 +35,7 @@ open source project's true power.
 :linkcss:
 :linkattrs:
 
-{author} es profesor titular del Departamento de Psicología Social de la Universidad Autónoma de Barcelona (España) - {email}.
-
+{author} es profesor titular del Departamento de Psicología Social de la Universidad Autónoma de Barcelona (España) - {email}. +
 {author_2} es profesor e investigador de tiempo completo del Departamento de Psicología de la Universidad Autónoma de Aguascalientes (México) - {email_2}.
 
 [discrete]
