@@ -2,11 +2,18 @@
 
 https://jmunoz298.github.io/Atlasti7/atlasti.html
 
+https://jmunoz298.github.io/Atlasti7/atlasti.pdf
+
+
+
 Juan Muñoz-Justicia / Miguel Sahagún-Padilla
 
 Página web del manual Atlas.ti
 
+## Software utilizado
 
-El archivo html se ha generado con Asciidoctor
-La bibliografía...
-Para general el formato pdf hemos utilizado...
+* El archivo html se ha generado con Asciidoctor (http://asciidoctor.org/)
+
+* La bibliografía con asciidoctor-bibtex (https://github.com/asciidoctor/asciidoctor-bibtex)
+
+* Para general el formato pdf hemos utilizado asciidoctor-pdf (https://github.com/asciidoctor/asciidoctor-pdf)
