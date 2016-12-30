@@ -17,7 +17,7 @@ la UH sobre la que se ha hecho clic).
 
 [[img-uh-ejemplo, Unidad Hermenéutica de ejemplo]]
 .Unidad Hermenéutica de ejemplo
-image::image-006.png[Unidad hermenéutica de ejemplo, align="center"]
+image::image-006.png[Unidad hermenéutica de ejemplo,  width=60%, align="center"]
 
 
 La UH _Welcome_ ilustra la forma de realizar las operaciones más básicas y muestra simultáneamente qué tipo de elementos se generan con ellas. Esta UH nos señala (1) el icono que permite añadir DPs, (2) el icono de codificación, y (3) el código seleccionado, tanto en el menú desplegable como en el margen derecho de la pantalla (junto a la cita con la que está relacionado).
