@@ -62,7 +62,7 @@ Una diferencia entre este informe y el resto es que en esta ocasión no se nos o
 
 [[img-imprimir-con-margen, Imprimir con margen]]
 .Imprimir con margen
-image::image-180.png[{alt="Imprimir con margen", align="center"]
+image::image-180.png[{alt="Imprimir con margen", width=60%, align="center"]
 
 Si el resultado de la impresión del informe no es el deseado, podemos realizar cambios con la opción `Herramientas > Preferencias > Preferencias generales`, en la pestaña Impresión de DP. Como podemos ver en la figura , lo que se nos ofrece es poco más que la posibilidad de cambiar los márgenes.
 

@@ -275,7 +275,7 @@ El modelo con el que hemos venido trabajando citenp:[rasiah2010] es más complej
 
 [[img-marco-analitico-evasion, Marco analítico para el estudio de la evasión (Rasiah, 2010, p. 667)]]
 .Marco analítico para el estudio de la evasión (Rasiah, 2010, p. 667)
-image::image-105.png[{alt="Marco analítico para el estudio de la evasión (Rasiah, 2010, p. 667)", align="center"]
+image::image-105.png[{alt="Marco analítico para el estudio de la evasión (Rasiah, 2010, p. 667)", width=60%, align="center"]
 
 El siguiente nivel del modelo diferencia tres tipos de preguntas, las de tipo Sí/no, las de tipo Wh (cuándo, cómo, porqué) y las de tipo disyuntivo. Una vez creados los códigos (__Q Y/N, Q Wh__ y __Q Disjunctive__) correspondientes, volvemos a crear relaciones, aunque en este caso seleccionaremos el tipo de relación __is cause of__, es decir, crearemos la relación _Answer_ __is cause of Q Y/N__; __Answer is cause of Q Wh__, y así sucesivamente.
 

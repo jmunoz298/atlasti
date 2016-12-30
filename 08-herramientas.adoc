@@ -389,11 +389,11 @@ Aunque la formulación pueda parecer extraña, en la práctica es relativamente 
 
 [[img-esquema-consulta-a, Esquema consulta (a)]]
 .Esquema consulta (a)
-image::image-143a.png[{alt="Esquema consulta (a)", align="center"]
+image::image-143a.png[{alt="Esquema consulta (a)", width=60%, align="center"]
 
 [[img-esquema-consulta-b, Esquema consulta (b)]]
 .Esquema consulta (b)
-image::image-143b.png[{alt="Esquema consulta (b)", align="center"]
+image::image-143b.png[{alt="Esquema consulta (b)", width=60%, align="center"]
 
 También nos puede ayudar tener en cuenta que cuando escribimos la consulta en el programa, cada una de las líneas que aparecen en la zona 3 de la figura <<img-herramienta-consulta>> es un operando, por lo que una consulta implicará combinar dos líneas (operandos) con un operador.footnote:[Aunque esto no es exactamente así, puesto que no todas las consultas requieren de dos operandos.] En la figura <<img-consulta-secuencia-escritura>> podemos ver el proceso de escritura. En (1) hemos introducido los dos primeros operandos (códigos), que hemos combinado con el operador `AND`. En (2) tendríamos por lo tanto el resultado de la consulta, que a su vez será un operando. En (3) hemos vuelto a introducir dos operandos (códigos) que de nuevo hemos combinado con el operador `AND` (que afecta sólo a las dos primeras líneas que vemos en la ilustración), por lo que tenemos (en 4) el resultado de esa consulta en la primera línea, y el resultado de la anterior en la segunda. Al combinar ambos operandos con el operador `OR`, nos dará el resultado que podemos ver (5), es decir, “Todas las intervenciones del presidente Zapatero o del líder de la oposición Rajoy, que han sido codificadas como __Evasion__”.
 
@@ -478,7 +478,7 @@ Y la forma de realizarla sería como vemos en la siguiente figura.
 
 [[img-consulta-multiple, Consulta múltiple]]
 .Consulta múltiple
-image::image-148a.png[{alt="Consulta múltiple", align="center"]
+image::image-148a.png[{alt="Consulta múltiple", width=60%, align="center"]
 
 [[operadores-semanticos]]
 ===== Operadores Semánticos
@@ -595,7 +595,7 @@ Volviendo una vez más a nuestro ejemplo, en la figura <<img-concurrencia-citas>
 
 [[img-concurrencia-citas, Concurrencia de citas]]
 .Concurrencia de citas
-image::image-150.png[{alt="Concurrencia de citas", align="center"]
+image::image-150.png[{alt="Concurrencia de citas", width=75%, align="center"]
 
 Por lo tanto, nuestra consulta debería ser.
 
@@ -679,7 +679,7 @@ En la figura, en (1) y (2) se nos muestran el conjunto de códigos de la UH, par
 
 [[img-tabla-concurrencias, Tabla de Concurrencias]]
 .Tabla de Concurrencias
-image::image-159.png[{alt="Tabla de Concurrencias", align="center"]
+image::image-159.png[{alt="Tabla de Concurrencias", width=75%, align="center"]
 
 [[analizador-de-codificaciones]]
 === Analizador de codificaciones
@@ -690,7 +690,7 @@ En la figura <<img-ejemplo-codificacion-redundante>> podemos ver un hipotético 
 
 [[img-ejemplo-codificacion-redundante, Ejemplo de codificación redundante]]
 .Ejemplo de codificación redundante
-image::image-160.png[{alt="Ejemplo de codificación redundante", align="center"]
+image::image-160.png[{alt="Ejemplo de codificación redundante", width=75%, align="center"]
 
 Al utilizar el __Analizador de codificación redundante__, aparecerá una ventana como la de la siguiente figura, en la que podemos ver (1) los códigos que según el programa podrían incluir citas redundantes. Si seleccionamos uno de esos códigos, en (2) y (3) se nos mostrarán las parejas de citas que podrían ser redundantes. Podemos entonces decidir si queremos _eliminar_ o _desvincular_ la cita en (2) o en (3) o si queremos _fusionar_ ambas citas.
 
