@@ -34,6 +34,7 @@ open source project's true power.
 :bibtex-format: latex
 :linkcss:
 :linkattrs:
+:front-cover-image: atlasti-cover.pdf
 
 {author} es profesor titular del Departamento de Psicología Social de la Universidad Autónoma de Barcelona (España) - {email}. +
 {author_2} es profesor e investigador de tiempo completo del Departamento de Psicología de la Universidad Autónoma de Aguascalientes (México) - {email_2}.
