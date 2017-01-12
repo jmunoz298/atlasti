@@ -4,11 +4,11 @@ Juan Muñoz-Justicia / Miguel Sahagún-Padilla
 
 Página web del manual Atlas.ti
 
-[https://jmunoz298.github.io/Atlasti7/atlasti.html](https://jmunoz298.github.io/Atlasti7/atlasti.html)
+[https://jmunoz298.github.io/atlasti/atlasti.html](https://jmunoz298.github.io/atlasti/atlasti.html)
 
-[https://jmunoz298.github.io/Atlasti7/atlasti.pdf](https://jmunoz298.github.io/Atlasti7/atlasti.pdf)
+[https://jmunoz298.github.io/atlasti/atlasti.pdf](https://jmunoz298.github.io/atlasti/atlasti.pdf)
 
-Archivos fuente en: [https://github.com/jmunoz298/Atlasti7](https://github.com/jmunoz298/Atlasti7)
+Archivos fuente en: [https://github.com/jmunoz298/atlasti](https://github.com/jmunoz298/atlasti)
 
 
 ## Software utilizado
