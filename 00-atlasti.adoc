@@ -1,29 +1,29 @@
 = Hacer análisis cualitativo con Atlas.ti 7: Manual de uso
 Juan Muñoz-Justicia <juan.munoz@uab.cat>; Miguel Sahagún-Padilla <masahagun@correo.uaa.mx>
-v1.0, Diciembre, 2016
-:description: A story chronicling the inexplicable hazards and vicious beasts a \
-documentation team must surmount and vanquish on their journey to finding an \
-open source project's true power.
+v1.1, enero, 2017
+:description: Manual software análisis cualitativo (CAQDAS) Atlas.ti
 :keywords: atlas.ti, CAQDAS, Análisis cualitativo
 :doctype: book
 :lang: es
+:encoding: utf-8
+//:toc: macro
+//:toc: preamble
 :toc: left
+//:toc:
+:toc-start: 3
 :source-highlighter: highlightjs
-:listing-caption: Listing
 :icons: font
 :imagesdir: ./images
 :stylesdir: ./stylesheets
 :sectnums:
-:figure-caption: Figura
-:table-caption: Tabla
 :chapter-label: Capítulo
+:figure-caption: Figura
+:listing-caption: Listing
+:table-caption: Tabla
 :toc-title: Índice
-// Uncomment next line to set page size (default is Letter)
 :pdf-page-size: A4
-//:theme: volnitsky
-//:theme: flask
-//:stylesheet: stylesheets/github.css
-//:stylesheet: stylesheets/juan.css , foundation.css, foundation-lime.css, foundation-potion.css, iconic.css, riak.css, colony.css, maker.css, rubygems.css, golo.css, readthedocs.css
+//:theme: volnitsky, flask
+//:stylesheet: stylesheets/juan.css , foundation.css, foundation-lime.css, foundation-potion.css, github.css, iconic.css, riak.css, colony.css, maker.css, rubygems.css, golo.css, readthedocs.css
 :stylesheet: asciidoctor-mod.css
 :y: icon:check[role="green"]
 :n: icon:times[role="red"]
@@ -34,13 +34,26 @@ open source project's true power.
 :bibtex-format: latex
 :linkcss:
 :linkattrs:
-:front-cover-image: atlasti-cover.pdf
+:front-cover-image: atlasti7-cover.pdf
+:mermaid: node_modules/mermaid/bin/mermaid.js
 
-{author} es profesor titular del Departamento de Psicología Social de la Universidad Autónoma de Barcelona (España) - {email}. +
+[abstract]
+image:logo_UAB.png[float="left"]
+
+{author} es profesor titular del Departamento de Psicología Social de la Universidad Autónoma de Barcelona (España) - {email}.
+
+image:logo_UAA.png[float="left"]
+
 {author_2} es profesor e investigador de tiempo completo del Departamento de Psicología de la Universidad Autónoma de Aguascalientes (México) - {email_2}.
 
+ifdef::backend-pdf[]
+Diseño portada: Marc Bria Ramírez
+
+Imagen portada: Gustavo Trapp, _Atlas on the top of Schloss Linderhof_. https://es.wikipedia.org/wiki/Archivo:Atlas_Schloss_Linderhof.JPG
+endif::[]
+
 [discrete]
-==== Licencia
+=== Licencia
 ****
 Esta obra está licenciada bajo la Licencia Creative Commons Atribución 4.0 Internacional.
 

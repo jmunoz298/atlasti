@@ -95,7 +95,7 @@ Para ver los documentos incluidos en nuestras bibliotecas, tenemos que hacer cli
 .Administrador de Biblioteca de documentos
 image::image-026.png[{alt="Administrador de Biblioteca de documentos", align="center"]
 
-[TIP]
+[WARNING]
 ====
 Si utilizamos esta forma de asignación de documentos, es muy recomendable leer el apartado <<copiarrestarurar-la-unidad-hermeneutica, Copiar/Restarurar la Unidad Hermenéutica>>.
 ====
@@ -139,9 +139,10 @@ image::image-030.png[{alt="Hoja de cálculo con datos de encuesta", align="cente
 El primer carácter de las etiquetas de la primera fila indica las características de la información que aparece en la columna. De esta forma, en la primera columna la etiqueta `!Caso`, precedida por el carácter `!` indica que la columna se corresponde con cada uno de los casos de encuesta, mientras que el carácter `:`, que precede a la etiqueta `:Universidad` en la quinta columna, indica que los datos que encabeza son respuestas a preguntas de elección simple con varias opciones de respuesta. En la tabla siguiente podemos ver el conjunto de identificadores de campos de documento, mientras que en la Tabla aparecen los
 identificadores de campos de preguntas.
 
+
 [[tab-encuestas-identificacores, Encuestas: Identificadores de campos (documento)]]
 .Encuestas: Identificadores de campos (documento)
-[cols="^,<",options="header",]
+[.center, cols="^15%,<85%",options="header"]
 |==============================================
 |Carácter |Función
 |! |Identificador de caso (nombre de documento)
@@ -154,7 +155,7 @@ El resto de identificadores se corresponden con las preguntas, que pueden ser ta
 
 [[tab-identificadores-campos, Identificadores de campos (preguntas cerradas)]]
 .Identificadores de campos (preguntas cerradas)
-[width="100%",cols="^6%,<94%",options="header",]
+[.center, cols="^15%,<85%",options="header",]
 |=======================================================================
 |Carácter |Función
 |. |Pregunta dicotómica. Los valores posibles son 1/0 (que se corresponden con Sí/No). El nombre de la familia será el mismo que la etiqueta (sin el punto)
@@ -222,7 +223,7 @@ También podemos visualizar los documentos en el _Administrador de documentos_ q
 
 [[tab-administrador-dp-columnas, Administrador de documentos primarios: Columnas]]
 .Administrador de documentos primarios: Columnas
-[width="100%",cols="<16%,<84%",]
+[.center, cols="<16%,<84%",options="header, autowidth"]
 |=======================================================================
 |ID |Icono e identificador del documento
 

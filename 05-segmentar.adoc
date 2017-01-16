@@ -82,7 +82,7 @@ Una posible forma de sistematizar los contenidos a añadir a los comentarios de 
 
 [[tab-elementos-comentarios-codigos, Elementos comentarios de códigos (MacQueen, McLellan, Kay y Milstein ,1998)]]
 .Elementos comentarios de códigos (MacQueen, McLellan, Kay y Milstein ,1998)
-[cols="30%,70%",options="header",]
+[.center, cols="20%,80%",options="header, autowidth",]
 |=======================================================================
 |ELEMENTO |EJEMPLO
 |*Etiqueta* |MARGIN
@@ -228,7 +228,7 @@ El siguiente paso (5) consiste en definir la extensión de la cita una vez que l
 
 [[tab-autocodificacion-opciones, Autocodificación: opciones de creación de la cita]]
 .Autocodificación: opciones de creación de la cita
-[width="100%",cols="<16%,<84%",options="header",]
+[.center, cols="<16%,<84%",options="header, autowidth",]
 |=======================================================================
 |Parámetro |Acción
 |Resultado exacto |El texto exacto que hemos introducido como expresión

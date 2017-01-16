@@ -22,12 +22,12 @@ La ventana que aparece tiene las siguientes secciones:
 .Ventana de herramienta de búsqueda
 image::image-131.png[{alt="Ventana de herramienta de búsqueda", align="center"]
 
-1.  Espacio para escritura (y almacenamiento) de la expresión de búsqueda.
-2.  Botones para ejecutar la búsqueda hacia adelante o hacia atrás.
-3.  Activar/desactivar la discriminación de mayúsculas/minúsculas en la búsqueda.
-4.  Activar/desactivar la modalidad de búsqueda GREP.footnote:[Acrónimo de “Global find Regular Expressions and Print”] (expresiones regulares).
-5.  Opciones de la búsqueda por categorías.
-6.  Barra de estatus. Indica el tipo de búsqueda activo.
+.  Espacio para escritura (y almacenamiento) de la expresión de búsqueda.
+.  Botones para ejecutar la búsqueda hacia adelante o hacia atrás.
+.  Activar/desactivar la discriminación de mayúsculas/minúsculas en la búsqueda.
+.  Activar/desactivar la modalidad de búsqueda GREP.footnote:[Acrónimo de “Global find Regular Expressions and Print”] (expresiones regulares).
+.  Opciones de la búsqueda por categorías.
+.  Barra de estatus. Indica el tipo de búsqueda activo.
 
 [[busqueda-simple]]
 ==== Búsqueda simple
@@ -47,11 +47,11 @@ La búsqueda por categorías implica la definición, en la sentencia de búsqued
 
 En nuestro caso, podría interesarnos buscar todas las referencias que hacen los parlamentarios a terceros países, por lo que podríamos definir una búsqueda en la que se incluyeran Francia, Alemania, Inglaterra… de forma que la búsqueda fuera exitosa con la aparición de cualquiera de ellos en el texto.
 
-Para ello, introduciremos en la zona de búsqueda los nombres de los diferentes países separados por una barra vertical `|`.footnote:[En la mayoría de los teclados, para introducimos este signo con la combinación de teclas `AltGr+1` (aunque este último carácter puede variar en función del teclado).]
+Para ello, introduciremos en la zona de búsqueda los nombres de los diferentes países separados por una barra vertical `|, por ejemplo:
 
-[[img-busqueda-categorias, Búsqueda por categorías]]
-.Búsqueda por categorías
-image::image-133.png[{alt="Búsqueda por categorías", align="center"]
+`Francia|Alemania|Inglaterra`
+
+TIP:: En la mayoría de los teclados, para introducimos este signo con la combinación de teclas `AltGr+1` (aunque este último carácter puede variar en función del teclado).
 
 Si cerramos la ventana de búsqueda y volvemos a abrirla, observaremos que sigue apareciendo la última sentencia de búsqueda que habíamos realizado, pero precedida por los caracteres `TEMP:=`
 
@@ -104,7 +104,7 @@ Aunque es muy probable que no necesitemos toda la potencia de la búsqueda GREP,
 
 [[tab-operadores-grep, Operadores GREP]]
 .Operadores GREP
-[cols="20%,80%",options="header",]
+[.center, cols="30%,70%",options="header",]
 |=======================================================================
 |Operador |Función
 |^__término__ |Limita la expresión de búsqueda que sigue al marcador al
@@ -112,7 +112,7 @@ principio de la línea. Si se utiliza como el primer carácter dentro de
 una expresión entre paréntesis, excluye de la búsqueda el rango
 especificado.
 
-|__término__$ |Limita la expresión de búsqueda precedente al final de la
+|__término__$|Limita la expresión de búsqueda precedente al final de la
 línea.
 
 |\<__término__ |Limita la expresión de búsqueda siguiente al inicio de
@@ -121,9 +121,9 @@ una palabra.
 |__término__\> |Limita la expresión de búsqueda precedente al inicio
 de una palabra
 
-| \B |Limita la expresión de búsqueda siguiente a NO incio de palabra
+| \B__término__ |Limita la expresión de búsqueda siguiente a NO inicio de palabra
 
-| B\ |Limita la expresión de búsqueda precedente a NO final de palabra
+| __término__B\ |Limita la expresión de búsqueda precedente a NO final de palabra
 
 |. |Localiza cualquier carácter.
 
@@ -136,9 +136,11 @@ precedente.
 
 |? |Localiza cero o una ocurrencia de la expresión precedente.
 
-|[ ] |Localiza un rango de caracteres.
+|[__carácter1____carácter2__ ] |Localiza un conjunto de caracteres.
 
-|(_término_ | _término_ | _término_) |Localiza varios términos de forma simultánea.
+|[__carácter1__-__carácter2__ ] |Localiza un rango de caracteres.
+
+|(_término_ \| _término_ \| _término_) |Localiza varios términos de forma simultánea.
 
 |:d |Localiza cualquier dígito.
 
@@ -162,11 +164,11 @@ Otra posibilidad que tenemos es hacer búsquedas que funciones únicamente cuand
 
 Imaginemos, por ejemplo, que queremos encontrar palabras que empiecen por "pre". Si hacemos una búsqueda normal (no GREP), obtendríamos como resultado tanto “presidente”, "precisión" y "presente" como "imprecisión", "impresionante" o "comprensión", en las que el término de búsqueda forma parte de la palabra aunque no al inicio.
 
-Una forma de hacer esta búsqueda utilizando GREP es mediante el operador `\>__término__` (o también `\b__término__`) de forma que la búsqueda sólo dará resultados si la ocurrencia es al inicio del término buscado
+Una forma de hacer esta búsqueda utilizando GREP es mediante el operador `\<__término__` (o también `\b__término__`) de forma que la búsqueda sólo dará resultados si la ocurrencia es al inicio del término buscado
 
 `\<pre`
 
-`bpre`
+`\bpre`
 
 Si lo que queremos es lo contrario, que la búsqueda sólo de resultado cuando el término aparece al final de palabra, podemos utilizar:
 
@@ -199,11 +201,11 @@ Si a continuación añadimos `er\>`, estaremos ampliando nuestra expresión para
 
 Para finalizar, podemos unir los operadores "inicio de palabra" y "fin de palabra" para encontrar palabras completas con un determinado inicio y un determinado final. Por ejemplo, la expresión
 
-`<p\w*a\>`
+`\<p\w*a\>`
 
 encontrará cualquier palabra que empiece con "p" y acabe con "a", puesto que:
 
-`<p` es sinónimo de "palabra que empiece con la letra p"
+`\<p` es sinónimo de "palabra que empiece con la letra p"
 
 `\w*` es sinónimo de "cualquier carácter alfanumérico (`\w`) de cualquier longitud (`*`)"
 
@@ -217,7 +219,7 @@ Ya que estamos buscando finales de palabra y hemos puesto como ejemplo la cadena
 
 en la que utilizamos el paréntesis para agrupar el conjunto de caracteres a los que se aplicará la función "final de palabra" y la barra vertical para indicar las diferentes búsquedas a las que debe aplicarse. En este caso, de nuevo, el resultado de la búsqueda será únicamente las cadenas "ar", "er" o "ir", por lo que si lo que queremos son palabras completas con esas finalizaciones sólo tenemos que utilizar de forma conjunta las dos expresiones anteriores
 
-`*(ar|er|ir)\>`
+`\w*(ar|er|ir)\>`
 
 Volviendo a la autocodificación de nuestros participantes, recordamos que la estrategia que habíamos utilizado era crear un código para cada uno de ellos, es decir, cada uno de los parlamentarios está asociado con un código. Aunque esta estrategia es correcta, podríamos haber decidido que no nos interesa qué persona en concreto es la que está interviniendo sino el partido político al que pertenece.footnote:[Lo que en nuestro caso habíamos hecho creando familias de participantes para cada uno de los partidos políticos.] Esto significa que si queremos autocodificar las intervenciones de Josep Antoni Durán i Lleida, Pere Macias, Josep Sánchez i Llibre y Jordi Vilajoana, con el código “CiU” (en vez de un código diferente para cada uno de ellos). La expresión en este caso sería
 
@@ -333,7 +335,7 @@ image::image-141.png[{alt="Herramienta de consulta", align="center"]
 
 4) Esta zona es similar a la anterior, pero utiliza una _sintaxis_ diferente para visualizar las condiciones utilizadas. Como podemos ver, lo que se nos muestra es la *última consulta realizada*. Si en el paso anterior, tras las consultas ya realizadas hubiéramos clicado en el operador `O`, se nos mostraría el resultado de esa consulta:
 
-`((“Zapatero” & “Evasion”) | (“RajoyLO” & “Evasion”))`
+`(“Zapatero” & “Evasion”) | (“RajoyLO” & “Evasion”)`
 
 5) *Resultados*, citas que cumplen las condiciones de la última _consulta_ definida (la que se visualiza en (3)).
 
@@ -377,29 +379,47 @@ Esto significa que, si habitualmente una suma la escribiríamos `4 + 5`, donde 4
 
 Volviendo a nuesto ejemplo, en vez de Zapatero Y Evasion, tendríamos que escribir `Zapatero Evasion AND`.footnote:[Como comentábamos, en esta herramienta no escribimos, sino que clicamos, por lo que cuando en este apartado hagamos referencia a “escribir”, el significado real es realizar diversas combinaciones de clics sobre operandos y operadores.]
 
-En el caso de que quisiéramos obtener como resultado todas las citas del código _Evasion_ en las intervenciones de cualquiera de los presidentes (Zapatero o Rajoy) tendríamos que añadir alguna condición más a nuestra consulta. Tendríamos que realizar una consulta para obtener las citas de cada uno de los presidentes y posteriormente combinar los resultados con una condición `O`. Para ello, con una “sintaxis clásica” habríamos utilizado paréntesis para definir la prioridad de las operaciones. Pero como veíamos en la cita anterior, otra de las características de la RPN es que no utiliza paréntesis, por lo que tendríamos que formular la consulta de la siguiente forma:
+En el caso de que quisiéramos obtener como resultado todas las citas del código _Evasion_ en las intervenciones de cualquiera de los presidentes (Zapatero o Rajoy) tendríamos que añadir alguna condición más a nuestra consulta, por lo que tendríamos que formular la consulta de la siguiente forma:
 
-(1) `Zapatero RajoyLO OR`
+----
+Zapatero RajoyPR OR <1>
 
-(2) `Evasion`
+Evasion <2>
 
-(3) `AND`
+AND <3>
+----
 
-Aunque la formulación pueda parecer extraña, en la práctica es relativamente sencilla si tenemos en cuenta que cada vez que obtenemos un resultado en una consulta ese resultado pasa a convertirse en un operando. Es decir, una vez que hemos obtenido las citas correspondientes a la primera parte de la consulta (1) éstas se convierten en un operando, lo mismo que las de (2), por lo que una vez que tenemos dos operandos los combinamos con el operador `AND` en (3).
+<1> en primer lugar realizamos una consulta para obtener las citas de cada uno de los presidentes (Zapatero o RajoyPR),
+<2> la segunda consulta sería simplemente los resultados del código Evasion,
+<3> finalmente combinaríamos ambos resultados con una condición `AND`.
 
-[[img-esquema-consulta-a, Esquema consulta (a)]]
-.Esquema consulta (a)
-image::image-143a.png[{alt="Esquema consulta (a)", width=60%, align="center"]
+Con una “sintaxis clásica” habríamos utilizado paréntesis para definir la prioridad de las operaciones. Pero como veíamos en la cita anterior, otra de las características de la RPN es que no utiliza paréntesis.
 
-[[img-esquema-consulta-b, Esquema consulta (b)]]
-.Esquema consulta (b)
-image::image-143b.png[{alt="Esquema consulta (b)", width=60%, align="center"]
+Aunque la formulación pueda parecer extraña, en la práctica es relativamente sencilla si tenemos en cuenta que cada vez que obtenemos un resultado en una consulta ese resultado pasa a convertirse en un operando (cada una de las líneas que aparecen en la zona 3 de la figura <<img-herramienta-consulta>> es un operando). Es decir, una vez que hemos obtenido las citas correspondientes a la primera parte de la consulta (1) éstas se convierten en un operando, lo mismo que las de (2), por lo que una vez que tenemos dos operandos los combinamos con el operador `AND` en (3).
 
-También nos puede ayudar tener en cuenta que cuando escribimos la consulta en el programa, cada una de las líneas que aparecen en la zona 3 de la figura <<img-herramienta-consulta>> es un operando, por lo que una consulta implicará combinar dos líneas (operandos) con un operador.footnote:[Aunque esto no es exactamente así, puesto que no todas las consultas requieren de dos operandos.] En la figura <<img-consulta-secuencia-escritura>> podemos ver el proceso de escritura. En (1) hemos introducido los dos primeros operandos (códigos), que hemos combinado con el operador `AND`. En (2) tendríamos por lo tanto el resultado de la consulta, que a su vez será un operando. En (3) hemos vuelto a introducir dos operandos (códigos) que de nuevo hemos combinado con el operador `AND` (que afecta sólo a las dos primeras líneas que vemos en la ilustración), por lo que tenemos (en 4) el resultado de esa consulta en la primera línea, y el resultado de la anterior en la segunda. Al combinar ambos operandos con el operador `OR`, nos dará el resultado que podemos ver (5), es decir, “Todas las intervenciones del presidente Zapatero o del líder de la oposición Rajoy, que han sido codificadas como __Evasion__”.
-
-[[img-consulta-secuencia-escritura, Consulta: Secuencia de escritura]]
-.Consulta: Secuencia de escritura
-image::image-143.png[{alt="Consulta: Secuencia de escritura", align="center"]
+[[img-esquema-consulta, Esquema consulta]]
+.Esquema consulta
+[mermaid, "consulta-01", png]
+....
+graph LR
+ id1(Zapatero)
+ id2(RajoyPR)
+ id3(OR)
+ id4(Zapatero OR RajoyPR)
+ id5(Evasion)
+ id6(AND)
+ id7(Zapatero OR RajoyPR AND Evasion)
+ id1 --- id3
+ id2 --- id3
+ id3 --> id4
+ id4 --- id6
+ id5 --- id6
+ id6 --> id7
+ classDef operador fill:#e5e5e5
+ class id3,id6 operador
+ classDef default fill: white, stroke: black, stroke-width:3px
+ linkStyle default stroke: black, stroke-width:3px,fill:#ffffff
+....
 
 [[operadores]]
 ==== Operadores
@@ -413,7 +433,7 @@ En la siguiente tabla podemos ver la descripción de los operadores booleanos.
 
 [[tab-operadores-booleanos, Operadores booleanos]]
 .Operadores booleanos
-[width="90%",cols="15%,15%,60%",options="header",]
+[.center, cols="15%,15%,60%",options="header",]
 |=======================================================================
 |Operador |Sintaxis |Función
 |OR |_A B_ OR |Selecciona las citas presentes en el operando A o en el
@@ -454,7 +474,7 @@ Ahora podemos ver fácilmente el resultado (citas) de diferentes consultas
 
 [[tab-escritura-consulta-multiple, Escritura consulta múltiple]]
 .Escritura consulta múltiple
-[cols="45%,25%,30%",options="header",]
+[.center, cols="45%,25%,30%",options="header, autowidth",]
 |=======================================================================
 |Queremos obtener... |Sentencia |Resultado
 |Citas codificadas como A o como B |Código-A  Código-B  OR |C1, C2, C3,
@@ -478,7 +498,32 @@ Y la forma de realizarla sería como vemos en la siguiente figura.
 
 [[img-consulta-multiple, Consulta múltiple]]
 .Consulta múltiple
-image::image-148a.png[{alt="Consulta múltiple", width=60%, align="center"]
+[mermaid, "consulta-02", png]
+....
+graph LR
+id1(Código-A)
+id2(Código-B)
+id3(OR)
+id4(Código-C)
+id5(NOT)
+id6(Código-A OR Código-B)
+id7(Código-C NOT)
+id8(AND)
+id9(Código-A OR Código-B<br/>AND NOT Código-C)
+id1 --- id3
+id2 --- id3
+id3 --> id6
+id4 --- id5
+id5 --> id7
+id6 --- id8
+id7 --- id8
+id8 --> id9
+classDef operador fill:#e5e5e5
+class id3,id5,id8 operador
+classDef default fill: white, stroke: black, stroke-width:3px
+linkStyle default stroke: black, stroke-width:3px,fill:#ffffff
+....
+
 
 [[operadores-semanticos]]
 ===== Operadores Semánticos
@@ -487,7 +532,7 @@ Como hemos visto, las _consultas_ con operadores booleanos, sólo requieren de l
 
 [[tab-operadores-semanticos, Operadores semánticos]]
 .Operadores semánticos
-[width="90%",cols="15%,85%",options="header",]
+[.center, cols="15%,85%",options="header",]
 |=======================================================================
 |Operador |Función
 |Down |Selecciona las citas relacionadas con el código y con cualquiera
@@ -528,6 +573,8 @@ Por supuesto, podemos combinar los operadores semánticos con los otros tipos de
 
 Pero dado que nuestro código _Evasion_ en realidad es un código libre, el resultado de esa consulta será de cero citas. Como hemos visto, tendremos que realizarla de nuevo incluyendo el operador DOWN
 
+// Forma original, demasiado complicada
+////
 (1) `Zapatero`
 
 (2) `Evasion DOWN`
@@ -541,17 +588,101 @@ Pero dado que nuestro código _Evasion_ en realidad es un código libre, el resu
 (6) `AND`
 
 (7) `OR`
+////
 
-Aunque parezca una consulta muy compleja en realidad es simple, puesto que en (1) introducimos un operando, en (2) un operando y un operador, lo que nos da un resultado y por lo tanto ese resultado se convierte en un segundo operando; en (3) combinamos los dos operandos anteriores con un nuevo operador. Los tres comandos siguientes realizan la misma acción para Rajoy (líder de la oposición), y en (7) combinamos ambos resultados con el operador `OR`.
+[[consulta-combinada, Consulta combinando tipos de operadores]]
+.Consulta combinando tipos de operadores
+----
+Zapatero RajoyPR OR <1>
+
+Evasion DOWN <2>
+
+AND <3>
+----
+
+Aunque parezca una consulta muy compleja en realidad es simple, puesto que
+
+<1> recuperamos todas las citas codificadas como Zapatero o como RajoyPR,
+<2> recuperamos todas las citas codificadas con códigos "por debajo de" Evasion, y
+<3> añadimos el operador AND para que el resultado sea
+
+//
+
+ todas las intervenciones de Zapatero o Rajoy (presidente) codificadas con alguna modalidad de Evasion
+
+[[img-esquema-consulta-combinada, Consulta combinando tipos de operadores]]
+.Consulta combinando tipos de operadores
+[mermaid, "consulta-03", png]
+....
+graph LR
+id1(Zapatero)
+id2(RajoyPR)
+id3(OR)
+id4(Zapatero OR RajoyPR)
+id5(Evasion)
+id6(DOWN)
+id7(Evasion DOWN)
+id8(AND)
+id9(Zapatero OR RajoyPR <br/>AND Evasion DOWN)
+id1 --- id3
+id2 --- id3
+id3 --> id4
+id5 --- id6
+id6 --> id7
+id4 --- id8
+id7 --- id8
+id8 --> id9
+classDef operador fill:#e5e5e5
+class id3,id6,id8 operador
+classDef default fill: white, stroke: black, stroke-width:3px
+linkStyle default stroke: black, stroke-width:3px,fill:#ffffff
+....
+
+// Forma original, demasiado complicada
+////
+[mermaid, "image-147b", png]
+....
+graph LR
+id1(Zapatero)
+id2(Evasión)
+id3(DOWN)
+id4(Evasion DOWN)
+id5(AND)
+id6(Zapatero AND Evasion DOWN)
+id7(RajoyLO)
+id8(Evasión)
+id9(DOWN)
+id10(Evasion DOWN)
+id11(AND)
+id12(RajoyLO AND Evasion DOWN)
+id13(OR)
+id14(Zapatero AND Evasion DOWN<br/>OR<br/>RajoyLO AND Evasion DOWN)
+id1 --- id5
+id2 --- id3
+id3 --> id4
+id4 --- id5
+id5 --> id6
+id7 --- id11
+id8 --- id9
+id9 --> id10
+id10 --- id11
+id11 --> id12
+id6 --- id13
+id12 --- id13
+id13 --> id14
+....
+////
 
 [[operadores-de-proximidad]]
 ===== Operadores de Proximidad
 
 Por último, los operadores de proximidad, como su nombre indica, permiten recuperar citas en función de la relación espacial existente entre diferentes códigos.
 
+//Comprobar [juan]
+
 [[tab-operadores-proximidad, Operadores de proximidad]]
 .Operadores de proximidad
-[width="90%",cols="15%,85%",options="header",]
+[.center, .center, cols="15%,85%",options="header, autowidth",]
 |=======================================================================
 |Operador |Función
 |Within |La cita codificada como Código-D está Within la cita codificada
@@ -595,7 +726,13 @@ Volviendo una vez más a nuestro ejemplo, en la figura <<img-concurrencia-citas>
 
 [[img-concurrencia-citas, Concurrencia de citas]]
 .Concurrencia de citas
+// en html cambio tamaño imagen, en pdf se mantiene original
+ifdef::backend-html5[]
 image::image-150.png[{alt="Concurrencia de citas", width=75%, align="center"]
+endif::[]
+ifdef::backend-pdf[]
+image::image-150.png[{alt="Concurrencia de citas", align="center"]
+endif::[]
 
 Por lo tanto, nuestra consulta debería ser.
 
@@ -609,15 +746,52 @@ Para finalizar con esta sección de operadores de proximidad, pondremos otro eje
 
 En el modelo de citenp:[rasiah2010] que hemos utilizado para codificar las respuestas evasivas, estas, al igual que las respuestas (__Answer__) y las respuestas intermedias (__A Intermediate__) podían ser consecuencia de tres modalidades de pregunta (__Q Y/N__, _Q Wh_ y __Q Disjunctive__). Nos puede interesar, por lo tanto, identificar citas codificadas como _Evasion_ que aparecen única y exclusivamente a continuación de citas codificadas como _Q Y/N_ (preguntas de tipo Sí/No). En ese caso la consulta anterior quedaría de la siguiente forma:
 
-(1) `Evasion DOWN`
+----
+Evasion DOWN <1>
 
-(2) `Zapatero`
+Zapatero <2>
 
-(3) `Cooccur`
+Cooccur <3>
 
-(4) `Q Y/N`
+Q Y/N <4>
 
-(5) `Follows`
+Follows <5>
+----
+
+<1> Recupera las citas de todos los códigos "por debajo" de Evasion.
+<2> Recupera todas las citas codificadas como Zapatero.
+<3> Coocurrencia de <1> y <2>.
+<4> Recupera todas las citas codificadas como Q Y/N.
+<5> Recupera las citas en las que <4> FOLLOWS A <3>.
+
+[[img-concurrencia-citas, Operador _Follows_]]
+.Operador _Follows_
+[mermaid, "consulta-04", png]
+....
+graph LR
+id1(Evasion)
+id2(DOWN)
+id3(Evasion DOWN)
+id4(Zapatero)
+id5(COOCCUR)
+id6(Evasion DOWN<br/>COOCCUR<br/>Zapatero)
+id7(Q Y/N)
+id8(FOLLOWS)
+id9(Evasion DOWN COOCCUR Zapatero<br/>FOLLOWS<br/>Q Y/N)
+id1 --- id2
+id2 --> id3
+id3 --- id5
+id4 --- id5
+id5 --> id6
+id6 --- id8
+id7 --- id8
+id8 --> id9
+classDef operador fill:#e5e5e5
+class id2,id5,id8 operador
+classDef default fill: white, stroke: black, stroke-width:3px
+linkStyle default stroke: black, stroke-width:3px,fill:#ffffff
+....
+
 
 [[super-codigos]]
 ==== Super Códigos
@@ -679,7 +853,14 @@ En la figura, en (1) y (2) se nos muestran el conjunto de códigos de la UH, par
 
 [[img-tabla-concurrencias, Tabla de Concurrencias]]
 .Tabla de Concurrencias
+// en html cambio tamaño imagen, en pdf se mantiene original
+ifdef::backend-html5[]
 image::image-159.png[{alt="Tabla de Concurrencias", width=75%, align="center"]
+endif::[]
+ifdef::backend-pdf[]
+image::image-159.png[{alt="Tabla de Concurrencias", align="center"]
+endif::[]
+
 
 [[analizador-de-codificaciones]]
 === Analizador de codificaciones
@@ -690,7 +871,14 @@ En la figura <<img-ejemplo-codificacion-redundante>> podemos ver un hipotético 
 
 [[img-ejemplo-codificacion-redundante, Ejemplo de codificación redundante]]
 .Ejemplo de codificación redundante
+// en html cambio tamaño imagen, en pdf se mantiene original
+ifdef::backend-html5[]
 image::image-160.png[{alt="Ejemplo de codificación redundante", width=75%, align="center"]
+endif::[]
+ifdef::backend-pdf[]
+image::image-160.png[{alt="Ejemplo de codificación redundante", align="center"]
+endif::[]
+
 
 Al utilizar el __Analizador de codificación redundante__, aparecerá una ventana como la de la siguiente figura, en la que podemos ver (1) los códigos que según el programa podrían incluir citas redundantes. Si seleccionamos uno de esos códigos, en (2) y (3) se nos mostrarán las parejas de citas que podrían ser redundantes. Podemos entonces decidir si queremos _eliminar_ o _desvincular_ la cita en (2) o en (3) o si queremos _fusionar_ ambas citas.
 

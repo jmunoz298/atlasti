@@ -1,8 +1,7 @@
 [[documentar-nuestro-trabajo-memos]]
 == Documentar nuestro trabajo: Memos
 
-Ya hemos comentado previamente que una de las características de ATLAS.ti es que ofrece muchas posibilidades para documentar nuestro trabajo. En el capítulo anterior hemos visto, por ejemplo, la
-posibilidad de escribir un comentario genérico de la UH. Muchos otros componentes, como documentos, citas o códigos, permiten que también se les asocie un comentario descriptivo, pero disponemos, además, de la posibilidad de la escritura de __Memos__, es decir, memorandos, comentarios o anotaciones genéricos, no necesariamente asociados —aunque puedan asociarse— a ningún componente concreto.
+Ya hemos comentado previamente que una de las características de ATLAS.ti es que ofrece muchas posibilidades para documentar nuestro trabajo. En el capítulo anterior hemos visto, por ejemplo, la posibilidad de escribir un comentario genérico de la UH. Muchos otros componentes, como documentos, citas o códigos, permiten que también se les asocie un comentario descriptivo, pero disponemos, además, de la posibilidad de la escritura de __Memos__, es decir, memorandos, comentarios o anotaciones genéricos, no necesariamente asociados —aunque puedan asociarse— a ningún componente concreto.
 
 Los __Memos__, constituyen, además un elemento fundamental del análisis, aunque muy a menudo, uno de los elementos más subutilizados. Es por eso, por su “olvido”, por su habitual relegación a un plano accesorio, por lo que apelaremos a otras voces para convencer de su importancia.
 
@@ -39,7 +38,9 @@ pero puede darnos una pista sobre la relevancia de la temática y las reflexione
 
 Para la creación de __Memos__, podemos seleccionar la opción `Crear memo libre` desde el menú `Memos` o, desde ese mismo menú, abrir el `Administrador de memos` y hacer clic en el icono de creación.
 
+ifdef::backend-html5[]
 TIP: image:image-018.png[{alt="Icono crear", float="left", align="center"] Siempre que veamos este icono, podremos crear un nuevo elemento. Es decir, crearemos un Memo si lo visualizamos en el _Administrador de Memos_, crearemos un código en el _Administrador de códigos_ y así en cada caso.
+endif::[]
 
 
 Lo primero que tendremos que hacer, será dar un nombre a nuestro __Memo__, y a continuación (y aquí viene lo más complicado) escribirlo en el editor que nos aparecerá a continuación. En la figura <<img-editor-memos>> podemos apreciar que ese editor se diferencia del que habíamos visto al crear el comentario de UH. En este caso tenemos (1) una zona en la que aparece la etiqueta con la que hemos nombrado el __Memo__, y (2) una lista
