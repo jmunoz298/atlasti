@@ -1,4 +1,4 @@
-bundle exec asciidoctor-pdf -b pdf -a pdf-style=custom-theme.yml -r asciidoctor-diagram -r asciidoctor-bibtex 00-atlasti.adoc  -o atlasti.pdf
+bundle exec asciidoctor-pdf -b pdf -a pdf-style=custom-theme.yml -r asciidoctor-diagram -r asciidoctor-bibtex 00-atlasti.adoc  -o atlasti7.pdf
 
 ## asciidoctor-pdf: generador archivos pdf
 ## -b pdf: define el formato de salida (e influye en condiciones if, para que determinados contenidos se muestren sólo para html/pdf)
