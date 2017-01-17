@@ -102,6 +102,8 @@ image::image-090.png[{alt="Super-familias de documentos", align="center"]
 
 De la misma forma que creamos _súper familias_ de documentos podemos crear _súper familias_ de códigos, por ejemplo la _súper familia_ _Nacionales_ en la que se incluirán los partidos de ámbito nacional y la _súper familia_ __Autonómicos__, en la que se incluirán los partidos de ámbito autonómico. En este caso, la creación de la _súper familia_ seguirá una estrategia diferente, puesto que lo que haremos será “combinar” mediante el operador lógico “O” a los diferentes partidos políticos (recordemos que los partidos son familias de códigos cuyos miembros son los diferentes parlamentarios). En el caso de la _súper familia_ __Nacionales__, la sintaxis de nuestra _Consulta_ sería:
 
+// Comprobar paréntesis
+
 `(((("IU" | "PCE") | "PP") | "PSOE") | "UPD")`
 
 Podemos proceder de la misma forma para crear las _súper familias_ _Izquierda_ y __Derecha__, y finalmente podríamos crear una _súper familia_ _Nacionales-Derecha_ con la combinación mediante el operador “Y” de las _súper familias_ _Nacionales_ y __Derecha__.
@@ -142,12 +144,12 @@ Aunque no hayamos hablado explícitamente de ello, hasta ahora hemos visto cómo
 
 [[tab-tipos-relaciones, Tipos de relaciones]]
 .Tipos de relaciones
-[cols=",,,",options="header",]
+[.center, cols="10%,^30%,^30%,^30%",options="header, autowidth",]
 |==========================================
 | |Cita |Código |Memo
-|Cita |Hypervínculo |Codificación |Relación
-|Código | |Relación |Relación
-|Memo | | |Relación
+|*Cita* |Hypervínculo |Codificación |Relación
+|*Código* | |Relación |Relación
+|*Memo* | | |Relación
 |==========================================
 
 
@@ -164,7 +166,7 @@ Las relaciones _cita-cita_ se denominan __Hipervínculos__, y podemos crearlas c
 
 3) seleccionar una segunda cita, y
 
-4) seleccionar la opción _`Crear vínculo Objetivo`. +
+4) seleccionar la opción `Crear vínculo Objetivo`. +
 
 Una vez definida la fuente y el destino, aparecerá un menú (figura <<img-definicion-hipervinculos>>, izquierda) en el que podremos +
 
@@ -275,7 +277,15 @@ El modelo con el que hemos venido trabajando citenp:[rasiah2010] es más complej
 
 [[img-marco-analitico-evasion, Marco analítico para el estudio de la evasión (Rasiah, 2010, p. 667)]]
 .Marco analítico para el estudio de la evasión (Rasiah, 2010, p. 667)
+// en html cambio tamaño imagen, en pdf se mantiene original
+ifdef::backend-html5[]
 image::image-105.png[{alt="Marco analítico para el estudio de la evasión (Rasiah, 2010, p. 667)", width=60%, align="center"]
+endif::[]
+ifdef::backend-pdf[]
+image::image-105.png[{alt="Marco analítico para el estudio de la evasión (Rasiah, 2010, p. 667)", align="center"]
+endif::[]
+
+
 
 El siguiente nivel del modelo diferencia tres tipos de preguntas, las de tipo Sí/no, las de tipo Wh (cuándo, cómo, porqué) y las de tipo disyuntivo. Una vez creados los códigos (__Q Y/N, Q Wh__ y __Q Disjunctive__) correspondientes, volvemos a crear relaciones, aunque en este caso seleccionaremos el tipo de relación __is cause of__, es decir, crearemos la relación _Answer_ __is cause of Q Y/N__; __Answer is cause of Q Wh__, y así sucesivamente.
 
@@ -315,7 +325,7 @@ Una de las modificaciones que podemos realizar a las relaciones definidas por de
 
 [[tab-etiquetas-hipervinculos, Etiquetas de hipervínculos]]
 .Etiquetas de hipervínculos
-[cols=",,,",options="header",]
+[.center, cols=",,,",options="header, autowidth, autowidth",]
 |============================================
 |ID |Etiqueta 1 |Etiqueta 2 |Etiqueta de menú
 |CONTINUE |Continuada por |cont |continued by
@@ -330,7 +340,7 @@ Una de las modificaciones que podemos realizar a las relaciones definidas por de
 
 [[tab-etiquetas-relaciones-codigos, Etiquetas de relaciones entre códigos]]
 .Etiquetas de relaciones entre códigos
-[cols=",,,",options="header",]
+[.center, cols=",,,",options="header, autowidth",]
 |============================================
 |ID |Etiqueta 1 |Etiqueta 2 |Etiqueta de menú
 |ASSO |Asociado |R |is associated with

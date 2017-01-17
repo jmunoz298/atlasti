@@ -14,7 +14,14 @@ Otros autores hacen planteamientos similares a los de Strauss y Corbin cite:[mil
 
 [[img-redes-tematicas, Redes temáticas Attride-Stirling, 2001, p.388]]
 .Redes temáticas Attride-Stirling, 2001, p.388
+// en html cambio tamaño imagen, en pdf se mantiene original
+ifdef::backend-html5[]
 image::image-112.png[{alt="Redes temáticas Attride-Stirling, 2001, p.388", width=60%, align="center"]
+endif::[]
+ifdef::backend-pdf[]
+image::image-112.png[{alt="Redes temáticas Attride-Stirling, 2001, p.388", align="center"]
+endif::[]
+
 
 Las _Redes_ nos permitirán no sólo representar gráficamente las relaciones creadas entre los diferentes componentes que forman parte de la UH, sino que serán también un espacio donde podremos crear nuevas relaciones entre componentesfootnote:[En la práctica, la forma más fácil de crear relaciones entre elementos es desde el editor de __Vistas de Red__.] o incluso crear nuevos componentes (códigos, anotaciones y familias). Esto significa que podemos considerar a las _Redes_ no sólo como el espacio para la representación del trabajo realizado, sino como un espacio para *desarrollar y refinar* dicho trabajo.
 

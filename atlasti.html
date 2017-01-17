@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<meta name="description" content="A story chronicling the inexplicable hazards and vicious beasts a documentation team must surmount and vanquish on their journey to finding an open source project's true power.">
+<meta name="description" content="Manual software análisis cualitativo (CAQDAS) Atlas.ti">
 <meta name="keywords" content="atlas.ti, CAQDAS, Análisis cualitativo">
 <meta name="author" content="Juan Muñoz-Justicia, Miguel Sahagún-Padilla">
 <title>Hacer análisis cualitativo con Atlas.ti 7: Manual de uso</title>
@@ -20,13 +20,13 @@
 <span id="email" class="email"><a href="mailto:juan.munoz@uab.cat">juan.munoz@uab.cat</a></span><br>
 <span id="author2" class="author">Miguel Sahagún-Padilla</span><br>
 <span id="email2" class="email"><a href="mailto:masahagun@correo.uaa.mx">masahagun@correo.uaa.mx</a></span><br>
-<span id="revnumber">version 1.0,</span>
-<span id="revdate">Diciembre, 2016</span>
+<span id="revnumber">version 1.1,</span>
+<span id="revdate">enero, 2017</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Índice</div>
 <ul class="sectlevel1">
-<li><a href="#_introducción">1. Introducción</a>
+<li><a href="#introduccion">1. Introducción</a>
 <ul class="sectlevel2">
 <li><a href="#caqdas">1.1. CAQDAS</a></li>
 <li><a href="#que-es-atlas.ti">1.2. ¿Qué es <strong>ATLAS.ti</strong>?</a></li>
@@ -106,11 +106,21 @@
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
-<div class="paragraph">
-<p>Juan Muñoz-Justicia es profesor titular del Departamento de Psicología Social de la Universidad Autónoma de Barcelona (España) - <a href="mailto:juan.munoz@uab.cat">juan.munoz@uab.cat</a>.<br>
-Miguel Sahagún-Padilla es profesor e investigador de tiempo completo del Departamento de Psicología de la Universidad Autónoma de Aguascalientes (México) - <a href="mailto:masahagun@correo.uaa.mx">masahagun@correo.uaa.mx</a>.</p>
+<div class="quoteblock abstract">
+<blockquote>
+<span class="image" style="float: left"><img src="./images/logo_UAB.png" alt="logo UAB"></span>
+</blockquote>
 </div>
-<h4 id="_licencia" class="discrete">Licencia</h4>
+<div class="paragraph">
+<p>Juan Muñoz-Justicia es profesor titular del Departamento de Psicología Social de la Universidad Autónoma de Barcelona (España) - <a href="mailto:juan.munoz@uab.cat">juan.munoz@uab.cat</a>.</p>
+</div>
+<div class="paragraph">
+<p><span class="image" style="float: left"><img src="./images/logo_UAA.png" alt="logo UAA"></span></p>
+</div>
+<div class="paragraph">
+<p>Miguel Sahagún-Padilla es profesor e investigador de tiempo completo del Departamento de Psicología de la Universidad Autónoma de Aguascalientes (México) - <a href="mailto:masahagun@correo.uaa.mx">masahagun@correo.uaa.mx</a>.</p>
+</div>
+<h3 id="_licencia" class="discrete">Licencia</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -133,7 +143,7 @@ Miguel Sahagún-Padilla es profesor e investigador de tiempo completo del Depart
 </div>
 </div>
 <div class="sect1">
-<h2 id="_introducción">1. Introducción</h2>
+<h2 id="introduccion">1. Introducción</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>En este capítulo presentaremos, en primer lugar, una breve introducción al software para el análisis cualitativo de datos textuales (CAQDAS)para, a continuación, presentar algunas de las características principales de Atlas.ti.</p>
@@ -660,8 +670,7 @@ formatos (a SPSS, por ejemplo).</p>
 <h2 id="documentar-nuestro-trabajo-memos">3. Documentar nuestro trabajo: Memos</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Ya hemos comentado previamente que una de las características de ATLAS.ti es que ofrece muchas posibilidades para documentar nuestro trabajo. En el capítulo anterior hemos visto, por ejemplo, la
-posibilidad de escribir un comentario genérico de la UH. Muchos otros componentes, como documentos, citas o códigos, permiten que también se les asocie un comentario descriptivo, pero disponemos, además, de la posibilidad de la escritura de <em>Memos</em>, es decir, memorandos, comentarios o anotaciones genéricos, no necesariamente asociados —aunque puedan asociarse— a ningún componente concreto.</p>
+<p>Ya hemos comentado previamente que una de las características de ATLAS.ti es que ofrece muchas posibilidades para documentar nuestro trabajo. En el capítulo anterior hemos visto, por ejemplo, la posibilidad de escribir un comentario genérico de la UH. Muchos otros componentes, como documentos, citas o códigos, permiten que también se les asocie un comentario descriptivo, pero disponemos, además, de la posibilidad de la escritura de <em>Memos</em>, es decir, memorandos, comentarios o anotaciones genéricos, no necesariamente asociados —aunque puedan asociarse— a ningún componente concreto.</p>
 </div>
 <div class="paragraph">
 <p>Los <em>Memos</em>, constituyen, además un elemento fundamental del análisis, aunque muy a menudo, uno de los elementos más subutilizados. Es por eso, por su “olvido”, por su habitual relegación a un plano accesorio, por lo que apelaremos a otras voces para convencer de su importancia.</p>
@@ -900,11 +909,11 @@ exploración de archivos de Windows) hasta a) la lista desplegable de documentos
 </div>
 <div class="title">Figura 22. Administrador de Biblioteca de documentos</div>
 </div>
-<div class="admonitionblock tip">
+<div class="admonitionblock warning">
 <table>
 <tr>
 <td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
+<i class="fa icon-warning" title="Warning"></i>
 </td>
 <td class="content">
 <div class="paragraph">
@@ -976,11 +985,11 @@ No es imprescindible asignar todos los DPs a la UH antes de empezar a trabajar, 
 <p>El primer carácter de las etiquetas de la primera fila indica las características de la información que aparece en la columna. De esta forma, en la primera columna la etiqueta <code>!Caso</code>, precedida por el carácter <code>!</code> indica que la columna se corresponde con cada uno de los casos de encuesta, mientras que el carácter <code>:</code>, que precede a la etiqueta <code>:Universidad</code> en la quinta columna, indica que los datos que encabeza son respuestas a preguntas de elección simple con varias opciones de respuesta. En la tabla siguiente podemos ver el conjunto de identificadores de campos de documento, mientras que en la Tabla aparecen los
 identificadores de campos de preguntas.</p>
 </div>
-<table id="tab-encuestas-identificacores" class="tableblock frame-all grid-all spread">
+<table id="tab-encuestas-identificacores" class="tableblock frame-all grid-all spread center">
 <caption class="title">Tabla 1. Encuestas: Identificadores de campos (documento)</caption>
 <colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
+<col style="width: 15%;">
+<col style="width: 85%;">
 </colgroup>
 <thead>
 <tr>
@@ -1010,11 +1019,11 @@ identificadores de campos de preguntas.</p>
 <div class="paragraph">
 <p>El resto de identificadores se corresponden con las preguntas, que pueden ser tanto abiertas como cerradas. En el caso de las preguntas cerradas, estas se importarán como familias (ver <a href="#familias">Familias</a>) asociadas con los documentos, mientras que las preguntas abiertas serán los “datos” del documento.</p>
 </div>
-<table id="tab-identificadores-campos" class="tableblock frame-all grid-all spread">
+<table id="tab-identificadores-campos" class="tableblock frame-all grid-all spread center">
 <caption class="title">Tabla 2. Identificadores de campos (preguntas cerradas)</caption>
 <colgroup>
-<col style="width: 6%;">
-<col style="width: 94%;">
+<col style="width: 15%;">
+<col style="width: 85%;">
 </colgroup>
 <thead>
 <tr>
@@ -1126,11 +1135,11 @@ características del documento con el que estemos trabajando y, además, facilit
 <div class="paragraph">
 <p>También podemos visualizar los documentos en el <em>Administrador de documentos</em> que, además de mostrarnos información adicional sobre los mismos, nos permitirá acceder a todas las funciones del programa relacionadas con los DPs. En la siguiente tabla podemos ver las informaciones disponibles en el <em>administrador</em> de documentos (ver también <a href="#img-comentarios-dp">Comentarios de Documento primario</a>)</p>
 </div>
-<table id="tab-administrador-dp-columnas" class="tableblock frame-all grid-all spread">
+<table id="tab-administrador-dp-columnas" class="tableblock frame-all grid-all center">
 <caption class="title">Tabla 3. Administrador de documentos primarios: Columnas</caption>
 <colgroup>
-<col style="width: 16%;">
-<col style="width: 84%;">
+<col>
+<col>
 </colgroup>
 <thead>
 <tr>
@@ -1565,11 +1574,11 @@ o visuales. (<a href="#saldana2009">Saldaña&#44; 2009&#44; p.&#160;3</a>)</p>
 <div class="paragraph">
 <p>Una posible forma de sistematizar los contenidos a añadir a los comentarios de códigos es seguir el modelo que proponen <a href="#macqueen1998">MacQueen&#44; McLellan&#44; &amp; Milstein (1998)</a>, del que ofrecemos un ejemplo en la siguiente tabla.</p>
 </div>
-<table id="tab-elementos-comentarios-codigos" class="tableblock frame-all grid-all spread">
+<table id="tab-elementos-comentarios-codigos" class="tableblock frame-all grid-all center">
 <caption class="title">Tabla 4. Elementos comentarios de códigos (MacQueen, McLellan, Kay y Milstein ,1998)</caption>
 <colgroup>
-<col style="width: 30%;">
-<col style="width: 70%;">
+<col>
+<col>
 </colgroup>
 <thead>
 <tr>
@@ -1795,11 +1804,11 @@ Es importante que en el momento de preparación de los datos previo a la asignac
 <div class="paragraph">
 <p>El siguiente paso (5) consiste en definir la extensión de la cita una vez que la búsqueda haya sido exitosa. Si la búsqueda arroja algún resultado, se creará una cita que puede variar de tamaño en función de la elección que hayamos realizado en <em>Crear cita desde el resultado hasta:</em>. Por ejemplo, en el caso de que hayamos seleccionado como criterio de búsqueda, la expresión “Ent”, cada vez que ésta aparezca en el documento se creará una cita de la siguiente forma:</p>
 </div>
-<table id="tab-autocodificacion-opciones" class="tableblock frame-all grid-all spread">
+<table id="tab-autocodificacion-opciones" class="tableblock frame-all grid-all center">
 <caption class="title">Tabla 5. Autocodificación: opciones de creación de la cita</caption>
 <colgroup>
-<col style="width: 16%;">
-<col style="width: 84%;">
+<col>
+<col>
 </colgroup>
 <thead>
 <tr>
@@ -2123,40 +2132,40 @@ super-familia creada anteriormente.</p>
 <div class="paragraph">
 <p>Aunque no hayamos hablado explícitamente de ello, hasta ahora hemos visto cómo podemos crear relaciones ente algunos objetos de la UH. Por una parte, la codificación implica relacionar <em>citas</em> con <em>códigos</em>, mientras que la creación de <em>familias</em> implica crear un tipo específico de vínculo entre objetos. En el caso de dos códigos incluidos en la misma familia, la relación se podría leer así: "el código A tiene en común alguna característica o propiedad con el código B". Si, por ejemplo, asignamos los códigos <em>Zapatero</em> y <em>Rubalcaba</em> a la familia <em>PSOE</em>, estamos diciendo que ambos comparten como propiedad su pertenencia al mismo partido político. De forma semejante, nuestro análisis podría implicar la creación de relaciones entre otros objetos. Para ello, ATLAS.ti nos permite relacionar entre sí citas, códigos y memos como se muestra en la tabla siguiente.</p>
 </div>
-<table id="tab-tipos-relaciones" class="tableblock frame-all grid-all spread">
+<table id="tab-tipos-relaciones" class="tableblock frame-all grid-all center">
 <caption class="title">Tabla 6. Tipos de relaciones</caption>
 <colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
+<col>
+<col>
+<col>
+<col>
 </colgroup>
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top">Cita</th>
-<th class="tableblock halign-left valign-top">Código</th>
-<th class="tableblock halign-left valign-top">Memo</th>
+<th class="tableblock halign-center valign-top">Cita</th>
+<th class="tableblock halign-center valign-top">Código</th>
+<th class="tableblock halign-center valign-top">Memo</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Cita</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Hypervínculo</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Codificación</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Relación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Cita</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Hypervínculo</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Codificación</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Relación</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Código</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Relación</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Relación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Código</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Relación</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Relación</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Memo</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Relación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Memo</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Relación</p></td>
 </tr>
 </tbody>
 </table>
@@ -2178,7 +2187,7 @@ super-familia creada anteriormente.</p>
 <p>3) seleccionar una segunda cita, y</p>
 </div>
 <div class="paragraph">
-<p>4) seleccionar la opción _`Crear vínculo Objetivo`.<br></p>
+<p>4) seleccionar la opción <code>Crear vínculo Objetivo</code>.<br></p>
 </div>
 <div class="paragraph">
 <p>Una vez definida la fuente y el destino, aparecerá un menú (figura <a href="#img-definicion-hipervinculos">Definición de hipervínculos</a>, izquierda) en el que podremos<br></p>
@@ -2410,13 +2419,13 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 <div class="paragraph">
 <p>Una de las modificaciones que podemos realizar a las relaciones definidas por defecto, puede ser la de la etiqueta de representación en las <em>redes</em> (<em>Etiqueta 1</em>, <em>Etiqueta 2</em> y <em>Texto del menú</em>). Como hemos visto anteriormente, los símbolos definidos por defecto no son excesivamente ilustrativos del tipo de relación que representan. Este inconveniente puede solventarse, cuando estamos trabajando en una red, por la información adicional que se ofrece en la barra de estado; sin embargo, si la imprimimos como una forma de ilustrar nuestro análisis, será difícil para los lectores interpretar el significado de símbolos como <code>&#8594;|</code> (critica), <code>:&gt;</code> (discute), etc. Sugerimos, por lo tanto, modificar esos símbolos por etiquetas realmente ilustrativas como "critica", "discute", etc. Además, podemos aprovechar la posibilidad que nos ofrece el programa de intercambiar (en las <em>Redes</em>) entre la presentación de <em>Etiqueta 1,</em> <em>Etiqueta 2</em> y <em>Texto del menú</em>, lo que nos permitiría, por ejemplo, definir cada una de las etiqueta en diferentes idiomas y utilizar posteriormente uno u otro conjunto en función de las necesidades. En las tablas siguientes presentamos una propuesta de estructuración de las etiquetas para <em>hipervínculos</em> y para <em>códigos</em>, respectivamente.</p>
 </div>
-<table id="tab-etiquetas-hipervinculos" class="tableblock frame-all grid-all spread">
+<table id="tab-etiquetas-hipervinculos" class="tableblock frame-all grid-all center">
 <caption class="title">Tabla 7. Etiquetas de hipervínculos</caption>
 <colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
+<col>
+<col>
+<col>
+<col>
 </colgroup>
 <thead>
 <tr>
@@ -2477,13 +2486,13 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 </tr>
 </tbody>
 </table>
-<table id="tab-etiquetas-relaciones-codigos" class="tableblock frame-all grid-all spread">
+<table id="tab-etiquetas-relaciones-codigos" class="tableblock frame-all grid-all center">
 <caption class="title">Tabla 8. Etiquetas de relaciones entre códigos</caption>
 <colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
+<col>
+<col>
+<col>
+<col>
 </colgroup>
 <thead>
 <tr>
@@ -3024,13 +3033,18 @@ Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se ha
 <p>En nuestro caso, podría interesarnos buscar todas las referencias que hacen los parlamentarios a terceros países, por lo que podríamos definir una búsqueda en la que se incluyeran Francia, Alemania, Inglaterra… de forma que la búsqueda fuera exitosa con la aparición de cualquiera de ellos en el texto.</p>
 </div>
 <div class="paragraph">
-<p>Para ello, introduciremos en la zona de búsqueda los nombres de los diferentes países separados por una barra vertical <code>|</code>.<sup class="footnote">[<a id="_footnoteref_28" class="footnote" href="#_footnote_28" title="View footnote.">28</a>]</sup></p>
+<p>Para ello, introduciremos en la zona de búsqueda los nombres de los diferentes países separados por una barra vertical `|, por ejemplo:</p>
 </div>
-<div id="img-busqueda-categorias" class="imageblock" style="text-align: center">
-<div class="content">
-<img src="./images/image-133.png" alt="{alt="Búsqueda por categorías"">
+<div class="paragraph">
+<p><code>Francia|Alemania|Inglaterra</code></p>
 </div>
-<div class="title">Figura 99. Búsqueda por categorías</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">TIP</dt>
+<dd>
+<p>En la mayoría de los teclados, para introducimos este signo con la combinación de teclas <code>AltGr+1</code> (aunque este último carácter puede variar en función del teclado).</p>
+</dd>
+</dl>
 </div>
 <div class="paragraph">
 <p>Si cerramos la ventana de búsqueda y volvemos a abrirla, observaremos que sigue apareciendo la última sentencia de búsqueda que habíamos realizado, pero precedida por los caracteres <code>TEMP:=</code></p>
@@ -3039,7 +3053,7 @@ Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se ha
 <p><code>TEMP:=Francia|Alemania|Inglaterra</code></p>
 </div>
 <div class="paragraph">
-<p>Si clicamos sobre la flecha ubicada a la derecha de la zona de escritura de la búsqueda, veremos además que, junto a esta, nos aparecen toda otra serie de búsquedas (predefinidas), todas ellas precedidas por algún término y los caracteres <code>:=</code> (dos puntos y signo de igualdad). Estos caracteres son los que utilizamos para definir auténticas categorías de búsqueda, es decir, para definir un identificador para las búsquedas. Dado que no lo habíamos hecho previamente, el programa ha identificado nuestra búsqueda como “TEMP”, pero podemos cambiar esa etiqueta por otra más significativa, como por ejemplo "EUROPA".<sup class="footnote">[<a id="_footnoteref_29" class="footnote" href="#_footnote_29" title="View footnote.">29</a>]</sup> De esta forma, nuestra sentencia de búsqueda sería</p>
+<p>Si clicamos sobre la flecha ubicada a la derecha de la zona de escritura de la búsqueda, veremos además que, junto a esta, nos aparecen toda otra serie de búsquedas (predefinidas), todas ellas precedidas por algún término y los caracteres <code>:=</code> (dos puntos y signo de igualdad). Estos caracteres son los que utilizamos para definir auténticas categorías de búsqueda, es decir, para definir un identificador para las búsquedas. Dado que no lo habíamos hecho previamente, el programa ha identificado nuestra búsqueda como “TEMP”, pero podemos cambiar esa etiqueta por otra más significativa, como por ejemplo "EUROPA".<sup class="footnote">[<a id="_footnoteref_28" class="footnote" href="#_footnote_28" title="View footnote.">28</a>]</sup> De esta forma, nuestra sentencia de búsqueda sería</p>
 </div>
 <div class="paragraph">
 <p><code>EUROPA:=Francia|Alemania|Inglaterra</code></p>
@@ -3087,10 +3101,10 @@ Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se ha
 <div class="content">
 <img src="./images/image-135.png" alt="{alt="Opciones de búsqueda"">
 </div>
-<div class="title">Figura 100. Opciones de búsqueda</div>
+<div class="title">Figura 99. Opciones de búsqueda</div>
 </div>
 <div class="paragraph">
-<p>Podemos sobreescribir ese archivo o dar un nombre diferente, teniendo en cuenta que si lo sobreescribimos, la lista que acabamos de salvar será la que utilizará ATLAS.ti por defecto la próxima vez que utilicemos el programa. En el caso de dar un nombre de archivo diferente, para poder recuperar esa lista en futuras sesiones, tendremos que utilizar la opción <em>Cargar Categorías</em>. También podemos eliminar elementos de la lista de categorías con la opción <em>Borrar Categoría.</em><sup class="footnote">[<a id="_footnoteref_30" class="footnote" href="#_footnote_30" title="View footnote.">30</a>]</sup></p>
+<p>Podemos sobreescribir ese archivo o dar un nombre diferente, teniendo en cuenta que si lo sobreescribimos, la lista que acabamos de salvar será la que utilizará ATLAS.ti por defecto la próxima vez que utilicemos el programa. En el caso de dar un nombre de archivo diferente, para poder recuperar esa lista en futuras sesiones, tendremos que utilizar la opción <em>Cargar Categorías</em>. También podemos eliminar elementos de la lista de categorías con la opción <em>Borrar Categoría.</em><sup class="footnote">[<a id="_footnoteref_29" class="footnote" href="#_footnote_29" title="View footnote.">29</a>]</sup></p>
 </div>
 </div>
 <div class="sect3">
@@ -3104,11 +3118,11 @@ Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se ha
 <div class="paragraph">
 <p>Aunque es muy probable que no necesitemos toda la potencia de la búsqueda GREP, no está de más saber de su existencia para poder consultar los operadores en el caso en que necesitemos una búsqueda especial. En la siguiente tabla ofrecemos el listado de los operadores que hemos comprobado que funcionan en ATLAS.ti, y a continuación ilustraremos su utilización con algunos ejemplos.</p>
 </div>
-<table id="tab-operadores-grep" class="tableblock frame-all grid-all spread">
+<table id="tab-operadores-grep" class="tableblock frame-all grid-all spread center">
 <caption class="title">Tabla 9. Operadores GREP</caption>
 <colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
+<col style="width: 30%;">
+<col style="width: 70%;">
 </colgroup>
 <thead>
 <tr>
@@ -3140,11 +3154,11 @@ una palabra.</p></td>
 de una palabra</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">\B</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Limita la expresión de búsqueda siguiente a NO incio de palabra</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\B<em>término</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Limita la expresión de búsqueda siguiente a NO inicio de palabra</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">B\</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>término</em>B\</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Limita la expresión de búsqueda precedente a NO final de palabra</p></td>
 </tr>
 <tr>
@@ -3169,15 +3183,15 @@ precedente.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Localiza cero o una ocurrencia de la expresión precedente.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[ ]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[<em>carácter1</em><em>carácter2</em> ]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Localiza un conjunto de caracteres.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[<em>carácter1</em>-<em>carácter2</em> ]</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Localiza un rango de caracteres.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">(<em>término</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>término</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>término</em>)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(<em>término</em> | <em>término</em> | <em>término</em>)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Localiza varios términos de forma simultánea.</p></td>
 </tr>
 <tr>
@@ -3216,13 +3230,13 @@ caracteres especiales anteriores.</p></td>
 <p>Imaginemos, por ejemplo, que queremos encontrar palabras que empiecen por "pre". Si hacemos una búsqueda normal (no GREP), obtendríamos como resultado tanto “presidente”, "precisión" y "presente" como "imprecisión", "impresionante" o "comprensión", en las que el término de búsqueda forma parte de la palabra aunque no al inicio.</p>
 </div>
 <div class="paragraph">
-<p>Una forma de hacer esta búsqueda utilizando GREP es mediante el operador <code>\&gt;<em>término</em></code> (o también <code>\b<em>término</em></code>) de forma que la búsqueda sólo dará resultados si la ocurrencia es al inicio del término buscado</p>
+<p>Una forma de hacer esta búsqueda utilizando GREP es mediante el operador <code>\&lt;<em>término</em></code> (o también <code>\b<em>término</em></code>) de forma que la búsqueda sólo dará resultados si la ocurrencia es al inicio del término buscado</p>
 </div>
 <div class="paragraph">
 <p><code>\&lt;pre</code></p>
 </div>
 <div class="paragraph">
-<p><code>bpre</code></p>
+<p><code>\bpre</code></p>
 </div>
 <div class="paragraph">
 <p>Si lo que queremos es lo contrario, que la búsqueda sólo de resultado cuando el término aparece al final de palabra, podemos utilizar:</p>
@@ -3271,13 +3285,13 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <p>Para finalizar, podemos unir los operadores "inicio de palabra" y "fin de palabra" para encontrar palabras completas con un determinado inicio y un determinado final. Por ejemplo, la expresión</p>
 </div>
 <div class="paragraph">
-<p><code>&lt;p\w*a\&gt;</code></p>
+<p><code>\&lt;p\w*a\&gt;</code></p>
 </div>
 <div class="paragraph">
 <p>encontrará cualquier palabra que empiece con "p" y acabe con "a", puesto que:</p>
 </div>
 <div class="paragraph">
-<p><code>&lt;p</code> es sinónimo de "palabra que empiece con la letra p"</p>
+<p><code>\&lt;p</code> es sinónimo de "palabra que empiece con la letra p"</p>
 </div>
 <div class="paragraph">
 <p><code>\w*</code> es sinónimo de "cualquier carácter alfanumérico (<code>\w</code>) de cualquier longitud (<code>*</code>)"</p>
@@ -3298,10 +3312,10 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <p>en la que utilizamos el paréntesis para agrupar el conjunto de caracteres a los que se aplicará la función "final de palabra" y la barra vertical para indicar las diferentes búsquedas a las que debe aplicarse. En este caso, de nuevo, el resultado de la búsqueda será únicamente las cadenas "ar", "er" o "ir", por lo que si lo que queremos son palabras completas con esas finalizaciones sólo tenemos que utilizar de forma conjunta las dos expresiones anteriores</p>
 </div>
 <div class="paragraph">
-<p><code>*(ar|er|ir)\&gt;</code></p>
+<p><code>\w*(ar|er|ir)\&gt;</code></p>
 </div>
 <div class="paragraph">
-<p>Volviendo a la autocodificación de nuestros participantes, recordamos que la estrategia que habíamos utilizado era crear un código para cada uno de ellos, es decir, cada uno de los parlamentarios está asociado con un código. Aunque esta estrategia es correcta, podríamos haber decidido que no nos interesa qué persona en concreto es la que está interviniendo sino el partido político al que pertenece.<sup class="footnote">[<a id="_footnoteref_31" class="footnote" href="#_footnote_31" title="View footnote.">31</a>]</sup> Esto significa que si queremos autocodificar las intervenciones de Josep Antoni Durán i Lleida, Pere Macias, Josep Sánchez i Llibre y Jordi Vilajoana, con el código “CiU” (en vez de un código diferente para cada uno de ellos). La expresión en este caso sería</p>
+<p>Volviendo a la autocodificación de nuestros participantes, recordamos que la estrategia que habíamos utilizado era crear un código para cada uno de ellos, es decir, cada uno de los parlamentarios está asociado con un código. Aunque esta estrategia es correcta, podríamos haber decidido que no nos interesa qué persona en concreto es la que está interviniendo sino el partido político al que pertenece.<sup class="footnote">[<a id="_footnoteref_30" class="footnote" href="#_footnote_30" title="View footnote.">30</a>]</sup> Esto significa que si queremos autocodificar las intervenciones de Josep Antoni Durán i Lleida, Pere Macias, Josep Sánchez i Llibre y Jordi Vilajoana, con el código “CiU” (en vez de un código diferente para cada uno de ellos). La expresión en este caso sería</p>
 </div>
 <div class="paragraph">
 <p><code>^Sr. (Duran|Macias|Sanchez|Vilajoana).-</code></p>
@@ -3353,25 +3367,25 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <div class="content">
 <img src="./images/image-136.png" alt="{alt="Examinador de objetos: Definición de búsqueda"">
 </div>
-<div class="title">Figura 101. Examinador de objetos: Definición de búsqueda</div>
+<div class="title">Figura 100. Examinador de objetos: Definición de búsqueda</div>
 </div>
 <div class="paragraph">
 <p>En primer lugar (1) definiremos la sentencia de búsqueda, para a continuación seleccionar los objetos a los que se aplicará la misma (2). Finalmente, en (3) podremos ver los resultados.</p>
 </div>
 <div class="paragraph">
-<p>En la sección <em>Definir consulta</em>, definiremos la búsqueda a realizar (4) y si queremos o no utilizar la sintaxis GREP (5).<sup class="footnote">[<a id="_footnoteref_32" class="footnote" href="#_footnote_32" title="View footnote.">32</a>]</sup> Finalmente seleccionaremos (6) el ámbito al que se aplicará la búsqueda, es decir, en qué secciones de los diversos componentes (nombre del componente, comentario&#8230;&#8203;).</p>
+<p>En la sección <em>Definir consulta</em>, definiremos la búsqueda a realizar (4) y si queremos o no utilizar la sintaxis GREP (5).<sup class="footnote">[<a id="_footnoteref_31" class="footnote" href="#_footnote_31" title="View footnote.">31</a>]</sup> Finalmente seleccionaremos (6) el ámbito al que se aplicará la búsqueda, es decir, en qué secciones de los diversos componentes (nombre del componente, comentario&#8230;&#8203;).</p>
 </div>
 <div class="paragraph">
 <p>En el ejemplo de la figura <a href="#img-examinador-objetos-definicion">Examinador de objetos: Definición de búsqueda</a> estamos realizando una búsqueda utilizando sintaxis GREP. En este caso, una búsqueda de las apariciones de diferentes modalidades de referencia a “falsedad”. Si hemos leído el apartado dedicado a la búsqueda GREP podemos traducir la expresión de búsqueda como “busca las apariciones de “fals” seguidas de cualquiera otros caracteres (utilizando la expresión GREP <code>*.</code>) Por lo tanto, el resultado debería incluir términos como “falso”, “falsedad”, “falsos”, etc.</p>
 </div>
 <div class="paragraph">
-<p>La segunda sección del <em>Examinador de objetos</em> (<em>Selección de objetos</em>) nos permite seleccionar los objetos (componentes) a los que se aplicará la búsqueda.<sup class="footnote">[<a id="_footnoteref_33" class="footnote" href="#_footnote_33" title="View footnote.">33</a>]</sup> Por lo tanto, si en la pantalla anterior hubiéramos seleccionado únicamente <em>Comentario</em> como ámbito de búsqueda y en esta otra seleccionamos todos los objetos, la búsqueda se realizaría únicamente en los comentarios de todos los objetos de la UH. Si el término apareciera por ejemplo en una cita (pero no en un comentario de cita), la búsqueda no lo incluiría.</p>
+<p>La segunda sección del <em>Examinador de objetos</em> (<em>Selección de objetos</em>) nos permite seleccionar los objetos (componentes) a los que se aplicará la búsqueda.<sup class="footnote">[<a id="_footnoteref_32" class="footnote" href="#_footnote_32" title="View footnote.">32</a>]</sup> Por lo tanto, si en la pantalla anterior hubiéramos seleccionado únicamente <em>Comentario</em> como ámbito de búsqueda y en esta otra seleccionamos todos los objetos, la búsqueda se realizaría únicamente en los comentarios de todos los objetos de la UH. Si el término apareciera por ejemplo en una cita (pero no en un comentario de cita), la búsqueda no lo incluiría.</p>
 </div>
 <div id="img-examinador-objetos-seleccion" class="imageblock" style="text-align: center">
 <div class="content">
 <img src="./images/image-137.png" alt="{alt="Examinador de objetos: Selección de objetos"">
 </div>
-<div class="title">Figura 102. Examinador de objetos: Selección de objetos</div>
+<div class="title">Figura 101. Examinador de objetos: Selección de objetos</div>
 </div>
 <div class="paragraph">
 <p>La última sección de la herramienta nos muestra finalmente los resultados de la búsqueda. Como podemos ver en la figura siguiente, la búsqueda ha dado como resultado 12 coincidencias, que incluyen anotaciones, códigos, documentos y citas. En la misma ilustración podemos ver cómo, al seleccionar uno de los resultados, en la parte inferior de la ventana podemos ver el contexto en el que se encuentra. En este caso, la palabra “falsedad” aparece en el memo <em>Mentira</em>.</p>
@@ -3380,7 +3394,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <div class="content">
 <img src="./images/image-138.png" alt="{alt="Examinador de objetos: Resultados"">
 </div>
-<div class="title">Figura 103. Examinador de objetos: Resultados</div>
+<div class="title">Figura 102. Examinador de objetos: Resultados</div>
 </div>
 </div>
 <div class="sect2">
@@ -3404,7 +3418,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <div class="content">
 <img src="./images/image-139.png" alt="{alt="Explorador de UH"">
 </div>
-<div class="title">Figura 104. Explorador de UH</div>
+<div class="title">Figura 103. Explorador de UH</div>
 </div>
 <div class="paragraph">
 <p>Si desplegamos la rama de códigos, la visualización será idéntica a la que podemos ver con el <em>Árbol de códigos</em> o con el <em>Bosque de códigos.</em> En el caso de las familias, podemos ver sus miembros y, en el caso de haber creado <em>superfamilias</em> podemos ver no sólo sus miembros sino también los operadores que han dado lugar a su creación. En el ejemplo siguiente podemos ver cómo la superfamilia <em>Derecha</em> tiene como miembros los códigos “Anasagasti”, “Belda”, etc,.. y que en su creación se ha utilizado el operador lógico <code>OR</code>.</p>
@@ -3413,7 +3427,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <div class="content">
 <img src="./images/image-140.png" alt="{alt="Explorador de UH: Familias de códigos"">
 </div>
-<div class="title">Figura 105. Explorador de UH: Familias de códigos</div>
+<div class="title">Figura 104. Explorador de UH: Familias de códigos</div>
 </div>
 <div class="paragraph">
 <p>Además de poder visualizar los diferentes objetos, podemos realizar acciones sobre los mismos, por ejemplo en la parte inferior de la ventana podemos editar o crear sus comentarios, mientras que si clicamos sobre un objeto con el botón derecho del ratón tendremos acceso a alguna de las acciones habituales sobre el mismo.</p>
@@ -3451,10 +3465,10 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <div class="content">
 <img src="./images/image-141.png" alt="{alt="Herramienta de consulta"">
 </div>
-<div class="title">Figura 106. Herramienta de consulta</div>
+<div class="title">Figura 105. Herramienta de consulta</div>
 </div>
 <div class="paragraph">
-<p>1) <strong>Códigos y Familias de Códigos</strong><sup class="footnote">[<a id="_footnoteref_34" class="footnote" href="#_footnote_34" title="View footnote.">34</a>]</sup> existentes en la UH. Como decíamos, son los <em>Operandos</em> que utilizaremos en la definición de la <em>consulta</em>. La activación de los operandos para su inclusión en la consulta se realiza haciendo clic dos veces sobre ellos,<sup class="footnote">[<a id="_footnoteref_35" class="footnote" href="#_footnote_35" title="View footnote.">35</a>]</sup> lo que hará que en la ventana de resultados (5) aparezcan las citas relacionadas. Aunque en principio una consulta tiene que incluir operandos y operadores, simplemente seleccionando un operando veremos sus citas (si las tiene) en la zona de resultados. A medida que vayamos añadiendo más operandos y operadores, la zona de resultados cambiará para reflejar los cambios.</p>
+<p>1) <strong>Códigos y Familias de Códigos</strong><sup class="footnote">[<a id="_footnoteref_33" class="footnote" href="#_footnote_33" title="View footnote.">33</a>]</sup> existentes en la UH. Como decíamos, son los <em>Operandos</em> que utilizaremos en la definición de la <em>consulta</em>. La activación de los operandos para su inclusión en la consulta se realiza haciendo clic dos veces sobre ellos,<sup class="footnote">[<a id="_footnoteref_34" class="footnote" href="#_footnote_34" title="View footnote.">34</a>]</sup> lo que hará que en la ventana de resultados (5) aparezcan las citas relacionadas. Aunque en principio una consulta tiene que incluir operandos y operadores, simplemente seleccionando un operando veremos sus citas (si las tiene) en la zona de resultados. A medida que vayamos añadiendo más operandos y operadores, la zona de resultados cambiará para reflejar los cambios.</p>
 </div>
 <div class="paragraph">
 <p>2) <strong>Condiciones</strong> a utilizar como operadores. Están agrupadas en tres categorías: Operadores <em>booleanos</em>, operadores <em>semánticos</em> y operadores de <em>proximidad</em>. De nuevo, para seleccionar un operador sólo tenemos que hacer clic sobre el icono correspondiente.</p>
@@ -3466,7 +3480,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <p>4) Esta zona es similar a la anterior, pero utiliza una <em>sintaxis</em> diferente para visualizar las condiciones utilizadas. Como podemos ver, lo que se nos muestra es la <strong>última consulta realizada</strong>. Si en el paso anterior, tras las consultas ya realizadas hubiéramos clicado en el operador <code>O</code>, se nos mostraría el resultado de esa consulta:</p>
 </div>
 <div class="paragraph">
-<p><code>“Zapatero” &amp; “Evasion”) | (“RajoyLO” &amp; “Evasion”</code></p>
+<p><code>(“Zapatero” &amp; “Evasion”) | (“RajoyLO” &amp; “Evasion”)</code></p>
 </div>
 <div class="paragraph">
 <p>5) <strong>Resultados</strong>, citas que cumplen las condiciones de la última <em>consulta</em> definida (la que se visualiza en (3)).</p>
@@ -3481,7 +3495,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <div class="content">
 <img src="./images/image-142.png" alt="{alt="Herramienta de consulta: Alcance"">
 </div>
-<div class="title">Figura 107. Herramienta de consulta: Alcance</div>
+<div class="title">Figura 106. Herramienta de consulta: Alcance</div>
 </div>
 <div class="paragraph">
 <p>8) Convierte los resultados de la <em>consulta</em> en un <a href="#super-codigos">súper-código</a>.</p>
@@ -3531,43 +3545,47 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <p>Esto significa que, si habitualmente una suma la escribiríamos <code>4 + 5</code>, donde 4 y 5 son los operandos y el signo <code>+</code> es el operador, al utilizar la RPN tenemos que escribir en primer lugar los operandos y a continuación el operador, es decir, <code>4 5 +</code>.</p>
 </div>
 <div class="paragraph">
-<p>Volviendo a nuesto ejemplo, en vez de Zapatero Y Evasion, tendríamos que escribir <code>Zapatero Evasion AND</code>.<sup class="footnote">[<a id="_footnoteref_36" class="footnote" href="#_footnote_36" title="View footnote.">36</a>]</sup></p>
+<p>Volviendo a nuesto ejemplo, en vez de Zapatero Y Evasion, tendríamos que escribir <code>Zapatero Evasion AND</code>.<sup class="footnote">[<a id="_footnoteref_35" class="footnote" href="#_footnote_35" title="View footnote.">35</a>]</sup></p>
 </div>
 <div class="paragraph">
-<p>En el caso de que quisiéramos obtener como resultado todas las citas del código <em>Evasion</em> en las intervenciones de cualquiera de los presidentes (Zapatero o Rajoy) tendríamos que añadir alguna condición más a nuestra consulta. Tendríamos que realizar una consulta para obtener las citas de cada uno de los presidentes y posteriormente combinar los resultados con una condición <code>O</code>. Para ello, con una “sintaxis clásica” habríamos utilizado paréntesis para definir la prioridad de las operaciones. Pero como veíamos en la cita anterior, otra de las características de la RPN es que no utiliza paréntesis, por lo que tendríamos que formular la consulta de la siguiente forma:</p>
+<p>En el caso de que quisiéramos obtener como resultado todas las citas del código <em>Evasion</em> en las intervenciones de cualquiera de los presidentes (Zapatero o Rajoy) tendríamos que añadir alguna condición más a nuestra consulta, por lo que tendríamos que formular la consulta de la siguiente forma:</p>
 </div>
-<div class="paragraph">
-<p>(1) <code>Zapatero RajoyLO OR</code></p>
-</div>
-<div class="paragraph">
-<p>(2) <code>Evasion</code></p>
-</div>
-<div class="paragraph">
-<p>(3) <code>AND</code></p>
-</div>
-<div class="paragraph">
-<p>Aunque la formulación pueda parecer extraña, en la práctica es relativamente sencilla si tenemos en cuenta que cada vez que obtenemos un resultado en una consulta ese resultado pasa a convertirse en un operando. Es decir, una vez que hemos obtenido las citas correspondientes a la primera parte de la consulta (1) éstas se convierten en un operando, lo mismo que las de (2), por lo que una vez que tenemos dos operandos los combinamos con el operador <code>AND</code> en (3).</p>
-</div>
-<div id="img-esquema-consulta-a" class="imageblock" style="text-align: center">
+<div class="listingblock">
 <div class="content">
-<img src="./images/image-143a.png" alt="{alt="Esquema consulta (a)"" width="60%">
+<pre>Zapatero RajoyPR OR <i class="conum" data-value="1"></i><b>(1)</b>
+
+Evasion <i class="conum" data-value="2"></i><b>(2)</b>
+
+AND <i class="conum" data-value="3"></i><b>(3)</b></pre>
 </div>
-<div class="title">Figura 108. Esquema consulta (a)</div>
 </div>
-<div id="img-esquema-consulta-b" class="imageblock" style="text-align: center">
-<div class="content">
-<img src="./images/image-143b.png" alt="{alt="Esquema consulta (b)"" width="60%">
-</div>
-<div class="title">Figura 109. Esquema consulta (b)</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>en primer lugar realizamos una consulta para obtener las citas de cada uno de los presidentes (Zapatero o RajoyPR),</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="2"></i><b>2</b></td>
+<td>la segunda consulta sería simplemente los resultados del código Evasion,</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="3"></i><b>3</b></td>
+<td>finalmente combinaríamos ambos resultados con una condición <code>AND</code>.</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>También nos puede ayudar tener en cuenta que cuando escribimos la consulta en el programa, cada una de las líneas que aparecen en la zona 3 de la figura <a href="#img-herramienta-consulta">Herramienta de consulta</a> es un operando, por lo que una consulta implicará combinar dos líneas (operandos) con un operador.<sup class="footnote">[<a id="_footnoteref_37" class="footnote" href="#_footnote_37" title="View footnote.">37</a>]</sup> En la figura <a href="#img-consulta-secuencia-escritura">Consulta: Secuencia de escritura</a> podemos ver el proceso de escritura. En (1) hemos introducido los dos primeros operandos (códigos), que hemos combinado con el operador <code>AND</code>. En (2) tendríamos por lo tanto el resultado de la consulta, que a su vez será un operando. En (3) hemos vuelto a introducir dos operandos (códigos) que de nuevo hemos combinado con el operador <code>AND</code> (que afecta sólo a las dos primeras líneas que vemos en la ilustración), por lo que tenemos (en 4) el resultado de esa consulta en la primera línea, y el resultado de la anterior en la segunda. Al combinar ambos operandos con el operador <code>OR</code>, nos dará el resultado que podemos ver (5), es decir, “Todas las intervenciones del presidente Zapatero o del líder de la oposición Rajoy, que han sido codificadas como <em>Evasion</em>”.</p>
+<p>Con una “sintaxis clásica” habríamos utilizado paréntesis para definir la prioridad de las operaciones. Pero como veíamos en la cita anterior, otra de las características de la RPN es que no utiliza paréntesis.</p>
 </div>
-<div id="img-consulta-secuencia-escritura" class="imageblock" style="text-align: center">
+<div class="paragraph">
+<p>Aunque la formulación pueda parecer extraña, en la práctica es relativamente sencilla si tenemos en cuenta que cada vez que obtenemos un resultado en una consulta ese resultado pasa a convertirse en un operando (cada una de las líneas que aparecen en la zona 3 de la figura <a href="#img-herramienta-consulta">Herramienta de consulta</a> es un operando). Es decir, una vez que hemos obtenido las citas correspondientes a la primera parte de la consulta (1) éstas se convierten en un operando, lo mismo que las de (2), por lo que una vez que tenemos dos operandos los combinamos con el operador <code>AND</code> en (3).</p>
+</div>
+<div id="img-esquema-consulta" class="imageblock">
 <div class="content">
-<img src="./images/image-143.png" alt="{alt="Consulta: Secuencia de escritura"">
+<img src="./images/consulta-01.png" alt="Esquema consulta" width="1200" height="288">
 </div>
-<div class="title">Figura 110. Consulta: Secuencia de escritura</div>
+<div class="title">Figura 107. Esquema consulta</div>
 </div>
 </div>
 <div class="sect3">
@@ -3580,7 +3598,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <div class="paragraph">
 <p>En la siguiente tabla podemos ver la descripción de los operadores booleanos.</p>
 </div>
-<table id="tab-operadores-booleanos" class="tableblock frame-all grid-all" style="width: 90%;">
+<table id="tab-operadores-booleanos" class="tableblock frame-all grid-all spread center">
 <caption class="title">Tabla 10. Operadores booleanos</caption>
 <colgroup>
 <col style="width: 16.6666%;">
@@ -3599,7 +3617,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">OR</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>A B</em> OR</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Selecciona las citas presentes en el operando A o en el
-operando B <sup class="footnote">[<a id="_footnoteref_38" class="footnote" href="#_footnote_38" title="View footnote.">38</a>]</sup></p></td>
+operando B <sup class="footnote">[<a id="_footnoteref_36" class="footnote" href="#_footnote_36" title="View footnote.">36</a>]</sup></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">XOR</p></td>
@@ -3626,7 +3644,7 @@ operando B <sup class="footnote">[<a id="_footnoteref_38" class="footnote" href=
 <div class="content">
 <img src="./images/image-144.png" alt="{alt="Diagrama de Venn: Operadores Booleanos"">
 </div>
-<div class="title">Figura 111. Diagrama de Venn: Operadores Booleanos</div>
+<div class="title">Figura 108. Diagrama de Venn: Operadores Booleanos</div>
 </div>
 <div class="paragraph">
 <p>En (1) tenemos el resultado de la aplicación del operador <code>OR</code>, que implica la selección de todas las citas que están codificadas como A o codificadas como B. Por lo tanto se trata de un operador inclusivo, El operador <code>XOR</code> (O exclusivo) selecciona igualmente las citas que están codificadas como A o como B pero no aquellas que están codificadas como A y al mismo tiempo como B, por lo que quedarían fuera las de la intersección de ambos conjuntos (2). En (3) vemos el operador más exclusivo, <code>AND</code>, puesto que en este caso sólo quedarán seleccionadas aquellas que están codificadas al mismo tiempo de una forma y de otra. En (4) tenemos el resultado de <code>A NOT</code>, es decir, todas aquellas citas que no están codificadas como A.</p>
@@ -3638,7 +3656,7 @@ operando B <sup class="footnote">[<a id="_footnoteref_38" class="footnote" href=
 <div class="content">
 <img src="./images/image-145.png" alt="{alt="Diagrama: (Zapatero OR Rajoy) AND Evasion"">
 </div>
-<div class="title">Figura 112. Diagrama: (Zapatero OR Rajoy) AND Evasion</div>
+<div class="title">Figura 109. Diagrama: (Zapatero OR Rajoy) AND Evasion</div>
 </div>
 <div class="paragraph">
 <p>Imaginemos ahora una situación como la representada en la siguiente figura, en la que el diagrama de Venn representa cuatro códigos que incluyen un total de catorce citas distribuidas de la siguiente forma:</p>
@@ -3647,17 +3665,17 @@ operando B <sup class="footnote">[<a id="_footnoteref_38" class="footnote" href=
 <div class="content">
 <img src="./images/image-146.png" alt="{alt="Diagrama de Venn: Ejemplo de codificación"">
 </div>
-<div class="title">Figura 113. Diagrama de Venn: Ejemplo de codificación</div>
+<div class="title">Figura 110. Diagrama de Venn: Ejemplo de codificación</div>
 </div>
 <div class="paragraph">
 <p>Ahora podemos ver fácilmente el resultado (citas) de diferentes consultas</p>
 </div>
-<table id="tab-escritura-consulta-multiple" class="tableblock frame-all grid-all spread">
+<table id="tab-escritura-consulta-multiple" class="tableblock frame-all grid-all center">
 <caption class="title">Tabla 11. Escritura consulta múltiple</caption>
 <colgroup>
-<col style="width: 45%;">
-<col style="width: 25%;">
-<col style="width: 30%;">
+<col>
+<col>
+<col>
 </colgroup>
 <thead>
 <tr>
@@ -3698,24 +3716,24 @@ XOR</p></td>
 <div class="content">
 <img src="./images/image-147.png" alt="{alt="Diagrama de Venn: Consulta múltiple"">
 </div>
-<div class="title">Figura 114. Diagrama de Venn: Consulta múltiple</div>
+<div class="title">Figura 111. Diagrama de Venn: Consulta múltiple</div>
 </div>
 <div class="paragraph">
 <p>Y la forma de realizarla sería como vemos en la siguiente figura.</p>
 </div>
-<div id="img-consulta-multiple" class="imageblock" style="text-align: center">
+<div id="img-consulta-multiple" class="imageblock">
 <div class="content">
-<img src="./images/image-148a.png" alt="{alt="Consulta múltiple"" width="60%">
+<img src="./images/consulta-02.png" alt="Consulta múltiple" width="1200" height="377">
 </div>
-<div class="title">Figura 115. Consulta múltiple</div>
+<div class="title">Figura 112. Consulta múltiple</div>
 </div>
 </div>
 <div class="sect4">
 <h5 id="operadores-semanticos">Operadores Semánticos</h5>
 <div class="paragraph">
-<p>Como hemos visto, las <em>consultas</em> con operadores booleanos, sólo requieren de la existencia de códigos. En el caso de los operadores semánticos necesitamos además haber creado previamente relaciones entre códigos. Más concretamente, los operadores semánticos se basan en la existencia de relaciones de tipo transitivo entre códigos.<sup class="footnote">[<a id="_footnoteref_39" class="footnote" href="#_footnote_39" title="View footnote.">39</a>]</sup></p>
+<p>Como hemos visto, las <em>consultas</em> con operadores booleanos, sólo requieren de la existencia de códigos. En el caso de los operadores semánticos necesitamos además haber creado previamente relaciones entre códigos. Más concretamente, los operadores semánticos se basan en la existencia de relaciones de tipo transitivo entre códigos.<sup class="footnote">[<a id="_footnoteref_37" class="footnote" href="#_footnote_37" title="View footnote.">37</a>]</sup></p>
 </div>
-<table id="tab-operadores-semanticos" class="tableblock frame-all grid-all" style="width: 90%;">
+<table id="tab-operadores-semanticos" class="tableblock frame-all grid-all spread center">
 <caption class="title">Tabla 12. Operadores semánticos</caption>
 <colgroup>
 <col style="width: 15%;">
@@ -3767,7 +3785,7 @@ superior (hijos). No recupera las relacionadas con el nivel superior
 <div class="content">
 <img src="./images/image-148b.png" alt="{alt="Red _Answer_"">
 </div>
-<div class="title">Figura 116. Red <em>Answer</em></div>
+<div class="title">Figura 113. Red <em>Answer</em></div>
 </div>
 <div class="paragraph">
 <p>Por supuesto, podemos combinar los operadores semánticos con los otros tipos de operadores (booleanos y de proximidad). En un ejemplo anterior construíamos una consulta para identificar todas las citas de intervenciones de los presidentes Zapatero y Rajoy codificadas como Evasion.</p>
@@ -3784,29 +3802,45 @@ superior (hijos). No recupera las relacionadas con el nivel superior
 <div class="paragraph">
 <p>Pero dado que nuestro código <em>Evasion</em> en realidad es un código libre, el resultado de esa consulta será de cero citas. Como hemos visto, tendremos que realizarla de nuevo incluyendo el operador DOWN</p>
 </div>
-<div class="paragraph">
-<p>(1) <code>Zapatero</code></p>
+<div id="consulta-combinada" class="listingblock">
+<div class="title">Listing 1. Consulta combinando tipos de operadores</div>
+<div class="content">
+<pre>Zapatero RajoyPR OR <i class="conum" data-value="1"></i><b>(1)</b>
+
+Evasion DOWN <i class="conum" data-value="2"></i><b>(2)</b>
+
+AND <i class="conum" data-value="3"></i><b>(3)</b></pre>
+</div>
 </div>
 <div class="paragraph">
-<p>(2) <code>Evasion DOWN</code></p>
+<p>Aunque parezca una consulta muy compleja en realidad es simple, puesto que</p>
 </div>
-<div class="paragraph">
-<p>(3) <code>AND</code></p>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>recuperamos todas las citas codificadas como Zapatero o como RajoyPR,</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="2"></i><b>2</b></td>
+<td>recuperamos todas las citas codificadas con códigos "por debajo de" Evasion, y</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="3"></i><b>3</b></td>
+<td>añadimos el operador AND para que el resultado sea</td>
+</tr>
+</table>
 </div>
-<div class="paragraph">
-<p>(4) <code>RajoyLO</code></p>
+<div class="literalblock">
+<div class="content">
+<pre>todas las intervenciones de Zapatero o Rajoy (presidente) codificadas con alguna modalidad de Evasion</pre>
 </div>
-<div class="paragraph">
-<p>(5) <code>Evasion DOWN</code></p>
 </div>
-<div class="paragraph">
-<p>(6) <code>AND</code></p>
+<div id="img-esquema-consulta-combinada" class="imageblock">
+<div class="content">
+<img src="./images/consulta-03.png" alt="Consulta combinando tipos de operadores" width="1200" height="374">
 </div>
-<div class="paragraph">
-<p>(7) <code>OR</code></p>
-</div>
-<div class="paragraph">
-<p>Aunque parezca una consulta muy compleja en realidad es simple, puesto que en (1) introducimos un operando, en (2) un operando y un operador, lo que nos da un resultado y por lo tanto ese resultado se convierte en un segundo operando; en (3) combinamos los dos operandos anteriores con un nuevo operador. Los tres comandos siguientes realizan la misma acción para Rajoy (líder de la oposición), y en (7) combinamos ambos resultados con el operador <code>OR</code>.</p>
+<div class="title">Figura 114. Consulta combinando tipos de operadores</div>
 </div>
 </div>
 <div class="sect4">
@@ -3814,11 +3848,11 @@ superior (hijos). No recupera las relacionadas con el nivel superior
 <div class="paragraph">
 <p>Por último, los operadores de proximidad, como su nombre indica, permiten recuperar citas en función de la relación espacial existente entre diferentes códigos.</p>
 </div>
-<table id="tab-operadores-proximidad" class="tableblock frame-all grid-all" style="width: 90%;">
+<table id="tab-operadores-proximidad" class="tableblock frame-all grid-all center">
 <caption class="title">Tabla 13. Operadores de proximidad</caption>
 <colgroup>
-<col style="width: 15%;">
-<col style="width: 85%;">
+<col>
+<col>
 </colgroup>
 <thead>
 <tr>
@@ -3881,7 +3915,7 @@ citas</p></td>
 <div class="content">
 <img src="./images/image-149.png" alt="{alt="Operadores de proximidad"">
 </div>
-<div class="title">Figura 117. Operadores de proximidad</div>
+<div class="title">Figura 115. Operadores de proximidad</div>
 </div>
 <div class="paragraph">
 <p>Como vemos, el operador <code>Cooccur</code> es una combinación de varios de los operadores de proximidad (todos menos <em>Follows</em> y <em>Precedes</em>), por lo que en muchas ocasiones podremos utilizarlo en vez de alguno de los otros. Además, probablemente sea conveniente su utilización en vez del operador booleano <em>AND</em>. Efectivamente, el operador <em>AND</em> es altamente selectivo, puesto que implica que <code>Código-A Código-B AND</code> sólo obtendrá resultados cuando una cita está vinculada con ambos códigos.</p>
@@ -3893,7 +3927,7 @@ citas</p></td>
 <div class="content">
 <img src="./images/image-150.png" alt="{alt="Concurrencia de citas"" width="75%">
 </div>
-<div class="title">Figura 118. Concurrencia de citas</div>
+<div class="title">Figura 116. Concurrencia de citas</div>
 </div>
 <div class="paragraph">
 <p>Por lo tanto, nuestra consulta debería ser.</p>
@@ -3913,20 +3947,48 @@ citas</p></td>
 <div class="paragraph">
 <p>En el modelo de <a href="#rasiah2010">Rasiah (2010)</a> que hemos utilizado para codificar las respuestas evasivas, estas, al igual que las respuestas (<em>Answer</em>) y las respuestas intermedias (<em>A Intermediate</em>) podían ser consecuencia de tres modalidades de pregunta (<em>Q Y/N</em>, <em>Q Wh</em> y <em>Q Disjunctive</em>). Nos puede interesar, por lo tanto, identificar citas codificadas como <em>Evasion</em> que aparecen única y exclusivamente a continuación de citas codificadas como <em>Q Y/N</em> (preguntas de tipo Sí/No). En ese caso la consulta anterior quedaría de la siguiente forma:</p>
 </div>
-<div class="paragraph">
-<p>(1) <code>Evasion DOWN</code></p>
+<div class="listingblock">
+<div class="content">
+<pre>Evasion DOWN <i class="conum" data-value="1"></i><b>(1)</b>
+
+Zapatero <i class="conum" data-value="2"></i><b>(2)</b>
+
+Cooccur <i class="conum" data-value="3"></i><b>(3)</b>
+
+Q Y/N <i class="conum" data-value="4"></i><b>(4)</b>
+
+Follows <i class="conum" data-value="5"></i><b>(5)</b></pre>
 </div>
-<div class="paragraph">
-<p>(2) <code>Zapatero</code></p>
 </div>
-<div class="paragraph">
-<p>(3) <code>Cooccur</code></p>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>Recupera las citas de todos los códigos "por debajo" de Evasion.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="2"></i><b>2</b></td>
+<td>Recupera todas las citas codificadas como Zapatero.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="3"></i><b>3</b></td>
+<td>Coocurrencia de &lt;1&gt; y &lt;2&gt;.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="4"></i><b>4</b></td>
+<td>Recupera todas las citas codificadas como Q Y/N.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="5"></i><b>5</b></td>
+<td>Recupera las citas en las que &lt;4&gt; FOLLOWS A &lt;3&gt;.</td>
+</tr>
+</table>
 </div>
-<div class="paragraph">
-<p>(4) <code>Q Y/N</code></p>
+<div id="img-concurrencia-citas" class="imageblock">
+<div class="content">
+<img src="./images/consulta-04.png" alt="Operador _Follows_" width="1200" height="227">
 </div>
-<div class="paragraph">
-<p>(5) <code>Follows</code></p>
+<div class="title">Figura 117. Operador <em>Follows</em></div>
 </div>
 </div>
 </div>
@@ -3978,7 +4040,7 @@ Para consultas simples en las que únicamente queremos combinar códigos utiliza
 <div class="content">
 <img src="./images/image-153.png" alt="{alt="Consultas: alcance"">
 </div>
-<div class="title">Figura 119. Consultas: alcance</div>
+<div class="title">Figura 118. Consultas: alcance</div>
 </div>
 <div class="admonitionblock warning">
 <table>
@@ -4005,7 +4067,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 <div class="content">
 <img src="./images/image-154.png" alt="{alt="Información sobre elementos de consulta"">
 </div>
-<div class="title">Figura 120. Información sobre elementos de consulta</div>
+<div class="title">Figura 119. Información sobre elementos de consulta</div>
 </div>
 </div>
 </div>
@@ -4023,7 +4085,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 <div class="content">
 <img src="./images/image-158.png" alt="{alt="Explorador de concurrencias"">
 </div>
-<div class="title">Figura 121. Explorador de concurrencias</div>
+<div class="title">Figura 120. Explorador de concurrencias</div>
 </div>
 </div>
 <div class="sect3">
@@ -4038,7 +4100,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 <div class="content">
 <img src="./images/image-159.png" alt="{alt="Tabla de Concurrencias"" width="75%">
 </div>
-<div class="title">Figura 122. Tabla de Concurrencias</div>
+<div class="title">Figura 121. Tabla de Concurrencias</div>
 </div>
 </div>
 </div>
@@ -4054,7 +4116,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 <div class="content">
 <img src="./images/image-160.png" alt="{alt="Ejemplo de codificación redundante"" width="75%">
 </div>
-<div class="title">Figura 123. Ejemplo de codificación redundante</div>
+<div class="title">Figura 122. Ejemplo de codificación redundante</div>
 </div>
 <div class="paragraph">
 <p>Al utilizar el <em>Analizador de codificación redundante</em>, aparecerá una ventana como la de la siguiente figura, en la que podemos ver (1) los códigos que según el programa podrían incluir citas redundantes. Si seleccionamos uno de esos códigos, en (2) y (3) se nos mostrarán las parejas de citas que podrían ser redundantes. Podemos entonces decidir si queremos <em>eliminar</em> o <em>desvincular</em> la cita en (2) o en (3) o si queremos <em>fusionar</em> ambas citas.</p>
@@ -4063,7 +4125,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 <div class="content">
 <img src="./images/image-161.png" alt="{alt="Analizador de codificación redundante"">
 </div>
-<div class="title">Figura 124. Analizador de codificación redundante</div>
+<div class="title">Figura 123. Analizador de codificación redundante</div>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -4092,7 +4154,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 <div class="content">
 <img src="./images/image-162.png" alt="{alt="Administración de usuarios"">
 </div>
-<div class="title">Figura 125. Administración de usuarios</div>
+<div class="title">Figura 124. Administración de usuarios</div>
 </div>
 <div class="paragraph">
 <p>En la figura <a href="#img-edicion-usuarios">Edición de usuarios</a> vemos (3) que existen tres usuarios predefinidos, <em>Admin</em>, <em>GUEST</em> y <em>Super</em>. En la zona (1) de la pantalla podemos ver los datos identificativos del usuario seleccionado y en (2) sus privilegios, que pueden ser como <em>Administrador</em> o como usuario <em>Estandar</em>.</p>
@@ -4101,7 +4163,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 <div class="content">
 <img src="./images/image-163.png" alt="{alt="Edición de usuarios"">
 </div>
-<div class="title">Figura 126. Edición de usuarios</div>
+<div class="title">Figura 125. Edición de usuarios</div>
 </div>
 <div class="paragraph">
 <p>Para crear un nuevo usuario, sólo tenemos que acceder al menú <code>Edición &gt; Nuevo usuario</code> e ir completando los datos que se nos van solicitando. Una vez creado el nuevo usuario, hacer clic en el menú <code>Archivo &gt; Guardar</code>. Esta es la opción por defecto, pero también podemos elegir <code>Archivo &gt; Guardar como</code> si queremos guardar los cambios en un archivo diferente al que se utiliza por defecto (hermence.hdb). Si lo hacemos así, esa información no estará disponible “por defecto” al abrir el programa, y tendríamos que acceder de nuevo a esta ventana para cargarla con la opción <code>Archivo &gt; Cargar base de datos</code>.</p>
@@ -4113,7 +4175,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 <div class="content">
 <img src="./images/image-164.png" alt="{alt="Cambiar usuario"">
 </div>
-<div class="title">Figura 127. Cambiar usuario</div>
+<div class="title">Figura 126. Cambiar usuario</div>
 </div>
 <div class="paragraph">
 <p>Aunque acabamos de crear un usuario, el programa seguirá identificándonos como <em>Super</em> hasta que no realicemos el <em>Ingreso</em> (login). Para ello, de nuevo en el menú <em>Herramientas</em>, haremos clic en <code>Administrador de usuario &gt; Cambiar usuario</code>. La pantalla que aparece es bastante evidente, pero queremos destacar la opción <em>Ingreso automático</em>, que está activado por defecto. Si la dejamos activada, cada vez que iniciemos el programa el usuario activo será el último que haya sido elegido en esta pantalla.</p>
@@ -4125,29 +4187,25 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 <div class="sect3">
 <h4 id="proteccion-de-acceso">9.1.2. Protección de acceso</h4>
 <div class="paragraph">
-<p>Como nos habremos dado cuenta, aunque en el momento de crear nuevos usuarios se nos solicita definir una contraseña, esa información, no se nos ha solicitado en ningún momento para acceder al programa o a alguna UH. Para configurar el programa para que solicite la contraseña, es necesario realizar un cambio en el archivo <em>ATLAS.INI</em><sup class="footnote">[<a id="_footnoteref_40" class="footnote" href="#_footnote_40" title="View footnote.">40</a>]</sup><em>,</em> que está en la carpeta de datos comunes de la aplicación. En la figura podemos ver la ubicación, pero la forma más fácil de acceder a la misma es <code>Herramientas &gt; Explorador &gt; Datos de aplicación común</code>, que abrirá directamente esa carpeta.</p>
+<p>Como nos habremos dado cuenta, aunque en el momento de crear nuevos usuarios se nos solicita definir una contraseña, esa información, no se nos ha solicitado en ningún momento para acceder al programa o a alguna UH. Para configurar el programa para que solicite la contraseña, es necesario realizar un cambio en el archivo <em>ATLAS.INI</em><sup class="footnote">[<a id="_footnoteref_38" class="footnote" href="#_footnote_38" title="View footnote.">38</a>]</sup><em>,</em> que está en la carpeta de datos comunes de la aplicación. En la figura podemos ver la ubicación, pero la forma más fácil de acceder a la misma es <code>Herramientas &gt; Explorador &gt; Datos de aplicación común</code>, que abrirá directamente esa carpeta.</p>
 </div>
 <div id="img-archivo-atlas-ini" class="imageblock" style="text-align: center">
 <div class="content">
 <img src="./images/image-165.png" alt="{alt="Archivo ATLAS.INI"">
 </div>
-<div class="title">Figura 128. Archivo ATLAS.INI</div>
+<div class="title">Figura 127. Archivo ATLAS.INI</div>
 </div>
 <div class="paragraph">
 <p>El cambio que tenemos que hacer en ese archivo es modificar la línea</p>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>relaxedUserManagement = enabled</pre>
-</div>
+<div class="paragraph">
+<p><code>relaxedUserManagement = enabled</code></p>
 </div>
 <div class="paragraph">
 <p>por</p>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>relaxedUserManagement = disabled</pre>
-</div>
+<div class="paragraph">
+<p><code>relaxedUserManagement = disabled</code></p>
 </div>
 <div class="paragraph">
 <p>A partir de ese momento será necesario introducir la contraseña correspondiente junto al nombre de usuario, para poder iniciar una sesión.</p>
@@ -4159,7 +4217,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 <div class="content">
 <img src="./images/image-166.png" alt="{alt="Solicitud contraseña UH"">
 </div>
-<div class="title">Figura 129. Solicitud contraseña UH</div>
+<div class="title">Figura 128. Solicitud contraseña UH</div>
 </div>
 <div class="paragraph">
 <p>En el menú <em>Cambiar derechos de acceso</em> encontramos otra opción para proteger la UH que puede ser más práctica y con toda seguridad más sencilla que la explicada anteriormente, consistente en asignar una contraseña a la UH. Una vez asignada la contraseña, será necesario ingresarla para tener acceso a la UH. De esta forma, sólo podrán hacerlo los usuarios que la conozcan</p>
@@ -4177,7 +4235,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </table>
 </div>
 <div class="paragraph">
-<p>Si en algún momento queremos anular la contraseña, simplemente tenemos que seleccionar alguna otra de las opciones de derechos de acceso, volver a <em>Privado</em> por ejemplo<sup class="footnote">[<a id="_footnoteref_41" class="footnote" href="#_footnote_41" title="View footnote.">41</a>]</sup>.</p>
+<p>Si en algún momento queremos anular la contraseña, simplemente tenemos que seleccionar alguna otra de las opciones de derechos de acceso, volver a <em>Privado</em> por ejemplo<sup class="footnote">[<a id="_footnoteref_39" class="footnote" href="#_footnote_39" title="View footnote.">39</a>]</sup>.</p>
 </div>
 </div>
 <div class="sect3">
@@ -4189,7 +4247,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-167.png" alt="{alt="Cambio global de propiedad de objetos"">
 </div>
-<div class="title">Figura 130. Cambio global de propiedad de objetos</div>
+<div class="title">Figura 129. Cambio global de propiedad de objetos</div>
 </div>
 <div class="paragraph">
 <p>Esta opción de cambio de propiedad afecta a <strong>todos</strong> los objetos de la UH. Si queremos, hacer cambios sólo para objetos concretos, podemos hacerlo con la opción <code>Miscelánea &gt; Cambiar autor</code>, presente en prácticamente todos los <em>administradores.</em></p>
@@ -4214,7 +4272,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-169.png" alt="{alt="Crear paquete de copia"">
 </div>
-<div class="title">Figura 131. Crear paquete de copia</div>
+<div class="title">Figura 130. Crear paquete de copia</div>
 </div>
 <div class="paragraph">
 <p>Este sistema copia única y exclusivamente los documentos y la UH, cualquier otro archivo que pueda estar vinculado con la UH, como por ejemplo memos con documentos asociados, será ignorado.</p>
@@ -4226,7 +4284,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-171.png" alt="{alt="Archivo de copia"">
 </div>
-<div class="title">Figura 132. Archivo de copia</div>
+<div class="title">Figura 131. Archivo de copia</div>
 </div>
 <div class="paragraph">
 <p>A continuación, en el otro ordenador, accedemos al menú <code>Proyecto &gt; Desempaquetar la copia</code>. Se nos abrirá una ventana como la de la figura <a href="#img-desempaquetar-paquete-copia">Desempaquetar paquete de copia</a> en la que destacamos en primer lugar (1) que se nos ofrecen dos opciones de desempaquetado: <em>Migrar</em> o <em>Restaurar.</em></p>
@@ -4235,7 +4293,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-172.png" alt="{alt="Desempaquetar paquete de copia"">
 </div>
-<div class="title">Figura 133. Desempaquetar paquete de copia</div>
+<div class="title">Figura 132. Desempaquetar paquete de copia</div>
 </div>
 <div class="paragraph">
 <p>En este caso lo que queremos es evidentemente una migración, por lo que dejamos activada esa opción. En (2) se nos informa del destino de la copia (el archivo en el lápiz de memoria) y se nos da a elegir si queremos migrar o no también la UH. En (3) aparece el origen de la copia. En este caso, la carpeta <em>textbank.</em> Dado que el archivo origen se encontraba en una carpeta denominada “ControlParlamentario”, al realizar la copia se creará esa carpeta en <em>textbank</em> en el ordenador de destino. En (4) podemos ver los DPs que se van a copiar, junto a un código de color que nos indica si hay algún conflicto para realizar la copia o no.. Y finalmente en (5) se nos muestra de forma textual el estatus de la copia.</p>
@@ -4259,7 +4317,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-173.png" alt="{alt="Fusionar UHs: Primer paso"">
 </div>
-<div class="title">Figura 134. Fusionar UHs: Primer paso</div>
+<div class="title">Figura 133. Fusionar UHs: Primer paso</div>
 </div>
 <div class="paragraph">
 <p>Una vez que hemos seleccionado un origen, y clicamos en <em>Siguiente</em>, nos aparecerá una nueva ventana en la que tenemos que tomar toda una serie de decisiones en función de la estrategia de trabajo que hayamos elegido.</p>
@@ -4268,7 +4326,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-174.png" alt="{alt="Fusionar UHs: Segundo paso"">
 </div>
-<div class="title">Figura 135. Fusionar UHs: Segundo paso</div>
+<div class="title">Figura 134. Fusionar UHs: Segundo paso</div>
 </div>
 <div class="paragraph">
 <p>En la parte izquierda de la pantalla (1) nos aparecen diferentes posibles estrategias de trabajo en equipo. Las opciones de fusión que aparecen en (2) se ajustarán, en función de la estrategia que seleccionemos, a unos valores predeterminados que podremos modificar si no se ajustan a nuestras necesidades.</p>
@@ -4280,7 +4338,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <p>En la práctica, esto significa que nuestra estrategia de análisis en equipo ha podido implicar que diferentes analistas trabajan de forma simultánea con los mismos DPs, es decir, todos ellos analizan los mismos datos, o que cada uno de los analistas ha trabajado con una parte de los datos (DPs) de forma independiente. Además, independientemente de lo anterior, hemos podido decidir que cada analista irá creando códigos a medida que avanza su análisis o que todos ellos parten de una lista de códigos comunes.</p>
 </div>
 <div class="paragraph">
-<p>Por nuestra parte, consideramos que una buena estrategia para el análisis en equipo es optar por la opción <em>Diferentes DPs – Mismos códigos</em>.</p>
+<p>Por nuestra parte, consideramos que una buena estrategia para el análisis en equipo es optar por la opción <code>Diferentes DPs – Mismos códigos</code>.</p>
 </div>
 <div class="paragraph">
 <p>En cuanto a los códigos, podríamos pensar que si nuestra análisis es de tipo inductivo evidentemente tenemos que escoger la opción códigos diferentes, pero en la práctica esto no es así, puesto que una opción perfectamente válida es partir de una lista de códigos previamente consensuada por el equipo de investigación a partir de la lectura previa de los datos (lectura previa que teóricamente deberíamos hacer en cualquier caso). Se trata de un trabajo que requiere la inversión de una buena cantidad de tiempo, pero que entendemos que se trata de una inversión que será provechosa. Puede ser interesante al respecto leer el artículo de <a href="#macqueen1998">MacQueen&#44; McLellan&#44; &amp; Milstein (1998)</a>.</p>
@@ -4323,13 +4381,13 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-175.png" alt="{alt="Tipos de informes de DPs"">
 </div>
-<div class="title">Figura 136. Tipos de informes de DPs</div>
+<div class="title">Figura 135. Tipos de informes de DPs</div>
 </div>
 <div class="paragraph">
 <p>También podemos encontrar el menú <em>Imprimir</em> en muchos de los <em>administradores</em>, y en algunos de ellos también un icono de impresora que da acceso a algunas opciones particulares.</p>
 </div>
 <div class="paragraph">
-<p>Podemos empezar, por ejemplo solicitando un informe con la lista de DPs de nuestra UH. Por lo tanto, seleccionaremos <code>Documentos &gt; Imprimir &gt; Lista de documentos</code>. Lo primero que aparecerá será una ventana en la que se nos preguntará si queremos incluir en el informe los comentarios de los documentos<sup class="footnote">[<a id="_footnoteref_42" class="footnote" href="#_footnote_42" title="View footnote.">42</a>]</sup>. Esto puede ocurrir también en otros informes, e incluso se nos puede preguntar sobre la inclusión de alguna otra información.</p>
+<p>Podemos empezar, por ejemplo solicitando un informe con la lista de DPs de nuestra UH. Por lo tanto, seleccionaremos <code>Documentos &gt; Imprimir &gt; Lista de documentos</code>. Lo primero que aparecerá será una ventana en la que se nos preguntará si queremos incluir en el informe los comentarios de los documentos<sup class="footnote">[<a id="_footnoteref_40" class="footnote" href="#_footnote_40" title="View footnote.">40</a>]</sup>. Esto puede ocurrir también en otros informes, e incluso se nos puede preguntar sobre la inclusión de alguna otra información.</p>
 </div>
 <div class="paragraph">
 <p>Una vez que hemos contestado esas preguntas, aparecerá una nueva ventana (<a href="#img-informes-enviar-resultado">Informes: enviar resultado a</a>) en la que tendremos que especificar el destino del informe: <em>Editor</em>, <em>Impresora</em> o <em>Archivo</em> (o la opción <em>Archivo &amp; EJECUTAR</em>, que guardará en un archivo y mostrará en pantalla). Recomendamos utilizar la opción <em>Editor</em>, puesto que podremos ver el informe en pantalla (en un editor de texto) para comprobar que es efectivamente el tipo de informe que deseamos, y posteriormente, utilizando las funcionalidades del editor, podemos guardar el archivo y/o imprimirlo.</p>
@@ -4338,7 +4396,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-176.png" alt="{alt="Informes: enviar resultado a"">
 </div>
-<div class="title">Figura 137. Informes: enviar resultado a</div>
+<div class="title">Figura 136. Informes: enviar resultado a</div>
 </div>
 <div class="paragraph">
 <p>En la siguiente figura podemos ver el resultado del informe anterior. De entrada, podemos apreciar que los informes no son sofisticados estéticamente, son únicamente archivos de texto que cumplen únicamente la función de ser archivos de trabajo.</p>
@@ -4347,7 +4405,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-177.png" alt="{alt="Listado de Documentos primarios"">
 </div>
-<div class="title">Figura 138. Listado de Documentos primarios</div>
+<div class="title">Figura 137. Listado de Documentos primarios</div>
 </div>
 <div class="paragraph">
 <p>También podemos apreciar que el informe nos ofrece una serie de informaciones adicionales. En este caso, en primer lugar, se nos informa que el informe se ha ejecutado con un filtro activo <em>Filtro: Texto</em>, ya que hemos aplicado un filtro en base a una de las familias que habíamos creado previamente, dado que sólo queremos información de los documentos de texto (no queremos que se incluyan los de audio ni los de vídeo). Esto significa que, además de las múltiples posibilidades de informes de que disponemos, podemos “afinar” los resultados que obtenemos utilizando <em>filtros</em>, puesto que al activar un filtro todas las operaciones que se realizan a continuación afectan sólo a los elementos activos.</p>
@@ -4365,7 +4423,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-178.png" alt="{alt="Listados de Códigos"">
 </div>
-<div class="title">Figura 139. Listados de Códigos</div>
+<div class="title">Figura 138. Listados de Códigos</div>
 </div>
 <div class="paragraph">
 <p>Como vemos en la figura <a href="#img-listado-codigos">Listados de Códigos</a>, podemos solicitar una gran variedad de tipos de informes relacionados los códigos, entre los que el lector debería explorar como mínimo los de <em>Códigos con comentarios</em> y <em>Tabla códigos-documentos primarios.</em></p>
@@ -4377,7 +4435,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-179.png" alt="{alt="Ventana de opciones de informes de códigos"">
 </div>
-<div class="title">Figura 140. Ventana de opciones de informes de códigos</div>
+<div class="title">Figura 139. Ventana de opciones de informes de códigos</div>
 </div>
 <div class="sect2">
 <h3 id="documento-con-margen">10.1. Documento con margen</h3>
@@ -4391,13 +4449,13 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <p>Accederemos a este informe con la opción <code>Documentos &gt; Imprimir &gt; Imprimir con márgenes</code>.</p>
 </div>
 <div class="paragraph">
-<p>Una diferencia entre este informe y el resto es que en esta ocasión no se nos ofrecerá la opción de elegir el destino del mismo (editor, archivo, impresora), puesto que sólo lo podremos enviar a la impresora (o guardarlo como PDF si tenemos esa posibilidad desde nuestras opciones de impresión). Por lo tanto, al ejecutar el comando lo primero que aparecerá será la ventana de impresión estándar de nuestro ordenador. Una vez que cliquemos en imprimir, el resultado será similar al que vemos en la figura <sup class="footnote">[<a id="_footnoteref_43" class="footnote" href="#_footnote_43" title="View footnote.">43</a>]</sup>.</p>
+<p>Una diferencia entre este informe y el resto es que en esta ocasión no se nos ofrecerá la opción de elegir el destino del mismo (editor, archivo, impresora), puesto que sólo lo podremos enviar a la impresora (o guardarlo como PDF si tenemos esa posibilidad desde nuestras opciones de impresión). Por lo tanto, al ejecutar el comando lo primero que aparecerá será la ventana de impresión estándar de nuestro ordenador. Una vez que cliquemos en imprimir, el resultado será similar al que vemos en la figura <sup class="footnote">[<a id="_footnoteref_41" class="footnote" href="#_footnote_41" title="View footnote.">41</a>]</sup>.</p>
 </div>
 <div id="img-imprimir-con-margen" class="imageblock" style="text-align: center">
 <div class="content">
 <img src="./images/image-180.png" alt="{alt="Imprimir con margen"" width="60%">
 </div>
-<div class="title">Figura 141. Imprimir con margen</div>
+<div class="title">Figura 140. Imprimir con margen</div>
 </div>
 <div class="paragraph">
 <p>Si el resultado de la impresión del informe no es el deseado, podemos realizar cambios con la opción <code>Herramientas &gt; Preferencias &gt; Preferencias generales</code>, en la pestaña Impresión de DP. Como podemos ver en la figura , lo que se nos ofrece es poco más que la posibilidad de cambiar los márgenes.</p>
@@ -4406,7 +4464,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-181.png" alt="{alt="Preferencias de impresión con margen"">
 </div>
-<div class="title">Figura 142. Preferencias de impresión con margen</div>
+<div class="title">Figura 141. Preferencias de impresión con margen</div>
 </div>
 </div>
 <div class="sect2">
@@ -4421,7 +4479,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-182.png" alt="{alt="Explorador Informes XSL"">
 </div>
-<div class="title">Figura 143. Explorador Informes XSL</div>
+<div class="title">Figura 142. Explorador Informes XSL</div>
 </div>
 <div class="paragraph">
 <p>Lo mejor es que exploremos todas las posibilidades que se nos ofrecen, pero para empezar a hacernos una idea, podemos ver un ejemplo de este tipo de informes en la siguiente figura.</p>
@@ -4430,7 +4488,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <div class="content">
 <img src="./images/image-183.png" alt="{alt="Informe XSL"">
 </div>
-<div class="title">Figura 144. Informe XSL</div>
+<div class="title">Figura 143. Informe XSL</div>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -4634,58 +4692,52 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <a href="#_footnoteref_27">27</a>. Podemos utilizar el carácter especial “*” para indicar “cualquier carácter o caracteres. Si el asterisco va a continuación de la sentencia sería equivalente a indicar “todos los caracteres a continuación”, si la precede, el significado sería “todos los caracteres anteriores”.
 </div>
 <div class="footnote" id="_footnote_28">
-<a href="#_footnoteref_28">28</a>. En la mayoría de los teclados, para introducimos este signo con la combinación de teclas <code>AltGr+1</code> (aunque este último carácter puede variar en función del teclado).
+<a href="#_footnoteref_28">28</a>. Si no cambiamos la etiqueta de la categoría, al realizar una nueva búsqueda, la anterior desaparecería de la lista, puesto que la nueva quedaría identificada igualmente como “TEMP”.
 </div>
 <div class="footnote" id="_footnote_29">
-<a href="#_footnoteref_29">29</a>. Si no cambiamos la etiqueta de la categoría, al realizar una nueva búsqueda, la anterior desaparecería de la lista, puesto que la nueva quedaría identificada igualmente como “TEMP”.
+<a href="#_footnoteref_29">29</a>. Otra forma de modificar la lista de categorías es modificar directamente el fichero Srchbib.skt(o crear otro fichero .skt) con un editor de texto.
 </div>
 <div class="footnote" id="_footnote_30">
-<a href="#_footnoteref_30">30</a>. Otra forma de modificar la lista de categorías es modificar directamente el fichero Srchbib.skt(o crear otro fichero .skt) con un editor de texto.
+<a href="#_footnoteref_30">30</a>. Lo que en nuestro caso habíamos hecho creando familias de participantes para cada uno de los partidos políticos.
 </div>
 <div class="footnote" id="_footnote_31">
-<a href="#_footnoteref_31">31</a>. Lo que en nuestro caso habíamos hecho creando familias de participantes para cada uno de los partidos políticos.
+<a href="#_footnoteref_31">31</a>. Podemos utilizar también la búsqueda por categorías.
 </div>
 <div class="footnote" id="_footnote_32">
-<a href="#_footnoteref_32">32</a>. Podemos utilizar también la búsqueda por categorías.
+<a href="#_footnoteref_32">32</a>. <em>Unidad Hermenéutica</em> hace referencia al comentario de la <em>Unidad Hermenéutica</em>.
 </div>
 <div class="footnote" id="_footnote_33">
-<a href="#_footnoteref_33">33</a>. <em>Unidad Hermenéutica</em> hace referencia al comentario de la <em>Unidad Hermenéutica</em>.
+<a href="#_footnoteref_33">33</a>. En el resto de esta sección nos referiremos a ellos como <em>operandos</em>.
 </div>
 <div class="footnote" id="_footnote_34">
-<a href="#_footnoteref_34">34</a>. En el resto de esta sección nos referiremos a ellos como <em>operandos</em>.
+<a href="#_footnoteref_34">34</a>. Para la definición de la consulta no necesitamos escribir nada, todo el trabajo lo realizaremos haciendo clic sobre operandos y operadores.
 </div>
 <div class="footnote" id="_footnote_35">
-<a href="#_footnoteref_35">35</a>. Para la definición de la consulta no necesitamos escribir nada, todo el trabajo lo realizaremos haciendo clic sobre operandos y operadores.
+<a href="#_footnoteref_35">35</a>. Como comentábamos, en esta herramienta no escribimos, sino que clicamos, por lo que cuando en este apartado hagamos referencia a “escribir”, el significado real es realizar diversas combinaciones de clics sobre operandos y operadores.
 </div>
 <div class="footnote" id="_footnote_36">
-<a href="#_footnoteref_36">36</a>. Como comentábamos, en esta herramienta no escribimos, sino que clicamos, por lo que cuando en este apartado hagamos referencia a “escribir”, el significado real es realizar diversas combinaciones de clics sobre operandos y operadores.
+<a href="#_footnoteref_36">36</a>. En esta explicación “citas presentes en el operando&#8230;&#8203;” significa “citas codificadas con el código o familia de códigos&#8230;&#8203;”
 </div>
 <div class="footnote" id="_footnote_37">
-<a href="#_footnoteref_37">37</a>. Aunque esto no es exactamente así, puesto que no todas las consultas requieren de dos operandos.
+<a href="#_footnoteref_37">37</a>. En las relaciones predefinidas: “Is part of”, “Is cause of” y “Is a”.
 </div>
 <div class="footnote" id="_footnote_38">
-<a href="#_footnoteref_38">38</a>. En esta explicación “citas presentes en el operando&#8230;&#8203;” significa “citas codificadas con el código o familia de códigos&#8230;&#8203;”
+<a href="#_footnoteref_38">38</a>. Recomendamos hacer una copia antes de realizar cambios en el archivo.
 </div>
 <div class="footnote" id="_footnote_39">
-<a href="#_footnoteref_39">39</a>. En las relaciones predefinidas: “Is part of”, “Is cause of” y “Is a”.
+<a href="#_footnoteref_39">39</a>. Se nos pedirá introducir la contraseña actual para confirmar el cambio, e igualmente que al crearla será necesario guardar la UH para que el cambio sea efectivo.
 </div>
 <div class="footnote" id="_footnote_40">
-<a href="#_footnoteref_40">40</a>. Recomendamos hacer una copia antes de realizar cambios en el archivo.
+<a href="#_footnoteref_40">40</a>. Esta ventana no aparecerá siempre, sólo lo hará cuando el elemento que queremos listar tiene información de ese tipo. Por ejemplo, si pedimos un listado de citas de un código pero ninguna cita tiene asociados comentarios o memos ni tiene hypervínculos, esta pantalla no aparecerá.
 </div>
 <div class="footnote" id="_footnote_41">
-<a href="#_footnoteref_41">41</a>. Se nos pedirá introducir la contraseña actual para confirmar el cambio, e igualmente que al crearla será necesario guardar la UH para que el cambio sea efectivo.
-</div>
-<div class="footnote" id="_footnote_42">
-<a href="#_footnoteref_42">42</a>. Esta ventana no aparecerá siempre, sólo lo hará cuando el elemento que queremos listar tiene información de ese tipo. Por ejemplo, si pedimos un listado de citas de un código pero ninguna cita tiene asociados comentarios o memos ni tiene hypervínculos, esta pantalla no aparecerá.
-</div>
-<div class="footnote" id="_footnote_43">
-<a href="#_footnoteref_43">43</a>. El listado incluye también una primera página con información sobre el documento que incluye, entre otras cosas, el comentario del mismo.
+<a href="#_footnoteref_41">41</a>. El listado incluye también una primera página con información sobre el documento que incluye, entre otras cosas, el comentario del mismo.
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.0<br>
-Last updated 2016-12-29 21:25:07 CET
+Version 1.1<br>
+Last updated 2017-01-17 00:01:34 CET
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">

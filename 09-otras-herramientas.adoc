@@ -48,11 +48,11 @@ image::image-165.png[{alt="Archivo ATLAS.INI", align="center"]
 
 El cambio que tenemos que hacer en ese archivo es modificar la línea
 
- relaxedUserManagement = enabled
+`relaxedUserManagement = enabled`
 
 por
 
- relaxedUserManagement = disabled
+`relaxedUserManagement = disabled`
 
 A partir de ese momento será necesario introducir la contraseña correspondiente junto al nombre de usuario, para poder iniciar una sesión.
 
@@ -139,7 +139,7 @@ Como vemos, las estrategias predefinidas se basan en si los DPs en las diferente
 
 En la práctica, esto significa que nuestra estrategia de análisis en equipo ha podido implicar que diferentes analistas trabajan de forma simultánea con los mismos DPs, es decir, todos ellos analizan los mismos datos, o que cada uno de los analistas ha trabajado con una parte de los datos (DPs) de forma independiente. Además, independientemente de lo anterior, hemos podido decidir que cada analista irá creando códigos a medida que avanza su análisis o que todos ellos parten de una lista de códigos comunes.
 
-Por nuestra parte, consideramos que una buena estrategia para el análisis en equipo es optar por la opción _Diferentes DPs – Mismos códigos_.
+Por nuestra parte, consideramos que una buena estrategia para el análisis en equipo es optar por la opción `Diferentes DPs – Mismos códigos`.
 
 En cuanto a los códigos, podríamos pensar que si nuestra análisis es de tipo inductivo evidentemente tenemos que escoger la opción códigos diferentes, pero en la práctica esto no es así, puesto que una opción perfectamente válida es partir de una lista de códigos previamente consensuada por el equipo de investigación a partir de la lectura previa de los datos (lectura previa que teóricamente deberíamos hacer en cualquier caso). Se trata de un trabajo que requiere la inversión de una buena cantidad de tiempo, pero que entendemos que se trata de una inversión que será provechosa. Puede ser interesante al respecto leer el artículo de citenp:[macqueen1998].
 
