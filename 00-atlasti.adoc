@@ -46,6 +46,8 @@ image:logo_UAA.png[float="left"]
 
 {author_2} es profesor e investigador de tiempo completo del Departamento de Psicología de la Universidad Autónoma de Aguascalientes (México) - {email_2}.
 
+DOI: 10.5281/zenodo.273997
+
 ifdef::backend-pdf[]
 Diseño portada: Marc Bria Ramírez
 
