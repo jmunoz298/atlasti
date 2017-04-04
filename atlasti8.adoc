@@ -36,6 +36,29 @@ v1.0, abril, 2017
 :linkattrs:
 :front-cover-image: atlasti7-cover.pdf
 :mermaid: node_modules/mermaid/bin/mermaid.js
+ifdef::backend-html5[]
+:twoinches: width='144'
+:full-width: width='100%'
+:half-width: width='50%'
+:half-size: width='50%'
+:littel-size: width='30%'
+:thumbnail: width='60'
+endif::[]
+ifdef::backend-pdf[]
+:twoinches: pdfwidth='2in'
+:full-width: pdfwidth='100vw'
+:half-width: pdfwidth='50vw'
+:half-size: pdfwidth='50%'
+:littel-size: pdfwidth='30%'
+:thumbnail: pdfwidth='20mm'
+endif::[]
+ifdef::backend-docbook5[]
+:twoinches: width='50mm'
+:full-width: scaledwidth='100%'
+:half-width: scaledwidth='50%'
+:half-size: width='50%'
+:thumbnail: width='20mm'
+endif::[]
 
 [abstract]
 image:logo_UAB.png[float="left"]
@@ -71,11 +94,11 @@ image::by.png[{alt="Creative Commons By", align="center"]
 
 <<<
 
-include::01-introduccion.adoc[]
+include::01-introduccion-8.adoc[]
 
 <<<
 
-include::02-empezando.adoc[]
+include::02-empezando-8.adoc[]
 
 <<<
 

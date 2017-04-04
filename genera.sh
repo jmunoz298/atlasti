@@ -1,4 +1,4 @@
-asciidoctor -r asciidoctor-bibtex -r asciidoctor-diagram -b html5  00-atlasti.adoc -o atlasti7.html
+asciidoctor -r asciidoctor-bibtex -r asciidoctor-diagram -b html5  $1.adoc -o $1.html
 
 ## -r asciidoctor-diagram: opción para generar diagramas (mermaid, diita...)
 ## -r asciidoctor-bibtex: opción generar bibliografía a partir de archivo bibtex

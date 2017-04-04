@@ -10,6 +10,8 @@ GEM
       bibtex-ruby (~> 4)
       citeproc-ruby (~> 1)
       csl-styles (~> 1)
+    asciidoctor-diagram (1.5.2)
+      asciidoctor (~> 1.5.0)
     asciidoctor-pdf (1.5.0.alpha.13)
       asciidoctor (>= 1.5.0)
       prawn (>= 1.3.0, < 3.0.0)
@@ -110,6 +112,7 @@ PLATFORMS
 DEPENDENCIES
   asciidoctor
   asciidoctor-bibtex
+  asciidoctor-diagram
   asciidoctor-pdf
   guard
   guard-shell
