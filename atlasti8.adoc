@@ -102,19 +102,19 @@ include::02-empezando-8.adoc[]
 
 <<<
 
-include::03-documentar.adoc[]
+include::03-documentar-8.adoc[]
 
 <<<
 
-include::04-documentos.adoc[]
+include::04-documentos-8.adoc[]
 
 <<<
 
-include::05-segmentar.adoc[]
+include::05-segmentar-8.adoc[]
 
 <<<
 
-include::06-agrupar.adoc[]
+include::06-agrupar-8.adoc[]
 
 <<<
 
