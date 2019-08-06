@@ -1,6 +1,5 @@
 [[empezando-a-trabajar]]
-Empezando a trabajar
---------------------
+== Empezando a trabajar
 
 Para comenzar a usar ATLAS.ti lo único que se necesita es tener una idea general de la interfaz del programa y de un par de sus operaciones básicas. Lo importante es ponerse manos a la obra. Este capítulo tiene como propósito facilitar ese proceso de asimilación inicial. Para ello, describiremos cómo se inicia el programa y cuáles son las características de la pantalla principal. Además, explicaremos de forma detallada los primeros pasos a seguir, a saber, la creación, guardado y apertura de una UH y la creación y visualización de memos y comentarios.
 
@@ -17,13 +16,20 @@ Al arrancar el programa por primera vez, ATLAS.ti ofrecerá la posibilidad de cr
 .Pantalla inicial
 image::atlas-8/PantallaInicial-8.png[Pantalla inicial,  {half-size}, align="center"]
 
+[NOTE]
+====
+Estas opciones también estarán disponibles desde el menú `File > New`
+====
+
 Import Project Bundle:: Importar una _copia de transporte_, es decir, una copia generada desde Atlas.ti (archivo con extensión _atlproj_) que contiene toda la información de un proyecto y que podemos utilizar para _transportar_ un proyecto a un ordenador diferente, o para realizar copias de seguridad.
 
 Import Mobile Project:: Importar un proyecto creado con una versión para dispositivos móviles de Atlas.ti
 
 Import Legacy Project:: Importar un proyecto creado con una versión anterior de Atlas.ti.
 
+////
 Si  previamente hemos trabajado con el programa y creado algún proyecto, también aparecerán en esta pantalla.
+////
 
 [[la-pantalla-principal-de-atlas.ti]]
 === La pantalla principal de ATLAS.ti
@@ -33,26 +39,31 @@ Si  previamente hemos trabajado con el programa y creado algún proyecto, tambi�
 
 Antes de continuar, es necesario que comencemos a familiarizarnos con la pantalla principal de ATLAS.ti.
 
+[TIP]
+====
+Al pasar el ratón por los diferentes iconos, podremos ver una breve descripción de la funcionalidad a la que da acceso.
+====
 
 [[img-interfaz, Interfaz principal de Atlas.ti]]
 .Interfaz principal de Atlas.ti
 image::atlas-8/PantallaPrincipal-8.png[Interfaz principal de Atlas.ti, align="center" {half-width}]
 
-A continuación, ofrecemos una breve descripción de los elementos que la componen:
+A continuación, ofrecemos una breve descripción de los elementos que la componen, y en apartados posteriores daremos una explicación detallada de cada uno de ellos:
 
-* *Pestañas de menú*. En primer lugar encontramos una serie de "pestañas de menú", que dan acceso cada una de ellas a diferentes funciones específicas. En la figura <<img-pestañas-menus>> vemos las correspondientes al menú "Home".
+1- *Pestañas de menú*. En primer lugar encontramos una serie de "pestañas de menú", que dan acceso cada una de ellas a diferentes funciones específicas. En la figura <<img-pestañas-menus>> vemos las correspondientes al menú "Home", que será la seleccionada por defecto.
 
 [[img-pestañas-menus, Pestañas de menú]]
 .Pestañas de menú
 image::atlas-8/PantallaPrincipal-00-8.png[alt="Pestañas de menú", align="center"]
 
-* *Explorador*. En la parte izquierda de la pantalla encontramos la zona del(de los) explorador(es), en la que se puede acceder a "listados" de los diferentes elementos que hemos ido creando en nuestro proyecto.
+[CAUTION]
+====
+Las pestañas representadas en la imagen son las que aparecen por defecto al abrir el programa, pero pueden variar en función de la acción que se esté realizando en un momento determinado.
+====
 
-[[img-explorador, Explorador(es)]]
-.Explorador(es)
-image::atlas-8/PantallaPrincipal-01-8.png[alt="Explorador(es)", align="center"]
+2- *Explorador*. En la parte izquierda de la pantalla encontramos la zona del(de los) explorador(es), en la que se puede acceder a "listados" de los diferentes elementos que hemos ido creando en nuestro proyecto.
 
-* *Área de trabajo*. En la figura <<img-interfaz>> veíamos cómo la parte central de la pantalla no aparecía ningún tipo de información, pero en el momento en que seleccionemos un documento encontraremos:
+3- *Área de trabajo*. En la figura <<img-interfaz>> veíamos cómo la parte central de la pantalla no aparecía ningún tipo de información, pero en el momento en que seleccionemos un documento encontraremos:
 
 ** Una zona de visualización del documento que nos servirá para realizar el trabajo de segmentación y codificación o, en fases posteriores del análisis, para consultar o modificar las citas creadas o su vinculación a determinados códigos.
 
@@ -62,33 +73,132 @@ image::atlas-8/PantallaPrincipal-01-8.png[alt="Explorador(es)", align="center"]
 .Interfaz principal con un documento activo
 image::atlas-8/PantallaConDocumento-8.png[Interfaz principal con un documento activo, align="center"]
 
-
-
-. *Navegadores de elementos*. Podemos además activar/desactivar (haciendo clic en el icono con tres cabezas de flecha) la visualización de “navegadores” de elementos, pudiendo seleccionar si deseamos visualizar lista de documentos, códigos, citas, memos o vistas de red.
-
-[[img-navegadores, Navegadores de elementos en interfaz principal]]
-[.text-center]
-.Navegadores de elementos en interfaz principal
-image::image-009.png[Navegadores de elementos en interfaz principal, align="center"]
-
-[start=11]
-. Haciendo clic en <<img-interfaz-con-documento, este icono>>, podemos visualizar simultáneamente más de un DP en la pantalla principal.
-
-[[img-visualizacion-documentos, Visualización de dos Documentos Primarios]]
-[.text-center]
-.Visualización de dos Documentos Primarios
-image::image-010.png[Visualización de dos Documentos Primarios, align="center"]
-
-[start=12]
-. *Barra de estado*. Presenta información sobre el DP activo, incluyendo el nombre completo del archivo, su ubicación y forma de asignación a la UH y el tamaño con el que se visualiza. Permite hacer algunas operaciones como cambiar el porcentaje de visualización (aumentar o reducir la apariencia del DP). Ofrece además un pequeño texto de ayuda relacionado con la opción de menú sobre el que se sitúe el cursor para recordarnos las acciones que realizan los diferentes menús.
-
-Hasta ahora, hemos presentado la pantalla principal de ATLAS.ti 7 con DPs activos de tipo textual. En el caso de documentos de imagen, audio, vídeo o geo-referencias hay algunas particularidades de presentación que señalaremos más adelante, al desarrollar la forma en la que se opera en ATLAS.ti con estos tipos de datos. Por otra parte, es conveniente recordar que, si bien existe la posibilidad de reubicar, añadir o quitar elementos a la pantalla principal de ATLAS.ti, recomendamos al usuario
-novel trabajar con la configuración por defecto y postergar cualquier cambio a nivel de interfaz hasta que se adquiera cierta soltura y familiaridad en el uso del programa.
+[WARNING]
+====
+Hasta ahora, hemos presentado la pantalla principal de ATLAS.ti con DPs activos de tipo textual. En el caso de documentos de imagen, audio, vídeo o geo-referencias hay algunas particularidades de presentación que señalaremos más adelante, al desarrollar la forma en la que se opera en ATLAS.ti con estos tipos de datos.
+====
 
 [[menus]]
-==== Menús
+==== Pestañas de Menús
 
-relacionadas con la gestión del proyecto ("File") y con tareas generales de análisis("Home"), también tenemos acceso a las funcionalidades de búsqueda dentro del proyecto ("Search Project"), a las funciones de análisis ("Analyze") y a las de importación y exportación de tipos de datos especiales. Por último, encontramos la pestaña de acceso a las funciones de ayuda ("Support").
+En este apartado describiremos en detalle las características de algunos de los menús, dejando para secciones específicas la descripción detallada de algunos otros.
+
+A través de los menús, Atlas.ti nos ofrece funciones relacionadas con la gestión del proyecto ("File") y con tareas generales de análisis("Home"), también tenemos acceso a las funcionalidades de búsqueda dentro del proyecto ("Search Project"), a las funciones de análisis ("Analyze") y a las de importación y exportación de tipos de datos especiales (Import/Export). Por último, encontramos la pestaña de acceso a herramientas y ayuda ("Tools & Support").
+
+==== Menú File
+
+[[img-menu-file, Menú file]]
+.Menú file
+image::atlas-8/Menu-File-8.png[Menú File, align="left"]
+
+Como podemos ver en la imagen <<img-menu-file>>, este menú nos permite
+
+- *Info*: Obtener información básica sobre el proyecto activo y además protejer el proyecto con un password de forma que sólo podrá ser editado por aquellos usuarios que lo conozcan. En la imagen, podemos ver un proyecto que tiene asignado un password.
+
+[[img-menu-file-info, Menú File Info]]
+.Menú File Info
+image::atlas-8/Menu-FileInfo-pass-8.png[alt="Menú File Info", align="center"]
+
+Si en algún momento queremos eliminar el password, el proceso sería similar al de creación o modificación, dejando en este caso en blanco los espacios dedicados a la introducción del nuevo passowrd.
+
+[[img-set-password, Eliminación de password de proyecto]]
+.Eliminación de password de proyecto
+image::atlas-8/SetProjectPassword-8.png[alt="Eliminación de password de proyecto", align="center"]
+
+[IMPORTANT]
+====
+Para que los cambios relacionados con el password tengan efecto (tanto asignación como eliminación) es necesario guardar el proyecto
+====
+
+- *New*: Evidentemente nos permite crear un nuevo proyecto. Como veíamos anteriormente, tenemos además diferentes opciones para crearlo a partir de proyectos previos.
+   - Import Project Bundle: permite importar proyectos creados con la opción "Export".
+   - Import Mobile Project: importa proyectos creados con la versión para dispositivos móviles.
+   - Import Legacy Project: importa proyectos creados con versiones anteriores de Atlas.ti (tanto Unidad Hermenéutica como copia de tipo "bundle")
+
+- *Open*: Nos ofrece un listado de a) los proyectos recientes b) los proyectos en la librería de proyectos (ver xxx)
+
+- *Merge*: Permite unir varios proyectos en un único proyecto (ver xxx)
+
+- *Export*: Crea una "copia de transporte" (ver xxx)
+
+- *Options*:
+
+==== Menú Home
+
+Este menú está dividido en cuatro apartados que nos presentan opciones relacionadas con
+
+- la creación de nuevos elementos: añadir nuevos documentos al proyecto actual y crear "entidades" en ese proyecto (códigos, memos y vistas de red )
+- "navegar" por los objetos del proyecto: tenemos dos formas de visualizar los objetos del proyecto, mediante los exploradores o mediante los navegadores. Por defecto, al iniciar el programa visualizamos el explorador de objetos del proyecto, (ver imagen xxx) pero si clicamos en la flecha del icono "Navigator" tenemos también la opción de a) visualizar el "árbol de códigos", que nos muestra la estructura de códigos del proyecto (códigos y sus relaciones), y b) el "explorador de coocurrencias de códigos", que muestra aquellos códigos que tienen una relación de coocurrencia en función de las citas con las que se han relacionado (ver...)
+
+[[img-menu-file-navigator, Menú File: navegador]]
+.Menú File: navegador
+image::atlas8/Menu-FileNavigator-8.png[alt="Menú File: navegador", align="center"]
+
+Además de los exploradores mencionados, como podemos ver en la imagen <<img-menu-file-navigator>> también podemos visualizar algunos objetos mediante los "navegadores". En este caso, visualizaremos, en formato de lista, documentos, citas, códigos, memos y networks.
+
+Cuando seleccionamos un nuevo elemento para visualizar (por ejemplo, si en la pantalla se visualiza el explorador del proyecto y clicamos en "Code Forest"), en el margen izquierdo se activará una nueva pestaña para la visualización del nuevo elemento. En la imagen podemos ver un ejemplo en el que están activadas tres pestañas.
+
+[[img-explorador, Exploradores activos]]
+.Exploradores activos
+image::atlas8/Explorador-00-8.png[alt="Exploradores activos", align="center"]
+
+Esta forma de visualización, aunque nos permite acceder rápidamente a diferentes ????, puede no ser excesivamente práctica, pero si clicamos en la flecha situada a la derecha (imagen <<img-explorador-opciones>> podemos modificar la forma de visualización.
+
+[[img-explorador-opciones, Opciones del explorador]]
+.Exploradores activos
+image::atlas8/Explorador-01-8.png[alt="Opciones del explorador", align="center"]
+
+Podemos escoger abrir el explorador/navegador en una ventana flotante (float), visualizarlo en la parte derecha de la ventana (Move to Right), o dividir verticalmente la zona del explorador ubicando el elemento en la parte inferior (Split). Como podemos ver en la imagen siguiente, esto nos permitiría visualizar de forma simultanea diferentes navegadores/exploradores.
+
+[[img-pantalla-principal-con-exploradores, Visualización de exploradores/navegadores]]
+.Exploradores activos
+image::atlas8/PantallaPrincipal-00-1-8.png[alt="Visualización de exploradores/navegadores", align="center"]
+
+[TIP]
+====
+[[img-explorador-opciones-adicionales, Opciones adicionales del explorador]]
+.Opciones adicionales del explorador
+image:atlas8/Explorador-02-8.png[alt="Opciones adicionales del explorador", align="left"]
+Si hemos configurado una visualización como la de la imagen <<img-pantalla-principal-con-exploradores>>, al clicar sobre la flecha de opciones, nos encontraremos con nuevas opciones.
+
+====
+
+Home:
+  New
+  Navigator
+  Project
+  Managers
+
+Search Project: (ver en...)
+  Scope
+  Elements
+  Aspects
+  Search
+
+ Analyze
+  Query
+  Cooccurrency
+  Cross Tabulation
+
+Import/Export: (ver en...)
+
+Tools& Support
+  Contact
+  Info
+  User management
+
+Document:
+  Create Free Quotation
+  Coding:
+  Document:
+  Quotation:
+  Margin Entities:
+  Analyze:
+  Search Document:
+
+
+
+
 
 [[img-pestañas-menus, Pestañas de menú]]
 .Pestañas de menú
@@ -108,7 +218,7 @@ image::atlas-8/PantallaPrincipal-03-8.png[alt="Menú Home (2)", align="center"]
 
 
 
-Los menús de la pantalla principal del ATLAS.ti incluyen prácticamente todas las operaciones y opciones de visualización y configuración a las que puede recurrir el usuario o permiten acceder a ellas (<<img-barra-menus>>). Los menús pueden agruparse en tres categorías: generales, por objeto y extras. Los menús por objeto hacen referencia a opciones y operaciones asociadas a cada uno de los bloques que se van construyendo dentro de su UH conforme avanza en el proceso de análisis.
+Los menús de la pantalla principal del ATLAS.ti incluyen prácticamente todas las operaciones y opciones de visualización y chhhhhhhonfiguración a las que puede recurrir el usuario o permiten acceder a ellas (<<img-barra-menus>>). Los menús pueden agruparse en tres categorías: generales, por objeto y extras. Los menús por objeto hacen referencia a opciones y operaciones asociadas a cada uno de los bloques que se van construyendo dentro de su UH conforme avanza en el proceso de análisis.
 
 [.float-group]
 --

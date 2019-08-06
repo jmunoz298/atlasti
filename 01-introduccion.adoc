@@ -1,7 +1,7 @@
 [[introduccion, Introducción]]
 == Introducción
 
-En este capítulo presentaremos, en primer lugar, una breve introducción al software para el análisis cualitativo de datos textuales (CAQDAS)para, a continuación, presentar algunas de las características principales de Atlas.ti.
+En este capítulos presentaremos, en primer lugar, una breve introducción al software para el análisis cualitativo de datos textuales (CAQDAS)para, a continuación, presentar algunas de las características principales de Atlas.ti.
 
 [[caqdas]]
 === CAQDAS

@@ -1,0 +1,137 @@
+= Hacer análisis cualitativo con Atlas.ti 7: Manual de uso
+Juan Muñoz-Justicia <juan.munoz@uab.cat>; Miguel Sahagún-Padilla <masahagun@correo.uaa.mx>
+v1.0, abril, 2017
+:description: Manual software análisis cualitativo (CAQDAS) Atlas.ti (versión 7)
+:keywords: atlas.ti, CAQDAS, Análisis cualitativo
+:doctype: book
+:lang: es
+:encoding: utf-8
+//:toc: macro
+//:toc: preamble
+:toc: left
+//:toc:
+:toc-start: 3
+:source-highlighter: highlightjs
+:icons: font
+:imagesdir: ./images
+:stylesdir: ./stylesheets
+:sectnums:
+:chapter-label: Capítulo
+:figure-caption: Figura
+:listing-caption: Listing
+:table-caption: Tabla
+:toc-title: Índice
+:pdf-page-size: A4
+//:theme: volnitsky, flask
+//:stylesheet: stylesheets/juan.css , foundation.css, foundation-lime.css, foundation-potion.css, github.css, iconic.css, riak.css, colony.css, maker.css, rubygems.css, golo.css, readthedocs.css
+:stylesheet: asciidoctor-mod.css
+:y: icon:check[role="green"]
+:n: icon:times[role="red"]
+:c: icon:file-text-o[role="blue"]
+:bibtex-file: atlas.bib
+:bibtex-order: alphabetical
+:bibtex-style: apa
+:bibtex-format: latex
+:linkcss:
+:linkattrs:
+:front-cover-image: atlasti7-cover.pdf
+:mermaid: node_modules/mermaid/bin/mermaid.js
+ifdef::backend-html5[]
+:twoinches: width='144'
+:full-width: width='100%'
+:half-width: width='50%'
+:half-size: width='50%'
+:littel-size: width='30%'
+:thumbnail: width='60'
+endif::[]
+ifdef::backend-pdf[]
+:twoinches: pdfwidth='2in'
+:full-width: pdfwidth='100vw'
+:half-width: pdfwidth='50vw'
+:half-size: pdfwidth='50%'
+:littel-size: pdfwidth='30%'
+:thumbnail: pdfwidth='20mm'
+endif::[]
+ifdef::backend-docbook5[]
+:twoinches: width='50mm'
+:full-width: scaledwidth='100%'
+:half-width: scaledwidth='50%'
+:half-size: width='50%'
+:thumbnail: width='20mm'
+endif::[]
+
+[abstract]
+image:logo_UAB.png[float="left"]
+
+{author} es profesor titular del Departamento de Psicología Social de la Universidad Autónoma de Barcelona (España) - {email}.
+
+image:logo_UAA.png[float="left"]
+
+{author_2} es profesor e investigador de tiempo completo del Departamento de Psicología de la Universidad Autónoma de Aguascalientes (México) - {email_2}.
+
+//DOI: 10.5281/zenodo.273997
+
+ifdef::backend-pdf[]
+Diseño portada: Marc Bria Ramírez
+
+Imagen portada: Gustavo Trapp, _Atlas on the top of Schloss Linderhof_. https://es.wikipedia.org/wiki/Archivo:Atlas_Schloss_Linderhof.JPG
+endif::[]
+
+[discrete]
+=== Licencia
+****
+Esta obra está licenciada bajo la Licencia Creative Commons Atribución 4.0 Internacional.
+
+Para ver una copia de esta licencia, visita
+
+http://creativecommons.org/licenses/by/4.0/
+
+[[img-cc-by, Creative Commons By]]
+image::by.png[{alt="Creative Commons By", align="center"]
+****
+
+:sectnums:
+
+<<<
+
+include::01-introduccion.adoc[]
+
+<<<
+
+include::02-empezando.adoc[]
+
+<<<
+
+include::03-documentar.adoc[]
+
+<<<
+
+include::04-documentos.adoc[]
+
+<<<
+
+include::05-segmentar.adoc[]
+
+<<<
+
+include::06-agrupar.adoc[]
+
+<<<
+
+include::07-vistas.adoc[]
+
+<<<
+
+include::08-herramientas.adoc[]
+
+<<<
+
+include::09-otras-herramientas.adoc[]
+
+<<<
+
+include::10-informes.adoc[]
+
+<<<
+
+include::11-referencias.adoc[]

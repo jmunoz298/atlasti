@@ -142,6 +142,8 @@ precedente.
 
 |(_término_ \| _término_ \| _término_) |Localiza varios términos de forma simultánea.
 
+|[^_término_] |Niega el término siguiente (localiza la no ocurrencia)]
+
 |:d |Localiza cualquier dígito.
 
 | \ |Carácter utilizado cuando en la expresión se debe incluir uno de los
@@ -246,6 +248,17 @@ De forma que si introducimos la siguiente expresión
 El resultado será todas las palabras que contengan (pero no comiencen) por "do", por ejemplo, encontrará "adocenar" pero no "doce". De todas formas, también encontraría aquellas cuya finalización sea "do", por ejemplo "cogido". Si queremos evitar esto, es decir, encontrar aquellas en las que la cadena se encuentre únicamente en el "interior" de una palabra, entonces la expresión que deberemos utilizar será
 
 `\Bdo\B`
+
+*Búsqueda de texto entre comillas*
+
+Si en una revisión bibliográfica queremos identificar todas las citas textuales, podemos realizar la siguiente búsqueda para encontrar todo el texto entrecomillado.
+
+`"[^"]*"`
+
+Es decir, buscamos `"` seguidas de cualquier cadena de caracteres (de cualquier longitud) que no sean comillas `[^"]*` y nuevamente `"`.
+
+Evidentemente, tenemos que tener en cuenta el tipo de comillas utilizadas en el texto, por lo que si se trata de comillas tipográficas habrá que poner el carácter equivalente en la condición de búsqueda, o incluso combinar diferentes tipos de comillas en una única búsqueda, con la sintaxis `[ | ]`
+
 
 [[busqueda-ampliada-examinador-de-objetos]]
 === Búsqueda ampliada: Examinador de objetos
@@ -764,7 +777,7 @@ Follows <5>
 <4> Recupera todas las citas codificadas como Q Y/N.
 <5> Recupera las citas en las que <4> FOLLOWS A <3>.
 
-[[img-concurrencia-citas, Operador _Follows_]]
+[[operador-follows, Operador _Follows_]]
 .Operador _Follows_
 [mermaid, "consulta-04", png]
 ....

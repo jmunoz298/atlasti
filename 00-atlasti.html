@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.5">
-<meta name="description" content="Manual software análisis cualitativo (CAQDAS) Atlas.ti">
+<meta name="generator" content="Asciidoctor 1.5.6.2">
+<meta name="description" content="Manual software análisis cualitativo (CAQDAS) Atlas.ti (versión 8)">
 <meta name="keywords" content="atlas.ti, CAQDAS, Análisis cualitativo">
 <meta name="author" content="Juan Muñoz-Justicia, Miguel Sahagún-Padilla">
 <title>Hacer análisis cualitativo con Atlas.ti 7: Manual de uso</title>
 <link rel="stylesheet" href="./stylesheets/asciidoctor-mod.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
-<body class="book">
+<body class="book toc2 toc-left">
 <div id="header">
 <h1>Hacer análisis cualitativo con Atlas.ti 7: Manual de uso</h1>
 <div class="details">
@@ -20,10 +20,10 @@
 <span id="email" class="email"><a href="mailto:juan.munoz@uab.cat">juan.munoz@uab.cat</a></span><br>
 <span id="author2" class="author">Miguel Sahagún-Padilla</span><br>
 <span id="email2" class="email"><a href="mailto:masahagun@correo.uaa.mx">masahagun@correo.uaa.mx</a></span><br>
-<span id="revnumber">version 1.1,</span>
-<span id="revdate">enero, 2017</span>
+<span id="revnumber">version 1.0,</span>
+<span id="revdate">abril, 2017</span>
 </div>
-<div id="toc" class="toc">
+<div id="toc" class="toc2">
 <div id="toctitle">Índice</div>
 <ul class="sectlevel1">
 <li><a href="#introduccion">1. Introducción</a>
@@ -134,7 +134,7 @@
 </div>
 <div id="img-cc-by" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/by.png" alt="{alt="Creative Commons By"">
+<img src="./images/by.png" alt="{alt=&quot;Creative Commons By&quot;">
 </div>
 </div>
 </div>
@@ -146,24 +146,24 @@
 <h2 id="introduccion">1. Introducción</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>En este capítulo presentaremos, en primer lugar, una breve introducción al software para el análisis cualitativo de datos textuales (CAQDAS)para, a continuación, presentar algunas de las características principales de Atlas.ti.</p>
+<p>En este capítulos presentaremos, en primer lugar, una breve introducción al software para el análisis cualitativo de datos textuales (CAQDAS)para, a continuación, presentar algunas de las características principales de Atlas.ti.</p>
 </div>
 <div class="sect2">
 <h3 id="caqdas">1.1. CAQDAS</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Parte de este capítulo ha sido publicado previamente en cite:[munozjusticia2011]</p>
+<p>Parte de este capítulo ha sido publicado previamente en \cite{munozjusticia2011}</p>
 </div>
 </div>
 </div>
 <div class="paragraph">
-<p>El título de este apartado se corresponde con el acrónimo de "Computer-Assisted/Aided Qualitative Data Analysis Software” cite:[lee1991], es decir, <em>Programas Informáticos de Ayuda al Análisis Cualitativo de Datos</em>, conjunto de programas informáticos que surgen a mediados de los 80 y que van más allá de los recursos informáticos genéricos (procesadores de texto, bases de datos) que hasta la fecha utilizaban los analistas cualitativos cite:[weitzman1995]. De entonces a la fecha, la utilización de herramientas informáticas por parte de las personas que se dedican a la investigación cualitativa ha experimentado un notable incremento, de la misma forma que sus características y funcionalidades han evolucionado considerablemente, haciendo que en nuestros días muchas personas podamos hacer nuestras las palabras de Anselm Strauss en el prefacio al manual de usuarios de ATLAS.ti de Thomar Muhr:</p>
+<p>El título de este apartado se corresponde con el acrónimo de "Computer-Assisted/Aided Qualitative Data Analysis Software” \cite{lee1991}, es decir, <em>Programas Informáticos de Ayuda al Análisis Cualitativo de Datos</em>, conjunto de programas informáticos que surgen a mediados de los 80 y que van más allá de los recursos informáticos genéricos (procesadores de texto, bases de datos) que hasta la fecha utilizaban los analistas cualitativos \cite{weitzman1995}. De entonces a la fecha, la utilización de herramientas informáticas por parte de las personas que se dedican a la investigación cualitativa ha experimentado un notable incremento, de la misma forma que sus características y funcionalidades han evolucionado considerablemente, haciendo que en nuestros días muchas personas podamos hacer nuestras las palabras de Anselm Strauss en el prefacio al manual de usuarios de ATLAS.ti de Thomar Muhr:</p>
 </div>
 <div class="quoteblock">
 <blockquote>
 <div class="paragraph">
-<p>En mis días de estudiante de posgrado, no había grabadoras para hacer más fácil la vida del entrevistador; llegaron después de la IIGM, pasando primero por la etapa de las grandes grabadoras. Eran máquinas pesadas, que adelgazaron sólo gradualmente hasta los modelos ligeros actuales. Muchos años después, siguiendo nuestros sueños de ordenadores que hicieran más fácil nuestras vidas como investigadores cualitativos, se inventó el software para nosotros. cite:[strauss1997(1)]</p>
+<p>En mis días de estudiante de posgrado, no había grabadoras para hacer más fácil la vida del entrevistador; llegaron después de la IIGM, pasando primero por la etapa de las grandes grabadoras. Eran máquinas pesadas, que adelgazaron sólo gradualmente hasta los modelos ligeros actuales. Muchos años después, siguiendo nuestros sueños de ordenadores que hicieran más fácil nuestras vidas como investigadores cualitativos, se inventó el software para nosotros. \cite[p. 1]{strauss1997}</p>
 </div>
 </blockquote>
 </div>
@@ -182,7 +182,7 @@
 <p>Una vez establecido el marco para abordar el tema que nos ocupa, es conveniente señalar qué es lo que caracteriza, aunque sea de forma general, al software para análisis cualitativo. Antes, realizaremos una <em>caricaturización</em> de las características generales del análisis cualitativo.</p>
 </div>
 <div class="paragraph">
-<p>Para cite:[patton1990], la pretensión de la investigación cualitativa consiste en dar sentido a grandes volúmenes de datos en un proceso definido por la reducción de información, la identificación de pautas significativas y la construcción de un marco que permita comunicar lo que revelan los datos. Si bien es cierto que la investigación cualitativa en ciencias sociales se caracteriza por su diversidad y pluralidad de enfoques, métodos y técnicas cite:[silverman2005], es posible afirmar que las distintas aproximaciones comparten una orientación naturalista e interpretativa y que la mayoría de las modalidades de análisis que ofrecen se distinguen por estar teóricamente informadas cite:[iniguez_rueda1999].</p>
+<p>Para \cite{patton1990}, la pretensión de la investigación cualitativa consiste en dar sentido a grandes volúmenes de datos en un proceso definido por la reducción de información, la identificación de pautas significativas y la construcción de un marco que permita comunicar lo que revelan los datos. Si bien es cierto que la investigación cualitativa en ciencias sociales se caracteriza por su diversidad y pluralidad de enfoques, métodos y técnicas \cite{silverman2005}, es posible afirmar que las distintas aproximaciones comparten una orientación naturalista e interpretativa y que la mayoría de las modalidades de análisis que ofrecen se distinguen por estar teóricamente informadas \cite{iniguez_rueda1999}.</p>
 </div>
 <div class="paragraph">
 <p>Como mostramos de forma esquemática en la figura <a href="#img-proceso-tipico-analisis">Proceso típico de análisis</a>, una manera habitual y bastante difundida de entender las tareas básicas del análisis cualitativo consiste en trazar el recorrido hacia esa reducción y búsqueda del significado de los datos como un proceso recursivo desde los datos hacia la elaboración de modelos teóricos sustantivos.</p>
@@ -197,7 +197,7 @@
 <p>El proceso recursivo atraviesa por la segmentación y codificación del conjunto de datos, el establecimiento de relaciones entre códigos, el desarrollo de anotaciones y una cuidadosa revisión del sistema empleado. Aunque sea discutible si esta concepción del proceso de análisis cualitativo es generalizable a la gran mayoría de orientaciones metodológicas, el diagrama ilustra las transformaciones y producciones específicas que operan sobre el material empírico durante un proceso de análisis. Tareas básicas como la organización y el almacenamiento de datos, la selección y etiquetaje de pasajes o secciones del material, la sistematización de los procedimientos de etiquetaje, la recuperación de las secciones etiquetadas y el desarrollo de anotaciones (memos) que den cuenta del proceso y sus resultados suelen estar presentes en la mayoría de los estudios de corte cualitativo.</p>
 </div>
 <div class="paragraph">
-<p>Parafraseando a cite:[lewins2009], la investigación cualitativa se caracteriza entonces por la necesidad de interpretar datos a través de la identificación y, posiblemente, la codificación de temas, conceptos, procesos o contextos, con el propósito de construir teorías, de ampliarlas o de ponerlas a prueba. Desde un marco más o menos definido, el investigador se formula preguntas respecto al significado de su material empírico. En estas preguntas por el significado de los datos se define un contexto de interpretación que orienta al investigador en la definición de los aspectos operativos del análisis. Dicho de otro modo, en cada proyecto de investigación, la pregunta por el significado de lo que se analiza es la que permite dar sustancia y dirección a tareas tan genéricas como organizar, segmentar y codificar datos. Los aspectos operativos son cruciales porque dependiendo de la forma en la que se concreten pueden favorecer o dificultar una aproximación sistemática, rigurosa, minuciosa y creativa a los datos. Es aquí en donde el software para análisis cualitativo encuentra su razón de ser. No es que el software analice —por si alguien se había formado expectativas en este sentido— sino que ofrece apoyo en la parte operativa del análisis.</p>
+<p>Parafraseando a \cite{lewins2009}, la investigación cualitativa se caracteriza entonces por la necesidad de interpretar datos a través de la identificación y, posiblemente, la codificación de temas, conceptos, procesos o contextos, con el propósito de construir teorías, de ampliarlas o de ponerlas a prueba. Desde un marco más o menos definido, el investigador se formula preguntas respecto al significado de su material empírico. En estas preguntas por el significado de los datos se define un contexto de interpretación que orienta al investigador en la definición de los aspectos operativos del análisis. Dicho de otro modo, en cada proyecto de investigación, la pregunta por el significado de lo que se analiza es la que permite dar sustancia y dirección a tareas tan genéricas como organizar, segmentar y codificar datos. Los aspectos operativos son cruciales porque dependiendo de la forma en la que se concreten pueden favorecer o dificultar una aproximación sistemática, rigurosa, minuciosa y creativa a los datos. Es aquí en donde el software para análisis cualitativo encuentra su razón de ser. No es que el software analice —por si alguien se había formado expectativas en este sentido— sino que ofrece apoyo en la parte operativa del análisis.</p>
 </div>
 <div class="paragraph">
 <p>Cabe entonces preguntarse qué tipo de apoyo ofrece el software para análisis cualitativo. Simplificando, lo que ofrece es una alternativa a prácticas más "manuales" que pueden desbordar al investigador. Dentro de su gran diversidad, los paquetes CAQDAS nos permiten:</p>
@@ -232,10 +232,10 @@
 <p>A continuación expondremos algunas de las principales líneas de cuestionamiento y crítica.</p>
 </div>
 <div class="paragraph">
-<p><strong>Volumen de datos</strong>: Una de las ventajas de la utilización de <em>CAQDAS</em> tiene que ver con la posibilidad de gestionar un gran volumen de información de una forma más fácil que con los sistemas tradicionales de análisis. Es decir, podemos organizar y acceder más fácilmente a los documentos que constituyen nuestros datos, podremos crear y acceder más fácilmente a las citas –extractos significativos– en su contexto y a los códigos cite:[blismas2003, kelle1995], podremos acceder más fácilmente a las notas de investigación, etcétera. No obstante, algunos autores alertan del riesgo de que esta posibilidad que nos ofrece la utilización de <em>CAQDAS</em> se convierta en un inconveniente, puesto que aunque la gestión sea más fácil, el aumento del tamaño de las muestras puede llevar a la necesidad de una mayor inversión de tiempo y aunque esto no tiene porqué ser necesariamente negativo, sí que puede repercutir en la realización de un análisis más superficial de los datos cite:[blismas2003, stjohn2000] con tal de no prolongar demasiado el periodo dedicado a esta tarea.</p>
+<p><strong>Volumen de datos</strong>: Una de las ventajas de la utilización de <em>CAQDAS</em> tiene que ver con la posibilidad de gestionar un gran volumen de información de una forma más fácil que con los sistemas tradicionales de análisis. Es decir, podemos organizar y acceder más fácilmente a los documentos que constituyen nuestros datos, podremos crear y acceder más fácilmente a las citas –extractos significativos– en su contexto y a los códigos \cite{blismas2003},\cite{kelle1995}, podremos acceder más fácilmente a las notas de investigación, etcétera. No obstante, algunos autores alertan del riesgo de que esta posibilidad que nos ofrece la utilización de <em>CAQDAS</em> se convierta en un inconveniente, puesto que aunque la gestión sea más fácil, el aumento del tamaño de las muestras puede llevar a la necesidad de una mayor inversión de tiempo y aunque esto no tiene porqué ser necesariamente negativo, sí que puede repercutir en la realización de un análisis más superficial de los datos \cite{blismas2003},\cite{stjohn2000} con tal de no prolongar demasiado el periodo dedicado a esta tarea.</p>
 </div>
 <div class="paragraph">
-<p><strong>Cercanía a los datos:</strong> Otra de las líneas críticas a los <em>CAQDAS</em> tiene que ver con quienes manifiestan que la utilización de ordenadores puede llevar a un cierto "alejamiento" de los datos; es decir, que el trabajo con el ordenador puede llevarnos a centrarnos más en la mecánica del análisis, en la utilización de las herramientas que nos ofrece el programa y por lo tanto prestar menos atención a lo auténticamente relevante; es decir, a los datos. Aunque esta crítica, de nuevo, puede tener cierta base, parece llevar implícita la idea de que lo contrario, la no utilización de <em>CAQDAS</em> evita este problema, algo no del todo evidente cite:[fielding1998, lee2000]. También el análisis manual puede alejarnos de los datos, centrando nuestra atención en la "mecánica" del análisis (e.g., recortar segmentos de transcripción, usar post-it de colores para distinguir entre tipos de códigos, pegar los segmentos en tarjetas, ordenar las tarjetas&#8230;&#8203;).</p>
+<p><strong>Cercanía a los datos:</strong> Otra de las líneas críticas a los <em>CAQDAS</em> tiene que ver con quienes manifiestan que la utilización de ordenadores puede llevar a un cierto "alejamiento" de los datos; es decir, que el trabajo con el ordenador puede llevarnos a centrarnos más en la mecánica del análisis, en la utilización de las herramientas que nos ofrece el programa y por lo tanto prestar menos atención a lo auténticamente relevante; es decir, a los datos. Aunque esta crítica, de nuevo, puede tener cierta base, parece llevar implícita la idea de que lo contrario, la no utilización de <em>CAQDAS</em> evita este problema, algo no del todo evidente \cite{fielding1998},\cite{lee2000}. También el análisis manual puede alejarnos de los datos, centrando nuestra atención en la "mecánica" del análisis (e.g., recortar segmentos de transcripción, usar post-it de colores para distinguir entre tipos de códigos, pegar los segmentos en tarjetas, ordenar las tarjetas&#8230;&#8203;).</p>
 </div>
 <div class="paragraph">
 <p><strong>Reificación de la codificación:</strong> Dado el énfasis que el software (im)pone sobre la codificación y la facilidad con la que ésta puede realizarse, se puede correr el riesgo de que los analistas basen su análisis en una codificación no reflexiva. Semejante forma de proceder tendría consecuencias como:</p>
@@ -243,24 +243,24 @@
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>la creación de un número excesivo de códigos cite:[blismas2003];</p>
+<p>la creación de un número excesivo de códigos \cite{blismas2003};</p>
 </li>
 <li>
-<p>la confusión entre codificación y análisis, identificando la primera con el último cite:[coffey1996];</p>
+<p>la confusión entre codificación y análisis, identificando la primera con el último \cite{coffey1996};</p>
 </li>
 <li>
-<p>la reificación del código, con el consiguiente distanciamiento de los datos cite:[bong2002] y</p>
+<p>la reificación del código, con el consiguiente distanciamiento de los datos \cite{bong2002} y</p>
 </li>
 <li>
-<p>el descuido del trabajo hermenéutico o interpretativo que implica la investigación cualitativa cite:[lonkila1995, morison1998].</p>
+<p>el descuido del trabajo hermenéutico o interpretativo que implica la investigación cualitativa \cite{lonkila1995},\cite{morison1998}.</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p><strong>Forzar una metodología:</strong> en una línea similar, se afirma que la generalización de la utilización de <em>CAQDAS</em> está llevando al predominio de determinadas formas de análisis y orientaciones metodológicas cite:[blismas2003, carvajal2002, coffey1996, lonkila1995, mangabeira2004, stjohn2000]. Efectivamente, si analizamos las características de los programas más utilizados veremos que una parte importante de las funciones que incorporan recuerdan mucho a conceptos derivados de la <em>Grounded Theory</em> o Teoría Fundamentada cite:[lonkila1995].</p>
+<p><strong>Forzar una metodología:</strong> en una línea similar, se afirma que la generalización de la utilización de <em>CAQDAS</em> está llevando al predominio de determinadas formas de análisis y orientaciones metodológicas \cite{blismas2003},\cite{carvajal2002},\cite{coffey1996},\cite{lonkila1995},\cite{mangabeira2004},\cite{stjohn2000}. Efectivamente, si analizamos las características de los programas más utilizados veremos que una parte importante de las funciones que incorporan recuerdan mucho a conceptos derivados de la <em>Grounded Theory</em> o Teoría Fundamentada \cite{lonkila1995}.</p>
 </div>
 <div class="paragraph">
-<p>Evidentemente, esto no significa que el único tipo de análisis que podemos realizar con el apoyo de programas para análisis cualitativo tenga que basarse en la Teoría Fundamentada. De hecho, los programas son lo suficientemente flexibles como para permitir trabajar desde enfoques diferentes y con diversas modalidades de análisis. Es el analista, con base en una cuidadosa reflexión, quien debe decidir el tipo de análisis pertinente. Pero efectivamente existe el riesgo de que por lo menos los investigadores noveles tiendan a equiparar investigación cualitativa con Teoría Fundamentada y a seguir de una forma no reflexiva las 'sugerencias' de análisis de los programas cite:[lonkila1995].</p>
+<p>Evidentemente, esto no significa que el único tipo de análisis que podemos realizar con el apoyo de programas para análisis cualitativo tenga que basarse en la Teoría Fundamentada. De hecho, los programas son lo suficientemente flexibles como para permitir trabajar desde enfoques diferentes y con diversas modalidades de análisis. Es el analista, con base en una cuidadosa reflexión, quien debe decidir el tipo de análisis pertinente. Pero efectivamente existe el riesgo de que por lo menos los investigadores noveles tiendan a equiparar investigación cualitativa con Teoría Fundamentada y a seguir de una forma no reflexiva las 'sugerencias' de análisis de los programas \cite{lonkila1995}.</p>
 </div>
 <div class="paragraph">
 <p>Después de todo, ¿a qué conclusión podemos llegar? Probablemente a ninguna extrema, ni a reificar el software ni a estigmatizarlo y quizás a tener en cuenta las palabras de Weitzman y Miles:</p>
@@ -268,19 +268,19 @@
 <div class="quoteblock">
 <blockquote>
 <div class="paragraph">
-<p>Como señala Pfaffenberger (1988), es igualmente ingenuo creer que un programa es (a) un instrumento técnico neutral o (b) un monstruo sobredeterminado. La cuestión es la comprensión de las propiedades y presupuestos de un programa, y cómo pueden apoyar o restringir su pensamiento para producir efectos no previstos. cite:[weitzman1995(330)]</p>
+<p>Como señala Pfaffenberger (1988), es igualmente ingenuo creer que un programa es (a) un instrumento técnico neutral o (b) un monstruo sobredeterminado. La cuestión es la comprensión de las propiedades y presupuestos de un programa, y cómo pueden apoyar o restringir su pensamiento para producir efectos no previstos. \cite[p. 330]{weitzman1995}</p>
 </div>
 </blockquote>
 </div>
 <div class="paragraph">
-<p>Lo que es evidente es que la utilización de CAQDAS puede reportar ciertas ventajas, pero debemos tener siempre presente que el ordenador no puede, en ningún caso sustituir al analista. Por lo tanto, la garantía de un buen análisis no nos la dará la mayor o menor sofisticación de los programas, sino la calidad del analista, su conocimiento del oficio de la investigación cualitativa cite:[bringer2006], el examen previo de los posibles métodos y metodologías apropiados y su aplicación razonada a su problema de investigación cite:[blismas2003, bong2002].</p>
+<p>Lo que es evidente es que la utilización de CAQDAS puede reportar ciertas ventajas, pero debemos tener siempre presente que el ordenador no puede, en ningún caso sustituir al analista. Por lo tanto, la garantía de un buen análisis no nos la dará la mayor o menor sofisticación de los programas, sino la calidad del analista, su conocimiento del oficio de la investigación cualitativa \cite{bringer2006}, el examen previo de los posibles métodos y metodologías apropiados y su aplicación razonada a su problema de investigación \cite{blismas2003},\cite{bong2002}.</p>
 </div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="que-es-atlas.ti">1.2. ¿Qué es <strong>ATLAS.ti</strong>?</h3>
 <div class="paragraph">
-<p>El ATLAS.ti se originó en la Universidad Tecnológica de Berlín, en el marco del proyecto ATLAS, entre 1989 y 1992. El nombre es un acrónimo de <em>Archiv für Technik, Lebenswelt und Alltagssprache</em>, que en alemán quiere decir "Archivo para la Tecnología, el Mundo de la Vida y el Lenguaje Cotidiano". La extensión <em>.ti</em> significa interpretación de textos. Se pueden encontrar mayores detalles sobre el origen del programa en el interesante relato de Heiner Legewie cite:[legewie2014]. En 1996 fue lanzada la primera versión comercial y en 2012 apareció la versión 7. El lanzamiento de la versión 8 fue anunciado para finales de 2015.</p>
+<p>El ATLAS.ti se originó en la Universidad Tecnológica de Berlín, en el marco del proyecto ATLAS, entre 1989 y 1992. El nombre es un acrónimo de <em>Archiv für Technik, Lebenswelt und Alltagssprache</em>, que en alemán quiere decir "Archivo para la Tecnología, el Mundo de la Vida y el Lenguaje Cotidiano". La extensión <em>.ti</em> significa interpretación de textos. Se pueden encontrar mayores detalles sobre el origen del programa en el interesante relato de Heiner Legewie \cite{legewie2014}. En 1996 fue lanzada la primera versión comercial y en 2012 apareció la versión 7. El lanzamiento de la versión 8 fue anunciado para finales de 2015.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -316,7 +316,7 @@ Finalmente, la versión 8 apareció en diciembre de 2016.
 <p><span class="image" style="float: left"><img src="./images/icon-documento.png" alt="icon documento"></span> Los <strong>Documentos Primarios</strong> serán normalmente la base de nuestro análisis, puesto que se corresponderán con nuestros datos (entrevistas, observaciones, diarios de campo, documentos y registros de información de diversa índole). Una UH puede incluir un gran número de DPs, tantos como datos se incluyan en nuestro análisis. En cuanto al formato de los datos que podemos utilizar, tenemos un amplio abanico de posibilidades. En primer lugar —lo más habitual— podemos tener archivos de texto con las transcripciones de las entrevistas, observaciones o cualquier otro tipo de material textual. Podemos incluir archivos de texto "plano" o sin editar (<em>*.txt</em>), documentos de Microsoft Word (<em>*.doc</em>), documentos con formato de texto enriquecido (<em>*.rtf</em>) —la opción más recomendable— e incluso documentos adobe (<em>*.pdf</em>). Podemos incluir también archivos multimedia como imágenes o fotografías, archivos de audio y archivos de vídeo. Y, finalmente, otra de las posibilidades es incluir como DPs archivos de Google Earth.</p>
 </div>
 <div class="paragraph">
-<p><span class="image" style="float: left"><img src="./images/icon-cita.png" alt="icon cita"></span>Las <strong>Citas</strong> son fragmentos de los DPs que tienen algún significado, es decir, son segmentos significativos. Podemos entenderlos como una primera selección del material de base, una primera reducción de la información cite:[patton1990]. Dependiendo de la naturaleza de los documentos primarios a segmentar, las citas pueden ser fragmentos de texto (palabras, frases, enunciados, párrafos), secciones rectangulares dentro de una imagen, lapsos en un archivo de audio o vídeo, o puntos en un mapa.</p>
+<p><span class="image" style="float: left"><img src="./images/icon-cita.png" alt="icon cita"></span>Las <strong>Citas</strong> son fragmentos de los DPs que tienen algún significado, es decir, son segmentos significativos. Podemos entenderlos como una primera selección del material de base, una primera reducción de la información \cite{patton1990}. Dependiendo de la naturaleza de los documentos primarios a segmentar, las citas pueden ser fragmentos de texto (palabras, frases, enunciados, párrafos), secciones rectangulares dentro de una imagen, lapsos en un archivo de audio o vídeo, o puntos en un mapa.</p>
 </div>
 <div class="paragraph">
 <p><span class="image" style="float: left"><img src="./images/icon-codigo.png" alt="icon codigo"></span>Los <strong>Códigos</strong> suelen ser (aunque no necesariamente) la unidad básica de análisis. Habitualmente el análisis se basará en ellos. Podemos entenderlos como conceptualizaciones, resúmenes o agrupaciones de las Citas, lo que implicaría un segundo nivel de reducción de datos. Aun así, debemos tener en cuenta que no necesariamente tienen que estar relacionados con las Citas, es decir, los Códigos pueden utilizarse también como “conceptos” útiles para el análisis que no necesariamente tienen una relación directa con selecciones de texto, imagen, sonido, etc.</p>
@@ -338,7 +338,7 @@ Finalmente, la versión 8 apareció en diciembre de 2016.
 </div>
 <div id="img-componentes-relaciones" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-003.png" alt="{alt="Componentes y relaciones"">
+<img src="./images/image-003.png" alt="{alt=&quot;Componentes y relaciones&quot;">
 </div>
 <div class="title">Figura 3. Componentes y relaciones</div>
 </div>
@@ -500,7 +500,7 @@ novel trabajar con la configuración por defecto y postergar cualquier cambio a 
 <div class="content">
 <div id="img-barra-menus" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-011.png" alt="Barra de menús"">
+<img src="./images/image-011.png" alt="Barra de menús&quot;">
 </div>
 <div class="title">Figura 9. Barra de menús</div>
 </div>
@@ -622,7 +622,7 @@ formatos (a SPSS, por ejemplo).</p>
 </div>
 <div id="img-menu-proyecto" class="imageblock" style="text-align: center;float: left">
 <div class="content">
-<img src="./images/image-014.png" alt="{alt="Menú Proyecto"">
+<img src="./images/image-014.png" alt="{alt=&quot;Menú Proyecto&quot;">
 </div>
 <div class="title">Figura 12. Menú Proyecto</div>
 </div>
@@ -634,7 +634,7 @@ formatos (a SPSS, por ejemplo).</p>
 </div>
 <div id="img-comentario-uh" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-015.png" alt="{alt="Comentario de Unidad Hermenéutica"">
+<img src="./images/image-015.png" alt="{alt=&quot;Comentario de Unidad Hermenéutica&quot;">
 </div>
 <div class="title">Figura 13. Comentario de Unidad Hermenéutica</div>
 </div>
@@ -643,7 +643,7 @@ formatos (a SPSS, por ejemplo).</p>
 </div>
 <div id="img-ruta-textbank" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-016.png" alt="{alt="Ruta de Textbank"">
+<img src="./images/image-016.png" alt="{alt=&quot;Ruta de Textbank&quot;">
 </div>
 <div class="title">Figura 14. Ruta de Textbank</div>
 </div>
@@ -658,7 +658,7 @@ formatos (a SPSS, por ejemplo).</p>
 </div>
 <div id="img-explorar-proyectos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-017.png" alt="{alt="Explorar proyectos"">
+<img src="./images/image-017.png" alt="{alt=&quot;Explorar proyectos&quot;">
 </div>
 <div class="title">Figura 15. Explorar proyectos</div>
 </div>
@@ -682,7 +682,7 @@ formatos (a SPSS, por ejemplo).</p>
 <blockquote>
 <div class="paragraph">
 <p>Cuando los investigadores empiezan a pensar en un proyecto, pueden empezar, desde el principio del proceso de investigación, a utilizar ATLAS.ti para hacer reflexiones preliminares sobre las ideas y la
-construcción del conocimiento. Por ejemplo, se pueden crear memos libres, que se centran en la reflexividad sobre la puesta en marcha del proceso de investigación. La reflexividad básicamente significa hacer reflexiones sobre y dar cuenta de cómo se han tomado las decisiones y cómo han influido en el proceso de investigación. cite:[rambaree2014(1)]</p>
+construcción del conocimiento. Por ejemplo, se pueden crear memos libres, que se centran en la reflexividad sobre la puesta en marcha del proceso de investigación. La reflexividad básicamente significa hacer reflexiones sobre y dar cuenta de cómo se han tomado las decisiones y cómo han influido en el proceso de investigación. \cite[p. 1]{rambaree2014}</p>
 </div>
 </blockquote>
 </div>
@@ -695,7 +695,7 @@ construcción del conocimiento. Por ejemplo, se pueden crear memos libres, que s
 <div class="quoteblock">
 <blockquote>
 <div class="paragraph">
-<p>Mediante el uso de memorandos, el investigador es capaz de sumergirse en los datos, explorar los significados que estos datos tienen, mantener la continuidad y mantener el impulso en la realización de la investigación. Como crónica de un viaje de investigación, los memorandos permanecen como un registro, indeleble pero flexible, para retención personal o para difundir a otros. cite:[birks2008(69)]</p>
+<p>Mediante el uso de memorandos, el investigador es capaz de sumergirse en los datos, explorar los significados que estos datos tienen, mantener la continuidad y mantener el impulso en la realización de la investigación. Como crónica de un viaje de investigación, los memorandos permanecen como un registro, indeleble pero flexible, para retención personal o para difundir a otros. \cite[p. 69]{birks2008}</p>
 </div>
 </blockquote>
 </div>
@@ -705,7 +705,7 @@ construcción del conocimiento. Por ejemplo, se pueden crear memos libres, que s
 <div class="quoteblock">
 <blockquote>
 <div class="paragraph">
-<p>Vemos la toma de notas como crucial para todos los tipos y enfoques de análisis. Otras funciones, como la codificación, la búsqueda de texto, la codificación automática y la modelización pueden ser utilizadas por enfoques concretos, pero la anotación de los datos, documentos y material de apoyo es indivisible del análisis general. cite:[lewins2007(59)]</p>
+<p>Vemos la toma de notas como crucial para todos los tipos y enfoques de análisis. Otras funciones, como la codificación, la búsqueda de texto, la codificación automática y la modelización pueden ser utilizadas por enfoques concretos, pero la anotación de los datos, documentos y material de apoyo es indivisible del análisis general. \cite[p. 59]{lewins2007}</p>
 </div>
 </blockquote>
 </div>
@@ -725,7 +725,7 @@ pero puede darnos una pista sobre la relevancia de la temática y las reflexione
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-<span class="image" style="float: left"><img src="./images/image-018.png" alt="{alt="Icono crear""></span> Siempre que veamos este icono, podremos crear un nuevo elemento. Es decir, crearemos un Memo si lo visualizamos en el <em>Administrador de Memos</em>, crearemos un código en el <em>Administrador de códigos</em> y así en cada caso.
+<span class="image" style="float: left"><img src="./images/image-018.png" alt="{alt=&quot;Icono crear&quot;"></span> Siempre que veamos este icono, podremos crear un nuevo elemento. Es decir, crearemos un Memo si lo visualizamos en el <em>Administrador de Memos</em>, crearemos un código en el <em>Administrador de códigos</em> y así en cada caso.
 </td>
 </tr>
 </table>
@@ -733,11 +733,11 @@ pero puede darnos una pista sobre la relevancia de la temática y las reflexione
 <div class="paragraph">
 <p>Lo primero que tendremos que hacer, será dar un nombre a nuestro <em>Memo</em>, y a continuación (y aquí viene lo más complicado) escribirlo en el editor que nos aparecerá a continuación. En la figura <a href="#img-editor-memos">Editor de memos</a> podemos apreciar que ese editor se diferencia del que habíamos visto al crear el comentario de UH. En este caso tenemos (1) una zona en la que aparece la etiqueta con la que hemos nombrado el <em>Memo</em>, y (2) una lista
 desplegable para seleccionar el tipo de <em>Memo</em>. Esta lista nos ofrece tres posibilidades, <em>Commentary</em>, <em>Method</em> y <em>Theory</em>. Es decir, podemos clasificar nuestros <em>Memos</em> en tres categorías
-diferentes.<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnote_5" title="View footnote.">5</a>]</sup> En este caso, a pesar de nuestra insistencia en la documentación y sistematización, nos sumamos a citenp:[saldana2009(33)] quien prefiere hablar únicamente de <em>memos analíticos</em>.</p>
+diferentes.<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnote_5" title="View footnote.">5</a>]</sup> En este caso, a pesar de nuestra insistencia en la documentación y sistematización, nos sumamos a \cite[p. 33]{saldana2009} quien prefiere hablar únicamente de <em>memos analíticos</em>.</p>
 </div>
 <div id="img-editor-memos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-020.png" alt="{alt="Editor de memos"">
+<img src="./images/image-020.png" alt="{alt=&quot;Editor de memos&quot;">
 </div>
 <div class="title">Figura 16. Editor de memos</div>
 </div>
@@ -746,7 +746,7 @@ diferentes.<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="
 </div>
 <div id="img-administrador-memos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-021.png" alt="{alt="Administrador de memos"">
+<img src="./images/image-021.png" alt="{alt=&quot;Administrador de memos&quot;">
 </div>
 <div class="title">Figura 17. Administrador de memos</div>
 </div>
@@ -758,7 +758,7 @@ diferentes.<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="
 </div>
 <div id="img-memo-con-pdf" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-022.png" alt="{alt="Memo con archivo PDF"">
+<img src="./images/image-022.png" alt="{alt=&quot;Memo con archivo PDF&quot;">
 </div>
 <div class="title">Figura 18. Memo con archivo PDF</div>
 </div>
@@ -859,7 +859,7 @@ correspondiente archivo sonoro de forma que desde un punto concreto de la transc
 </div>
 <div id="img-anadir-documentos-primarios" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-023.png" alt="{alt="Añadir Documentos Primarios"">
+<img src="./images/image-023.png" alt="{alt=&quot;Añadir Documentos Primarios&quot;">
 </div>
 <div class="title">Figura 19. Añadir Documentos Primarios</div>
 </div>
@@ -883,7 +883,7 @@ seleccionará como ubicación de origen la carpeta <em>Textbank</em>, pero evide
 </div>
 <div id="img-agregar-documentos-a-biblioteca" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-024.png" alt="{alt="Agregar documentos a la biblioteca"">
+<img src="./images/image-024.png" alt="{alt=&quot;Agregar documentos a la biblioteca&quot;">
 </div>
 <div class="title">Figura 20. Agregar documentos a la biblioteca</div>
 </div>
@@ -892,7 +892,7 @@ seleccionará como ubicación de origen la carpeta <em>Textbank</em>, pero evide
 </div>
 <div id="img-agregar-documentos-desde-biblioteca" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-025.png" alt="{alt="Agregar documentos desde biblioteca"">
+<img src="./images/image-025.png" alt="{alt=&quot;Agregar documentos desde biblioteca&quot;">
 </div>
 <div class="title">Figura 21. Agregar documentos desde biblioteca</div>
 </div>
@@ -905,7 +905,7 @@ exploración de archivos de Windows) hasta a) la lista desplegable de documentos
 </div>
 <div id="img-administrador-biblioteca-documentos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-026.png" alt="{alt="Administrador de Biblioteca de documentos"">
+<img src="./images/image-026.png" alt="{alt=&quot;Administrador de Biblioteca de documentos&quot;">
 </div>
 <div class="title">Figura 22. Administrador de Biblioteca de documentos</div>
 </div>
@@ -947,7 +947,7 @@ No es imprescindible asignar todos los DPs a la UH antes de empezar a trabajar, 
 </div>
 <div id="img-asignar-documentos-externos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-027.png" alt="{alt="Asignar documentos externos"">
+<img src="./images/image-027.png" alt="{alt=&quot;Asignar documentos externos&quot;">
 </div>
 <div class="title">Figura 23. Asignar documentos externos</div>
 </div>
@@ -962,7 +962,7 @@ No es imprescindible asignar todos los DPs a la UH antes de empezar a trabajar, 
 </div>
 <div id="img-usar-memos-como-dp" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-029.png" alt="{alt="Usar memos como Documento primario"">
+<img src="./images/image-029.png" alt="{alt=&quot;Usar memos como Documento primario&quot;">
 </div>
 <div class="title">Figura 24. Usar memos como Documento primario</div>
 </div>
@@ -977,7 +977,7 @@ No es imprescindible asignar todos los DPs a la UH antes de empezar a trabajar, 
 </div>
 <div id="img-hoja-con-datos-encuesta" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-030.png" alt="{alt="Hoja de cálculo con datos de encuesta"">
+<img src="./images/image-030.png" alt="{alt=&quot;Hoja de cálculo con datos de encuesta&quot;">
 </div>
 <div class="title">Figura 25. Hoja de cálculo con datos de encuesta</div>
 </div>
@@ -1057,7 +1057,7 @@ identificadores de campos de preguntas.</p>
 </div>
 <div id="img-datos-encuesta-importados" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-031.png" alt="{alt="Datos de encuesta importados"">
+<img src="./images/image-031.png" alt="{alt=&quot;Datos de encuesta importados&quot;">
 </div>
 <div class="title">Figura 26. Datos de encuesta importados</div>
 </div>
@@ -1066,7 +1066,7 @@ identificadores de campos de preguntas.</p>
 </div>
 <div id="img-encuestas-familias-dp" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-032.png" alt="{alt="Encuestas: Familias de documentos"">
+<img src="./images/image-032.png" alt="{alt=&quot;Encuestas: Familias de documentos&quot;">
 </div>
 <div class="title">Figura 27. Encuestas: Familias de documentos</div>
 </div>
@@ -1075,7 +1075,7 @@ identificadores de campos de preguntas.</p>
 </div>
 <div id="img-encuestas-dp" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-033.png" alt="{alt="Encuestas: Documento primario"">
+<img src="./images/image-033.png" alt="{alt=&quot;Encuestas: Documento primario&quot;">
 </div>
 <div class="title">Figura 28. Encuestas: Documento primario</div>
 </div>
@@ -1087,7 +1087,7 @@ identificadores de campos de preguntas.</p>
 </div>
 <div id="img-comentarios-dp" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-034.png" alt="{alt="Comentarios de Documento primario"">
+<img src="./images/image-034.png" alt="{alt=&quot;Comentarios de Documento primario&quot;">
 </div>
 <div class="title">Figura 29. Comentarios de Documento primario</div>
 </div>
@@ -1109,7 +1109,7 @@ características del documento con el que estemos trabajando y, además, facilit
 </div>
 <div id="img-lista-desplegable-dp" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-035.png" alt="{alt="Lista desplegable de documentos"">
+<img src="./images/image-035.png" alt="{alt=&quot;Lista desplegable de documentos&quot;">
 </div>
 <div class="title">Figura 30. Lista desplegable de documentos</div>
 </div>
@@ -1217,7 +1217,7 @@ Si hemos asignado los documentos con la opción <em>Asignar documentos externos<
 </div>
 <div id="img-icono-opciones-edicion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-037.png" alt="{alt="Icono y opciones de edicion"">
+<img src="./images/image-037.png" alt="{alt=&quot;Icono y opciones de edicion&quot;">
 </div>
 <div class="title">Figura 31. Icono y opciones de edicion</div>
 </div>
@@ -1226,7 +1226,7 @@ Si hemos asignado los documentos con la opción <em>Asignar documentos externos<
 </div>
 <div id="img-funciones-edicion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-038.png" alt="{alt="Funciones de edicion"">
+<img src="./images/image-038.png" alt="{alt=&quot;Funciones de edicion&quot;">
 </div>
 <div class="title">Figura 32. Funciones de edicion</div>
 </div>
@@ -1251,7 +1251,7 @@ seleccionar alguno de ellos se abrirá el programa correspondiente y podremos cr
 </div>
 <div id="img-insertar-objetos-crear" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-039.png" alt="{alt="Insertar objeto (crear)"">
+<img src="./images/image-039.png" alt="{alt=&quot;Insertar objeto (crear)&quot;">
 </div>
 <div class="title">Figura 33. Insertar objeto (crear)</div>
 </div>
@@ -1260,7 +1260,7 @@ seleccionar alguno de ellos se abrirá el programa correspondiente y podremos cr
 </div>
 <div id="img-insertar-objestos-desde" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-040.png" alt="{alt="Insertar objeto (desde archivo)"">
+<img src="./images/image-040.png" alt="{alt=&quot;Insertar objeto (desde archivo)&quot;">
 </div>
 <div class="title">Figura 34. Insertar objeto (desde archivo)</div>
 </div>
@@ -1293,22 +1293,22 @@ insertado no puede ser segmentado de la misma forma aunque se trate de un archiv
 <div class="sect2">
 <h3 id="sincronizacion-audio-texto">4.3. Sincronización audio-texto</h3>
 <div class="paragraph">
-<p>Cuando hacemos una investigación con datos basados en entrevistas, habitualmente disponemos de dos formatos de datos: el registro en audio (y/o vídeo) y la transcripción en texto (dos formatos que, como sabemos, podemos utilizar como fuentes de datos en ATLAS.ti). Aunque teóricamente es posible realizar el análisis directamente sobre el archivo de audio o vídeo, es decir, sin disponer de una transcripción, lo que nos ocupará en este apartado es la posibilidad de utilizar ambos formatos de forma conjunta mediante la sincronización de los mismos, es decir, de forma que podamos tener un acceso rápido y fácil desde cualquier parte del texto a su equivalente en el archivo sonoro. Si alguien se pregunta por qué podríamos querer algo así, le podemos contestar con otra pregunta "¿para qué se utilizan las 'convenciones de transcripción'?". Evidentemente la respuesta en ambos casos es que nuestro análisis será mejor cuanto mayor sea la “fidelidad” de nuestros datos cite:[silver2010]. Esta sincronización podemos realizarla de dos formas, con los recursos que nos ofrece el propio ATLAS.ti o bien ayudándonos de otro software, del programa de transcripción F4.</p>
+<p>Cuando hacemos una investigación con datos basados en entrevistas, habitualmente disponemos de dos formatos de datos: el registro en audio (y/o vídeo) y la transcripción en texto (dos formatos que, como sabemos, podemos utilizar como fuentes de datos en ATLAS.ti). Aunque teóricamente es posible realizar el análisis directamente sobre el archivo de audio o vídeo, es decir, sin disponer de una transcripción, lo que nos ocupará en este apartado es la posibilidad de utilizar ambos formatos de forma conjunta mediante la sincronización de los mismos, es decir, de forma que podamos tener un acceso rápido y fácil desde cualquier parte del texto a su equivalente en el archivo sonoro. Si alguien se pregunta por qué podríamos querer algo así, le podemos contestar con otra pregunta "¿para qué se utilizan las 'convenciones de transcripción'?". Evidentemente la respuesta en ambos casos es que nuestro análisis será mejor cuanto mayor sea la “fidelidad” de nuestros datos \cite{silver2010}. Esta sincronización podemos realizarla de dos formas, con los recursos que nos ofrece el propio ATLAS.ti o bien ayudándonos de otro software, del programa de transcripción F4.</p>
 </div>
 <div class="sect3">
 <h4 id="sincronizacion-con-f4">4.3.1. Sincronización con F4</h4>
 <div class="paragraph">
-<p>F4 es un programa de ayuda a la transcripción desarrollado por <a href="http://audiotranskription.de" class="external" target="_blank">Audiotranscription</a>, una empresa dedicada a la venta de “pedales” de transcripción y que ofrece el programa a un bajo precio (existe una versión gratuita, pero está limitada y permite un máximo de diez minutos de audio). En este caso ilustraremos su uso con la versión 5.2 del programa. Aunque podemos utilizar F4 para realizar con su ayuda la transcripción de un archivo de sonido, aquí nos limitaremos a ilustrar su utilización para realizar la sincronización entre un archivo de texto con una transcripción que ha sido realizada de forma previa y su correspondiente archivo de audio. En la siguiente figura podemos ver el aspecto general del programa, mientras que en la figura <a href="#img-f4-menu">F4: Menú</a> ofrecemos el detalle de las opciones de menú.</p>
+<p>F4 es un programa de ayuda a la transcripción desarrollado por <a href="http://audiotranskription.de" class="external" target="_blank" rel="noopener">Audiotranscription</a>, una empresa dedicada a la venta de “pedales” de transcripción y que ofrece el programa a un bajo precio (existe una versión gratuita, pero está limitada y permite un máximo de diez minutos de audio). En este caso ilustraremos su uso con la versión 5.2 del programa. Aunque podemos utilizar F4 para realizar con su ayuda la transcripción de un archivo de sonido, aquí nos limitaremos a ilustrar su utilización para realizar la sincronización entre un archivo de texto con una transcripción que ha sido realizada de forma previa y su correspondiente archivo de audio. En la siguiente figura podemos ver el aspecto general del programa, mientras que en la figura <a href="#img-f4-menu">F4: Menú</a> ofrecemos el detalle de las opciones de menú.</p>
 </div>
 <div id="img-f4" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-041.png" alt="{alt="F4"">
+<img src="./images/image-041.png" alt="{alt=&quot;F4&quot;">
 </div>
 <div class="title">Figura 35. F4</div>
 </div>
 <div id="img-f4-menu" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-042.png" alt="{alt="F4: Menú"">
+<img src="./images/image-042.png" alt="{alt=&quot;F4: Menú&quot;">
 </div>
 <div class="title">Figura 36. F4: Menú</div>
 </div>
@@ -1351,7 +1351,7 @@ insertado no puede ser segmentado de la misma forma aunque se trate de un archiv
 </div>
 <div id="img-f4-carga-archivos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-043.png" alt="{alt="F4: Carga de archivo de medios"">
+<img src="./images/image-043.png" alt="{alt=&quot;F4: Carga de archivo de medios&quot;">
 </div>
 <div class="title">Figura 37. F4: Carga de archivo de medios</div>
 </div>
@@ -1360,7 +1360,7 @@ insertado no puede ser segmentado de la misma forma aunque se trate de un archiv
 </div>
 <div id="img-transcripcion-con-marcas" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-044.png" alt="{alt="Transcripción con marcas de tiempo"">
+<img src="./images/image-044.png" alt="{alt=&quot;Transcripción con marcas de tiempo&quot;">
 </div>
 <div class="title">Figura 38. Transcripción con marcas de tiempo</div>
 </div>
@@ -1381,7 +1381,7 @@ Lo conveniente es guardar la transcripción con un nombre diferente, de forma qu
 </div>
 <div id="img-documento-con-marcas" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-045.png" alt="{alt="Documento con marcas de tiempo"">
+<img src="./images/image-045.png" alt="{alt=&quot;Documento con marcas de tiempo&quot;">
 </div>
 <div class="title">Figura 39. Documento con marcas de tiempo</div>
 </div>
@@ -1393,7 +1393,7 @@ Lo conveniente es guardar la transcripción con un nombre diferente, de forma qu
 </div>
 <div id="img-importar-transcipcion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-046.png" alt="{alt="Importar transcripción"">
+<img src="./images/image-046.png" alt="{alt=&quot;Importar transcripción&quot;">
 </div>
 <div class="title">Figura 40. Importar transcripción</div>
 </div>
@@ -1402,7 +1402,7 @@ Lo conveniente es guardar la transcripción con un nombre diferente, de forma qu
 <h4 id="sincronizar-con-atlas.ti">4.3.2. Sincronizar con <strong>ATLAS.ti</strong></h4>
 <div id="img-editor-asociaciones" class="imageblock" style="text-align: center;float: left">
 <div class="content">
-<img src="./images/image-047.png" alt="{alt="Editor de asociaciones"">
+<img src="./images/image-047.png" alt="{alt=&quot;Editor de asociaciones&quot;">
 </div>
 <div class="title">Figura 41. Editor de asociaciones</div>
 </div>
@@ -1414,7 +1414,7 @@ Lo conveniente es guardar la transcripción con un nombre diferente, de forma qu
 </div>
 <div id="img-documento-con-marcas" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-048.png" alt="{alt="Documento con marcas de tiempo"">
+<img src="./images/image-048.png" alt="{alt=&quot;Documento con marcas de tiempo&quot;">
 </div>
 <div class="title">Figura 42. Documento con marcas de tiempo</div>
 </div>
@@ -1429,7 +1429,7 @@ Lo conveniente es guardar la transcripción con un nombre diferente, de forma qu
 </div>
 <div id="img-opciones-sincronizacion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-049.png" alt="{alt="Opciones de sincronización de documentos"">
+<img src="./images/image-049.png" alt="{alt=&quot;Opciones de sincronización de documentos&quot;">
 </div>
 <div class="title">Figura 43. Opciones de sincronización de documentos</div>
 </div>
@@ -1438,7 +1438,7 @@ Lo conveniente es guardar la transcripción con un nombre diferente, de forma qu
 </div>
 <div id="img-sincronizacion-modoresaltado" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-050.png" alt="{alt="Sincronización" width="modo resaltado de texto"">
+<img src="./images/image-050.png" alt="{alt=&quot;Sincronización" width="modo resaltado de texto"">
 </div>
 <div class="title">Figura 44. Sincronización, modo resaltado de texto</div>
 </div>
@@ -1459,7 +1459,7 @@ F3), y finalmente, de nuevo en el menú <code>Documentos &gt; Docs-A</code>, la 
 </div>
 <div id="img-segmentar-codificar" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-051.png" alt="{alt="Segmentar y codificar"">
+<img src="./images/image-051.png" alt="{alt=&quot;Segmentar y codificar&quot;">
 </div>
 <div class="title">Figura 45. Segmentar y codificar</div>
 </div>
@@ -1475,7 +1475,7 @@ F3), y finalmente, de nuevo en el menú <code>Documentos &gt; Docs-A</code>, la 
 <p>En la investigación cualitativa, habitualmente un código es una palabra
 o frase corta que simbólicamente asigna un atributo sumativo, saliente,
 capturador de la esencia, y/o evocativo a una porción de datos textuales
-o visuales. cite:[saldana2009(3)]</p>
+o visuales. \cite[p. 3]{saldana2009}</p>
 </div>
 </blockquote>
 </div>
@@ -1484,7 +1484,7 @@ o visuales. cite:[saldana2009(3)]</p>
 </div>
 <div id="img-estrategias-segmentacion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-052.png" alt="{alt="Estrategias de segmentación/codificación"">
+<img src="./images/image-052.png" alt="{alt=&quot;Estrategias de segmentación/codificación&quot;">
 </div>
 <div class="title">Figura 46. Estrategias de segmentación/codificación</div>
 </div>
@@ -1492,7 +1492,7 @@ o visuales. cite:[saldana2009(3)]</p>
 <p>De todas formas, el iniciar el trabajo de una u otra forma (creando códigos o creando citas), no necesariamente implica que estemos realizando un análisis deductivo o inductivo. Por ejemplo, si estamos realizando un trabajo de análisis en equipo, de forma que los diferentes analistas trabajarán sobre diferentes documentos, una posibilidad es, antes de iniciar el trabajo con ATLAS.ti, consensuar, un “libro de códigos” común para todos los analistas. Esto no significa necesariamente que el análisis sea deductivo, puesto que esos códigos pueden haber surgido de un trabajo inductivo previo mediante la lectura de los datos.</p>
 </div>
 <div class="paragraph">
-<p>Una aproximación que podríamos llamar intermedia y que en alguna medida guarda relación con la noción de abducción propuesta por Charles Sanders Peirce cite:[psillos2009], partiría de la especificación de los aspectos, dimensiones o áreas de interés sobre las cuales se buscaría construir códigos como forma de especificar los hallazgos en cada una de esas dimensiones o áreas. Desde esta aproximación, la teoría inicial es fundamental no en una lógica hipotético-deductiva, sino como marco orientador en la interpretación del fenómeno de interés. Por nuestra parte, aunque privilegiamos las formas de análisis orientadas a la construcción de categorías específicas sobre el fenómeno estudiado, empezaremos explicando la creación de códigos para posteriormente hablar de la creación de citas y la relación de citas con códigos.</p>
+<p>Una aproximación que podríamos llamar intermedia y que en alguna medida guarda relación con la noción de abducción propuesta por Charles Sanders Peirce \cite{psillos2009}, partiría de la especificación de los aspectos, dimensiones o áreas de interés sobre las cuales se buscaría construir códigos como forma de especificar los hallazgos en cada una de esas dimensiones o áreas. Desde esta aproximación, la teoría inicial es fundamental no en una lógica hipotético-deductiva, sino como marco orientador en la interpretación del fenómeno de interés. Por nuestra parte, aunque privilegiamos las formas de análisis orientadas a la construcción de categorías específicas sobre el fenómeno estudiado, empezaremos explicando la creación de códigos para posteriormente hablar de la creación de citas y la relación de citas con códigos.</p>
 </div>
 <div class="sect2">
 <h3 id="creacion-de-codigos">5.1. Creación de códigos</h3>
@@ -1503,7 +1503,7 @@ o visuales. cite:[saldana2009(3)]</p>
 </div>
 <div id="img-opciones-creacion-codigos-libres" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-053.png" alt="{alt="Opciones de creación de códigos libres"">
+<img src="./images/image-053.png" alt="{alt=&quot;Opciones de creación de códigos libres&quot;">
 </div>
 <div class="title">Figura 47. Opciones de creación de códigos libres</div>
 </div>
@@ -1512,7 +1512,7 @@ o visuales. cite:[saldana2009(3)]</p>
 </div>
 <div id="img-creacion-codigos-libres" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-054.png" alt="{alt="Creación de códigos libres"">
+<img src="./images/image-054.png" alt="{alt=&quot;Creación de códigos libres&quot;">
 </div>
 <div class="title">Figura 48. Creación de códigos libres</div>
 </div>
@@ -1551,7 +1551,7 @@ o visuales. cite:[saldana2009(3)]</p>
 </table>
 </div>
 <div class="paragraph">
-<p>En el ejemplo de la figura <a href="#img-creacion-codigos-libres">Creación de códigos libres</a> hemos añadido un conjunto de códigos que utilizaremos durante el texto para ilustrar algunas funcionalidades. Se trata de la clasificación de tipos de preguntas y respuestas formulada por citenp:[rasiah2010] en su análisis de las respuestas evasivas en el discurso parlamentario. Los códigos que aparecen remiten a diferentes tipos de preguntas. Si tenemos un código como “Question” podemos entenderlo como el “código de nivel 1”. Los códigos que remitan a formas especificas de evadir preguntando serían “códigos de nivel 2” (y por lo tanto su etiqueta empieza con una letra en mayúscula). Por lo tanto el código “Question” lo etiquetaríamos como “QUESTION” o “N1_Question”, según la pauta empleada.</p>
+<p>En el ejemplo de la figura <a href="#img-creacion-codigos-libres">Creación de códigos libres</a> hemos añadido un conjunto de códigos que utilizaremos durante el texto para ilustrar algunas funcionalidades. Se trata de la clasificación de tipos de preguntas y respuestas formulada por \cite{rasiah2010} en su análisis de las respuestas evasivas en el discurso parlamentario. Los códigos que aparecen remiten a diferentes tipos de preguntas. Si tenemos un código como “Question” podemos entenderlo como el “código de nivel 1”. Los códigos que remitan a formas especificas de evadir preguntando serían “códigos de nivel 2” (y por lo tanto su etiqueta empieza con una letra en mayúscula). Por lo tanto el código “Question” lo etiquetaríamos como “QUESTION” o “N1_Question”, según la pauta empleada.</p>
 </div>
 <div class="paragraph">
 <p>Si tenemos previamente definida una amplia lista de códigos, existen otras formas rápidas de crearlos. Podemos, por ejemplo, crear un archivo de texto con la lista de códigos (un código por línea) e importarlo a ATLAS.ti utilizando la opción <code>Códigos &gt; Importar/Exportar &gt; Importar lista de códigos</code>. El único requisito que tiene que cumplir el archivo es que sea un archivo sólo texto con extensión “COD” (por ejemplo “Codigos.cod”).</p>
@@ -1561,7 +1561,7 @@ o visuales. cite:[saldana2009(3)]</p>
 </div>
 <div id="img-creacion-codigos-desde-memos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-055.png" alt="{alt="Creación de códigos a partir de Memo"">
+<img src="./images/image-055.png" alt="{alt=&quot;Creación de códigos a partir de Memo&quot;">
 </div>
 <div class="title">Figura 49. Creación de códigos a partir de Memo</div>
 </div>
@@ -1572,7 +1572,7 @@ o visuales. cite:[saldana2009(3)]</p>
 <p>Una vez más, mientras vamos creando los códigos, es conveniente dedicar un tiempo a su descripción, es decir, a crear comentarios. Si los comentarios son elementos importantes de los componentes que hemos visto hasta el momento (UH y DPs), lo son mucho más en el caso de los códigos, sobre todo cuando el trabajo de codificación es compartido por varios analistas. Es fundamental que el significado de los códigos, tanto conceptual como operativamente, alcance cierto grado de estabilidad durante el análisis, de forma que un mismo codificador interprete y aplique de la misma forma un código en diferentes momentos del proceso de análisis o que varios codificadores interpreten de la misma forma un mismo código. En algunos casos la simple etiqueta puede parecer lo suficientemente descriptiva como para que no haga falta escribir un comentario. Sin embargo, conforme progresa el análisis o cuando intervienen distintos analistas, esa aparente claridad puede no serlo del todo en la práctica.</p>
 </div>
 <div class="paragraph">
-<p>Una posible forma de sistematizar los contenidos a añadir a los comentarios de códigos es seguir el modelo que proponen citenp:[macqueen1998], del que ofrecemos un ejemplo en la siguiente tabla.</p>
+<p>Una posible forma de sistematizar los contenidos a añadir a los comentarios de códigos es seguir el modelo que proponen \cite{macqueen1998}, del que ofrecemos un ejemplo en la siguiente tabla.</p>
 </div>
 <table id="tab-elementos-comentarios-codigos" class="tableblock frame-all grid-all center">
 <caption class="title">Tabla 4. Elementos comentarios de códigos (MacQueen, McLellan, Kay y Milstein ,1998)</caption>
@@ -1636,7 +1636,7 @@ prostitutas.”</p></td>
 </div>
 <div id="img-codigo-lista-desplegable" class="imageblock" style="float: left">
 <div class="content">
-<img src="./images/image-056.png" alt="{alt="Código en lista desplegable"">
+<img src="./images/image-056.png" alt="{alt=&quot;Código en lista desplegable&quot;">
 </div>
 <div class="title">Figura 50. Código en lista desplegable</div>
 </div>
@@ -1648,7 +1648,7 @@ prostitutas.”</p></td>
 </div>
 <div id="img-administrador-codigos-desde-memo" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-057.png" alt="{alt="Administrador de códigos a partir de Memo"">
+<img src="./images/image-057.png" alt="{alt=&quot;Administrador de códigos a partir de Memo&quot;">
 </div>
 <div class="title">Figura 51. Administrador de códigos a partir de Memo</div>
 </div>
@@ -1663,7 +1663,7 @@ prostitutas.”</p></td>
 <h4 id="creacion-de-citas-libres">5.2.1. Creación de citas “libres”</h4>
 <div id="img-crear-cita-libre" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-058.png" alt="{alt="Crear Cita libre"">
+<img src="./images/image-058.png" alt="{alt=&quot;Crear Cita libre&quot;">
 </div>
 <div class="title">Figura 52. Crear Cita libre</div>
 </div>
@@ -1681,7 +1681,7 @@ prostitutas.”</p></td>
 </div>
 <div id="img-creacion-cita-multimedia" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-060.png" alt="{alt="Creación cita multimedia"">
+<img src="./images/image-060.png" alt="{alt=&quot;Creación cita multimedia&quot;">
 </div>
 <div class="title">Figura 53. Creación cita multimedia</div>
 </div>
@@ -1690,7 +1690,7 @@ prostitutas.”</p></td>
 </div>
 <div id="img-cita-en-imagen" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-059.png" alt="{alt="Cita en imagen"">
+<img src="./images/image-059.png" alt="{alt=&quot;Cita en imagen&quot;">
 </div>
 <div class="title">Figura 54. Cita en imagen</div>
 </div>
@@ -1727,7 +1727,7 @@ prostitutas.”</p></td>
 </div>
 <div id="img-cita-en-lista" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-061.png" alt="{alt="Cita en lista desplegable"">
+<img src="./images/image-061.png" alt="{alt=&quot;Cita en lista desplegable&quot;">
 </div>
 <div class="title">Figura 55. Cita en lista desplegable</div>
 </div>
@@ -1749,7 +1749,7 @@ prostitutas.”</p></td>
 </div>
 <div id="img-opciones-codificacion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-063.png" alt="{alt="Opciones de codificación"">
+<img src="./images/image-063.png" alt="{alt=&quot;Opciones de codificación&quot;">
 </div>
 <div class="title">Figura 56. Opciones de codificación</div>
 </div>
@@ -1757,7 +1757,7 @@ prostitutas.”</p></td>
 <p>La primera opción, <code>Ingresar nombre(s) de código</code> abrirá una nueva ventana, como la que veíamos previamente al crear <em>códigos libres</em> (ver figura <a href="#codigos-libres">Creación códigos libres</a>) en la que introduciremos los nombres de nuevos códigos y simultáneamente los relacionaremos con la cita. Si introdujésemos el nombre de un código exactamente igual a uno ya existente, ATLAS.ti no creará uno nuevo, sino que utilizará el que ya existe para codificar la cita.</p>
 </div>
 <div class="paragraph">
-<p>La opción <code>Código In Vivo</code> es una forma especial de creación de códigos en la que el nombre de código se corresponderá con el texto seleccionado. No es conveniente, por lo tanto, utilizar esta opción con fragmentos largos de texto (habitualmente se utiliza como selección sólo una palabra). La codificación <em>en vivo</em> es algo más que una de las formas de codificación utilizadas por ATLAS.ti. Para saber más sobre ella, ver por ejemplo citenp:[strauss2002].</p>
+<p>La opción <code>Código In Vivo</code> es una forma especial de creación de códigos en la que el nombre de código se corresponderá con el texto seleccionado. No es conveniente, por lo tanto, utilizar esta opción con fragmentos largos de texto (habitualmente se utiliza como selección sólo una palabra). La codificación <em>en vivo</em> es algo más que una de las formas de codificación utilizadas por ATLAS.ti. Para saber más sobre ella, ver por ejemplo \cite{strauss2002}.</p>
 </div>
 <div class="paragraph">
 <p>La opción <code>Seleccionar código(s) de la lista</code> visualizará una ventana con la lista de códigos creados previamente en la que podemos seleccionar uno o varios códigos para relacionar con la cita. En procesos de análisis con una lógica inductiva, esta opción se vuelve más recurrente en momentos posteriores del proceso de segmentación y codificación, cuando ya contamos con un buen número de códigos creados.</p>
@@ -1794,7 +1794,7 @@ Es importante que en el momento de preparación de los datos previo a la asignac
 </div>
 <div id="img-autocodificacion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-064.png" alt="{alt="Autocodificación"">
+<img src="./images/image-064.png" alt="{alt=&quot;Autocodificación&quot;">
 </div>
 <div class="title">Figura 57. Autocodificación</div>
 </div>
@@ -1878,7 +1878,7 @@ salto de línea manual</p></td>
 </div>
 <div id="img-margen-derecho-informacion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-065.png" alt="{alt="Margen derecho: Información de codificación"">
+<img src="./images/image-065.png" alt="{alt=&quot;Margen derecho: Información de codificación&quot;">
 </div>
 <div class="title">Figura 58. Margen derecho: Información de codificación</div>
 </div>
@@ -1890,7 +1890,7 @@ salto de línea manual</p></td>
 </div>
 <div id="img-visualizar-citas-codigo" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-068.png" alt="{alt="Visualizar citas de código"">
+<img src="./images/image-068.png" alt="{alt=&quot;Visualizar citas de código&quot;">
 </div>
 <div class="title">Figura 59. Visualizar citas de código</div>
 </div>
@@ -1927,7 +1927,7 @@ Para una definición de las familias que un proyecto requiere, es importante con
 </div>
 <div id="img-tipos-familias" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-081.png" alt="{alt="Tipos de Familias"">
+<img src="./images/image-081.png" alt="{alt=&quot;Tipos de Familias&quot;">
 </div>
 <div class="title">Figura 60. Tipos de Familias</div>
 </div>
@@ -1996,7 +1996,7 @@ Por lo general, una buena práctica consistirá en crear tantas familias como cr
 </div>
 <div id="img-menu-administrador-familias" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-085.png" alt="{alt="Menú Administrador de familias"">
+<img src="./images/image-085.png" alt="{alt=&quot;Menú Administrador de familias&quot;">
 </div>
 <div class="title">Figura 61. Menú Administrador de familias</div>
 </div>
@@ -2005,7 +2005,7 @@ Por lo general, una buena práctica consistirá en crear tantas familias como cr
 </div>
 <div id="img-administrador-familias" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-086.png" alt="{alt="Administrador de familias"">
+<img src="./images/image-086.png" alt="{alt=&quot;Administrador de familias&quot;">
 </div>
 <div class="title">Figura 62. Administrador de familias</div>
 </div>
@@ -2033,7 +2033,7 @@ Por lo general, una buena práctica consistirá en crear tantas familias como cr
 </div>
 <div id="img-asignar-familias" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-087.png" alt="{alt="Asignar familias"">
+<img src="./images/image-087.png" alt="{alt=&quot;Asignar familias&quot;">
 </div>
 <div class="title">Figura 63. Asignar familias</div>
 </div>
@@ -2057,7 +2057,7 @@ Por lo general, una buena práctica consistirá en crear tantas familias como cr
 </div>
 <div id="img-herramienta-superfamilias" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-089.png" alt="{alt="Herramienta de Super-familias"">
+<img src="./images/image-089.png" alt="{alt=&quot;Herramienta de Super-familias&quot;">
 </div>
 <div class="title">Figura 64. Herramienta de Super-familias</div>
 </div>
@@ -2070,7 +2070,7 @@ super-familia creada anteriormente.</p>
 </div>
 <div id="img-superfamilias-documentos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-090.png" alt="{alt="Super-familias de documentos"">
+<img src="./images/image-090.png" alt="{alt=&quot;Super-familias de documentos&quot;">
 </div>
 <div class="title">Figura 65. Super-familias de documentos</div>
 </div>
@@ -2091,7 +2091,7 @@ super-familia creada anteriormente.</p>
 </div>
 <div id="img-administrador-dp-filtro" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-091.png" alt="{alt="Administrador de documentos con filtro"">
+<img src="./images/image-091.png" alt="{alt=&quot;Administrador de documentos con filtro&quot;">
 </div>
 <div class="title">Figura 66. Administrador de documentos con filtro</div>
 </div>
@@ -2106,7 +2106,7 @@ super-familia creada anteriormente.</p>
 </div>
 <div id="img-administrador-codigos-filtro" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-092.png" alt="{alt="Administrador de códigos con filtro"">
+<img src="./images/image-092.png" alt="{alt=&quot;Administrador de códigos con filtro&quot;">
 </div>
 <div class="title">Figura 67. Administrador de códigos con filtro</div>
 </div>
@@ -2125,7 +2125,7 @@ super-familia creada anteriormente.</p>
 <h3 id="relaciones">6.2. Relaciones</h3>
 <div id="img-relaciones-componentes" class="imageblock" style="float: left">
 <div class="content">
-<img src="./images/image-093.png" alt="{alt="Relaciones entre componentes"">
+<img src="./images/image-093.png" alt="{alt=&quot;Relaciones entre componentes&quot;">
 </div>
 <div class="title">Figura 68. Relaciones entre componentes</div>
 </div>
@@ -2200,7 +2200,7 @@ super-familia creada anteriormente.</p>
 </div>
 <div id="img-definicion-hipervinculos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-097.png" alt="{alt="Definición de hipervínculos"">
+<img src="./images/image-097.png" alt="{alt=&quot;Definición de hipervínculos&quot;">
 </div>
 <div class="title">Figura 69. Definición de hipervínculos</div>
 </div>
@@ -2209,7 +2209,7 @@ super-familia creada anteriormente.</p>
 </div>
 <div id="img-estructura-hipervinculos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-098.png" alt="{alt="Estructura de hipervínculos"">
+<img src="./images/image-098.png" alt="{alt=&quot;Estructura de hipervínculos&quot;">
 </div>
 <div class="title">Figura 70. Estructura de hipervínculos</div>
 </div>
@@ -2226,7 +2226,7 @@ super-familia creada anteriormente.</p>
 </div>
 <div id="img-menu-contextual-margen" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-099.png" alt="{alt="Menú contextual margen derecho"">
+<img src="./images/image-099.png" alt="{alt=&quot;Menú contextual margen derecho&quot;">
 </div>
 <div class="title">Figura 71. Menú contextual margen derecho</div>
 </div>
@@ -2235,7 +2235,7 @@ super-familia creada anteriormente.</p>
 </div>
 <div id="img-visualizacion-hipervinculos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-100.png" alt="{alt="Visualización hipervínculos"">
+<img src="./images/image-100.png" alt="{alt=&quot;Visualización hipervínculos&quot;">
 </div>
 <div class="title">Figura 72. Visualización hipervínculos</div>
 </div>
@@ -2275,7 +2275,7 @@ super-familia creada anteriormente.</p>
 </div>
 <div id="img-desplazamiento-entre-hipervinculos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-101.png" alt="{alt="Desplazamiento entre hipervínculos"">
+<img src="./images/image-101.png" alt="{alt=&quot;Desplazamiento entre hipervínculos&quot;">
 </div>
 <div class="title">Figura 73. Desplazamiento entre hipervínculos</div>
 </div>
@@ -2297,7 +2297,7 @@ super-familia creada anteriormente.</p>
 </div>
 <div id="img-menu-vincular-codigos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-102.png" alt="{alt="Menú vincular códigos"">
+<img src="./images/image-102.png" alt="{alt=&quot;Menú vincular códigos&quot;">
 </div>
 <div class="title">Figura 74. Menú vincular códigos</div>
 </div>
@@ -2325,7 +2325,7 @@ super-familia creada anteriormente.</p>
 </div>
 <div id="img-tipos-relaciones-codigos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-103.png" alt="{alt="Tipos de relaciones entre códigos"">
+<img src="./images/image-103.png" alt="{alt=&quot;Tipos de relaciones entre códigos&quot;">
 </div>
 <div class="title">Figura 75. Tipos de relaciones entre códigos</div>
 </div>
@@ -2351,7 +2351,7 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 </div>
 <div id="img-relaciones-desde-familias" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-104.png" alt="{alt="Crear relaciones desde familia"">
+<img src="./images/image-104.png" alt="{alt=&quot;Crear relaciones desde familia&quot;">
 </div>
 <div class="title">Figura 76. Crear relaciones desde familia</div>
 </div>
@@ -2359,11 +2359,11 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 <p>Hasta el momento, hemos podido visualizar en el margen derecho todos los elementos que hemos ido creando, algo que no es posible con las relaciones entre códigos. El único cambio apreciable lo encontramos en el <em>administrador de códigos</em>. En la columna <em>Densidad,</em> nos informará del número de relaciones de cada código con otros códigos. En este caso, el código <em>Evasion</em> tendrá una <em>densidad</em> de 4, al estar relacionado con los códigos referentes a las cuatro modalidades de evasión, mientras que los códigos relativos a las modalidades tendrían cada uno una <em>densidad</em> de 1.</p>
 </div>
 <div class="paragraph">
-<p>El modelo con el que hemos venido trabajando citenp:[rasiah2010] es más complejo de lo expuesto hasta el momento, puesto que realiza una categorización del tipo de respuestas de las que la <em>evasión</em> es sólo una de ellas. Podríamos por lo tanto reproducir el conjunto del modelo (figura <a href="#img-marco-analitico-evasion">Marco analítico para el estudio de la evasión</a>) mediante el establecimiento de nuevas relaciones. Al mismo nivel que la rama <em>Evasion</em> encontramos <em>Answer</em> e <em>Intermediate Response</em>, así que procederemos a crear los códigos correspondientes. Además, en el caso de <em>Answer</em> existen dos niveles, <em>Direct</em> e <em>Indirect,</em> por lo que crearemos también los códigos <em>Ans Direct</em> y <em>Ans Indirect</em> y volveremos a crear relaciones del tipo <em>is a</em> entre <em>Answer</em> y estos últimos códigos.</p>
+<p>El modelo con el que hemos venido trabajando \cite{rasiah2010} es más complejo de lo expuesto hasta el momento, puesto que realiza una categorización del tipo de respuestas de las que la <em>evasión</em> es sólo una de ellas. Podríamos por lo tanto reproducir el conjunto del modelo (figura <a href="#img-marco-analitico-evasion">Marco analítico para el estudio de la evasión</a>) mediante el establecimiento de nuevas relaciones. Al mismo nivel que la rama <em>Evasion</em> encontramos <em>Answer</em> e <em>Intermediate Response</em>, así que procederemos a crear los códigos correspondientes. Además, en el caso de <em>Answer</em> existen dos niveles, <em>Direct</em> e <em>Indirect,</em> por lo que crearemos también los códigos <em>Ans Direct</em> y <em>Ans Indirect</em> y volveremos a crear relaciones del tipo <em>is a</em> entre <em>Answer</em> y estos últimos códigos.</p>
 </div>
 <div id="img-marco-analitico-evasion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-105.png" alt="{alt="Marco analítico para el estudio de la evasión (Rasiah" width="60%" height="p. 667)"">
+<img src="./images/image-105.png" alt="{alt=&quot;Marco analítico para el estudio de la evasión (Rasiah" width="60%" height="p. 667)"">
 </div>
 <div class="title">Figura 77. Marco analítico para el estudio de la evasión (Rasiah, 2010, p. 667)</div>
 </div>
@@ -2378,7 +2378,7 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 </div>
 <div id="img-arbol-codigos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-106.png" alt="{alt="Árbol de códigos"">
+<img src="./images/image-106.png" alt="{alt=&quot;Árbol de códigos&quot;">
 </div>
 <div class="title">Figura 78. Árbol de códigos</div>
 </div>
@@ -2391,7 +2391,7 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 </div>
 <div id="img-vincular-memos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-107.png" alt="{alt="Vincular Memos"">
+<img src="./images/image-107.png" alt="{alt=&quot;Vincular Memos&quot;">
 </div>
 <div class="title">Figura 79. Vincular Memos</div>
 </div>
@@ -2409,7 +2409,7 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 </div>
 <div id="img-editor-relaciones" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-109.png" alt="{alt="Editor de relaciones"">
+<img src="./images/image-109.png" alt="{alt=&quot;Editor de relaciones&quot;">
 </div>
 <div class="title">Figura 80. Editor de relaciones</div>
 </div>
@@ -2570,7 +2570,7 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 </div>
 <div id="img-administrador-relaciones" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-110.png" alt="{alt="Administrador de relaciones"">
+<img src="./images/image-110.png" alt="{alt=&quot;Administrador de relaciones&quot;">
 </div>
 <div class="title">Figura 81. Administrador de relaciones</div>
 </div>
@@ -2585,7 +2585,7 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 </div>
 <div id="img-relacionar-arrastrando" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-111.png" alt="{alt="Relacionar arrastrando"">
+<img src="./images/image-111.png" alt="{alt=&quot;Relacionar arrastrando&quot;">
 </div>
 <div class="title">Figura 82. Relacionar arrastrando</div>
 </div>
@@ -2601,21 +2601,21 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 <p>Las Vistas de Red son uno de los componentes de ATLAS.ti que más atraen al usuario novel, al que le puede impresionar la posibilidad de realizar unos “bonitos dibujos” que muestren parte de su análisis. Sin embargo, la expectativa de generar diagramas para incluir en un informe o publicación —bonitos dibujos— nos llevaría a desaprovechar gran parte de lo que las vistas de red pueden aportar al proceso analítico. Además, si lo que nos interesa son diagramas acabados, podemos hacerlos mejor con otros programas. Desde nuestro punto de vista, lo que es más relevante de las <em>vistas de red</em> es que son una representación gráfica <em>operable</em> de nuestro trabajo conceptual que nos permitirá pensar sobre nuestro análisis y realizar parte de nuestro trabajo conceptual.</p>
 </div>
 <div class="paragraph">
-<p>Para aclarar lo que queremos decir, recurriremos de nuevo a Strauss y Corbin quienes hablan de los <em>diagramas</em> como “mecanismos visuales que dibujan las relaciones entre los conceptos.” cite:[strauss2002(236)] y los sitúan al mismo nivel de importancia que los memorandos (los desarrollan de forma conjunta en el mismo capítulo). Strauss y Corbin plantean diferentes formas de diagramación (por ejemplo matrices) y a diferentes niveles, y la que más se asemeja a las <em>redes</em> en ATLAS.ti es la que vinculan con la codificación selectiva</p>
+<p>Para aclarar lo que queremos decir, recurriremos de nuevo a Strauss y Corbin quienes hablan de los <em>diagramas</em> como “mecanismos visuales que dibujan las relaciones entre los conceptos.” \cite[p. 236]{strauss2002} y los sitúan al mismo nivel de importancia que los memorandos (los desarrollan de forma conjunta en el mismo capítulo). Strauss y Corbin plantean diferentes formas de diagramación (por ejemplo matrices) y a diferentes niveles, y la que más se asemeja a las <em>redes</em> en ATLAS.ti es la que vinculan con la codificación selectiva</p>
 </div>
 <div class="quoteblock">
 <blockquote>
 <div class="paragraph">
-<p>(…) el mismo acto de hacer un diagrama integrador final le ayudará al analista a redondear las relaciones y a descubrir las fallas en la lógica. Al final, es importante tener una descripción clara y gráfica de la teoría, que sintetice los principales conceptos y sus conexiones. cite:[strauss2002(258)]</p>
+<p>(…) el mismo acto de hacer un diagrama integrador final le ayudará al analista a redondear las relaciones y a descubrir las fallas en la lógica. Al final, es importante tener una descripción clara y gráfica de la teoría, que sintetice los principales conceptos y sus conexiones. \cite[p. 258]{strauss2002}</p>
 </div>
 </blockquote>
 </div>
 <div class="paragraph">
-<p>Otros autores hacen planteamientos similares a los de Strauss y Corbin cite:[miles1994, patton2002, vaismoradi2013, verdinelli2013], pero desde nuestro punto de vista la propuesta que más se acerca a las <em>vistas de red</em> de ATLAS.ti es la que realiza Jennifer Attride-Stirling, quien plantea las <em>redes temáticas</em> como, “web-like illustrations (networks) that summarize the main themes constituting a piece of text.” cite:[attride_stirling2001(386)]. En la figura podemos ver un ejemplo de red temática en la que se están relacionando diferentes niveles de <em>temas</em>, y que si utilizamos “lenguaje” ATLAS.ti, podríamos interpretar como la representación de diferentes <em>códigos</em> (en la práctica, un <em>código</em> puede ser un tema).</p>
+<p>Otros autores hacen planteamientos similares a los de Strauss y Corbin \cite{miles1994},\cite{patton2002},\cite{vaismoradi2013},\cite{verdinelli2013}, pero desde nuestro punto de vista la propuesta que más se acerca a las <em>vistas de red</em> de ATLAS.ti es la que realiza Jennifer Attride-Stirling, quien plantea las <em>redes temáticas</em> como, “web-like illustrations (networks) that summarize the main themes constituting a piece of text.” \cite[p. 386]{attride_stirling2001}. En la figura podemos ver un ejemplo de red temática en la que se están relacionando diferentes niveles de <em>temas</em>, y que si utilizamos “lenguaje” ATLAS.ti, podríamos interpretar como la representación de diferentes <em>códigos</em> (en la práctica, un <em>código</em> puede ser un tema).</p>
 </div>
 <div id="img-redes-tematicas" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-112.png" alt="{alt="Redes temáticas Attride-Stirling" width="60%" height="p.388"">
+<img src="./images/image-112.png" alt="{alt=&quot;Redes temáticas Attride-Stirling" width="60%" height="p.388"">
 </div>
 <div class="title">Figura 83. Redes temáticas Attride-Stirling, 2001, p.388</div>
 </div>
@@ -2632,7 +2632,7 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 </div>
 <div id="img-pantalla-vista-red" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-113.png" alt="{alt="Pantalla de Vista de Red"">
+<img src="./images/image-113.png" alt="{alt=&quot;Pantalla de Vista de Red&quot;">
 </div>
 <div class="title">Figura 84. Pantalla de Vista de Red</div>
 </div>
@@ -2685,7 +2685,7 @@ Podemos, por lo tanto, utilizar dos estrategias diferentes para “agrupar” c�
 <p>En esa primera representación se incluirá el elemento seleccionado, el resto de elementos con los que tenga una relación directa, y las relaciones que existan entre los elementos representados.</p>
 </div>
 <div class="paragraph">
-<p>Ilustraremos la forma de trabajo habitual representando la red <em>tipo de preguntas</em> de citenp:[rasiah2010].</p>
+<p>Ilustraremos la forma de trabajo habitual representando la red <em>tipo de preguntas</em> de \cite{rasiah2010}.</p>
 </div>
 <div class="paragraph">
 <p>En primer lugar, seleccinamos el código <em>QuestionType</em> en el <em>administrador de códigos</em> y clicamos en el icono de <em>Vista de red</em>. Inmediatamente se abrirá una pantalla de red con la representación del código y los códigos con los que está relacionado: <em>Q Y/N</em>, <em>Q Disjunctive</em> y <em>Q Wh</em>. En la figura podemos ver cómo aparecen representadas las relaciones, en este caso del tipo <em>es un</em> que habíamos
@@ -2693,7 +2693,7 @@ definido previamente.</p>
 </div>
 <div id="img-red-question-type-1" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-116.png" alt="{alt="Vista de red Question Type. Primer paso"">
+<img src="./images/image-116.png" alt="{alt=&quot;Vista de red Question Type. Primer paso&quot;">
 </div>
 <div class="title">Figura 85. Vista de red Question Type. Primer paso</div>
 </div>
@@ -2702,7 +2702,7 @@ definido previamente.</p>
 </div>
 <div id="img-etiqueta-ampliada" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-117.png" alt="{alt="Etiqueta ampliada"">
+<img src="./images/image-117.png" alt="{alt=&quot;Etiqueta ampliada&quot;">
 </div>
 <div class="title">Figura 86. Etiqueta ampliada</div>
 </div>
@@ -2714,7 +2714,7 @@ definido previamente.</p>
 </div>
 <div id="img-red-question-type-2" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-118.png" alt="{alt="Vista de red Question Type. Importar códigos vecinos"">
+<img src="./images/image-118.png" alt="{alt=&quot;Vista de red Question Type. Importar códigos vecinos&quot;">
 </div>
 <div class="title">Figura 87. Vista de red Question Type. Importar códigos vecinos</div>
 </div>
@@ -2739,11 +2739,11 @@ definido previamente.</p>
 </table>
 </div>
 <div class="paragraph">
-<p>El resultado final en nuestro caso es el que aparece en la siguiente figura, una representación completa del modelo de citenp:[rasiah2010].</p>
+<p>El resultado final en nuestro caso es el que aparece en la siguiente figura, una representación completa del modelo de \cite{rasiah2010}.</p>
 </div>
 <div id="img-red-question-type-3" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-119.png" alt="{alt="Red Question Type"">
+<img src="./images/image-119.png" alt="{alt=&quot;Red Question Type&quot;">
 </div>
 <div class="title">Figura 88. Red Question Type</div>
 </div>
@@ -2752,7 +2752,7 @@ definido previamente.</p>
 </div>
 <div id="img-red-desde-cita" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-120.png" alt="{alt="Red a partir de cita"">
+<img src="./images/image-120.png" alt="{alt=&quot;Red a partir de cita&quot;">
 </div>
 <div class="title">Figura 89. Red desde cita</div>
 </div>
@@ -2764,7 +2764,7 @@ definido previamente.</p>
 </div>
 <div id="img-importar-nodos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-121.png" alt="{alt="Importar nodos"">
+<img src="./images/image-121.png" alt="{alt=&quot;Importar nodos&quot;">
 </div>
 <div class="title">Figura 90. Importar nodos</div>
 </div>
@@ -2779,7 +2779,7 @@ definido previamente.</p>
 </div>
 <div id="img-importar-red" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-122.png" alt="{alt="Importar red"">
+<img src="./images/image-122.png" alt="{alt=&quot;Importar red&quot;">
 </div>
 <div class="title">Figura 91. Importar red</div>
 </div>
@@ -2821,7 +2821,7 @@ definido previamente.</p>
 </div>
 <div id="img-crear-relacion-origen" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-124.png" alt="{alt="Crear relación: Origen"">
+<img src="./images/image-124.png" alt="{alt=&quot;Crear relación: Origen&quot;">
 </div>
 <div class="title">Figura 92. Crear relación: Origen</div>
 </div>
@@ -2830,7 +2830,7 @@ definido previamente.</p>
 </div>
 <div id="img-crear-relacion-destino" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-125.png" alt="{alt="Crear relación: Destino"">
+<img src="./images/image-125.png" alt="{alt=&quot;Crear relación: Destino&quot;">
 </div>
 <div class="title">Figura 93. Crear relación: Destino</div>
 </div>
@@ -2842,7 +2842,7 @@ definido previamente.</p>
 </div>
 <div id="img-editar-relacion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-126.png" alt="{alt="Editar relación"">
+<img src="./images/image-126.png" alt="{alt=&quot;Editar relación&quot;">
 </div>
 <div class="title">Figura 94. Editar relación</div>
 </div>
@@ -2863,7 +2863,7 @@ definido previamente.</p>
 </div>
 <div id="img-redes-fusionar-codigos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-127.png" alt="{alt="Redes: Fusionar códigos"">
+<img src="./images/image-127.png" alt="{alt=&quot;Redes: Fusionar códigos&quot;">
 </div>
 <div class="title">Figura 95. Redes: Fusionar códigos</div>
 </div>
@@ -2928,7 +2928,7 @@ Es importante tener en cuenta que al crear una red hemos hecho un cambio en la U
 </div>
 <div id="img-img-representacion-textual-red" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-128.png" alt="{alt="Representación textual red"">
+<img src="./images/image-128.png" alt="{alt=&quot;Representación textual red&quot;">
 </div>
 <div class="title">Figura 96. Representación textual red</div>
 </div>
@@ -2974,7 +2974,7 @@ Es importante tener en cuenta que al crear una red hemos hecho un cambio en la U
 </div>
 <div id="img-ventana-herramientas-busqueda" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-131.png" alt="{alt="Ventana de herramienta de búsqueda"">
+<img src="./images/image-131.png" alt="{alt=&quot;Ventana de herramienta de búsqueda&quot;">
 </div>
 <div class="title">Figura 97. Ventana de herramienta de búsqueda</div>
 </div>
@@ -3019,7 +3019,7 @@ Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se ha
 </div>
 <div id="img-continuar-busqueda" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-132.png" alt="{alt="Continuar búsqueda"">
+<img src="./images/image-132.png" alt="{alt=&quot;Continuar búsqueda&quot;">
 </div>
 <div class="title">Figura 98. Continuar búsqueda</div>
 </div>
@@ -3099,7 +3099,7 @@ Hay que tener en cuenta, que la búsqueda se habrá completado una vez que se ha
 </div>
 <div id="img-opciones-busqueda" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-135.png" alt="{alt="Opciones de búsqueda"">
+<img src="./images/image-135.png" alt="{alt=&quot;Opciones de búsqueda&quot;">
 </div>
 <div class="title">Figura 99. Opciones de búsqueda</div>
 </div>
@@ -3365,7 +3365,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 </div>
 <div id="img-examinador-objetos-definicion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-136.png" alt="{alt="Examinador de objetos: Definición de búsqueda"">
+<img src="./images/image-136.png" alt="{alt=&quot;Examinador de objetos: Definición de búsqueda&quot;">
 </div>
 <div class="title">Figura 100. Examinador de objetos: Definición de búsqueda</div>
 </div>
@@ -3383,7 +3383,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 </div>
 <div id="img-examinador-objetos-seleccion" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-137.png" alt="{alt="Examinador de objetos: Selección de objetos"">
+<img src="./images/image-137.png" alt="{alt=&quot;Examinador de objetos: Selección de objetos&quot;">
 </div>
 <div class="title">Figura 101. Examinador de objetos: Selección de objetos</div>
 </div>
@@ -3392,7 +3392,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 </div>
 <div id="img-examinador-objetos-resultados" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-138.png" alt="{alt="Examinador de objetos: Resultados"">
+<img src="./images/image-138.png" alt="{alt=&quot;Examinador de objetos: Resultados&quot;">
 </div>
 <div class="title">Figura 102. Examinador de objetos: Resultados</div>
 </div>
@@ -3416,7 +3416,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 </div>
 <div id="img-explorador-uh" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-139.png" alt="{alt="Explorador de UH"">
+<img src="./images/image-139.png" alt="{alt=&quot;Explorador de UH&quot;">
 </div>
 <div class="title">Figura 103. Explorador de UH</div>
 </div>
@@ -3425,7 +3425,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 </div>
 <div id="img-explorador-uh-familias" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-140.png" alt="{alt="Explorador de UH: Familias de códigos"">
+<img src="./images/image-140.png" alt="{alt=&quot;Explorador de UH: Familias de códigos&quot;">
 </div>
 <div class="title">Figura 104. Explorador de UH: Familias de códigos</div>
 </div>
@@ -3463,7 +3463,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 </div>
 <div id="img-herramienta-consulta" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-141.png" alt="{alt="Herramienta de consulta"">
+<img src="./images/image-141.png" alt="{alt=&quot;Herramienta de consulta&quot;">
 </div>
 <div class="title">Figura 105. Herramienta de consulta</div>
 </div>
@@ -3493,7 +3493,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 </div>
 <div id="img-herramienta-consulta-alcance" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-142.png" alt="{alt="Herramienta de consulta: Alcance"">
+<img src="./images/image-142.png" alt="{alt=&quot;Herramienta de consulta: Alcance&quot;">
 </div>
 <div class="title">Figura 106. Herramienta de consulta: Alcance</div>
 </div>
@@ -3533,7 +3533,7 @@ caracteres alfanuméricos (<code>\w</code>)”.</p>
 <div class="quoteblock">
 <blockquote>
 <div class="paragraph">
-<p>La <em>Notación Polaca Inversa</em>, notación de postfijo, o notación posfija, (en inglés, <em>Reverse polish notation</em>, o RPN), es un método algebraico alternativo de introducción de datos. Su nombre viene por analogía con la relacionada notación polaca, una notación de prefijo introducida en 1920 por el matemático polaco Jan Lukasiewicz, en donde cada operador está antes de sus operandos. En la notación polaca inversa es al revés, primero están los operandos y después viene el operador que va a realizar los cálculos sobre ellos. Tanto la notación polaca como la notación polaca inversa no necesitan usar paréntesis para indicar el orden de las operaciones mientras la aridad del operador sea fija. cite:[npl2016]</p>
+<p>La <em>Notación Polaca Inversa</em>, notación de postfijo, o notación posfija, (en inglés, <em>Reverse polish notation</em>, o RPN), es un método algebraico alternativo de introducción de datos. Su nombre viene por analogía con la relacionada notación polaca, una notación de prefijo introducida en 1920 por el matemático polaco Jan Lukasiewicz, en donde cada operador está antes de sus operandos. En la notación polaca inversa es al revés, primero están los operandos y después viene el operador que va a realizar los cálculos sobre ellos. Tanto la notación polaca como la notación polaca inversa no necesitan usar paréntesis para indicar el orden de las operaciones mientras la aridad del operador sea fija. \cite{npl2016}</p>
 </div>
 </blockquote>
 <div class="attribution">
@@ -3581,10 +3581,12 @@ AND <i class="conum" data-value="3"></i><b>(3)</b></pre>
 <div class="paragraph">
 <p>Aunque la formulación pueda parecer extraña, en la práctica es relativamente sencilla si tenemos en cuenta que cada vez que obtenemos un resultado en una consulta ese resultado pasa a convertirse en un operando (cada una de las líneas que aparecen en la zona 3 de la figura <a href="#img-herramienta-consulta">Herramienta de consulta</a> es un operando). Es decir, una vez que hemos obtenido las citas correspondientes a la primera parte de la consulta (1) éstas se convierten en un operando, lo mismo que las de (2), por lo que una vez que tenemos dos operandos los combinamos con el operador <code>AND</code> en (3).</p>
 </div>
-<div id="img-esquema-consulta" class="literalblock">
-<div class="title">Esquema consulta</div>
+<div id="img-esquema-consulta" class="listingblock">
+<div class="title">Listing 1. Esquema consulta</div>
 <div class="content">
-<pre>graph LR
+<pre>Failed to generate image: mermaid.js failed: /usr/bin/env: node: No existe el archivo o el directorio
+
+graph LR
  id1(Zapatero)
  id2(RajoyPR)
  id3(OR)
@@ -3659,7 +3661,7 @@ operando B <sup class="footnote">[<a id="_footnoteref_36" class="footnote" href=
 </div>
 <div id="img-diagrama-venn-booleanos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-144.png" alt="{alt="Diagrama de Venn: Operadores Booleanos"">
+<img src="./images/image-144.png" alt="{alt=&quot;Diagrama de Venn: Operadores Booleanos&quot;">
 </div>
 <div class="title">Figura 107. Diagrama de Venn: Operadores Booleanos</div>
 </div>
@@ -3671,7 +3673,7 @@ operando B <sup class="footnote">[<a id="_footnoteref_36" class="footnote" href=
 </div>
 <div id="img-diagrama-zapatero-1" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-145.png" alt="{alt="Diagrama: (Zapatero OR Rajoy) AND Evasion"">
+<img src="./images/image-145.png" alt="{alt=&quot;Diagrama: (Zapatero OR Rajoy) AND Evasion&quot;">
 </div>
 <div class="title">Figura 108. Diagrama: (Zapatero OR Rajoy) AND Evasion</div>
 </div>
@@ -3680,7 +3682,7 @@ operando B <sup class="footnote">[<a id="_footnoteref_36" class="footnote" href=
 </div>
 <div id="img-diagrama-ejemplo" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-146.png" alt="{alt="Diagrama de Venn: Ejemplo de codificación"">
+<img src="./images/image-146.png" alt="{alt=&quot;Diagrama de Venn: Ejemplo de codificación&quot;">
 </div>
 <div class="title">Figura 109. Diagrama de Venn: Ejemplo de codificación</div>
 </div>
@@ -3731,17 +3733,19 @@ XOR</p></td>
 </div>
 <div id="img-diagrama-consulta-multiple" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-147.png" alt="{alt="Diagrama de Venn: Consulta múltiple"">
+<img src="./images/image-147.png" alt="{alt=&quot;Diagrama de Venn: Consulta múltiple&quot;">
 </div>
 <div class="title">Figura 110. Diagrama de Venn: Consulta múltiple</div>
 </div>
 <div class="paragraph">
 <p>Y la forma de realizarla sería como vemos en la siguiente figura.</p>
 </div>
-<div id="img-consulta-multiple" class="literalblock">
-<div class="title">Consulta múltiple</div>
+<div id="img-consulta-multiple" class="listingblock">
+<div class="title">Listing 2. Consulta múltiple</div>
 <div class="content">
-<pre>graph LR
+<pre>Failed to generate image: mermaid.js failed: /usr/bin/env: node: No existe el archivo o el directorio
+
+graph LR
 id1(Código-A)
 id2(Código-B)
 id3(OR)
@@ -3805,7 +3809,7 @@ superior (hijos). No recupera las relacionadas con el nivel superior
 </tbody>
 </table>
 <div class="paragraph">
-<p>Como también comentábamos, ATLAS.ti, a diferencia de otros programas, no permite crear jerarquías de códigos, pero sí nos permite crear estructuras de codificación gracias a la creación de relaciones entre códigos. Anteriormente habíamos creado (a través de la definición de relaciones del tipo <code>is a</code> y de <code>is cause of</code>) una jerarquía de códigos para reproducir la clasificación de tipos de respuestas de citenp:[rasiah2010]. Si disponemos de esta estructura definida previa a la asignación de citas a códigos, nuestra estrategia de codificación implicará codificar única y exclusivamente los códigos del nivel inferior en la jerarquía: <em>Ans Direct</em>, <em>Ans Indirect</em>, <em>Ev Full</em>, <em>Ev Substantial</em>, etc. El resto de códigos en la estructura (<em>Answer</em>, <em>Evasion</em>&#8230;&#8203;) serán códigos libres, sin citas asociadas, pero aún así podremos, con la utilización de los operadores semánticos, obtener el conjunto de citas relacionadas con cualquiera de los códigos que se encuentran en niveles superiores de la estructura. Si <em>Ans Direct</em> tiene 6 citas y <em>Ans Indirect</em> tiene 9 citas, dado que ambas son un tipo de <em>Answer</em>, aunque este código tenga cero citas parece lógico pensar que en realidad tenemos 15 citas relacionadas con <em>Answer</em>. Igualmente, si sumamos el conjunto de citas de los códigos vinculados con <em>Evasion</em>, aunque <em>Evasion</em> tiene cero citas, en realidad tenemos 93 citas con modalidades de evasión.</p>
+<p>Como también comentábamos, ATLAS.ti, a diferencia de otros programas, no permite crear jerarquías de códigos, pero sí nos permite crear estructuras de codificación gracias a la creación de relaciones entre códigos. Anteriormente habíamos creado (a través de la definición de relaciones del tipo <code>is a</code> y de <code>is cause of</code>) una jerarquía de códigos para reproducir la clasificación de tipos de respuestas de \cite{rasiah2010}. Si disponemos de esta estructura definida previa a la asignación de citas a códigos, nuestra estrategia de codificación implicará codificar única y exclusivamente los códigos del nivel inferior en la jerarquía: <em>Ans Direct</em>, <em>Ans Indirect</em>, <em>Ev Full</em>, <em>Ev Substantial</em>, etc. El resto de códigos en la estructura (<em>Answer</em>, <em>Evasion</em>&#8230;&#8203;) serán códigos libres, sin citas asociadas, pero aún así podremos, con la utilización de los operadores semánticos, obtener el conjunto de citas relacionadas con cualquiera de los códigos que se encuentran en niveles superiores de la estructura. Si <em>Ans Direct</em> tiene 6 citas y <em>Ans Indirect</em> tiene 9 citas, dado que ambas son un tipo de <em>Answer</em>, aunque este código tenga cero citas parece lógico pensar que en realidad tenemos 15 citas relacionadas con <em>Answer</em>. Igualmente, si sumamos el conjunto de citas de los códigos vinculados con <em>Evasion</em>, aunque <em>Evasion</em> tiene cero citas, en realidad tenemos 93 citas con modalidades de evasión.</p>
 </div>
 <div class="paragraph">
 <p>Para obtener esos resultados utilizaremos el operador <code>DOWN</code>, por lo tanto:</p>
@@ -3821,7 +3825,7 @@ superior (hijos). No recupera las relacionadas con el nivel superior
 </div>
 <div id="img-red-answer" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-148b.png" alt="{alt="Red _Answer_"">
+<img src="./images/image-148b.png" alt="{alt=&quot;Red _Answer_&quot;">
 </div>
 <div class="title">Figura 111. Red <em>Answer</em></div>
 </div>
@@ -3841,7 +3845,7 @@ superior (hijos). No recupera las relacionadas con el nivel superior
 <p>Pero dado que nuestro código <em>Evasion</em> en realidad es un código libre, el resultado de esa consulta será de cero citas. Como hemos visto, tendremos que realizarla de nuevo incluyendo el operador DOWN</p>
 </div>
 <div id="consulta-combinada" class="listingblock">
-<div class="title">Listing 1. Consulta combinando tipos de operadores</div>
+<div class="title">Listing 3. Consulta combinando tipos de operadores</div>
 <div class="content">
 <pre>Zapatero RajoyPR OR <i class="conum" data-value="1"></i><b>(1)</b>
 
@@ -3874,10 +3878,12 @@ AND <i class="conum" data-value="3"></i><b>(3)</b></pre>
 <pre>todas las intervenciones de Zapatero o Rajoy (presidente) codificadas con alguna modalidad de Evasion</pre>
 </div>
 </div>
-<div id="img-esquema-consulta-combinada" class="literalblock">
-<div class="title">Consulta combinando tipos de operadores</div>
+<div id="img-esquema-consulta-combinada" class="listingblock">
+<div class="title">Listing 4. Consulta combinando tipos de operadores</div>
 <div class="content">
-<pre>graph LR
+<pre>Failed to generate image: mermaid.js failed: /usr/bin/env: node: No existe el archivo o el directorio
+
+graph LR
 id1(Zapatero)
 id2(RajoyPR)
 id3(OR)
@@ -3972,7 +3978,7 @@ citas</p></td>
 </div>
 <div id="img-ilustracion-operadores-proximidad" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-149.png" alt="{alt="Operadores de proximidad"">
+<img src="./images/image-149.png" alt="{alt=&quot;Operadores de proximidad&quot;">
 </div>
 <div class="title">Figura 112. Operadores de proximidad</div>
 </div>
@@ -3984,7 +3990,7 @@ citas</p></td>
 </div>
 <div id="img-concurrencia-citas" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-150.png" alt="{alt="Concurrencia de citas"" width="75%">
+<img src="./images/image-150.png" alt="{alt=&quot;Concurrencia de citas&quot;" width="75%">
 </div>
 <div class="title">Figura 113. Concurrencia de citas</div>
 </div>
@@ -4004,7 +4010,7 @@ citas</p></td>
 <p>Para finalizar con esta sección de operadores de proximidad, pondremos otro ejemplo para ilustrar los operadores <em>Follows</em> y <em>Precedes</em>. Estos operadores nos permitirán contestar a la pregunta ¿en qué ocasiones se ha hecho referencia al tema X a continuación (o antes de) el tema Y? Es decir, ¿qué citas hemos codificado como X a continuación de citas codificadas como Y?</p>
 </div>
 <div class="paragraph">
-<p>En el modelo de citenp:[rasiah2010] que hemos utilizado para codificar las respuestas evasivas, estas, al igual que las respuestas (<em>Answer</em>) y las respuestas intermedias (<em>A Intermediate</em>) podían ser consecuencia de tres modalidades de pregunta (<em>Q Y/N</em>, <em>Q Wh</em> y <em>Q Disjunctive</em>). Nos puede interesar, por lo tanto, identificar citas codificadas como <em>Evasion</em> que aparecen única y exclusivamente a continuación de citas codificadas como <em>Q Y/N</em> (preguntas de tipo Sí/No). En ese caso la consulta anterior quedaría de la siguiente forma:</p>
+<p>En el modelo de \cite{rasiah2010} que hemos utilizado para codificar las respuestas evasivas, estas, al igual que las respuestas (<em>Answer</em>) y las respuestas intermedias (<em>A Intermediate</em>) podían ser consecuencia de tres modalidades de pregunta (<em>Q Y/N</em>, <em>Q Wh</em> y <em>Q Disjunctive</em>). Nos puede interesar, por lo tanto, identificar citas codificadas como <em>Evasion</em> que aparecen única y exclusivamente a continuación de citas codificadas como <em>Q Y/N</em> (preguntas de tipo Sí/No). En ese caso la consulta anterior quedaría de la siguiente forma:</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -4043,10 +4049,12 @@ Follows <i class="conum" data-value="5"></i><b>(5)</b></pre>
 </tr>
 </table>
 </div>
-<div id="img-concurrencia-citas" class="literalblock">
-<div class="title">Operador <em>Follows</em></div>
+<div id="img-concurrencia-citas" class="listingblock">
+<div class="title">Listing 5. Operador <em>Follows</em></div>
 <div class="content">
-<pre>graph LR
+<pre>Failed to generate image: mermaid.js failed: /usr/bin/env: node: No existe el archivo o el directorio
+
+graph LR
 id1(Evasion)
 id2(DOWN)
 id3(Evasion DOWN)
@@ -4118,7 +4126,7 @@ Para consultas simples en las que únicamente queremos combinar códigos utiliza
 </div>
 <div id="img-consultas-alcance" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-153.png" alt="{alt="Consultas: alcance"">
+<img src="./images/image-153.png" alt="{alt=&quot;Consultas: alcance&quot;">
 </div>
 <div class="title">Figura 114. Consultas: alcance</div>
 </div>
@@ -4145,7 +4153,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 </div>
 <div id="img-informacion-elementos-consulta" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-154.png" alt="{alt="Información sobre elementos de consulta"">
+<img src="./images/image-154.png" alt="{alt=&quot;Información sobre elementos de consulta&quot;">
 </div>
 <div class="title">Figura 115. Información sobre elementos de consulta</div>
 </div>
@@ -4163,7 +4171,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 </div>
 <div id="img-explorador-concurrencias" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-158.png" alt="{alt="Explorador de concurrencias"">
+<img src="./images/image-158.png" alt="{alt=&quot;Explorador de concurrencias&quot;">
 </div>
 <div class="title">Figura 116. Explorador de concurrencias</div>
 </div>
@@ -4178,7 +4186,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 </div>
 <div id="img-tabla-concurrencias" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-159.png" alt="{alt="Tabla de Concurrencias"" width="75%">
+<img src="./images/image-159.png" alt="{alt=&quot;Tabla de Concurrencias&quot;" width="75%">
 </div>
 <div class="title">Figura 117. Tabla de Concurrencias</div>
 </div>
@@ -4194,7 +4202,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 </div>
 <div id="img-ejemplo-codificacion-redundante" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-160.png" alt="{alt="Ejemplo de codificación redundante"" width="75%">
+<img src="./images/image-160.png" alt="{alt=&quot;Ejemplo de codificación redundante&quot;" width="75%">
 </div>
 <div class="title">Figura 118. Ejemplo de codificación redundante</div>
 </div>
@@ -4203,7 +4211,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 </div>
 <div id="img-analizador-codificacion-redundante" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-161.png" alt="{alt="Analizador de codificación redundante"">
+<img src="./images/image-161.png" alt="{alt=&quot;Analizador de codificación redundante&quot;">
 </div>
 <div class="title">Figura 119. Analizador de codificación redundante</div>
 </div>
@@ -4232,7 +4240,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 </div>
 <div id="img-administracion-usuarios" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-162.png" alt="{alt="Administración de usuarios"">
+<img src="./images/image-162.png" alt="{alt=&quot;Administración de usuarios&quot;">
 </div>
 <div class="title">Figura 120. Administración de usuarios</div>
 </div>
@@ -4241,7 +4249,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 </div>
 <div id="img-edicion-usuarios" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-163.png" alt="{alt="Edición de usuarios"">
+<img src="./images/image-163.png" alt="{alt=&quot;Edición de usuarios&quot;">
 </div>
 <div class="title">Figura 121. Edición de usuarios</div>
 </div>
@@ -4253,7 +4261,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 </div>
 <div id="img-cambiar-usuario" class="imageblock" style="text-align: center;float: left">
 <div class="content">
-<img src="./images/image-164.png" alt="{alt="Cambiar usuario"">
+<img src="./images/image-164.png" alt="{alt=&quot;Cambiar usuario&quot;">
 </div>
 <div class="title">Figura 122. Cambiar usuario</div>
 </div>
@@ -4271,7 +4279,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 </div>
 <div id="img-archivo-atlas-ini" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-165.png" alt="{alt="Archivo ATLAS.INI"">
+<img src="./images/image-165.png" alt="{alt=&quot;Archivo ATLAS.INI&quot;">
 </div>
 <div class="title">Figura 123. Archivo ATLAS.INI</div>
 </div>
@@ -4295,7 +4303,7 @@ Si creamos un supercódigo a partir de una <em>Consulta</em> en la que hemos rea
 </div>
 <div id="img-solicitud-contrasena" class="imageblock" style="text-align: center;float: left">
 <div class="content">
-<img src="./images/image-166.png" alt="{alt="Solicitud contraseña UH"">
+<img src="./images/image-166.png" alt="{alt=&quot;Solicitud contraseña UH&quot;">
 </div>
 <div class="title">Figura 124. Solicitud contraseña UH</div>
 </div>
@@ -4325,7 +4333,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-cambio-global-propiedades" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-167.png" alt="{alt="Cambio global de propiedad de objetos"">
+<img src="./images/image-167.png" alt="{alt=&quot;Cambio global de propiedad de objetos&quot;">
 </div>
 <div class="title">Figura 125. Cambio global de propiedad de objetos</div>
 </div>
@@ -4350,7 +4358,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-crear-paquete-copia" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-169.png" alt="{alt="Crear paquete de copia"">
+<img src="./images/image-169.png" alt="{alt=&quot;Crear paquete de copia&quot;">
 </div>
 <div class="title">Figura 126. Crear paquete de copia</div>
 </div>
@@ -4362,7 +4370,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-archivo-copia" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-171.png" alt="{alt="Archivo de copia"">
+<img src="./images/image-171.png" alt="{alt=&quot;Archivo de copia&quot;">
 </div>
 <div class="title">Figura 127. Archivo de copia</div>
 </div>
@@ -4371,7 +4379,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-desempaquetar-paquete-copia" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-172.png" alt="{alt="Desempaquetar paquete de copia"">
+<img src="./images/image-172.png" alt="{alt=&quot;Desempaquetar paquete de copia&quot;">
 </div>
 <div class="title">Figura 128. Desempaquetar paquete de copia</div>
 </div>
@@ -4395,7 +4403,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-fusionar-uh-1" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-173.png" alt="{alt="Fusionar UHs: Primer paso"">
+<img src="./images/image-173.png" alt="{alt=&quot;Fusionar UHs: Primer paso&quot;">
 </div>
 <div class="title">Figura 129. Fusionar UHs: Primer paso</div>
 </div>
@@ -4404,7 +4412,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-fusionar-uh-2" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-174.png" alt="{alt="Fusionar UHs: Segundo paso"">
+<img src="./images/image-174.png" alt="{alt=&quot;Fusionar UHs: Segundo paso&quot;">
 </div>
 <div class="title">Figura 130. Fusionar UHs: Segundo paso</div>
 </div>
@@ -4421,7 +4429,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <p>Por nuestra parte, consideramos que una buena estrategia para el análisis en equipo es optar por la opción <code>Diferentes DPs – Mismos códigos</code>.</p>
 </div>
 <div class="paragraph">
-<p>En cuanto a los códigos, podríamos pensar que si nuestra análisis es de tipo inductivo evidentemente tenemos que escoger la opción códigos diferentes, pero en la práctica esto no es así, puesto que una opción perfectamente válida es partir de una lista de códigos previamente consensuada por el equipo de investigación a partir de la lectura previa de los datos (lectura previa que teóricamente deberíamos hacer en cualquier caso). Se trata de un trabajo que requiere la inversión de una buena cantidad de tiempo, pero que entendemos que se trata de una inversión que será provechosa. Puede ser interesante al respecto leer el artículo de citenp:[macqueen1998].</p>
+<p>En cuanto a los códigos, podríamos pensar que si nuestra análisis es de tipo inductivo evidentemente tenemos que escoger la opción códigos diferentes, pero en la práctica esto no es así, puesto que una opción perfectamente válida es partir de una lista de códigos previamente consensuada por el equipo de investigación a partir de la lectura previa de los datos (lectura previa que teóricamente deberíamos hacer en cualquier caso). Se trata de un trabajo que requiere la inversión de una buena cantidad de tiempo, pero que entendemos que se trata de una inversión que será provechosa. Puede ser interesante al respecto leer el artículo de \cite{macqueen1998}.</p>
 </div>
 <div class="paragraph">
 <p>Una vez que hemos seleccionado la estrategia, repasaremos las opciones que aparecen en (2) en la figura <a href="#img-fusionar-uh-2">Fusionar UHs: Segundo paso</a>. Como vemos, para cada uno de los elementos de la UH que podemos fusionar, podemos elegir tres opciones: <em>Agregar</em>, <em>Unificar</em> o <em>Ignorar.</em></p>
@@ -4459,7 +4467,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-tipos-informes-dp" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-175.png" alt="{alt="Tipos de informes de DPs"">
+<img src="./images/image-175.png" alt="{alt=&quot;Tipos de informes de DPs&quot;">
 </div>
 <div class="title">Figura 131. Tipos de informes de DPs</div>
 </div>
@@ -4474,7 +4482,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-informes-enviar-resultado" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-176.png" alt="{alt="Informes: enviar resultado a"">
+<img src="./images/image-176.png" alt="{alt=&quot;Informes: enviar resultado a&quot;">
 </div>
 <div class="title">Figura 132. Informes: enviar resultado a</div>
 </div>
@@ -4483,7 +4491,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-listado-dp" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-177.png" alt="{alt="Listado de Documentos primarios"">
+<img src="./images/image-177.png" alt="{alt=&quot;Listado de Documentos primarios&quot;">
 </div>
 <div class="title">Figura 133. Listado de Documentos primarios</div>
 </div>
@@ -4501,7 +4509,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-listado-codigos" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-178.png" alt="{alt="Listados de Códigos"">
+<img src="./images/image-178.png" alt="{alt=&quot;Listados de Códigos&quot;">
 </div>
 <div class="title">Figura 134. Listados de Códigos</div>
 </div>
@@ -4513,7 +4521,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-ventana-opciones-informes" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-179.png" alt="{alt="Ventana de opciones de informes de códigos"">
+<img src="./images/image-179.png" alt="{alt=&quot;Ventana de opciones de informes de códigos&quot;">
 </div>
 <div class="title">Figura 135. Ventana de opciones de informes de códigos</div>
 </div>
@@ -4533,7 +4541,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-imprimir-con-margen" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-180.png" alt="{alt="Imprimir con margen"" width="60%">
+<img src="./images/image-180.png" alt="{alt=&quot;Imprimir con margen&quot;" width="60%">
 </div>
 <div class="title">Figura 136. Imprimir con margen</div>
 </div>
@@ -4542,7 +4550,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-preferencias-impresion-margen" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-181.png" alt="{alt="Preferencias de impresión con margen"">
+<img src="./images/image-181.png" alt="{alt=&quot;Preferencias de impresión con margen&quot;">
 </div>
 <div class="title">Figura 137. Preferencias de impresión con margen</div>
 </div>
@@ -4557,7 +4565,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-explorador-informes-xml" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-182.png" alt="{alt="Explorador Informes XSL"">
+<img src="./images/image-182.png" alt="{alt=&quot;Explorador Informes XSL&quot;">
 </div>
 <div class="title">Figura 138. Explorador Informes XSL</div>
 </div>
@@ -4566,7 +4574,7 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="img-informe-xml" class="imageblock" style="text-align: center">
 <div class="content">
-<img src="./images/image-183.png" alt="{alt="Informe XSL"">
+<img src="./images/image-183.png" alt="{alt=&quot;Informe XSL&quot;">
 </div>
 <div class="title">Figura 139. Informe XSL</div>
 </div>
@@ -4578,7 +4586,8 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 <h2 id="referencias">11. Referencias</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>bibliography::[]</p>
+<p>\bibliography{atlas.bib}{}
+\bibliographystyle{apa}</p>
 </div>
 </div>
 </div>
@@ -4711,12 +4720,12 @@ Cuando se crea o cambia la contraseña es imprescindible guardar la UH para que 
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.1<br>
-Last updated 2017-01-11 00:08:08 CET
+Version 1.0<br>
+Last updated 2017-04-04 16:12:13 CEST
 </div>
 </div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script>hljs.initHighlighting()</script>
 </body>
 </html>

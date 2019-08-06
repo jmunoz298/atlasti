@@ -110,6 +110,18 @@ comunidad (ver SELMFAR)
 prostitutas.”
 |=======================================================================
 
+Las características de cada uno de estos apartados...
+
+"*Etiqueta de código:* Debe ser mnemotécnica corta y descriptiva (4-12 caracteres) que ayude al codificador a distinguir rápidamente los códigos entre sí. Puede ser un poco críptica y estrafalaria, siempre y cuando la reacción del nuevo codificador medio sea decir "¡Ajá! ¡Lo entiendo!" (en lugar de "Uh, ¿por qué lo llamaste así...?") cuando se explica la lógica detrás del código.
+
+*Breve definición:* Debe ser una frase descriptiva (20-80 caracteres) que capture la esencia de los componentes del tema que el código pretende significar. La definición corta para un código en particular no debe duplicar el significado en las definiciones cortas de cualquier otro código en un libro de códigos dado.
+
+*Definición completa:* Debe ser un párrafo breve y descriptivo (2-10 frases) que resalte las características clave del componente o componentes temáticos que el código pretende significar. Si hay dimensiones teóricas, conceptuales o culturales importantes en el código, este es el lugar para hacer referencia a ellas. Sin embargo, ten en mente que el libro de códigos no está hecho para ser un compendio de teorías y conceptos.
+
+*Cuándo usar:* Debe describir explícitamente las claves textuales y el contexto que representan el significado temático e incitar al analista a utilizar el código para vincular el texto con el significado. También es útil tomar nota de los casos en los que el codificador puede considerar el uso de otros códigos ("doble codificación") para describir el significado del texto.
+
+*Cuándo no usar:* Debe describir explícitamente cualquier indicación textual y contexto que implique un significado temático asociado con otros códigos pero que potencialmente se superponga o pueda confundirse con el código que se está definiendo. Debe dirigir al codificador a estos otros códigos para que pueda considerar si capturan mejor el significado del texto en cuestión." (pp. 53-54) (Guest, MacQueen, & Namey, 2012, pp. 53-54)
+
 No estamos sugiriendo, de todas formas, que se utilice este modelo de una forma mimética para cada uno de nuestros códigos. En algunos casos puede ser casi imprescindible este nivel de especificidad, mientras que en otros una simple etiqueta amplia puede ser suficiente. Por otra parte, el comentario puede ser también el lugar donde podemos empezar a elaborar hipótesis sobre el tipo de significado del código, donde podemos empezar a preguntarnos por el tipo de relaciones que se pueden establecer entre este código y otros, etc. El que estos comentarios pertenezcan a la “categoría” _comentario_ o a la categoría _Memo_ puede ser una cuestión de matiz, una pequeña diferencia cualitativa. De hecho, algo que puede empezar siendo un comentario de código puede acabar convirtiéndose, a medida que va haciéndose más compleja, en un __Memo__. De todas formas, nuestro criterio suele ser que si el comentario va más allá de la descripción del código, es mejor crear un _Memo_ y vincularlo con el _código_ (ver <<relaciones-con-memos, Relaciones con Memos>>).
 
 [[visualizacion]]
@@ -142,6 +154,12 @@ Como hemos comentado anteriormente, nuestra estrategia de análisis puede implic
 image::image-058.png[{alt="Crear Cita libre", align="center"]
 
 Si nuestro análisis es de tipo inductivo, una posibilidad es que empecemos creando _citas libres_ a partir de la lectura del texto y la identificación de fragmentos que tienen algún significado en función de nuestros objetivos de análisis. Para la creación de citas libres, lo único que tenemos que hacer es seleccionar el fragmento de texto, hacer clic sobre él con el botón derecho del ratón y seleccionar la opción `Crear Cita libre` en el menú contextual que aparecerá. Podemos crear la cita también con la opción `Nuevo desde la selección` del menú _Citas_. Por último, también podríamos crearla arrastrando el texto seleccionado hasta el administrador de citas.
+
+No tenemos prácticamente ningún tipo de restricción respecto a la extensión de las citas, ni en cuanto a sus solapamientos. Podemos crear citas "incustradas" dentro de otras citas o solapando a otras citas. Lo único que no podemos hacer es crear citas que no tengan texto consecutivo, es decir, no podemos crear una cita que abarque, por ejemplo, desde las líneas 3 a 7 y las líneas 12 a 15. Una situación de ese tipo podría darse cuando la primera parte (3-7) es necesaria para la contextualización de la segunda (12-15),
+
+"(...) los contextos en los que las personas hablan son fundamentales para el significado que están creando. Al eliminar ese contexto del análisis, los investigadores eliminan los recursos que les permitirían entender por qué los oradores dijeron lo que dijeron o, quizás más exactamente, por qué lo dijeron como lo dijeron." (Gibson & Brown, 2009, p. 189)
+
+Si necesitáramos algo de ese estilo, podríamos recurrir a la creación de un comentario de cita en el que incluyéramos las líneas 3-7) y/o la creación de dos citas (3-7 y 12-15) y la definición de un vínculo entre ambas.
 
 [[citas-multimedia]]
 ==== Citas multimedia

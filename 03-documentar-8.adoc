@@ -22,6 +22,15 @@ ____
 Mediante el uso de memorandos, el investigador es capaz de sumergirse en los datos, explorar los significados que estos datos tienen, mantener la continuidad y mantener el impulso en la realización de la investigación. Como crónica de un viaje de investigación, los memorandos permanecen como un registro, indeleble pero flexible, para retención personal o para difundir a otros. cite:[birks2008(69)]
 ____
 
+Por su parte, Silverman (2005) aunque habla de "diario de investigación", también insiste en la necesidad de documentar el proceso de nuestra investigación:
+
+[quote, Silverman, "2005, p. 249"]
+____
+Normalmente encontramos el sentido del pasado en el presente. Semejante reescritura de la historia (Garfinkel, 1967) significa que, a menos que tenga cuidado, puede olvidar aspectos importantes de sus primeras reflexiones sobre su investigación que pueden ser cruciales para la comprensión del lector. Una manera de asegurar que explicites tu razonamiento es llevar un diario de investigación. (negrita en el original) cite:[silverman2005]
+____
+
+
+
 Y para finalizar,
 
 [quote]
